@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Add Printer window in Windows 7 that shows the, ‘Add a network, wireless or Bluetooth printer’ option selected. Figure 2 on this page is an image of the Add Printer window in Windows 7 that shows the Add a printer using TCP/IP address or hostname option selected.

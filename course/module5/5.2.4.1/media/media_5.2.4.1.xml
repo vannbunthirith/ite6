@@ -1,0 +1,35 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Windows 8.x Boot Manager</b>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Windows 7 and Vista Boot Manager</b>]]></text>
+</component>
+
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt01"><b>Windows Boot Manager</b></font>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<font face='_typewriter'><b>Choose an operating system to start, or presss TAB to select a tool:</b><br>(Use the arrow keys to highlight your choice, then press ENTER.)</font>]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt02"><b>To specify an advanced option for this choice, press F8.</b><br><span class="ID_s1_txt02">Seconds until the highlighted choice will be started automatically: 29</span><br><br><br><b class="ID_s1_txt02">Tools:</b><br><br><textformat blockindent='25'><span class="ID_s1_txt02 alignment">Windows Memory Diagnostic</span></textformat></font>]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt04">Windows 7 <span class="space">></span><b></font>]]></text>
+</component>
+<component id='ID_s1_txt05'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt05">Windows XP<b></font>]]></text>
+</component>
+
+
+</textcomponents>

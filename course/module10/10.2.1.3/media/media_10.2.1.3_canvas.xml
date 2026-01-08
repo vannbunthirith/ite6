@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+        <slide>
+            <element type="TEXT" x="29.75" y="7" width="621" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+            <element type="IMAGE" x="221.9" y="50" width="236.75" height="420" subType="STD" src="media_10.2.1.3_A.jpg" />
+        </slide>
+        <slide>
+            <element type="TEXT" x="25" y="7" width="630" subType="TITLE" compId="ID_s2_title" color="#ffffff"/>
+            <element type="IMAGE" x="0" y="0" width="730" height="540" src="bg.jpg" />
+            <element type="TEXT" subType="TABLE" compId="ID_s2_table01" x="50" y="125" width="580" height="300" />
+        </slide>
+        <slide>
+            <element type="TEXT" x="25" y="7" width="630" subType="TITLE" compId="ID_s3_title"  color="#FFFFFF" />
+            <element type="IMAGE" x="221.85" y="50" width="236.7" height="420" subType="STD" src="media_10.2.1.3_C.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490"  src="media_10.2.1.3_s3_lines.png" />
+            <element type="TEXT" compId="ID_s4_txt01" x="482.4" y="383" width="104" expand="up+down" align="center" class="orangeCallOut" size="11" />
+        </slide>
+    </slide>
+</data>

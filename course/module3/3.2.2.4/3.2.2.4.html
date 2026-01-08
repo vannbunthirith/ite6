@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.4 BIOS Hardware Diagnostics and Monitoring</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>BIOS Hardware Diagnostics and Monitoring</h1>
+        <div>
+          <p>The BIOS hardware monitoring features are useful for collecting information and monitoring the activity of the motherboard and connected hardware. The type and number of monitoring features varies by motherboard model. Use the hardware monitoring page to view temperatures, fan speeds, voltages, and other items. This page might also have information about intrusion detection devices.</p>
+          <p></p>
+          <p>These are some common BIOS hardware diagnostic and monitoring features:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Temperatures</b> - Motherboards have heat sensors to monitor heat sensitive hardware. For example, a heat sensor under the CPU socket monitors the temperature of the CPU. If the CPU becomes too hot, BIOS could increase the speed of the CPU fan to cool the CPU, slow the speed of the CPU to reduce the CPU temperature, or even shut down the computer to prevent damage to the CPU. Other heat sensors monitor the temperature inside the case or power supply. Additionally, heat sensors might monitor the temperatures of the RAM modules or the chipset.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Fan Speeds</b> - Some BIOS setups allow you to configure profiles to set the fan speeds to achieve a specific result. Common CPU fan speed profiles are described in the table in Figure 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Voltages</b> - You can monitor the voltage of the CPU or the voltage regulators on the motherboard, as shown in Figure 2. If voltages are too high or too low, computer components can be damaged. If you find that voltages are not at or near the correct levels, make sure that the power supply is operating properly. If the power supply is not delivering the correct voltages, the motherboard voltage regulators might be damaged. In this case, the motherboard might need to be repaired or replaced.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Clock and Bus Speeds</b> - In some BIOS setups, you can monitor the speed of the CPU, as shown in Figure 3. Some BIOS setups may also allow you to monitor one or more of the busses. You might need to look at these items to determine if the correct CPU settings have been detected by the BIOS, or have been manually entered by a client or computer builder. Incorrect bus speeds can cause increased heat within the CPU and connected hardware, or cause adapter cards or RAM to malfunction. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Intrusion Detection</b> - Some computer cases have a switch that triggers when a computer case is opened. You can set the BIOS to record when the switch is triggered so that the owner can tell if the case has been tampered with. The switch is connected to the motherboard.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Built-in Diagnostics</b> - If you notice a problem with a device connected to the computer or a basic function, such as a fan or temperature and voltage control, you might be able to use built-in diagnostics to determine where the problem is. Often, the program provides a description of the problem or an error code for further troubleshooting. Common diagnostics are listed in the table in Figure 4. Many built-in diagnostic programs retain a log that contains a record of problems encountered. You can use this information to investigate issues and error codes. When a device is under warranty, you can use this information to convey the problem to product support.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is a table listing the following descriptions for common fan speed profiles. Fan Profile: Standard, Description: The fan automatically adjusts depending on the temperature of the CPU, case, power supply, or other hardware. Fan Profile: Turbo, Description: Maximum fan speed at all times. Fan Profile: Silent, Description: Minimises the fan speed to decrease the noise. Fan Profile: Manual, Description: The user can assign fan speed control settings. Figure 2 on this page is an image of the Power tab of the BIOS Setup Utility showing voltage levels. Figure 3 on this page is an image of the Advanced tab of the BIOS Setup Utility showing the CPU speed. Figure 4 on this page is a table listing the following descriptions for common diagnostic tests. Diagnostic Test: Start Test, Description: Checks the main components to make sure that they are functioning properly, use this test when the computer does not boot correctly. Diagnostic Test: Hard Drive Test, Description: Checks the hard drive for damaged areas, if a damaged area is found, it tries to retrieve the data and move it to a good area and mark the damaged area as bad so that the area is not used any more, use this test if you suspect that the hard drive is not functioning properly, the computer does not boot, or the hard drive makes unusual noises. Diagnostic Test: Memory Test, Description: Checks the memory modules to make sure that they are working properly, use this test if the computer exhibits erratic behaviour or fails to boot, replace the memory immediately if this test reports errors. Diagnostic Test: Battery Test, Description: Checks that the battery is functioning properly, use this test if your battery is not functioning properly, does not hold a charge, or reports an incorrect charge level, replace the battery if the battery fails the test.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<textcomponents>
+
+<component id="ID_title01">
+<text><![CDATA[<b>Half-Duplex</b>]]></text>
+</component>
+<component id="ID_title02">
+<text><![CDATA[<b>Full-Duplex</b>]]></text>
+</component>
+
+<!--<component id="ID_bubble01">
+<text><![CDATA[I can send and receive, but not at the same time.]]></text>
+</component>
+<component id="ID_bubble02">
+<text><![CDATA[I can send and receive, but not at the same time.]]></text>
+</component>
+
+<component id="ID_bubble03">
+<text><![CDATA[We can send and receive at the same time.]]></text>
+</component>-->
+
+<component id="ID_bubble01">
+<text><![CDATA[<font color="#FFFFFF"><p class="ID_bubble01">I can send and receive, but not at the same time.</textformat></p></font>]]></text>
+</component>
+
+<component id="ID_bubble02">
+<text><![CDATA[<font color="#FFFFFF"><p class="ID_bubble02">I can send and receive, but not at the same time.</textformat></p></font>]]></text>
+</component>
+
+<component id="ID_bubble03">
+<text><![CDATA[<font color="#FFFFFF"><p class="ID_bubble03">We can send and receive at the same time.</textformat></p></font>]]></text>
+</component>
+
+<!--<component id="ID_txt05">
+<text><![CDATA[Transmitting]]></text>
+</component>
+<component id="ID_txt06">
+<text><![CDATA[Transmitting]]></text>
+</component>
+<component id="ID_txt07">
+<text><![CDATA[Transmitting]]></text>
+</component>
+<component id="ID_txt08">
+<text><![CDATA[Network]]></text>
+</component>-->
+
+<component id="transcript">
+  <text><![CDATA[<b>transcript goes here</b>]]></text> 
+  </component>
+</textcomponents>

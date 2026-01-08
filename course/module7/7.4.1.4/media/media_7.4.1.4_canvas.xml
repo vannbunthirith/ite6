@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+            <element type="TEXT" subType="TABLE" compId="ID_table01_html" x="50" y="140" width="580" height="192.15" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+            <element type="TEXT" subType="TABLE" compId="ID_table02" x="50" y="140" width="580" height="299.95" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.png" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.4.1.4.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" />
+            <element type="TEXT" id="ID_static_1" text="192.168.20.0/24" x="178.45" y="151.95" align="center" width="101.4" size="13" />
+            <element type="TEXT" id="ID_static_2" text="192.168.21.0/24" x="178.45" y="190.95" align="center" width="101.4" size="13" />
+            <element type="TEXT" id="ID_static_3" text="192.168.22.0/24" x="178.45" y="229.95" align="center" width="101.4" size="13" />
+            <element type="TEXT" id="ID_static_5" text="192.168.23.0/24" x="178.45" y="268.95" align="center" width="101.4" size="13" />
+            <element type="TEXT" id="ID_static_4" text="192.168.20.0/22" x="387.45" y="207.45" align="center" width="123.5" color="#F68C1F" size="16" />
+        </slide>
+    </slide>
+</data>

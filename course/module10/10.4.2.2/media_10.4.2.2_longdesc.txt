@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of an update alert window on OS X. Figure 2 on this page is an image of the Software Updater screen on Ubuntu Linux. Figure 3 on this page is an image of the Update tab on OS X. Figure 4 on this page is an image of the Passwords and Keys screen on Ubuntu Linux. Figure 5 on this page is an image of the Keychain Access screen on OS X.

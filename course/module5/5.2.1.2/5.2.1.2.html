@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.2 Hard Drive Partitioning</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Hard Drive Partitioning</h1>
+        <div>
+          <p>A hard drive is divided into areas called partitions. Each partition is a logical storage unit that can be formatted to store information, such as data files or applications. If you imagine a hard drive as a wooden cabinet, the partitions would be the shelves. During the installation process, most operating systems automatically partition and format available hard drive space.</p>
+          <p></p>
+          <p>Partitioning a drive is a simple a process, but to ensure a successful boot, the firmware must know what disk and partition on that disk has an operating system installed.</p>
+          <p></p>
+          <p>BIOS (Basic Input/Output System) and UEFI (Unified Extensible Firmware Interface) are two types of firmware used in personal computers; BIOS is a legacy technology while UEFI is the modern replacement. UEFI addresses many of the shortcomings of BIOS. UEFI firmware performs the same functions as BIOS and more. As of 2015, modern personal computer motherboards ship with UEFI only.</p>
+          <p></p>
+          <p>When a computer is powered on, it executes the firmware program. The firmware first runs a number of tests to ensure important computer components, such as video card and RAM memory, are present and functional. After the tests are completed and all crucial components are present and working properly, the firmware proceeds to locate and load the operating system from the disk into the RAM for execution.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Differences between BIOS and UEFI during the self-test phase is beyond the scope of this course.</p>
+          <p></p>
+          <p>To find an operating system in a BIOS-based firmware, the BIOS checks the very beginning of the first installed disk. This area is called the boot sector and is specifically designed to allow the BIOS to find information about the partitions and the location of an operating system. What BIOS is looking for in the boot sector is a small program called the boot loader. The boot loader is the program that knows where on the disk the operating system is and how to start it. Notice that BIOS-based firmware has no information about partitions or the operating system itself; BIOS simply tries to find a valid boot loader at the beginning of the first disk and run it.</p>
+          <p></p>
+          <p>UEFI firmware is much smarter than BIOS. UEFI knows about all of the installed disks and installed operating systems. Designed as a standard by Intel and maintained by a number of companies including Intel, Microsoft, Apple and AMD, UEFI is able to understand simple partitions and execute boot loader code from them. This may seem like an insignificant feature at first, but it makes the boot process much more reliable than in BIOS. Another key UEFI improvement over BIOS is the fact that the UEFI knows what operating systems are installed and their location on the disk. With UEFI, operating systems can add themselves to UEFI’s boot list. </p>
+          <p></p>
+          <p>As mentioned before, an operating system is stored in a disk partition and a disk with multiple partitions can store multiple operating systems. The partition scheme has direct influence in the location of the operating systems on a disk. Finding and launching the operating system is one of the responsibilities of a computer firmware. The partition scheme is very important to the firmware. Two of the most popular partition scheme standards are MBR and GPT.</p>
+          <p></p>
+          <p>
+            <b>Master Boot Record</b>
+          </p>
+          <p>Publicly introduced in 1983, the master boot record (MBR) contains information on how the hard drive partitions are organized. The MBR is 512 bytes long and contains the boot loader, an executable program that allows a user to choose from multiple operating systems. MBR has become the de facto standard but has limitations that had to be addressed. MBR is commonly used in computers with BIOS-based firmware.</p>
+          <p></p>
+          <p>
+            <b>GUID Partition Table</b>
+          </p>
+          <p>Also designed as a partition table scheme standard for hard drives, the globally unique identifier (GUID) partition table (GPT) makes use of a number of modern techniques to expand on the older MBR partitioning scheme. GPT is commonly used in computers with UEFI firmware. Most modern operating systems now support GPT. </p>
+          <p></p>
+          <p>The figure shows a comparison between MBR and GPT.</p>
+          <p></p>
+          <p>A technician should understand the process and terms relating to hard drive setup:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Primary partition</b> - The primary partition contains the operating system files and is usually the first partition. A primary partition cannot be subdivided into smaller sections. On a GPT partitioned disk, all partitions are primary partitions. On an MBR partitioned disk, there can be a maximum of four partitions.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Active partition</b> – In MBR disks, the active partition is the partition used to store and boot an operating system. Notice that only primary partitions can be marked active in MBR disks. Another limitation is that only one primary partition per disk can be marked active at one time. In most cases, the C: drive is the active partition and contains the boot and system files. Some users create additional partitions to organize files or to be able to dual-boot the computer. Active partitions are only found on drives with MBR partition tables.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Extended partition</b> – If more than 4 partitions are required on an MBR partitioned disk, one of the primary partitions can be designated an extended partition. After the extended partition is created, up to 23 logical drives (or logical partitions) can be created within this extended partition. A common setup is to create a primary partition for the OS (drive C:) and allow an extended partition to occupy the remaining free space on a hard drive, right after a primary partition. Any extra partitions can be created within the extended partition (drives D:, E: and so on). While the logical drives can’t be used to boot an OS, they are perfect for storing user data. Notice that there can be only one extended partition per MBR hard drive and that extended partitions are only found on drives with MBR partition tables.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Logical drive</b> - A logical drive is a section of an extended partition. It can be used to separate information for administrative purposes. Because GPT partitioned drives cannot have an extended partitions, they do not have logical drives.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Basic disk</b> - A basic disk (the default) contains partitions such as primary and extended as well as logical drives which are formatted for data storage. More space can be added to a partition by extending it into adjacent, unallocated space, as long as it is contiguous. Either MBR or GPT can be used as the underlying partition scheme of basic disks.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dynamic disk</b> - Dynamic disks provide features not supported by basic disks. A dynamic disk has the ability to create volumes that span across more than one disk. The size of the partitions can be changed after they have been set, even if the unallocated space is non-contiguous. Free space can be added from the same disk or a different disk, allowing a user to efficiently store large files. After a partition has been extended, it cannot be shrunk without deleting the entire partition. Either MBR or GPT can be used as the partition scheme of dynamic disks.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Formatting</b> - This process creates a file system in a partition for files to be stored.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a table listing the following comparison between the MBR and GPT partitioning schemes. MBR: Maximum of 4 primary partitions, maximum partition size is 2TB, no partition table backup, partition and boot data stored in one place, any computer can boot from MBR. GPT: Maximum of 128 partitions in Windows, maximum partition size of 9.4 ZB (9.4 times 10 to the power of 21 bytes), stores partition table backup, partition and boot data stored in multiple locations across the disk, computer must be UEFI based and run 64-bit OS.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.3 Network Installation</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Network Installation</h1>
+        <div>
+          <p>
+            <b>Remote Network Installation</b>
+          </p>
+          <p></p>
+          <p>A popular method for OS installation in environments with many computers is a remote network installation. With this method, the operating system installation files are stored on a server so that a client computer can access the files remotely to begin the installation. A software package such as Remote Installation Services (RIS) is used to communicate with the client, store the setup files, and provide the necessary instructions for the client to access the setup files, download them, and begin the operation system installation.</p>
+          <p></p>
+          <p>Because the client computer does not have an operating system installed, a special environment must be used to boot the computer, connect to the network, and communicate with the server to begin the installation process. This special environment is known as the Preboot eXecution Environment (PXE). For the PXE to work, the NIC must be PXE-enabled. This functionality may come from the BIOS or the firmware on the NIC. When the computer is started, the NIC listens for special instructions on the network to start PXE, as shown in Figure 1.</p>
+          <p></p>
+          <p>
+            <b>Note:</b> If the NIC is not PXE-enabled, third-party software may be used to load PXE from storage media.</p>
+          <p></p>
+          <p>
+            <b>Unattended Installation</b>
+          </p>
+          <p></p>
+          <p>Unattended installation, another network-based installation, allows a Windows system to be installed or upgraded with little user intervention. The Windows unattended installation is based on an <i>answer file</i>. This file contains simple text that instructs Windows Setup how to configure and install the OS.</p>
+          <p></p>
+          <p>To perform a Windows Unattended installation, setup.exe must be run with the user options found in the answer file. The installation process begins as usual but instead of prompting the user, Setup uses the answers listed in the answer file.</p>
+          <p></p>
+          <p>To customize a standard Windows 7 or Windows Vista installation, the System Image Manager (SIM) is used to create the setup answer file. You can also add packages, such as applications or drivers, to answer files.</p>
+          <p></p>
+          <p>Figure 2 shows an example of an answer file. After all questions have been answered, the file is copied to the distribution shared folder on a server. At this point, you can do one of two things:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Run the unattended.bat file on the client machine to prepare the hard drive and install the OS from the server over the network.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Create a boot disk that boots the computer and connects to the distribution shared folder on the server. You then run the batch file containing a set of instructions to install the OS over the network.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Note</b>: Windows SIM is part of the Windows Automated Installation Kit (AIK) and can be downloaded from the Microsoft website.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image that shows the first window displayed during a Preboot eXecution Environment (PXE) Windows installation boot. The installations names displayed were created on a Windows-based server as PXE images and placed on a TFTP folder. PXE clients can locate and fetch files over TFTP.Figure 2 on this page is an image that shows the contents of a setup answer file used in an unattended installation.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

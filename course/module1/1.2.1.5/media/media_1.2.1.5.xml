@@ -1,0 +1,249 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Intel and AMD Sockets</b>]]></text>
+    </component>
+    <component id="ID_s1_table1">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width="111"><font color='#FFFFFF' ><b>Intel Socket</b></font></td>
+                <td bgcolor='#666263' width='124'><font color='#FFFFFF' ><b>Architecture</b></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>775</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Land Grid Array (LGA)</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1155</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1156</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1150</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1366</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>2011</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+        </table>]]>
+        </text>
+    </component>
+    <component id="ID_s1_table1_html">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+            <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Intel Sockets</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <th scope="col" id="Intel" bgcolor='#666263' width="111"><font color='#FFFFFF' ><b>Intel Socket</b></font></th>
+                <th scope="col" id="Architecture1" bgcolor='#666263' width='124'><font color='#FFFFFF' ><b>Architecture</b></font></th>
+            </tr>
+           
+            <tr>
+                <td scope="row" headers="Intel" bgcolor='#F2F2F2'><font color='#393536'>775</font></td>
+                <td headers="Architecture1" bgcolor='#F2F2F2'><font color='#393536'>Land Grid Array (LGA)</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Intel" bgcolor='#E9E7E8'><font color='#393536'>1155</font></td>
+                <td headers="Architecture1" bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Intel" bgcolor='#E9E7E8'><font color='#393536'>1156</font></td>
+                <td headers="Architecture1" bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Intel" bgcolor='#E9E7E8'><font color='#393536'>1150</font></td>
+                <td headers="Architecture1" bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Intel" bgcolor='#E9E7E8'><font color='#393536'>1366</font></td>
+                <td headers="Architecture1" bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Intel" bgcolor='#E9E7E8'><font color='#393536'>2011</font></td>
+                <td headers="Architecture1" bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+        </table>]]>
+        </text>
+    </component>
+    <component id="ID_s1_table2">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width="111"><font color='#FFFFFF' ><b>AMD Socket</b></font></td>
+                <td bgcolor='#666263' width='124'><font color='#FFFFFF' ><b>Architecture</b></font></td>
+            </tr>
+
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>AM3</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Pin Grid Array (PGA)</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>AM3+</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>FM1</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>FM2</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>FM2+</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+        </table>]]>
+        </text>
+    </component>
+    <component id="ID_s1_table2_html">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+        <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">AMD Sockets</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <th id="Socket" scope="col" bgcolor='#666263' width="111"><font color='#FFFFFF' ><b>AMD Socket</b></font></th>
+                <th id="Architecture2" scope="col" bgcolor='#666263' width='124'><font color='#FFFFFF' ><b>Architecture</b></font></th>
+            </tr>
+
+           
+            <tr>
+                <td scope="row" headers="Socket" bgcolor='#F2F2F2'><font color='#393536'>AM3</font></td>
+                <td headers="Architecture2" bgcolor='#F2F2F2'><font color='#393536'>Pin Grid Array (PGA)</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Socket" bgcolor='#E9E7E8'><font color='#393536'>AM3+</font></td>
+                <td headers="Architecture2" bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Socket" bgcolor='#E9E7E8'><font color='#393536'>FM1</font></td>
+                <td headers="Architecture2" bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Socket" bgcolor='#E9E7E8'><font color='#393536'>FM2</font></td>
+                <td headers="Architecture2" bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Socket" bgcolor='#E9E7E8'><font color='#393536'>FM2+</font></td>
+                <td headers="Architecture2" bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+        </table>]]>
+        </text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Choosing a CPU Cooling System</b>]]></text>
+    </component>
+    <component id="ID_s2_table">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Factors</b></font></td>
+                <td bgcolor='#666263' width='430'><font color='#FFFFFF' ><b>Consider ….</b></font></td>
+            </tr>
+
+            
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>Socket type</b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan type must match the socket type of the motherboard.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>Motherboard physical specifications </b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan must not interfere with any components attached to the motherboard.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>Case size </b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan must fit within the case.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>Physical environment </b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan must be able to disperse enough heat to keep the CPU cool in warm environments.</font></td>
+            </tr>
+        </table>]]>
+        </text>
+    </component>
+    <component id="ID_s2_table_html">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+            <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Factors to consider when choosing a CPU cooling system</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <th id="Factors" scope="col" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Factors</b></font></th>
+                <th id="Consider" scope="col" bgcolor='#666263' width='430'><font color='#FFFFFF' ><b>Consider ….</b></font></th>
+            </tr>
+
+            
+            <tr>
+                <td scope="row" headers="Factors" bgcolor='#F2F2F2'><font color='#393536'><b>Socket type</b></font></td>
+                <td headers="Consider" bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan type must match the socket type of the motherboard.</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Factors" bgcolor='#F2F2F2'><font color='#393536'><b>Motherboard physical specifications </b></font></td>
+                <td headers="Consider" bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan must not interfere with any components attached to the motherboard.</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Factors" bgcolor='#F2F2F2'><font color='#393536'><b>Case size </b></font></td>
+                <td headers="Consider" bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan must fit within the case.</font></td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Factors" bgcolor='#F2F2F2'><font color='#393536'><b>Physical environment </b></font></td>
+                <td headers="Consider" bgcolor='#F2F2F2'><font color='#393536'>The heat sink or fan must be able to disperse enough heat to keep the CPU cool in warm environments.</font></td>
+            </tr>
+        </table>]]>
+        </text>
+    </component>
+</textcomponents>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.5 Basic Network Setup</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Basic Network Setup</h1>
+        <div>
+          <p>After logging in, a setup window opens, as shown in Figure 1. The setup screen will have tabs or menus to help you navigate to various router configuration tasks. It is often necessary to save the settings changed in one window before proceeding to another window. </p>
+          <p></p>
+          <p>At this point, it is a best practice to make changes to the default settings.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Network Device Access Permissions</b> - Change the default username and password. On some devices, you can only reset the password, as shown in Figure 2. After you change the password, the wireless router will request authorization again, as shown if Figure 3. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Router IP Address</b> - Change the default router IP address. It is a best practice to use private IP addressing inside your network. The IP address 10.10.10.1 is used as an example in Figure 4. But it could be any private IP address you choose. When you click save, you will temporarily lose access to the wireless router. To regain access, renew your IP settings, as shown in Figure 5. Then enter the new router IP address in the web browser and authenticate with the new password, as shown in Figure 6.  </li>
+            </ul>
+          </p>
+          <p>While some default settings should be changed, others are best left as is. Most home or small office networks share a single Internet connection provided by the ISP. Routers in this type of network receive public addresses from the ISP, which allows the router to send and receive packets to and from the Internet. The router provides private addresses to local network hosts. Because private addresses cannot be used on the Internet, a process is used for translating private addresses into unique public addresses. This allows local hosts to communicate over the Internet.</p>
+          <p></p>
+          <p>Network Address Translation (NAT) is the process used to convert private addresses to Internet-routable addresses. With NAT, a private (local) source IP address is translated to a public (global) address. The process is reversed for incoming packets. The router is able to translate many internal IP addresses into public addresses, by using NAT. </p>
+          <p></p>
+          <p>Only packets destined for other networks need to be translated. These packets must pass through the gateway, where the router replaces the private IP addresses of the source hosts with the public IP addresses of the router. </p>
+          <p></p>
+          <p>Although each host on the internal network has a unique private IP address, the hosts share Internet routable addresses that have been assigned to the router by the ISP.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Wireless-N Broadband router utility that shows the Setup tab. Figure 2 on this page is an image of the Wireless-N Broadband router utility that shows the Administration tab. The Router Password and Re-enter to confirm options are highlighted. Figure 3 on this page is an image of the Wireless-N Broadband router utility that shows the router’s Authorization dialog box requesting authorization again after changing the password. Figure 4 on this page is an image of the Wireless-N Broadband router utility that shows the Setup tab displaying the private IP address. Figure 5 on this page is an image of the Command Line Interface (CLI) output for the ipconfig /renew command. Figure 6 on this page is an image of the web browser with the default private IP address of the Wireless-N Broadband router. The figure also shows an image of the router’s Authorization dialog box requesting authorization again after changing the password.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

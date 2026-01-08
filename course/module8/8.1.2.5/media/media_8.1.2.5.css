@@ -1,0 +1,10 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.command { font-family:"Courier New";}
+
+#s5_staticTxt pre{
+	font-family:"Courier New";
+	color:#FFFFFF !important
+}

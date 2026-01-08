@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity: Identify Malware Types </b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each type of Malware to its description.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Rootkit]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Spyware]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Worm]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Ransomware]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Adware]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each malware type to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each malware type to its description. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Malware Type</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Malware Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Usually distributed by downloading online software that displays most often in a pop-up window that is difficult to control.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Used to gather information about a user and send the information to another entity, without the user’s consent. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Program used by hackers to gain Administrator-account level access to a computer. It is very difficult to detect.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Denies access to the infected computer system and requires payment for the restriction to be removed.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[This malware is a self-replicating program that spreads automatically. It slows or disrupts network operations.]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

@@ -1,0 +1,42 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Establish a Theory of Probable Cause</b>]]></text>
+	</component>
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+
+         <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 2. Establish a Theory of Probable Cause</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td scope="row" bgcolor='#E9E7E8' width='185'>Common causes of mobile device operating system problems</td>
+ 			<td bgcolor='#E9E7E8'><ul>
+				<li>The mobile device cannot send or receive email.</li>
+				<li>An app has stopped working.</li>
+				<li>A malicious app has been sideloaded.</li>
+				<li>The mobile device has stopped responding.</li>
+				<li>Mobile device software or apps are not up to date.</li>
+				<li>A user has forgotten their passcode.</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Common causes of Linux or OS X problems</td>
+  			<td bgcolor='#F2F2F2'><ul>
+				<li>The computer cannot send or receive email.</li>
+				<li>An application has stopped working.</li>
+				<li>A malicious application has been installed.</li>
+				<li>The computer has stopped responding.</li>
+				<li>The operating system is not up to date.</li>
+				<li>A user has forgotten their login credentials.</li>
+			</ul></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

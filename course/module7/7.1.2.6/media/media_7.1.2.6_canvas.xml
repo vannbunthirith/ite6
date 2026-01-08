@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>	
+        <element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490"  />
+        <element type="TEXT" subType="TITLE" compId="ID_title"/>
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.1.2.6_s1.png" />
+        <element type="TEXT" x="74.15" y="282.15" width="103.55" align="center" expand="down" compId="ID_txt01" size="11"/>
+        <element type="BUBBLE" compId="ID_bubble_txt01" x="38.8" y="138.4" width="200" height="80" align="left" tailPosition="6" tailFlip="1" size="11"/>
+        <element type="TEXT" x="369.9" y="282.15" width="104.05" align="center" expand="down" compId="ID_txt02" size="11"/>
+        <element type="BUBBLE" compId="ID_bubble_txt02" x="328.6" y="138.4" width="200" height="80" align="left" tailPosition="6" tailFlip="1" size="11"/>
+        <element type="TEXT" x="503.15" y="271.55" width="95" align="center" expand="left+right" compId="ID_txt03" size="11"/>
+        <element type="TEXT" x="498" y="354" width="104" align="center" expand="down" compId="ID_txt04" size="11" class="orangeCallOut" />
+        
+	</slide>   
+</data>

@@ -1,0 +1,371 @@
+﻿<textcomponents>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Advanced Problems and Solutions for Network Connections</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>A computer can connect to a network device by the IP address but not by the host name.</td>
+			<td bgcolor='#E9E7E8'><ul><li>Incorrect host name.</li><li>Incorrect DNS settings.</li><li>DNS server is not operational.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Re-enter the host name.</li><li>Re-enter the IP address of the DNS server.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>The computer does not obtain or renew the IP address on the network.</td>
+			<td bgcolor='#F2F2F2'><ul><li>The computer is using a static IP address from a different network.</li><li>Firewall is blocking DHCP.</li><li>DHCP server is not operational.</li><li>Wireless NIC is disabled.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Enable the computer to obtain an IP address automatically.</li><li>Change the firewall settings to allow DHCP traffic.</li><li>Restart the DHCP server.</li><li>Enable Wireless NIC.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>An IP address conflict message displays when connecting a new computer to the network.</td>
+			<td bgcolor='#E9E7E8'><ul><li>The same IP address is assigned to two devices on the network.</li><li>Another computer has been configured a static IP address that was already assigned by the  DHCP server.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Configure each device with a unique IP address.</li><li>Configure each device using the <font face="_typewriter"><b><i> ipconfig /release </i></b></font> and <font face="_typewriter"><b><i> ipconfig /renew </i></b></font> commands.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>A computer has network access but does not have Internet access.</td>
+			<td bgcolor='#F2F2F2'><ul><li>The gateway IP address is incorrect.</li><li>A router is configured incorrectly.</li><li>DNS server is not operational.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Reboot the modem.</li><li>Reboot the router.</li><li>Reconfigure the router settings.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>The computer automatically obtained the IP address 169.254.x.x, but cannot connect to the network.</td>
+			<td bgcolor='#E9E7E8'>The DHCP server is not operational.</td>
+			<td bgcolor='#E9E7E8'>Restart the DCHP server.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Users are experiencing slow transfer speeds, weak signal strength, intermittent connectivity on the wireless network.</td>
+			<td bgcolor='#F2F2F2'><ul><li>Wireless security has not been implemented allowing unauthorized users access.</li><li>There are too many users connected to the access point.</li><li>User is too far away from access point.</li><li>The wireless signal is experiencing interference from outside sources.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Implement a wireless security plan.</li><li>Ensure the access point is centrally located.</li><li>Restart the access point.</li><li>Move the access point.</li><li>Turn off unneeded devices that are connected.</li><li>Add another access point or a repeater to strengthen signal.</li><li>Upgrade the access point.</li><li>Change the channels on the wireless network.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_s1_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+
+
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Advanced Problems and Solutions for Network Connections</b></font>
+            </caption>
+
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="IdentifyS1" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></th>
+			<th scope="col" id="ProbableS1" bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></th>
+			<th scope="col" id="PossibleS1" bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="IdentifyS1" scope="row" bgcolor='#E9E7E8'>A computer can connect to a network device by the IP address but not by the host name.</td>
+			<td headers="ProbableS1" bgcolor='#E9E7E8'><ul><li>Incorrect host name.</li><li>Incorrect DNS settings.</li><li>DNS server is not operational.</li></ul></td>
+			<td headers="PossibleS1" bgcolor='#E9E7E8'><ul><li>Re-enter the host name.</li><li>Re-enter the IP address of the DNS server.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="IdentifyS1" scope="row" bgcolor='#F2F2F2'>The computer does not obtain or renew the IP address on the network.</td>
+			<td headers="ProbableS1" bgcolor='#F2F2F2'><ul><li>The computer is using a static IP address from a different network.</li><li>Firewall is blocking DHCP.</li><li>DHCP server is not operational.</li><li>Wireless NIC is disabled.</li></ul></td>
+			<td headers="PossibleS1" bgcolor='#F2F2F2'><ul><li>Enable the computer to obtain an IP address automatically.</li><li>Change the firewall settings to allow DHCP traffic.</li><li>Restart the DHCP server.</li><li>Enable Wireless NIC.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="IdentifyS1" scope="row" bgcolor='#E9E7E8'>An IP address conflict message displays when connecting a new computer to the network.</td>
+			<td headers="ProbableS1" bgcolor='#E9E7E8'><ul><li>The same IP address is assigned to two devices on the network.</li><li>Another computer has been configured a static IP address that was already assigned by the  DHCP server.</li></ul></td>
+			<td headers="PossibleS1" bgcolor='#E9E7E8'><ul><li>Configure each device with a unique IP address.</li><li>Configure each device using the <font face="_typewriter"><b><i> ipconfig /release </i></b></font> and <font face="_typewriter"><b><i> ipconfig /renew </i></b></font> commands.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="IdentifyS1" scope="row" bgcolor='#F2F2F2'>A computer has network access but does not have Internet access.</td>
+			<td headers="ProbableS1" bgcolor='#F2F2F2'><ul><li>The gateway IP address is incorrect.</li><li>A router is configured incorrectly.</li><li>DNS server is not operational.</li></ul></td>
+			<td headers="PossibleS1" bgcolor='#F2F2F2'><ul><li>Reboot the modem.</li><li>Reboot the router.</li><li>Reconfigure the router settings.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="IdentifyS1" scope="row" bgcolor='#E9E7E8'>The computer automatically obtained the IP address 169.254.x.x, but cannot connect to the network.</td>
+			<td headers="ProbableS1" bgcolor='#E9E7E8'>The DHCP server is not operational.</td>
+			<td headers="PossibleS1" bgcolor='#E9E7E8'>Restart the DCHP server.</td>
+		</tr>
+		<tr>
+			<td headers="IdentifyS1" scope="row" bgcolor='#F2F2F2'>Users are experiencing slow transfer speeds, weak signal strength, intermittent connectivity on the wireless network.</td>
+			<td headers="ProbableS1" bgcolor='#F2F2F2'><ul><li>Wireless security has not been implemented allowing unauthorized users access.</li><li>There are too many users connected to the access point.</li><li>User is too far away from access point.</li><li>The wireless signal is experiencing interference from outside sources.</li></ul></td>
+			<td headers="PossibleS1" bgcolor='#F2F2F2'><ul><li>Implement a wireless security plan.</li><li>Ensure the access point is centrally located.</li><li>Restart the access point.</li><li>Move the access point.</li><li>Turn off unneeded devices that are connected.</li><li>Add another access point or a repeater to strengthen signal.</li><li>Upgrade the access point.</li><li>Change the channels on the wireless network.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Advanced Problems and Solutions for Email Failures</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>The computer cannot send or receive email.</td>
+			<td bgcolor='#E9E7E8'><ul><li>The computer has incorrect email client settings.</li><li>The email server is down.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Reconfigure the email client settings.</li><li>Reboot the email server or notify your email service provider.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>The computer can send email, but cannot receive email.</td>
+			<td bgcolor='#F2F2F2'><ul><li>The inbox is full.</li><li>The computer has incorrect email client settings.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Archive or delete emails to create space.</li><li>Reconfigure the email client settings.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>The computer cannot receive a specific email with an attachment.</td>
+			<td bgcolor='#E9E7E8'><ul><li>The email attachment is too large.</li><li>The email attachment contains a virus and has been blocked by virus protection.</li><li>The email attachment file type is not allowed (example: executable file) and is being blocked.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Ask the sender to split the attachment into smaller parts end resend them in individual emails.</li><li>Ask the sender to scan the attachment before sending it.</li><li>Ask the sender to compress the attachment and resend.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+
+	<component id="ID_s2_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+           
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Advanced Problems and Solutions for Email Failures</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="IdentifyS2" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></th>
+			<th scope="col" id="ProbableS2" bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></th>
+			<th scope="col" id="PossibleS2" bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></th>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="IdentifyS2" bgcolor='#E9E7E8'>The computer cannot send or receive email.</td>
+			<td headers="ProbableS2" bgcolor='#E9E7E8'><ul><li>The computer has incorrect email client settings.</li><li>The email server is down.</li></ul></td>
+			<td headers="PossibleS2" bgcolor='#E9E7E8'><ul><li>Reconfigure the email client settings.</li><li>Reboot the email server or notify your email service provider.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="IdentifyS2" bgcolor='#F2F2F2'>The computer can send email, but cannot receive email.</td>
+			<td headers="ProbableS2" bgcolor='#F2F2F2'><ul><li>The inbox is full.</li><li>The computer has incorrect email client settings.</li></ul></td>
+			<td headers="PossibleS2" bgcolor='#F2F2F2'><ul><li>Archive or delete emails to create space.</li><li>Reconfigure the email client settings.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="IdentifyS2" bgcolor='#E9E7E8'>The computer cannot receive a specific email with an attachment.</td>
+			<td headers="ProbableS2" bgcolor='#E9E7E8'><ul><li>The email attachment is too large.</li><li>The email attachment contains a virus and has been blocked by virus protection.</li><li>The email attachment file type is not allowed (example: executable file) and is being blocked.</li></ul></td>
+			<td headers="PossibleS2" bgcolor='#E9E7E8'><ul><li>Ask the sender to split the attachment into smaller parts end resend them in individual emails.</li><li>Ask the sender to scan the attachment before sending it.</li><li>Ask the sender to compress the attachment and resend.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Advanced Problems and Solutions for FTP and Secure Internet Connections</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>A user cannot access the FTP server.</td>
+			<td bgcolor='#E9E7E8'><ul><li>FTP is being blocked by the firewall at the router.</li><li>FTP is being blocked by the Windows firewall.</li><li>The maximum number of users has been reached.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Ensure that ports 20 and 21 are allowed through the router’s outbound firewall.</li><li>Ensure that ports 20 and 21 are allowed through the Windows outbound firewall.</li><li>Increase the maximum number of simultaneous FTP users on the FTP server.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>The FTP client software cannot find the FTP server.</td>
+			<td bgcolor='#F2F2F2'><ul><li>The FTP client has an incorrect server/domain name or port setting.</li><li>The FTP server is not operational or is offline.</li><li>The DNS server is not operational and not resolving names.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Enter the correct server/domain name and port settings in the FTP client.</li><li>Restart the FTP server.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>A computer cannot access a specific HTTPS site.</td>
+			<td bgcolor='#E9E7E8'>The site is not on that computer’s browser’s list of trusted sites.</td>
+			<td bgcolor='#E9E7E8'>Decide whether to add the security certificate to the browser’s list of trusted sites.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+   <component id="ID_s3_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+        
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+               <font size="16"><b>Advanced Problems and Solutions for FTP and Secure Internet Connections</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="IdentifyS3" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></th>
+			<th scope="col" id="ProbableS3" bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></th>
+			<th scope="col" id="PossibleS3" bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></th>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="IdentifyS3" bgcolor='#E9E7E8'>A user cannot access the FTP server.</td>
+			<td headers="ProbableS3" bgcolor='#E9E7E8'><ul><li>FTP is being blocked by the firewall at the router.</li><li>FTP is being blocked by the Windows firewall.</li><li>The maximum number of users has been reached.</li></ul></td>
+			<td headers="PossibleS3" bgcolor='#E9E7E8'><ul><li>Ensure that ports 20 and 21 are allowed through the router’s outbound firewall.</li><li>Ensure that ports 20 and 21 are allowed through the Windows outbound firewall.</li><li>Increase the maximum number of simultaneous FTP users on the FTP server.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="IdentifyS3" bgcolor='#F2F2F2'>The FTP client software cannot find the FTP server.</td>
+			<td headers="ProbableS3" bgcolor='#F2F2F2'><ul><li>The FTP client has an incorrect server/domain name or port setting.</li><li>The FTP server is not operational or is offline.</li><li>The DNS server is not operational and not resolving names.</li></ul></td>
+			<td headers="PossibleS3" bgcolor='#F2F2F2'><ul><li>Enter the correct server/domain name and port settings in the FTP client.</li><li>Restart the FTP server.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="IdentifyS3" bgcolor='#E9E7E8'>A computer cannot access a specific HTTPS site.</td>
+			<td headers="ProbableS3" bgcolor='#E9E7E8'>The site is not on that computer’s browser’s list of trusted sites.</td>
+			<td headers="PossibleS3" bgcolor='#E9E7E8'>Decide whether to add the security certificate to the browser’s list of trusted sites.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_s4_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Advanced Problems and Solutions when Using Network Troubleshooting Tools</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Computer can ping an IP address but not a host name.</td>
+			<td bgcolor='#E9E7E8'><ul><li>The host name is incorrect.</li><li>The DNS settings of the computer are incorrect.</li><li>The DNS server is not operational.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Enter the correct host name.</li><li>Enter the correct DNS settings.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>A computer on one network cannot ping a computer on another network.</td>
+			<td bgcolor='#F2F2F2'><ul><li>There is a broken link between the two networks.</li><li>ICMP is blocked at the router.</li><li>ICMP is blocked at the Windows firewall.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Use tracert to locate which link is down and fix the broken link.</li><li>Configure the router to allow ICMP ping.</li><li>Configure the Windows firewall to allow ICMP ping.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Nslookup reports "Can't find server name for address 127.0.0.0: timed out".</td>
+			<td bgcolor='#E9E7E8'>The DNS server is not responding.</td>
+			<td bgcolor='#E9E7E8'><ul><li>Restart the DNS server.</li><li>Change DNS server settings.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>A computer cannot connect to a shared network folder using the <font face="_typewriter"><b><i> net use </i></b></font> command.</td>
+			<td bgcolor='#F2F2F2'><ul><li>The folder is not shared.</li><li>The computer is not in the same workgroup.</li></ul></td>
+			<td bgcolor='#F2F2F2'><ul><li>Make sure the network folder is shared using the net share command.</li><li>Set the computer to the same workgroup as the computer with the shared network folder.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>When attempting to use the <font face="_typewriter"><b><i> ipconfig /release </i></b></font> or <font face="_typewriter"><b><i> ipconfig /renew </i></b></font> command, you receive the message: "No operation can be performed on the adapter while its media is disconnected."</td>
+			<td bgcolor='#E9E7E8'><ul><li>The network cable is unplugged.</li><li>The computer has been configured with a static IP address.</li></ul></td>
+			<td bgcolor='#E9E7E8'><ul><li>Reconnect the network cable.</li><li>Reconfigure the NIC to obtain IP addressing automatically.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>The computer cannot Telnet into a remote computer.</td>
+			<td bgcolor='#F2F2F2'>The remote computer has not been configured to accept Telnet connections, or the Telnet service has not been started.</td>
+			<td bgcolor='#F2F2F2'>Start the Telnet service on the remote computer and configure the remote computer to accept Telnet connections.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>The network icon in the notification area shows a yellow exclamation point. When attempting to use the <font face="_typewriter"><b><i> ipconfig /release </i></b></font> or <font face="_typewriter"><b><i> ipconfig /renew </i></b></font> command, you receive the message: "The operation failed as no adapter is in the state permissible for this operation."</td>
+			<td bgcolor='#E9E7E8'>A static IP address has been assigned to the interface.</td>
+			<td bgcolor='#E9E7E8'>Reconfigure the NIC to obtain IP addressing automatically.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+
+<component id="ID_s4_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+         
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Advanced Problems and Solutions when Using Network Troubleshooting Tools</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Identify" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></th>
+			<th scope="col" id="Probable" bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></th>
+			<th scope="col" id="Possible" bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#E9E7E8'>Computer can ping an IP address but not a host name.</td>
+			<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The host name is incorrect.</li><li>The DNS settings of the computer are incorrect.</li><li>The DNS server is not operational.</li></ul></td>
+			<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Enter the correct host name.</li><li>Enter the correct DNS settings.</li><li>Restart the DNS server.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#F2F2F2'>A computer on one network cannot ping a computer on another network.</td>
+			<td headers="Probable" bgcolor='#F2F2F2'><ul><li>There is a broken link between the two networks.</li><li>ICMP is blocked at the router.</li><li>ICMP is blocked at the Windows firewall.</li></ul></td>
+			<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Use tracert to locate which link is down and fix the broken link.</li><li>Configure the router to allow ICMP ping.</li><li>Configure the Windows firewall to allow ICMP ping.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#E9E7E8'>Nslookup reports "Can't find server name for address 127.0.0.0: timed out".</td>
+			<td headers="Probable" bgcolor='#E9E7E8'>The DNS server is not responding.</td>
+			<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Restart the DNS server.</li><li>Change DNS server settings.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#F2F2F2'>A computer cannot connect to a shared network folder using the <font face="_typewriter"><b><i> net use </i></b></font> command.</td>
+			<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The folder is not shared.</li><li>The computer is not in the same workgroup.</li></ul></td>
+			<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Make sure the network folder is shared using the net share command.</li><li>Set the computer to the same workgroup as the computer with the shared network folder.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#E9E7E8'>When attempting to use the <font face="_typewriter"><b><i> ipconfig /release </i></b></font> or <font face="_typewriter"><b><i> ipconfig /renew </i></b></font> command, you receive the message: "No operation can be performed on the adapter while its media is disconnected."</td>
+			<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The network cable is unplugged.</li><li>The computer has been configured with a static IP address.</li></ul></td>
+			<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Reconnect the network cable.</li><li>Reconfigure the NIC to obtain IP addressing automatically.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#F2F2F2'>The computer cannot Telnet into a remote computer.</td>
+			<td headers="Probable" bgcolor='#F2F2F2'>The remote computer has not been configured to accept Telnet connections, or the Telnet service has not been started.</td>
+			<td headers="Possible" bgcolor='#F2F2F2'>Start the Telnet service on the remote computer and configure the remote computer to accept Telnet connections.</td>
+		</tr>
+		<tr>
+			<td headers="Identify" scope="row" bgcolor='#E9E7E8'>The network icon in the notification area shows a yellow exclamation point. When attempting to use the <font face="_typewriter"><b><i> ipconfig /release </i></b></font> or <font face="_typewriter"><b><i> ipconfig /renew </i></b></font> command, you receive the message: "The operation failed as no adapter is in the state permissible for this operation."</td>
+			<td headers="Possible" headers="Probable" bgcolor='#E9E7E8'>A static IP address has been assigned to the interface.</td>
+			<td bgcolor='#E9E7E8'>Reconfigure the NIC to obtain IP addressing automatically.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	
+</textcomponents>

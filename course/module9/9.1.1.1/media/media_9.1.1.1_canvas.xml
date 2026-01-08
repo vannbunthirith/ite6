@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s01_title" />	
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1_s1.png" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s02_title" />	
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1_s2.png" />
+		</slide>
+		<slide>
+			<element type="TEXT" subType="TITLE" compId="ID_s03_title" color="#ffffff" />
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />
+			<element type="TEXT" subType="TABLE" compId="ID_s3_table" x="30" y="60" width="610" height="380" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s04_title" />	
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1_s4.png" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s05_title" />	
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1_s5.png" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s06_title" />	
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1_s6.png" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s07_title" />	
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1_s7.png" />
+		</slide>
+	</slide>
+</data>

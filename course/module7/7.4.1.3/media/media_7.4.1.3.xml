@@ -1,0 +1,35 @@
+﻿<textcomponents>
+		<component id="ID_s2_title">
+	<text><![CDATA[<b>The Role of the Subnet Mask</b>]]></text>
+	</component>  	
+
+	<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Network Portion</b>]]></text>
+	</component> 
+	
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>Host Portion</b>]]></text>
+	</component>  
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Binary to Decimal Conversion</b>]]></text>
+	</component>  	
+
+	<component id="ID_s3_txt01">
+	<text><![CDATA[IPv4 address in binary notation]]></text>
+	</component> 
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[Each octet has 8 bits]]></text>
+	</component> 
+	<component id="ID_s3_txt03">
+	<text><![CDATA[Each bit represents a number]]></text>
+	</component> 
+	
+	<component id="ID_s3_txt04">
+	<text><![CDATA[All “1” bits are added together]]></text>
+	</component>
+	
+	<component id="ID_s3_txt05">
+	<text><![CDATA[IPv4 address in dotted decimal notation]]></text>
+	</component>  
+</textcomponents>

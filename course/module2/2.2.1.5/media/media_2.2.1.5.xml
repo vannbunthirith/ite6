@@ -1,0 +1,16 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_caption">
+  <text><![CDATA[A soft, lint-free cloth is used to clean different computer components without scratching or leaving debris.]]></text>
+  </component>
+<component id="ID_s2_caption">
+  <text><![CDATA[Compressed air is used to blow away dust and debris from different computer parts without touching the components.]]></text> 
+  </component>
+<component id="ID_s3_caption">
+  <text><![CDATA[Cable ties are used to bundle cables neatly inside and outside of a computer.]]></text> 
+  </component>
+<component id="ID_s4_caption">
+  <text><![CDATA[A parts organizer is used to hold screws, jumpers, fasteners, and other small parts and prevents them from getting mixed together.]]></text>
+</component>
+
+</textcomponents>

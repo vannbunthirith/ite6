@@ -1,0 +1,23 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Open Locking Tabs</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Locking Tabs]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Align the Notches</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[RAM Slot Key]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[RAM Notch]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Installed RAM</b>]]></text>
+	</component>
+	
+</textcomponents>

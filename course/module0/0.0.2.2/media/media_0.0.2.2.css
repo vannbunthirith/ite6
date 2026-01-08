@@ -1,0 +1,35 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+.blackText{
+	background-color: #000000;
+	padding: 5px 2px;
+	border-radius: 5px;
+}
+#ID_s1_trans01{
+	height: 120px;
+}#ID_s1_trans02{
+	height: 52px;
+}#ID_s1_trans03{
+	height: 25px;
+}/*#ID_s1_trans04,#ID_s1_trans06,#ID_s1_trans08,#ID_s1_trans10{
+	height: 20px;
+}#ID_s1_trans05,#ID_s1_trans07,#ID_s1_trans09,#ID_s1_trans11{
+	height: 82px;
+}*/
+
+#ID_s2_trans02,#ID_s2_trans04,#ID_s2_trans06{
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 193px;
+}#ID_s2_trans01,#ID_s2_trans03,#ID_s2_trans05{
+	height: 21px;
+}
+
+ul li{
+	list-style-image: none !important;
+}
+#ID_s2_trans07{
+	height: 21px;
+}

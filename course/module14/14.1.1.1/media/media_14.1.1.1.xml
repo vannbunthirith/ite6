@@ -1,0 +1,143 @@
+﻿<textcomponents>
+
+<!--slide 1-->
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Advanced Problems and Solutions for Hardware</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify1" bgcolor='#666263'><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable1" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible1" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#E9E7E8'>RAID cannot be found.</td>
+		<td headers="Probable1" bgcolor='#E9E7E8'><ul><li>The external RAID controller is not receiving power.</li><li>The BIOS settings are incorrect.</li><li>The RAID controller has failed.</li></ul></td>
+		<td headers="Possible1" bgcolor='#E9E7E8'><ul><li>Check the power connection to the RAID controller.</li><li>Reconfigure the BIOS settings for the RAID controller.</li><li>Replace the RAID controller.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#F2F2F2'>RAID stops working.</td>
+		<td headers="Probable1" bgcolor='#F2F2F2'><ul><li>The external RAID controller is not receiving power.</li><li>The RAID controller has failed.</li></ul></td>		
+		<td headers="Possible1" bgcolor='#F2F2F2'><ul><li>Check the power connection to the RAID controller.</li><li>Replace the RAID controller.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#E9E7E8'>A computer exhibits slow performance.</td>
+		<td headers="Probable1" bgcolor='#E9E7E8'><ul><li>The computer does not have enough RAM.</li><li>The computer is overheating.</li></ul></td>
+		<td headers="Possible1" bgcolor='#E9E7E8'><ul><li>Install additional RAM.</li><li>Clean the fans or install additional fans.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#F2F2F2'>The computer does not recognize a removable external drive.</td>
+		<td headers="Probable1" bgcolor='#F2F2F2'><ul><li>The OS does not have the correct drivers for the removable external drive.</li><li>The USB port has too many attached devices to supply adequate power.</li></ul></td>
+		<td headers="Possible1" bgcolor='#F2F2F2'><ul><li>Download the correct drivers for the drive.</li><li>Attach external power to the device or remove some of the USB devices.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#E9E7E8'>After updating the CMOS firmware, the computer will not start.</td>
+		<td headers="Probable1" bgcolor='#E9E7E8'>The CMOS firmware update did not install correctly.</td>
+		<td headers="Possible1" bgcolor='#E9E7E8'><ul><li>Restore the original firmware from the onboard backup if one is available.</li><li>If the motherboard has two CMOS chips, the second CMOS chip can be used.</li><li>Contact the motherboard manufacturer to obtain a new CMOS chip.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#F2F2F2'>The computer reboots without warning, locks up, or displays error messages or the BSOD.</td>
+		<td headers="Probable1" bgcolor='#F2F2F2'><ul><li>RAM is failing.</li><li>The front-side bus is set too high.</li><li>The CPU multiplier is set too high.</li><li>The CPU voltage is set too high.</li></ul></td>
+		<td headers="Possible1" bgcolor='#F2F2F2'><ul><li>Test each RAM module to determine if they are operating correctly.</li><li>Reset to the factory default settings of the motherboard.</li><li>Lower the FSB settings.</li><li>Lower the multiplier settings.</li><li>Lower the CPU voltage settings.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify1" bgcolor='#E9E7E8'>After upgrading from a single core CPU to a multi-core CPU, the computer runs slower and only shows one CPU graph in Task Manager.</td>
+		<td headers="Probable1" bgcolor='#E9E7E8'>The BIOS does not recognize the multi-core CPU.</td>
+		<td headers="Possible1" bgcolor='#E9E7E8'>Update the CMOS firmware to support the multi-core CPU.</td>
+	</tr>
+		
+</table>]]></text>
+</component>
+
+<!--end slide 1-->
+
+
+<!--slide 2-->
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+         <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Advanced Problems and Solutions for Printers</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify" bgcolor='#666263'><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Printer prints unknown characters.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>An incorrect print driver is installed.</li><li>The printer cables are loose.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Uninstall the incorrect print driver and install the correct driver.</li><li>Secure the printer cables.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Printer will not print large or complex images.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'>The printer does not have enough memory.</td>		
+		<td headers="Possible" bgcolor='#F2F2F2'>Add more memory to the printer.</td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Laser printer prints vertical lines or streaks on every page.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The drum is damaged.</li><li>Toner is not evenly distributed in the cartridge.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Replace the drum or replace the toner cartridge when it contains the drum.</li><li>Remove and shake the toner cartridge.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Printed pages show ghost images.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The drum is scratched or dirty.</li><li>The drum wiper blade is worn.</li></ul></td>
+		<td headers="Possible" bgcolor='#F2F2F2'>Replace the drum or replace the toner cartridge when it contains the drum.</td>
+	</tr>	
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The toner is not fusing to the paper.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'>The fuser is defective.</td>
+		<td headers="Possible" bgcolor='#E9E7E8'>Replace the fuser.</td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Paper is creased after printing.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'>The pickup rollers are obstructed, damaged, or dirty.</td>		
+		<td headers="Possible" bgcolor='#F2F2F2'>Clean or replace the pickup rollers.</td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Paper is not being fed into the printer.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'>The pickup rollers are obstructed, damaged, or dirty.</td>
+		<td headers="Possible" bgcolor='#E9E7E8'>Clean or replace the pickup rollers.</td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Each time a network printer is restarted, users receive a "Document failed to print" message.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>Printer's IP configuration set for DHCP.</li><li>A device on the network has the same IP address as the network printer.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Assign a static IP address to the printer.</li><li>Assign a different static IP address to the printer.</li></ul></td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--end slide 2-->
+</textcomponents>

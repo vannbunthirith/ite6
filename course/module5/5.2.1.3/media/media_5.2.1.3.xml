@@ -1,0 +1,137 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Identify Disk Terms</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each term to a description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each term to its definition.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each term to its description. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Drag Items-->
+
+
+
+<component id='ID_s1_drag_headerX'>
+	<text><![CDATA[<b>Steps</b>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Logical Drive]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Extended Partition]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Primary Partition]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[Formatting]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[SSD]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[Active Partition]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[Basic Disk]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[Dynamic Disk]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[Flash Memory]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[SSHD]]></text>
+</component>
+
+
+<!--Questions-->
+<component id='ID_s1_target_header_01'>
+	<text><![CDATA[<b>Terms</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header_01'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[This contains the operating system files. There can be up to four per hard drive and cannot be subdivided into smaller sections.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[A section of an extended partition.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Uses the technology from both a hard drive and a solid state drive.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Has the ability to create volumes that span across more than one disk. The size of the volumes can be changed after they have been created.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[This process prepares a file system in a partition for files to be stored.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Used to boot the computer and contains the boot and system files. There can be only one of these per disk.]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[Uses high performance flash memory to achieve fast data storage without the moving parts of HDDs.]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[There can be only one per hard drive, but it can be subdivided into smaller sections.]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[A data storage medium that can be electrically erased and re-written.]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[Contains primary and extended partitions, as well as logical drives. It is limited to four partitions.]]></text> 
+</component>
+</textcomponents>

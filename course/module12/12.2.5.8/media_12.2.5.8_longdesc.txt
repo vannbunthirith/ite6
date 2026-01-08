@@ -1,0 +1,1 @@
+This task cannot be completed as it requires Packet Tracer, which is inaccessible. The following objectives are listed for your information. Objectives: Configure WPA2 on a wireless router. Configure MAC Filtering on a wireless router. Configure Single Port Forwarding on a wireless router.

@@ -1,0 +1,25 @@
+﻿<textcomponents>
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Intermediary Device Icons</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Switch]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[Router]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Access Point]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Wireless Router]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[Modem]]></text>
+</component>
+</textcomponents>

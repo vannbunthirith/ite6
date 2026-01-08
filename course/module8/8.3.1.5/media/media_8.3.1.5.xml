@@ -1,0 +1,89 @@
+﻿<textcomponents>
+<!-- slide 2 -->
+<component id="ID_txt01">
+	<text><![CDATA[Community:<br>Healthcare]]></text>
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[Community:<br>Government]]></text> 
+	  </component>
+	<component id="ID_txt03">
+	  <text><![CDATA[Public]]></text> 
+	  </component>
+		
+	<component id='ID_txt04'>
+		<text><![CDATA[Community:<br>And More]]></text> 
+	</component>
+
+	<component id='ID_txt04b'>
+		<text><![CDATA[Community:<br>And More]]></text> 
+	</component>
+
+	<component id="ID_txt05">
+	  <text><![CDATA[Private:<br>Hometown News]]></text> 
+	  </component>
+	<component id="ID_txt06">
+	  <text><![CDATA[Community:<br>Media]]></text> 
+	  </component>
+	<component id="ID_txt07">
+	  <text><![CDATA[Hybrid]]></text> 
+	  </component>
+
+	  <component id="ID_titleTxt01">
+	  <text><![CDATA[Community Clouds]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt01">
+	  <text><![CDATA[These are clouds built to meet the needs of a specific industry, such as healthcare or media. Community clouds can be private or public.]]></text> 
+	  </component>
+
+	    <component id="ID_titleTxt02">
+	  <text><![CDATA[Community Clouds]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt02">
+	  <text><![CDATA[These are clouds built to meet the needs of a specific industry, such as healthcare or media. Community clouds can be private or public.]]></text> 
+	  </component>
+
+	    <component id="ID_titleTxt03">
+	  <text><![CDATA[Community Clouds]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt03">
+	  <text><![CDATA[These are clouds built to meet the needs of a specific industry, such as healthcare or media. Community clouds can be private or public.]]></text> 
+	  </component>
+	  
+	  <component id="ID_titleTxt04">
+	  <text><![CDATA[Community Clouds]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt04">
+	  <text><![CDATA[These are clouds built to meet the needs of a specific industry, such as healthcare or media. Community clouds can be private or public.]]></text> 
+	  </component>
+
+	  <component id="ID_titleTxt05">
+	  <text><![CDATA[Private Clouds]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt05">
+	  <text><![CDATA[Cloud-based applications and services offered in a private cloud are intended for a specific organization or entity, such as the government. A private cloud can be set up using the organization’s private network, though this can be expensive to build and maintain. A private cloud can also be managed by an outside organization with strict access security.]]></text> 
+	  </component>
+	  
+	  <component id="ID_titleTxt06">
+	  <text><![CDATA[Hybrid Clouds]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt06">
+	  <text><![CDATA[A hybrid cloud is made up of two or more clouds (example: part Community, part public), where each part remains a distinctive object, but both are connected using a single architecture. Individuals on a hybrid cloud would be able to have degrees of access to various services based on user access rights.]]></text> 
+	  </component>
+
+
+	  <component id="ID_titleTxt07">
+	  <text><![CDATA[Public Clouds]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt07">
+	  <text><![CDATA[Cloud-based applications and services offered in a public cloud are made available to the general population. Services may be free or are offered on a pay-per-use model, such as paying for online storage. The public cloud uses the Internet to provide services.]]></text> 
+	  </component>
+
+	  
+</textcomponents>

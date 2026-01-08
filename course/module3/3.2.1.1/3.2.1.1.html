@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.1.1 BIOS Beep Codes and Setup</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>BIOS Beep Codes and Setup</h1>
+        <div>
+          <p>When a computer is booted (started), the basic input/output system (BIOS) performs a hardware check on the main components of the computer. This check is called a power-on self-test (POST).</p>
+          <p></p>
+          <p>The POST, shown in Figure 1, checks whether the computer hardware is operating correctly. If a device is malfunctioning, an error or a beep code alerts the technician of the problem. Typically, a single beep means that the computer is functioning properly. If there is a hardware problem, a blank screen might appear at bootup, and the computer will emit a series of beeps. Each BIOS manufacturer uses different codes to indicate hardware problems. Figure 2 shows a chart of beep codes. Always consult the motherboard documentation to get the beep codes for your computer.</p>
+          <p></p>
+          <p>A POST problem can arise before the video is activated. When troubleshooting a computer problem without video, a POST card can be used. A POST card, sometimes called a debug card, is installed in a port on the motherboard, such as PCI, PCIe, or USB port.</p>
+          <p></p>
+          <p>When the computer is started, the computer displays a series of two or four digit hex codes that are displayed on the POST card. If an error occurs, the post code can help diagnose the cause of the problem through the motherboard, BIOS, or POST card manufacturer.</p>
+          <p></p>
+          <p>
+            <b>Installation Tip:</b> To determine if POST is working properly, remove all of the RAM modules from the computer and power it on. The computer should emit the beep code for a computer with no RAM installed. This will not harm the computer.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the power-on-self-test (POST) screen. Figure 2 on this page is a table listing the following common beep codes. Beep Code: 1 beep (No video), Meaning: Memory Refresh Failure, Cause: Bad memory. Beep Code: 2 beeps, Meaning: Memory parity error, Cause: Bad memory. Beep Code: 3 beeps, Meaning: Base 64 mem failure, Cause: Bad memory. Beep Code: 4 beeps, Meaning: Timer not operational, Cause: Bad motherboard. Beep Code: 5 beeps, Meaning: Processor error, Cause: Bad processor. Beep Code: 6 beeps, Meaning: 8042 Gate A20 failure, Cause: Bad CPU or Motherboard. Beep Code: 7 beeps, Meaning: Processor exception, Cause: Bad processor. Beep Code: 8 beeps, Meaning: Video memory error, Cause: Bad video card or memory. Beep Code: 9 beeps, Meaning: ROM checksum error, Cause: Bad BIOS. Beep Code: 10 beeps, Meaning: CMOS checksum error, Cause: Bad motherboard. Beep Code: 11 beeps, Meaning: Cache memory bad, Cause: Bad CPU or motherboard.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+            <element type="IMAGE" x="88.1" y="47.8" width="500" height="372.7" subType="STD" src="media_10.1.2.1_s1.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_10.1.2.1_s1_lines.png" />
+            <element type="TEXT" compId="ID_s1_txt01" x="17" y="97.5" width="94" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s1_txt04" x="25" y="256.3" width="90" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s1_txt06" x="25" y="432.15" width="125" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s1_txt07" x="278" y="432.15" width="120" expand="left+right" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s1_txt05" x="482.9" y="432.15" width="164.95" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s1_txt02" x="568.95" y="231.8" width="82" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s1_txt03" x="565.95" y="76.5" width="85" expand="down" align="center" class="orangeCallOut" size="11" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+            <element type="IMAGE" x="88.1" y="192.8" width="500" height="52.6" subType="STD" src="media_10.1.2.1_s2.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_10.1.2.1_s2_lines.png" />
+            <element type="TEXT" compId="ID_s2_txt01" x="56.5" y="290.15" width="120" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s2_txt02" x="275.5" y="290.15" width="120" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s2_txt03" x="496" y="290.15" width="120" expand="down" align="center" class="orangeCallOut" size="11" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="88.1" y="47.8" width="500" height="372.65" subType="STD" src="media_10.1.2.1_s3.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_10.1.2.1_s3_lines.png" />
+            <element type="TEXT" compId="ID_s3_txt03" x="45" y="115.3" width="165" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s3_txt05" x="45" y="336.3" width="165" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s3_txt02" x="457.25" y="46.8" width="165" expand="up" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s3_txt01" x="477.25" y="86.3" width="165" expand="down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s3_txt04" x="467.15" y="201.3" width="170" expand="up+down" align="center" class="orangeCallOut" size="11" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="65" y="47.75" width="550" height="402.5" subType="STD" src="media_10.1.2.1_s4.jpg" />
+        </slide>
+    </slide>
+</data>

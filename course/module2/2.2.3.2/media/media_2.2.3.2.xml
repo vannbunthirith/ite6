@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[<b>Case Fan</b>]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[<b>Motherboard</b>]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[<b>CPU Fan</b>]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[<b>Power Supply</b>]]></text>
+</component>
+
+<component id='ID_s2_txt05'>
+	<text><![CDATA[<b>RAM</b>]]></text>
+</component>
+
+<component id='ID_s2_txt06'>
+	<text><![CDATA[<b>Hard Drive</b>]]></text>
+</component>
+
+<component id='ID_s2_txt07'>
+	<text><![CDATA[<b>NIC</b>]]></text>
+</component>
+
+<component id='ID_s2_txt08'>
+	<text><![CDATA[<b>Sound Adapter</b>]]></text>
+</component>
+
+<component id='ID_s2_txt09'>
+	<text><![CDATA[<b>Video Adapter</b>]]></text>
+</component>
+
+<component id='ID_s2_txt10'>
+	<text><![CDATA[<b>SSD</b>]]></text>
+</component>
+
+
+</textcomponents>

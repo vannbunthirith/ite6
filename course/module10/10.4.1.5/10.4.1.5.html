@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.5 Overview of Backup and Recovery</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Overview of Backup and Recovery</h1>
+        <div>
+          <p>The process of backing up data refers to creating a copy (or multiple copies) of data for safekeeping. When the backing up process is complete, the copy is called a backup. The primary goal is the ability to restore or recover the data in case of failure. Gaining access to an earlier version of the data is often seen as a secondary goal of the backing up process.</p>
+          <p></p>
+          <p>While backups can be achieved with a simple copy command, many tools and techniques exist to make the process automatic and transparent to the user.</p>
+          <p></p>
+          <p>
+            <b>Linux</b>
+          </p>
+          <p></p>
+          <p>Several backup tools and solutions are available for Linux. Déjà Dup, shown in Figure 1, is an easy and efficient tool for backing up data. Déjà Dup supports a number of features including local, remote, or cloud backup locations (Figure 2), data encryption compression, incremental backs up, periodic scheduled backups (Figure 3), and GNOME desktop integration. It also restores from any particular backup (Figure 4).</p>
+          <p>To enable automatic backups on Ubuntu Linux, use the following path:</p>
+          <p></p>
+          <p>Click the Ubuntu button at the top of <b>Launcher ></b> type <b>deja dup ></b> click the <b>Déjà Dup</b> icon <b>></b> Click the toggle switch located on the upper right corner of Déjà Dup’s window to turn backups <b>On</b>.</p>
+          <p></p>
+          <p>
+            <b>OS X</b>
+          </p>
+          <p></p>
+          <p>OS X includes a backup tool called Time Machine. With Time Machine, users choose an external drive to be used as a backup destination device and connect it to the Mac via USB, FireWire or Thunderbolt. Time Machine will prepare the disk to receive backups and, when the disk is ready, it performs incremental backups periodically. Time Machine keeps hourly backups for the past 24 hours, daily backups for the past month, and weekly backups. The oldest backups are deleted when your backup drive becomes full.</p>
+          <p></p>
+          <p>If the user has not specified a Time Machine destination disk, Time Machine will ask if the newly connected external disk should be used as the destination backup disk, as shown in Figure 5.</p>
+          <p></p>
+          <p>To adjust Time Machine settings, as shown in Figure 6, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Settings > Time Machine</b>
+          </p>
+          <p></p>
+          <p>If Time Machine is configured and the destination disk is connected, Time Machine will perform automatic backups based on its time schedule. Alternatively, a user can start a backup at any time by clicking <b>Back up Now</b> on the Time Machine menu bar menu, as shown in Figure 7.</p>
+          <p>To restore data from Time Machine, make sure the destination backup disk is connected to the Mac and click <b>Enter Time Machine</b> in the Time Machine menu. As shown in Figure 8, by using the timeline on the right side of the window, Time Machine allows the user to restore the data to any previous version currently available in the destination backup disk.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Overview tab of the Deja Dup backup tool on Ubuntu Linux. Figure 2 on this page is an image of the Storage Location tab of Deja Dup backup tool on Ubuntu Linux. Figure 3 on this page is an image of the Scheduling tab of Deja Dup backup tool on Ubuntu Linux. Figure 4 on this page is an image of the Restore screen of Deja Dup backup tool on Ubuntu Linux. Figure 5 on this page is an image of the destination screen of the Time Machine backup tool on iOS. Figure 6 on this page is an image of the settings screen of the Time Machine backup tool on iOS. Figure 7 on this page is an image of the Time Machine menu bar menu on iOS. Figure 8 on this page is an image of the Time Line screen of the Time Machine Backup tool in iOS.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

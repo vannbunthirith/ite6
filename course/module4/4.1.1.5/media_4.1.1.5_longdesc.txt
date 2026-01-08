@@ -1,0 +1,1 @@
+The figure on this page shows an image of a laptop and an image of a temperature and humidity gauge displaying 22.0 degrees Celsius, 71.6 degrees Fahrenheit, and a humidity level of 58%. The figure also lists the following optimal operating conditions: between 10% and 80% humidity and between 45 and 90 degrees F (7.2 to 32.2 degrees C).

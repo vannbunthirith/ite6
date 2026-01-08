@@ -1,0 +1,109 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity – Place the OSI and TCP/IP Model Layers</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each layer name to its location. Some layer names may be used more than once.]]></text>
+</component>
+
+<!-- osi model -->
+<component id="ID_txt0A">
+  <text><![CDATA[<b>OSI Model</b>]]></text> 
+</component>
+<component id="ID_txt0B">
+  <text><![CDATA[<b>TCP/IP Model</b>]]></text> 
+</component>
+	  
+<component id="ID_s1_layer07">
+	<text><![CDATA[<b>7</b>]]></text>
+</component>
+	<component id="ID_s1_layer06">
+	<text><![CDATA[<b>6</b>]]></text>
+</component>
+	<component id="ID_s1_layer05">
+	<text><![CDATA[<b>5</b>]]></text>
+</component>
+	<component id="ID_s1_layer04">
+	<text><![CDATA[<b>4</b>]]></text>
+</component>
+	<component id="ID_s1_layer03">
+	<text><![CDATA[<b>3</b>]]></text>
+</component>
+	<component id="ID_s1_layer02">
+	<text><![CDATA[<b>2</b>]]></text>
+</component>
+	<component id="ID_s1_layer01">
+	<text><![CDATA[<b>1</b>]]></text>
+</component>
+<!-- end osi model -->
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each model layer.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each model layer. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Physical]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Data Link]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Network]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[Transport]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[Session]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[Presentation]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[Application]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[Network Access]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[Internet]]></text>
+</component>
+
+</textcomponents>
+
+

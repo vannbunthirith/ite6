@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_8.3.2.3.A.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<element type="TEXT" textId="ID_table01"  x="278.2" y="241.8" width="132.1" align="center" height="17" bold="1" />
+			<element type="TEXT" compId="ID_common_s1_01" x="115" y="333" width="79.4" expand="down" align="center" />
+			<element type="TEXT" compId="ID_common_s1_02" x="286" y="290" width="106.5" expand="up+down" align="center" />
+			<element type="TEXT" compId="ID_common_s1_03" x="477" y="330" width="69.35" expand="down" align="center" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_8.3.2.3.B.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+			<element type="TEXT" compId="ID_s2_txt03" x="320" y="177" width="105.85" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_common_s2_01" x="115" y="333" width="79.4" expand="down" align="center" />
+			<element type="TEXT" compId="ID_common_s2_02" x="286" y="290" width="106.5" expand="up+down" align="center" />
+			<element type="TEXT" compId="ID_s2_txt01" x="391" y="267" width="90.75" expand="up" align="right" />
+			<element type="TEXT" compId="ID_common_s2_03" x="477" y="330" width="69.35" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s2_txt02" x="132" y="393" width="419.85" expand="down" align="left" class="orangeCallOut" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_8.3.2.3.C.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+			<element type="TEXT" compId="ID_s3_txt02" x="280" y="122" width="184.5" expand="up+down" align="left" />
+			<element type="TEXT" compId="ID_common_s3_01" x="115" y="333" width="79.4" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s3_txt01" x="192" y="268" width="96.25" expand="up" align="left" />
+			<element type="TEXT" compId="ID_common_s3_02" x="286" y="290" width="106.5" expand="up+down" align="center" />
+			<element type="TEXT" compId="ID_common_s3_03" x="477" y="330" width="69.35" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s3_txt04" x="132" y="393" width="419.85" expand="down" align="left" class="orangeCallOut" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_8.3.2.3.D.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+			<element type="TEXT" compId="ID_s4_txt01" x="327" y="165" width="112.25" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_common_s4_01" x="115" y="333" width="79.4" expand="down" align="center" />
+			<element type="TEXT" compId="ID_common_s4_02" x="286" y="290" width="106.5" expand="up+down" align="center" />
+			<element type="TEXT" compId="ID_common_s4_03" x="477" y="330" width="69.35" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s4_txt02" x="132" y="393" width="419.85" expand="down" align="left" class="orangeCallOut" />
+		</slide>
+		<text id="ID_table01"><![CDATA[<a href="http://www.cisco.com" target="_blank">http://www.cisco.com</a>]]></text>
+	</slide>
+</data>

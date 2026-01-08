@@ -1,0 +1,97 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity – Identify the Problem</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[This activity has questions that a technician might ask the customer to help identify the problem. Identify which are open-ended and which are closed-ended by dragging the type to the drop boxes to the left of the questions.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each question type to the techinician question.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each question type to the techinician question. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Check</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Reset</b>]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">Open-ended</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">Closed-ended</font>]]></text>
+</component>
+
+
+<!--Questions-->
+<component id='ID_s1_target_header_01'>
+	<text><![CDATA[<font size="15">Question Type</font>]]></text>
+</component>
+<component id='ID_s1_text_header_01'>
+	<text><![CDATA[<font size="15">Technician Question</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Has anyone else used your computer recently?]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Have you received any error messages on your computer?]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[What problems are you experiencing with your computer or network?]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Can you reproduce the problem?]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[What software has been installed on your computer recently?]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[What were you doing when the problem was identified?]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[Have you changed your password recently?]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[What hardware changes have been made recently to your computer?]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[Are you currently logged into the network?]]></text> 
+</component>
+
+</textcomponents>
+
+

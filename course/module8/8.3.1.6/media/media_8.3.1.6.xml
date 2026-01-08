@@ -1,0 +1,118 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Identify Cloud Terminology</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Match the term to its description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each term to its description.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each term to its description. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_drag_header_01'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Terms</b></font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">ITaaS</font>]]></text>
+</component>
+
+<component id='ID_drag06'>
+	<text><![CDATA[<font color="#393536">Public</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">PaaS</font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">SaaS</font>]]></text>
+</component>
+
+<component id='ID_drag07'>
+	<text><![CDATA[<font color="#393536">Community</font>]]></text>
+</component>
+
+<component id='ID_drag08'>
+	<text><![CDATA[<font color="#393536">Hybrid</font>]]></text>
+</component>
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">Private</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">IaaS</font>]]></text>
+</component>
+
+<!--Questions-->
+<component id='ID_target_header_01'>
+	<text><![CDATA[<b>Term</b>]]></text>
+</component>
+<component id='ID_text_header_01'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[This cloud type is made available to the public by a service provider who hosts the cloud infrastructure.]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[The cloud provider supplies the network equipment, virtualized network services, and the supporting network infrastructure.]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[This cloud type is shared among several organizations.]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[This cloud infrastructure is managed and used by a particular organization.]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[The cloud provider manages and delivers the end-user applications over the Internet.]]></text> 
+</component>
+
+<component id="ID_txt06">
+  <text><![CDATA[This cloud infrastructure is a combination of two or more cloud types: public, private, or community.]]></text> 
+</component>
+
+<component id="ID_txt07">
+  <text><![CDATA[The cloud provider manages the infrastructure, such as the hardware and operating system.]]></text> 
+</component>
+
+<component id="ID_txt08">
+  <text><![CDATA[An operating model for delivering IT support for SaaS, PaaS, and IaaS.]]></text> 
+</component>
+   
+</textcomponents>

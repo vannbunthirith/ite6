@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+<slide type="MBAR">
+
+	<slide>
+		<element type="IMAGE" subType="bg" bgType="IMAGE" />
+		<element type="IMAGE" x="30" y="47" width="620" height="384" subType="STD" src="media_0.0.2.2_s1.jpg" />
+	</slide>
+
+	<slide>
+		<element type="IMAGE" subType="bg" bgType="IMAGE" />
+		<element type="IMAGE" x="30" y="47" width="620" height="322.40" subType="STD" src="media_0.0.2.2_s2.jpg" />
+	</slide>
+</slide>
+
+</data>

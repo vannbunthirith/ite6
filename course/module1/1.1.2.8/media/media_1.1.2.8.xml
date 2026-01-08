@@ -1,0 +1,80 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id='ID_s1_title'>
+<text><![CDATA[<b>Adapter Cards</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Sound Adapter]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[NIC]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[RAID Adapter]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Video Adapter]]></text>
+</component>
+
+<!--Slide 2-->
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#918F90'><tr><td>test</td></tr></table>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Expansion Slots</b>]]></text>
+</component>
+
+<component id='ID_s2_btn01'>
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+
+<component id='ID_s2_header01'>
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+<component id='ID_s2_header02'>
+	<text><![CDATA[<b>Mini-PCI</b>]]></text>
+</component>
+<component id='ID_s2_header03'>
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+<component id='ID_s2_header04'>
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+<component id='ID_s2_btn04'>
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+
+<component id='ID_s2_btn03'>
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+
+<component id='ID_s2_btn02'>
+	<text><![CDATA[<b>Mini-PCI</b>]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[Peripheral Component Interconnect is a 32-bit or 64-bit expansion slot. It is currently found in many computers. It is found on most motherboards.]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[PCI Express uses a serial bus that has has higher throughput and many other improvements over the older expansion slots. PCIe has x1, x4, x8, and x16 slots which vary in length from shortest to longest, respectively. Shown here are the two most common sizes, x1 at the top and x16 at the bottom.]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[PCI eXtended is an updated version of the standard PCI.  It uses a 32-bit bus with higher bandwidth than the PCI bus. PCI-X can operate up to four times faster than PCI.]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[This is smaller version of PCI for laptops. Mini PCI has three different form factors; Type I, Type II, and Type III.]]></text>
+</component>
+
+
+
+</textcomponents>

@@ -1,0 +1,1 @@
+The figure on this page is an image that shows a technician about to install a new LGA CPU. The figure also lists the following requirements for installing a new CPU: the new CPU must fit into the existing CPU socket, the new CPU must be compatible with the motherboard chipset, the new CPU must operate with the existing motherboard and power supply.

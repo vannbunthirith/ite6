@@ -1,0 +1,1 @@
+The figure on this page is an image of a browser displaying the, ‘www.cisco.com’ home page. The browsers Tools menu is expanded that shows the, ‘ActiveX Filtering’ option activated and highlighted.

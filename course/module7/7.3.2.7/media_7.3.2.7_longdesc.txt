@@ -1,0 +1,1 @@
+This task cannot be completed as it requires Packet Tracer, which is inaccessible. The following objectives are listed for your information. Objectives: Develop an understanding of the basic functions of Packet Tracer. Create a simple network with two hosts. Observe the importance of using the correct cable type to connect PCs.

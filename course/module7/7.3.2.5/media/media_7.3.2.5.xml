@@ -1,0 +1,87 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Activity 1 - Cable Pinouts</b>]]></text>
+</component>
+
+<component id="ID_s1_instr_title">
+<text><![CDATA[Instructions]]></text>
+</component>
+<component id="ID_s1_instr_body">
+<text><![CDATA[Correctly align the wire colors to build a TIA/EIA-568A cable pinout.<br/><br/>Drag each wire color to its correct placement on the RJ-45 image in the graphic.]]></text>
+</component>
+
+<component id="ID_s1_fig_title">
+<text><![CDATA[Bottom view of an<br>RJ-45 connector]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[T568A Pinout]]></text> 
+  </component>
+
+<component id="ID_s1_CORRECT_TITLE">
+  <text><![CDATA[<b>Correct</b>]]></text> 
+  </component> 
+<component id="ID_s1_CORRECT_BODY">
+  <text><![CDATA[You have successfully chosen the correct T-568A cable pinout.]]></text>
+  </component>   
+<component id="ID_s1_INCORRECT_TITLE">
+  <text><![CDATA[<b>Incorrect</b>]]></text> 
+  </component> 
+<component id="ID_s1_INCORRECT_BODY">
+  <text><![CDATA[You have not successfully chosen the correct T-568A cable pinout.]]></text> 
+  </component>     
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+  
+  
+  
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Activity 2 - Cable Pinouts</b>]]></text>
+</component>
+
+<component id="ID_s2_instr_title">
+<text><![CDATA[Instructions]]></text>
+</component>
+<component id="ID_s2_instr_body">
+<text><![CDATA[Correctly align the wire colors to build a TIA/EIA-568B cable pinout.<br/><br/>Drag each wire color to its correct placement on the RJ-45 image in the graphic.]]></text>
+</component>
+
+
+
+<component id="ID_s2_fig_title">
+<text><![CDATA[Bottom view of an RJ-45 connector]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+  <text><![CDATA[T568B Pinout]]></text> 
+  </component>
+
+<component id="ID_s2_CORRECT_TITLE">
+  <text><![CDATA[<b>Correct</b>]]></text> 
+  </component> 
+<component id="ID_s2_CORRECT_BODY">
+  <text><![CDATA[You have successfully chosen the correct T-568B cable pinout.]]></text>
+  </component>   
+<component id="ID_s2_INCORRECT_TITLE">
+  <text><![CDATA[<b>Incorrect</b>]]></text> 
+  </component> 
+<component id="ID_s2_INCORRECT_BODY">
+  <text><![CDATA[You have not successfully chosen the correct T-568B cable pinout.]]></text> 
+  </component>     
+
+<component id='ID_s2_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+<component id='ID_s2_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component> 
+  
+</textcomponents>

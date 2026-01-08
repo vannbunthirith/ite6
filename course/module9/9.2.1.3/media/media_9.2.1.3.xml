@@ -1,0 +1,104 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Match ACPI Standards</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Match the term to its description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each ACPI standard to its power management state.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each ACPI standard to its power management state. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_drag_header_01'>
+	<text><![CDATA[<font color="#FFFFFF"><b>ACPI Standard</b></font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">S3</font>]]></text>
+</component>
+
+<component id='ID_drag06'>
+	<text><![CDATA[<font color="#393536">S5</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">S1</font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">S0</font>]]></text>
+</component>
+
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">S4</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">S2</font>]]></text>
+</component>
+
+<!--Questions-->
+<component id='ID_target_header_01'>
+	<text><![CDATA[<b>ACPI Standard</b>]]></text>
+</component>
+<component id='ID_text_header_01'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[The CPU is off, but the RAM is refreshed to maintain the contents.]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[The CPU and RAM are off. The contents of RAM have been saved to a temporary file on the hard disk.]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[The CPU is not executing instructions; however, the CPU and RAM are still receiving power.]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[The CPU is off, and the RAM is set to a slow refresh rate.]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[The computer is off and any content that has not been saved will be lost.]]></text> 
+</component>
+
+<component id="ID_txt06">
+  <text><![CDATA[The computer is on and the CPU is running at full power.]]></text> 
+</component>
+
+   
+</textcomponents>

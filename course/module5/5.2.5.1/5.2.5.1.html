@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.5.1 Directory Structures</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Directory Structures</h1>
+        <div>
+          <p>In Windows, files are organized in a directory structure. A directory structure is designed to store system files, user files, and program files. The root level of the Windows directory structure, the partition, is usually labeled drive C, as shown in the Figure 1. Drive C contains a set of standardized directories, called folders, for the operating system, applications, configuration information, and data files. Directories may contain subdirectories. Subdirectories are commonly called subfolders.</p>
+          <p></p>
+          <p>If Windows cannot recognize the file systems already present in a new disk, the disk must be initialized and formatted before it can be used. While initializing the disk, the information about the location of the files in the disk is removed. Without the location of the disk‘s content, the disk appears blank to the OS. During formatting, the data on the disk is overwritten and the data is no longer accessible. Furthermore, any bad sectors of the disk are remapped and a file system structure for the OS is created during formatting.</p>
+          <p></p>
+          <p>Following the initial installation, install most applications and data in whichever directory you choose. The Windows setup program creates directories that have specific purposes, such as storing photos or music files. When files of the same type are saved to a certain location, it is easier to find them.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: While initializing a disk should destroy all data in a disk, there are companies and organizations specialized in recovering data even from re-initialized disks.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: It is a best practice to store files in folders and subfolders rather than at the root level of a drive.</p>
+          <p></p>
+          <p>
+            <b>Mounting a Volume</b>
+          </p>
+          <p></p>
+          <p>You can map a drive to an empty folder on a volume. This is referred to as a mounted drive. Mounted drives are assigned drive paths instead of letters and are displayed as a drive icon in Windows Explorer. Windows Explorer is a tool that allows users to view all the drives, folders, and files on a computer in an organized manner. Use a mounted drive to configure more than 26 drives on your computer, or when you need additional storage space on a volume.</p>
+          <p></p>
+          <p>To mount a volume in Windows 8.x, follow these steps:</p>
+          <p></p>
+          <p>
+            <b>Step 1.</b> Open <b>Disk Management </b>and right-click anywhere in the free space.</p>
+          <p>
+            <b>Step 2.</b>Select <b>New Simple Volume</b> to start the New Simple Volume Wizard, as shown in Figure 2.</p>
+          <p>
+            <b>Step 3. </b>Specify the size for the new partition.</p>
+          <p>
+            <b>Step 4</b>. Click <b>Next</b>.</p>
+          <p>
+            <b>Step 5</b>. Select <b>Mount in the following empty NTFS folder:</b> and specify the empty folder location.</p>
+          <p>
+            <b>Step 6</b>. Choose whether the volume should be formatted and what file system to use.</p>
+          <p>
+            <b>Step 7</b>. Finalize and Close Disk Management.</p>
+          <p></p>
+          <p>To mount a volume in Windows 7 or Vista, follow these steps:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Select <b>Start > Control Panel > Administrative Tools > Computer Management</b>.</p>
+          <p>
+            <b>Step 2.</b>Click <b>Disk Management</b> in the left pane.</p>
+          <p>
+            <b>Step 3. </b>Right-click the partition or volume to mount.</p>
+          <p>
+            <b>Step 4</b>. Click <b>Change Drive Letter and Paths</b>.</p>
+          <p>
+            <b>Step 5</b>. Click <b>Add</b>.</p>
+          <p>
+            <b>Step 6</b>. Click <b>Mount in the following empty NTFS folder</b>.</p>
+          <p>
+            <b>Step 7.</b> Browse to an empty folder on an NTFS volume or create one, and click <b>OK</b>.</p>
+          <p>
+            <b>Step 8</b>. Close Computer Management.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the This PC window listing folders, devices, and drives.Figure 2 on this page is an image of the New Simple Volume Wizard in Windows 8.x.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Power Options on Windows 8.1</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Power Options on Windows 7</b>]]></text>
+	</component>
+</textcomponents>

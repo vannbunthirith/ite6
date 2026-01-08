@@ -1,0 +1,69 @@
+﻿<textcomponents>
+
+<!--Buttons-->
+<component id='ID_s1_btn01'>
+	<text><![CDATA[Talkative Customer]]></text>
+</component>
+
+<component id='ID_s1_btn02'>
+	<text><![CDATA[Rude Customer]]></text>
+</component>
+
+<component id='ID_s1_btn03'>
+	<text><![CDATA[Angry Customer]]></text>
+</component>
+
+<component id='ID_s1_btn04'>
+	<text><![CDATA[Knowledgeable Customer]]></text>
+</component>
+
+<component id='ID_s1_btn05'>
+	<text><![CDATA[Inexperienced Customer]]></text>
+</component>
+
+<!--Textbox 1-->
+<component id='ID_s1_title_txt01'>
+	<text><![CDATA[<b>Talkative Customer</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>Do: </b><br /><ul><li>Allow the customer to talk for one minute.</li><li>Gather as much information about the problem as possible.</li><li>Politely step in to refocus the customer. This is the exception to the rule of never interrupting a customer.</li><li>Ask as many closed-ended questions as you need to once you have regained control of the call.</li></ul><br /><b>Do not:</b><br />Encourage non-problem related conversation by asking social questions such as "How are you today?".]]></text>
+</component>
+
+<!--Textbox 2-->
+<component id='ID_s1_title_txt02'>
+	<text><![CDATA[<b>Rude Customer</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>Do:</b><br /><ul><li>Listen very carefully, as you do not want to ask the customer to repeat any information.</li><li>Follow a step-by-step approach to determining and solving the problem.</li><li>If the customer has a favorite technician, try to contact that technician to see if they can take the call. As an example, tell the customer, "I can either help you right now or see if (the preferred technician) is available. They will be available in two hours. Will that be acceptable?" If the customer wants to wait for the other technician, record this in the ticket.</li><li>Apologize for the wait time and the inconvenience, even if there has been no wait time.</li><li>Reiterate that you want to solve their problem as quickly as possible.</li></ul><br /><b>Do not:</b><br /><ul><li>Ask the customer to do any obvious steps if there is any way you can determine the problem without them.</li><li>Be rude to the customer, even if they are rude to you.</li></ul>]]></text>
+</component>
+
+<!--Textbox 3-->
+<component id='ID_s1_title_txt03'>
+	<text><![CDATA[<b>Angry Customer</b>]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[<b>Do:</b><br /><ul><li>Let the customer tell their problem without interrupting, even if they are angry. This allows the customer to release some of their anger before you proceed.</li><li>Sympathize with the customer's problem.</li><li>Apologize for wait time or inconvenience.</li></ul><br /><b>Do not:</b><br /><ul><li>If at all possible, try not to put this customer on hold or transfer the call.</li><li>Spend call time talking about what caused the problem (rather, redirect the conversation to solving the problem).</li></ul>]]></text>
+</component>
+
+<!--Textbox 4-->
+<component id='ID_s1_title_txt04'>
+	<text><![CDATA[<b>Knowledgeable Customer</b>]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[<b>Do:</b><br /><ul><li>If you are a level one technician, you might try to set up a conference call with a level two technician.</li><li>Give the customer the overall approach to what you are trying to verify.</li></ul><br /><b>Do not:</b><br /><ul><li>Follow a step-by-step process with this customer.</li><li>Ask to check the obvious, such as the power cord or the power switch. As an example, you could suggest a reboot instead.</li></ul>]]></text>
+</component>
+
+<!--Textbox 5-->
+<component id='ID_s1_title_txt05'>
+	<text><![CDATA[<b>Inexperienced Customer</b>]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[<font><b>Do:</b></font><br /><ul><li>Use a simple step-by-step process of instructions.</li><li>Speak in plain terms.</li></ul><br /><font><b>Do not:</b></font><br /><ul><li>Use industry jargon.</li><li>Be condescending to your customer or belittle them.</li></ul>]]></text>
+</component>
+
+</textcomponents>

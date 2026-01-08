@@ -1,0 +1,146 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Storage Drives</b>]]></text>
+	</component>
+    
+	<component id="ID_s1_txt01">
+        <text><![CDATA[Hard Disk Drive]]></text>
+	</component>
+    
+	<component id="ID_s1_txt02">
+        <text><![CDATA[Optical Drive]]></text>
+	</component>
+    
+	<component id="ID_s1_txt03">
+        <text><![CDATA[Solid State Drive]]></text>
+	</component>
+    
+	<component id="ID_s1_txt04">
+        <text><![CDATA[External Flash Drive]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Types of Optical Media</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="70" valign="top"><font color='#FFFFFF' ><b>Optical Media</b></font></td>
+			<td bgcolor='#666263' width="380" valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Storage Capacity</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>CD-ROM</td>
+			<td bgcolor='#E9E7E8'>CD read-only memory media that is pre-recorded</td>
+			<td bgcolor='#E9E7E8' rowspan="3">700 MB</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>CD-R</td>
+			<td bgcolor='#F2F2F2'>CD recordable media that can be recorded one time</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>CD-RW</td>
+			<td bgcolor='#E9E7E8'>CD rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>DVD-ROM</td>
+			<td bgcolor='#F2F2F2'>DVD read-only memory media that is pre-recorded</td>
+			<td bgcolor='#F2F2F2' rowspan="4">4.7 GB (Single-Layer) 8.5 GB (Dual-Layer)</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DVD-RAM</td>
+			<td bgcolor='#E9E7E8'>DVD rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>DVD+/-R</td>
+			<td bgcolor='#F2F2F2'>DVD recordable media that can be recorded one time</td>
+		</tr>	
+		<tr>
+			<td bgcolor='#E9E7E8'>DVD+/-RW</td>
+			<td bgcolor='#E9E7E8'>DVD rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>BD-ROM</td>
+			<td bgcolor='#F2F2F2'>Blu-ray read-only media that is pre-recorded with movies, games, or software</td>
+			<td bgcolor='#E9E7E8' rowspan="3">25 GB (Single-Layer) 50 GB (Dual-Layer)</td>
+		</tr>
+        <tr>
+			<td bgcolor='#E9E7E8'>BD-R</td>
+			<td bgcolor='#E9E7E8'>Blu-ray recordable media that can be recorded one time</td>
+		</tr>
+        <tr>
+			<td bgcolor='#F2F2F2'>BD-RE</td>
+			<td bgcolor='#F2F2F2'>Blu-ray rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>	
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_table_html"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+       <caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="3">Types of Optical Media</font></caption>
+
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Media" bgcolor='#666263' width="70" valign="top"><font color='#FFFFFF' ><b>Optical Media</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263' width="380" valign="top"><font color='#FFFFFF' ><b>Description</b></font></th>
+			<th scope="col" id="Storage" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Storage Capacity</b></font></th>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#E9E7E8'>CD-ROM</td>
+			<td headers="Description" bgcolor='#E9E7E8'>CD read-only memory media that is pre-recorded</td>
+			<td headers="Storage" bgcolor='#E9E7E8' rowspan="3">700 MB</td>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#F2F2F2'>CD-R</td>
+			<td headers="Description" bgcolor='#F2F2F2'>CD recordable media that can be recorded one time</td>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#E9E7E8'>CD-RW</td>
+			<td headers="Description" bgcolor='#E9E7E8'>CD rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#F2F2F2'>DVD-ROM</td>
+			<td headers="Description" bgcolor='#F2F2F2'>DVD read-only memory media that is pre-recorded</td>
+			<td headers="Storage" bgcolor='#F2F2F2' rowspan="4">4.7 GB (Single-Layer) 8.5 GB (Dual-Layer)</td>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#E9E7E8'>DVD-RAM</td>
+			<td headers="" bgcolor='#E9E7E8'>DVD rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#F2F2F2'>DVD+/-R</td>
+			<td headers="Description" bgcolor='#F2F2F2'>DVD recordable media that can be recorded one time</td>
+		</tr>	
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#E9E7E8'>DVD+/-RW</td>
+			<td headers="Description" bgcolor='#E9E7E8'>DVD rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>
+		<tr>
+			<td headers="Media" scope="row" bgcolor='#F2F2F2'>BD-ROM</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Blu-ray read-only media that is pre-recorded with movies, games, or software</td>
+			<td headers="Storage" bgcolor='#E9E7E8' rowspan="3">25 GB (Single-Layer) 50 GB (Dual-Layer)</td>
+		</tr>
+        <tr>
+			<td headers="Media" scope="row" bgcolor='#E9E7E8'>BD-R</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Blu-ray recordable media that can be recorded one time</td>
+		</tr>
+        <tr>
+			<td headers="Media" scope="row" bgcolor='#F2F2F2'>BD-RE</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Blu-ray rewritable media that can be recorded, erased, and re-recorded</td>
+		</tr>	
+	</table>]]></text> 
+</component>
+</textcomponents>

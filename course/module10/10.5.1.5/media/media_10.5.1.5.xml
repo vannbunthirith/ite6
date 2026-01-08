@@ -1,0 +1,43 @@
+﻿<textcomponents>
+
+<!-- slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Verify Full System Functionality</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+          <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 5. Verify Full System Functionality and, if Applicable, Implement Preventive Measures</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td scope="row" bgcolor='#E9E7E8' width='185'>Verify solution and full system functionality for mobile device operating systems.</td>
+ 			<td bgcolor='#E9E7E8'>
+				<ul><li>Reboot the mobile device.</li>
+				<li>Browse the Internet using Wi-Fi.</li>
+				<li>Browse the Internet using 4G, 3G, or another carrier network type.</li>
+				<li>Make a phone call.</li><li>Send a text message.</li>
+				<li>Open different types of apps.</li></ul>
+			</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Verify solution and full system functionality for Linux and OS X.</td>
+  			<td bgcolor='#F2F2F2'>
+				<ul><li>Reboot the computer.</li>
+				<li>Browse the Internet using Wi-Fi.</li>
+				<li>Browse the Internet using a wired connection.</li>
+				<li>Send a test email.</li>
+				<li>Open different programs.</li></ul>
+			</td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

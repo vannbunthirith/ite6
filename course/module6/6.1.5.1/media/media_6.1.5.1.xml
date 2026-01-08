@@ -1,0 +1,264 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Common Windows CLI Commands</b>]]></text>
+</component>
+<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="160" valign="top"><font color='#FFFFFF' ><b>Command</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Command Function</b></font></td>
+		</tr>
+
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Help [command-name]</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Provides specific information for any CLI command. Alternatively, you can use [command-name] /?.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Taskkill</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Stops a running application.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Bootrec</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Repairs the MBR.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Shutdown</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Shuts down a local or remote machine.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Tasklist</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Displays currently running applications.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>MD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Creates a new directory.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>RD</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Removes a directory.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>CD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Changes to a different directory.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DEL</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Deletes a file.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>FORMAT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Formats a drive, mount point, or volume with a file system.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>COPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copies files from one location to another.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>XCOPY</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Copies files, directories, or entire drives from one location to another.</li>
+          <li>Copies a directory and its contents from one location to another unless the directory is empty.</li>
+          <li>Copies only files with the archive attribute set.    </li>
+          <li>Copies and verifies that each new file is the same as the source file.</li>
+           <li>Copies without prompting to overwrite existing files.</li></ul>
+          </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>ROBOCOPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copies a file.</font></td>
+        </tr>
+
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SFC</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Checks and replaces all of the protected system files with known good versions if they have become corrupted or been deleted.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>CHKDSK</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Creates a report about the disk.</li><li> Fixes any file allocation table entries.</li>
+          <li>Attempts to recover data from bad sectors of the drive.</li></ul></font></td>
+        </tr>
+		
+		
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RUNAS</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Allows a user to run specific tools and programs with different permissions than the user's current logon provides.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>GPUPDATE</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Refreshes Group Policy settings, including security settings.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>GPRESULT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Displays Group Policy settings and Resultant Set of Policy (RSOP) for a user or a computer.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DIR</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Displays a list of a directory's files and subdirectories.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>EXIT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Quits the command prompt.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>EXPAND</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Uncompresses one or more files from .CAB cabinet files.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RSTRUI</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Starts the System Restore utility.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>BOOTREC</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Fixes boot sector problems that prevents Windows from starting. This tool is only available in the Recovery Environment. Refer to BOOTREC help for more information.</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>DEFRAG</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Optimizes files on disks to improve system performance.</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DISKPART</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Creates, deletes, and resizes hard drive partitions. DISKPART can also assign or reassign drive letters. Care should be exercised when working with DISKPART.</font></td>
+        </tr>
+    </table>
+]]>
+</text>
+</component>
+
+<component id='ID_table01_html'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+        <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Common Windows CLI Commands</font></caption>
+
+        <tr class="mtable_top">
+      <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+    </tr>
+
+    <tr>
+      <th scope="col" id="Command" bgcolor='#666263' width="160" valign="top"><font color='#FFFFFF' ><b>Command</b></font></th>
+      <th scope="col" id="Function" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Command Function</b></font></th>
+    </tr>
+
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Help [command-name]</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Provides specific information for any CLI command. Alternatively, you can use [command-name] /?.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Taskkill</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Stops a running application.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Bootrec</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Repairs the MBR.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Shutdown</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Shuts down a local or remote machine.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Tasklist</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Displays currently running applications.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>MD</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Creates a new directory.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>RD</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Removes a directory.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>CD</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Changes to a different directory.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>DEL</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Deletes a file.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>FORMAT</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Formats a drive, mount point, or volume with a file system.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>COPY</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copies files from one location to another.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>XCOPY</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Copies files, directories, or entire drives from one location to another.</li>
+          <li>Copies a directory and its contents from one location to another unless the directory is empty.</li>
+          <li>Copies only files with the archive attribute set.    </li>
+          <li>Copies and verifies that each new file is the same as the source file.</li>
+           <li>Copies without prompting to overwrite existing files.</li></ul>
+          </font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>ROBOCOPY</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copies a file.</font></td>
+        </tr>
+
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>SFC</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Checks and replaces all of the protected system files with known good versions if they have become corrupted or been deleted.</font></td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>CHKDSK</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Creates a report about the disk.</li><li> Fixes any file allocation table entries.</li>
+          <li>Attempts to recover data from bad sectors of the drive.</li></ul></font></td>
+        </tr>
+    
+    
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>RUNAS</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Allows a user to run specific tools and programs with different permissions than the user's current logon provides.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>GPUPDATE</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Refreshes Group Policy settings, including security settings.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>GPRESULT</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Displays Group Policy settings and Resultant Set of Policy (RSOP) for a user or a computer.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>DIR</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Displays a list of a directory's files and subdirectories.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>EXIT</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Quits the command prompt.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>EXPAND</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Uncompresses one or more files from .CAB cabinet files.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>RSTRUI</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Starts the System Restore utility.</font></td>
+        </tr>
+     <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>BOOTREC</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Fixes boot sector problems that prevents Windows from starting. This tool is only available in the Recovery Environment. Refer to BOOTREC help for more information.</font></td>
+        </tr>
+    <tr>
+          <td scope="row" headers="Command" bgcolor='#F2F2F2' valign="top"><font color='#393536'>DEFRAG</font></td>
+          <td headers="Function" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Optimizes files on disks to improve system performance.</font></td>
+        </tr>
+    <tr>
+          <td scope="row" headers="Command" bgcolor='#E9E7E8' valign="top"><font color='#393536'>DISKPART</font></td>
+          <td headers="Function" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Creates, deletes, and resizes hard drive partitions. DISKPART can also assign or reassign drive letters. Care should be exercised when working with DISKPART.</font></td>
+        </tr>
+    </table>
+]]>
+</text>
+</component>
+
+</textcomponents>

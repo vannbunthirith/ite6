@@ -1,0 +1,23 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#mc_table{
+	height: 330px !important;
+}
+
+#txt_q1,#txt_q2,#txt_q3, #txt_q4{
+	top: 10px !important;
+} 
+
+#txt_q5,#txt_q6{
+	top: 17px !important;
+} 
+
+#txt_q7,#txt_q8, #txt_q9, #txt_q10, #txt_q11{
+	top: 10px !important;
+}
+#txt_q12{
+	top: 16px !important;
+}
+

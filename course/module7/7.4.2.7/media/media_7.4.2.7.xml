@@ -1,0 +1,141 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<font size="17"><b>TCP vs. UDP</b></font>]]></text>
+</component>
+
+
+<component id="MCTable_title">
+	<text><![CDATA[Characteristic]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Match the protocol to its characteristic.]]></text>
+</component>
+
+
+<!-- buttons -->
+<component id="ID_s1_CHECK">
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id="ID_s1_RESET">
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Number of rows in the table-->
+<component id="txt_numrows">
+	<text><![CDATA[9]]></text>
+</component>
+
+<!--Number of columns for the answers in the table. Do not count the question column-->
+<component id="txt_numcols">
+	<text><![CDATA[2]]></text>
+</component>
+
+<!--Answer column headers-->
+<component id="txt_col1">
+	<text><![CDATA[<b>TCP</b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>UDP</b>]]></text>
+</component>
+
+<!--Question text - blockindent code moves the text away from the left edge a bit-->
+<!--Question text - If questions are numbered, use blockindent for hanging indents-->
+
+<component id="txt_q1">
+	<text><![CDATA[Does not require acknowledgements]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[Delivers data as it arrives]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[Reliable]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[Fast]]></text>
+</component>
+
+<component id="txt_q5">
+	<text><![CDATA[Resends lost data]]></text>
+</component>
+
+<component id="txt_q6">
+	<text><![CDATA[Delivers data in sequenced order]]></text>
+</component>
+
+<component id="txt_q7">
+	<text><![CDATA[Low overhead]]></text>
+</component>
+<component id="txt_q8">
+	<text><![CDATA[Does not resend lost data]]></text>
+</component>
+
+<component id="txt_q9">
+	<text><![CDATA[Acknowledges data]]></text>
+</component>
+
+<!--Answers - Give the column number(s), column numbering start with 1 not 0-->
+<!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+<component id="txt_a1">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a5">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a6">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a7">
+	<text><![CDATA[2]]></text>
+</component>
+<component id="txt_a8">
+	<text><![CDATA[2]]></text>
+</component>
+<component id="txt_a9">
+	<text><![CDATA[1]]></text>
+</component>
+
+<!-- Correct Feedback -->
+<component id="ID_titleCorrect">
+	<text><![CDATA[<font size="17">Correct</font>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[You have successfully identified the required protocol properties. ]]></text>
+</component>
+
+<!-- Incorrect Feedback -->
+<component id="ID_titleIncorrect">
+	<text><![CDATA[<font size="17">Incorrect</font>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[You have not successfully identified the required protocol properties. Please click Reset to try again.]]></text>
+</component>
+
+
+</textcomponents>

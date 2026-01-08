@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.6 Basic Wireless Settings</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Basic Wireless Settings</h1>
+        <div>
+          <p>After establishing the connection to a router, it is good practice to configure some basic settings to help secure the wireless network: </p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Network Mode</b> – Some wireless routers allow you to select which 802.11 standard to implement. Figure 1 shows that “Wireless-N Only” has been selected. This means that all wireless devices connecting the wireless router must have 802.11n NICs installed. Figure 2 describes the other network modes available in Packet Tracer. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Network Name (SSID)</b> – Assign a name or Service Set Identifier (SSID) to the wireless network. The wireless router announces its presence by sending broadcasts advertising its SSID. This allows wireless hosts to automatically discover the name of the wireless network. If the SSID broadcast is disabled, you must manually enter the SSID on wireless devices. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Channel</b> - Wireless devices communicate over specific frequency ranges. Interference can be caused by other nearby wireless routers, or home electronic devices, such as cordless phones and baby monitors, using the same frequency range. These devices can slow down the wireless performance and potentially break network connections. Setting the channel number is a way to avoid wireless interference. The 802.11b and 802.11g standards commonly use channels 1, 6, and 11 to avoid interference.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Wireless Security</b> - Most wireless routers support several different security modes. Currently, the strongest security mode is WPA2 with AES encryption, as shown in Figure 3. All the security modes that are available in Packet Tracer are described in the table in Figure 4.</p>
+          <p></p>
+          <p>Additional security, such as parental controls or content filtering are services that may be available in a wireless router. Internet access times can be limited to certain hours or days, specific IP addresses can be blocked, and key words can be blocked. The location and depth of these features varies depending on the manufacturer and model of the router.</p>
+          <p></p>
+          <p>Like Ethernet, wireless devices need an IP address. This IP address can be assigned through DHCP or they can be assigned statically. The wireless router can be configured to offer addresses through DHCP, or each device can be assigned an unique address. Often, you must enter the MAC address of the device to assign an IP address to a host manually.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Wireless-N Broadband router utility that shows the Wireless tab. Figure 2 on this page is a table that lists the following descriptions of the available network modes. Network Mode: Mixed, Description: Default mode, select if you have 802.11n (2.4 GHz), 802.11g, and 802.11b devices. Network Mode: Wireless-B/G Only, Description: Select if you have both 802.11b and 802.11g (2.4GHz) devices. Network Mode: Wireless-B only, Description: Select if you have only 802.11b devices. Network Mode: Wireless-G Only, Description: Select if you have only 802.11g devices. Network Mode: Wireless-N, Description: Select if you have only 802.11n devices. Network Mode: Disabled, Description: Select to disable the wireless radio. Figure 3 on this page is an image of the Wireless-N Broadband router utility that shows the Wireless tab displaying the wireless security settings. Figure 4 on this page is a table that lists the following descriptions of the available security modes. Security Mode: Wired Equivalent Privacy (WEP), Description: Encrypts the broadcast data between the wireless access point and the client using a 64-bit or 128-bit encryption key. Security Mode: Temporal Key Integrity Protocol (TKIP), Description: This WEP patch automatically negotiates a new key every few minutes, TKIP helps to prevent attackers from gaining enough data to break the encryption key. Security Mode: Advanced Encryption Standard (AES), Description: A more secure encryption system than TKIP, AES also requires more computing power to run the stronger encryption. Security Mode: Wi-Fi Protected Access (WPA), Description: An improved version of WEP created as a temporary solution until 802.11i became ratified, now that 802.11i has been ratified, WAP2 has been released. It covers the entire 802.11i standard, WPA uses much stronger encryption than WEP encryption. Security Mode: Wi-Fi Protected Access 2 (WPA2), Description: An improved version of WAP that supports robust encryption, which provides government-grade security, WPA2 can be enabled with password authentication (personal) or server authentication (enterprise).</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

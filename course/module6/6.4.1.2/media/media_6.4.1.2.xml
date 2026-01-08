@@ -1,0 +1,63 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 2: Establish a Theory of Probable Cause</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Common Causes of Operating System Problems</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul>
+			<li>Incorrect settings in BIOS</li>
+			<li>Caps lock key is set to on</li>
+			<li>Non-bootable media during computer boot up</li>
+			<li>Password has changed</li>
+			<li>Incorrect monitor settings in control panel</li>
+			<li>Operating system update failure</li>
+			<li>Driver update failure</li>
+			<li>Malware infection</li>
+			<li>Hard drive failure</li>
+			<li>Corrupt operating system files</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+<component id="ID_s1_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 2: Establish a Theory of Probable Cause</b></font></caption>
+
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Common Causes of Operating System Problems</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul>
+			<li>Incorrect settings in BIOS</li>
+			<li>Caps lock key is set to on</li>
+			<li>Non-bootable media during computer boot up</li>
+			<li>Password has changed</li>
+			<li>Incorrect monitor settings in control panel</li>
+			<li>Operating system update failure</li>
+			<li>Driver update failure</li>
+			<li>Malware infection</li>
+			<li>Hard drive failure</li>
+			<li>Corrupt operating system files</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+</textcomponents>

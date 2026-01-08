@@ -1,0 +1,52 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			
+
+
+         <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Troubleshooting Steps</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td scope="row" bgcolor='#E9E7E8'  width="120">Step 1</td>
+                <td bgcolor='#E9E7E8'>Identify the problem.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" bgcolor='#F2F2F2'>Step 2</td>
+                <td bgcolor='#F2F2F2'>Establish a theory of probable cause.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" bgcolor='#E9E7E8'>Step 3</td>
+                <td bgcolor='#E9E7E8'>Test your theories to determine the cause of the problem.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" bgcolor='#F2F2F2'>Step 4</td>
+                <td bgcolor='#F2F2F2'>Establish a plan of action to resolve the problem and implement the solution.</td>
+            </tr>
+			
+            <tr>
+                <td scope="row" bgcolor='#E9E7E8'>Step 5</td>
+                <td bgcolor='#E9E7E8'>Verify full functionality and, if applicable, implement preventive measures.</td>
+            </tr>
+
+            <tr>
+                <td scope="row" bgcolor='#F2F2F2'>Step 6</td>
+                <td bgcolor='#F2F2F2'>Document your findings, actions, and outcomes.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

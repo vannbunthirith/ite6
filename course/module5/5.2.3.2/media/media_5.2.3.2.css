@@ -1,0 +1,13 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#htmlMedia {
+	width: 600px;
+	height: 400px;
+}
+#dnd_1_drag_2_0>div,#dnd_1_drag_0_0>div,#dnd_1_drag_1_0>div,#dnd_1_drag_3_0>div,#dnd_1_drag_4_0>div,#dnd_1_drag_5_0>div,#dnd_1_drag_6_0>div,#dnd_1_drag_7_0>div,#dnd_1_drag_8_0>div,#dnd_1_drag_9_0>div{
+	margin-left:3px!important;
+}
+#dnd_1_drag_1_0 div{
+	line-height:12px !important;
+}

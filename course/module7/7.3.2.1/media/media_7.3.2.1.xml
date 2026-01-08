@@ -1,0 +1,57 @@
+﻿<textcomponents>
+
+<!-- slide 1 -->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Network Cables</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Twisted-pair Cable]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Coaxial Cable]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Fiber-optic Cable]]></text> 
+	</component>
+<!-- end slide 1 -->
+
+
+
+<!-- slide 2 -->
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Outer Jacket]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Braided Copper Shielding]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Plastic Insulation]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Copper Conductor]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[<b>Coaxial Connectors</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[BNC]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[N type]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+		<text><![CDATA[F type]]></text>
+	</component>
+<!-- end slide 2 -->
+
+</textcomponents>

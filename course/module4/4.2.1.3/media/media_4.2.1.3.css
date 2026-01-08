@@ -1,0 +1,10 @@
+
+@import url('../../../common/styles/media2.css');
+#htmlMedia {
+	width: 600px;
+	height: 400px;
+}
+
+#ID_s1_text_header{
+	left:-178px !important;
+}

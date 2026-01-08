@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" src="bg1.jpg" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_12.1.1.5_s1.png" />
+            <element type="TEXT" x="270.05" y="88.25" width="80.6" align="center" expand="up+down" compId="ID_s1_txt01" size="12" />
+            <element type="TEXT" x="389.8" y="157.6" width="94.6" align="center" expand="up+down" compId="ID_s1_txt02" size="12" />
+            <element type="TEXT" x="420.95" y="291.25" width="94.6" align="center" expand="up+down" compId="ID_s1_txt03" size="12" />
+            <element type="TEXT" x="330.1" y="405.45" width="94.6" align="center" expand="up+down" compId="ID_s1_txt04" size="12" />
+            <element type="TEXT" x="198.05" y="405.45" width="94.6" align="center" expand="up+down" compId="ID_s1_txt05" size="12" />
+            <element type="TEXT" x="124.2" y="291.25" width="94.6" align="center" expand="up+down" compId="ID_s1_txt06" size="12" />
+            <element type="TEXT" x="143.65" y="157.6" width="94.6" align="center" expand="up+down" compId="ID_s1_txt07" size="12" />
+            <element type="TEXT" x="265.25" y="251.95" width="96.1" align="center" expand="up+down" compId="ID_s1_txt08" color="#FFFFFF" size="12" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg2.jpg" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" />
+            <element type="ACTIVITY" subType="ANIMATION" movieClipId="anim02" totalFrames="410"/>
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg2.jpg" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" />
+            <element type="ACTIVITY" subType="ANIMATION" movieClipId="anim03" totalFrames="430"/>
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg2.jpg" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_12.1.1.5_s4.png" />
+            <element type="TEXT" x="13.05" y="93.45" width="134" align="right" expand="up+down" compId="ID_s4_txt01" color="#164F6A" />
+            <element type="TEXT" x="7" y="354" width="148" align="right" expand="up+down" compId="ID_s4_txt02" color="#164F6A" />
+            <element type="TEXT" x="470" y="129" width="190" align="left" expand="up+down" compId="ID_s4_txt04" color="#164F6A" />
+            <element type="TEXT" x="417" y="169" width="58" align="center" expand="down" compId="ID_s4_txt07" color="#000000" />
+            <element type="TEXT" x="470" y="235" width="190" align="left" expand="up+down" compId="ID_s4_txt05" color="#164F6A" />
+            <element type="TEXT" x="417" y="274" width="58" align="center" expand="down" compId="ID_s4_txt08" color="#000000" />
+            <element type="TEXT" x="470" y="391" width="190" align="left" expand="up+down" compId="ID_s4_txt06" color="#164F6A" />
+            <element type="TEXT" x="417" y="431" width="58" align="center" expand="down" compId="ID_s4_txt03" color="#000000" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg2.jpg" x="0" y="0" width="680" height="490" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_12.1.1.5_s5.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s5_title" />
+            <element type="TEXT" x="28.15" y="421.35" width="98" align="center" expand="down" compId="ID_s5_txt01" />
+            <element type="TEXT" x="506" y="421.35" width="98" align="center" expand="down" compId="ID_s5_txt02" />
+        </slide>
+    </slide>
+</data>

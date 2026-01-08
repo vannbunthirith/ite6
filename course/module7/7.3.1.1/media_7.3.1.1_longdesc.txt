@@ -1,0 +1,1 @@
+The figure on this page is a diagram showing the following three different types of modems. Analog modem, transmits data over an analog phone line. DSL Modem transmits data over a digital phone line. Cable Modem transmits data over a cable HFC network.

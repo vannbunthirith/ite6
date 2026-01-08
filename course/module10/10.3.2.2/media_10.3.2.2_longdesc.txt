@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Android Bluetooth screen that shows a Bluetooth pairing request. Figure 2 on this page is an image of the iOS Bluetooth screen that shows the Bluetooth toggle. Figure 3 on this page is an image of the iOS Bluetooth screen that shows a Bluetooth Pairing Request.

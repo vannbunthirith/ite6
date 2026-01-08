@@ -1,0 +1,40 @@
+<textcomponents>
+
+<component id='ID_title'>
+  <text><![CDATA[<b>PostScript and PCL Comparison</b>]]></text>
+</component>
+
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='0'>
+
+    <caption  class="mtable_title" colspan="2 bgcolor='#FFFFFF'>
+                <font size="16">PostScript and PCL Comparison</font>
+            </caption>
+
+  <tr>
+    <td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+  </tr>
+  <tr>
+    <th scope="col" id="PostScript" bgcolor='#666263' valign="top"><font color='#ffffff'><b>PostScript</b></font></th>
+    <th scope="col" id="PCL" bgcolor='#666263' valign="top"><font color='#ffffff'><b>PCL</b></font></th>
+  </tr>
+  <tr>
+    <td scope="row" headers="PostScript" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Page is rendered by the printer</font></td>
+    <td headers="PCL" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Page is rendered on local workstation</font></td>
+  </tr>
+    <tr>
+    <td scope="row" headers="PostScript" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Better quality output</font></td>
+    <td headers="PCL" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Faster prints jobs</font></td>
+  </tr>
+  <tr>
+    <td scope="row" headers="PostScript" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Handles more complex print jobs</font></td>
+    <td headers="PCL" bgcolor='#E9E7E8' valign="top"><font color='#393536'>Requires less printer memory</font></td>
+  </tr>
+    <tr>
+    <td scope="row" headers="PostScript" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Output is identical on different printers</font></td>
+    <td headers="PCL" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Output varies slightly on different printers</font></td>
+  </tr> 
+</table>]]></text>
+</component>
+
+</textcomponents>

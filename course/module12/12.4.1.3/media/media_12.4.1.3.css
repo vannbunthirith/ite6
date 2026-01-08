@@ -1,0 +1,16 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.mtable td ul li{
+	letter-spacing: -0.5px !important;
+	margin-left: 20px !important;
+}
+
+
+@media only screen and (device-width: 768px) {
+.mtable td ul li{
+	letter-spacing: -0.5px !important;
+	margin-left: 20px !important;
+   }
+}

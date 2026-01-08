@@ -1,0 +1,91 @@
+﻿<textcomponents>
+<component id="ID_title">
+  <text><![CDATA[<b>RAM Types</b>]]></text>
+  </component>
+  
+ <component id="ID_title01">
+  <text><![CDATA[DRAM]]></text>
+  </component>
+<component id="ID_title02">
+  <text><![CDATA[SRAM]]></text> 
+  </component>
+<component id="ID_title03">
+  <text><![CDATA[DDR4]]></text> 
+  </component>
+<!--<component id="ID_title04">
+  <text><![CDATA[EDO Memory]]></text>
+  </component>-->
+<component id="ID_title04">
+  <text><![CDATA[SDRAM]]></text> 
+  </component>
+<component id="ID_title05">
+  <text><![CDATA[DDR]]></text> 
+  </component>  
+<component id="ID_title06">
+  <text><![CDATA[DDR2]]></text>
+  </component>
+<component id="ID_title07">
+  <text><![CDATA[DDR3]]></text> 
+  </component>
+<!--<component id="ID_title09">
+  <text><![CDATA[RDRAM]]></text> 
+  </component>   -->
+  
+ <component id="ID_btn01">
+  <text><![CDATA[DRAM]]></text>
+  </component>
+<component id="ID_btn02">
+  <text><![CDATA[SRAM]]></text> 
+  </component>
+<component id="ID_btn03">
+  <text><![CDATA[SDRAM]]></text> 
+  </component>
+<!--<component id="ID_btn04">
+  <text><![CDATA[EDO Memory]]></text>
+  </component>-->
+<component id="ID_btn04">
+  <text><![CDATA[DDR]]></text> 
+  </component>
+<component id="ID_btn05">
+  <text><![CDATA[DDR2]]></text> 
+  </component>  
+<component id="ID_btn06">
+  <text><![CDATA[DDR3]]></text>
+  </component>
+<component id="ID_btn07">
+  <text><![CDATA[DDR4]]></text> 
+  </component>
+<!--<component id="ID_btn09">
+  <text><![CDATA[RDRAM]]></text> 
+  </component>-->
+  
+<component id="ID_txt01">
+  <text><![CDATA[Dynamic RAM is a memory chip that is used as main memory. DRAM must be constantly refreshed with pulses of electricity in order to maintain the data stored within the chip.]]></text>
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Static RAM is a memory chip that is used as cache memory. SRAM is much faster than DRAM and does not have to be refreshed as often. SRAM is much more expensive than DRAM.]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Double Data Rate 4 SDRAM quadruples DDR3 maximum storage capacity, requires 40% less power due to it using a lower voltage and has advanced error correction features.]]></text> 
+  </component>
+<!--<component id="ID_txt04">
+  <text><![CDATA[Extended Data Out RAM is memory that overlaps consecutive data accesses. This speeds up the access time to retrieve data from memory, because the CPU does not have to wait for one data access cycle to end before another data access cycle begins.]]></text>
+  </component>-->
+<component id="ID_txt04">
+  <text><![CDATA[Synchronous DRAM is DRAM that operates in synchronization with the memory bus. The memory bus is the data path between the CPU and the main memory. Control signals are used to coordinate the exchange of data between SDRAM and the CPU.]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[Double Data Rate SDRAM is memory that transfers data twice as fast as SDRAM. DDR SDRAM increases performance by transferring data twice per clock cycle.]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[Double Data Rate 2 SDRAM is faster than DDR-SDRAM memory. DDR2 SDRAM improves performance over DDR SDRAM by decreasing noise and crosstalk between the signal wires.]]></text>
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[Double Data Rate 3 SDRAM expands memory bandwidth by doubling the clock rate of DDR2 SDRAM. DDR3 SDRAM consumes less power and generates less heat than DDR2 SDRAM.]]></text> 
+  </component>
+<!--<component id="ID_txt09">
+  <text><![CDATA[RAMBus DRAM is a memory chip that was developed to communicate at very high rates of speed. RDRAM chips are not commonly used.]]></text> 
+  </component>  -->
+  
+  
+</textcomponents>

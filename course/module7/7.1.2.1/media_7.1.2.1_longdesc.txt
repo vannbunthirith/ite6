@@ -1,0 +1,1 @@
+The figure on this page is a topology of a local area network (LAN). The topology shows three desktop computers, a router, a server, and an IP phone. All the devices are connected to a central switch.

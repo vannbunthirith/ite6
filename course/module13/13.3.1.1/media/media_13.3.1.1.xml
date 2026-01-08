@@ -1,0 +1,137 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+
+
+  <component id="ID_s2_btn01">
+<text><![CDATA[Log and Track Incidents]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[Record Contact Information]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[Research Product Information]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[Run Diagnostic Utilities]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[Research a Knowledge Base]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[Collect Customer Feedback]]></text>
+</component>
+
+
+
+  <component id='ID_s2_titleTxt01'>
+    <text><![CDATA[Log and Track Incidents]]></text>
+  </component>
+   <component id='ID_s2_titleTxt02'>
+    <text><![CDATA[Record Contact Information]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt03'>
+    <text><![CDATA[Research Product Information]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt04'>
+    <text><![CDATA[Run Diagnostic Utilities]]></text>
+   </component>
+
+    <component id='ID_s2_titleTxt05'>
+    <text><![CDATA[Research a Knowledge Base]]></text>
+  </component>
+
+   <component id='ID_s2_titleTxt06'>
+    <text><![CDATA[Collect Customer Feedback]]></text>
+  </component>
+
+
+  
+
+
+
+  <component id="ID_s2_bodyTxt01">
+<text><![CDATA[The software may manage call queues, set call priorities, assign calls, and escalate calls.]]></text>
+</component>
+<component id="ID_s2_bodyTxt02">
+<text><![CDATA[The software may store, edit, and recall customer names, email addresses, phone numbers, location, websites, fax numbers, and other information in a database.]]></text>
+</component>
+<component id="ID_s2_bodyTxt03">
+<text><![CDATA[The software may provide technicians with information regarding the products supported, including features, limitations, new versions, configuration constraints, known bugs, product availability, links to online help files, and other information.]]></text>
+</component>
+<component id="ID_s2_bodyTxt04">
+<text><![CDATA[The software may have several diagnostic utilities, including remote diagnostic software, in which the technician can take over a customer's computer while sitting at a desk in the call center.]]></text>
+</component>
+<component id="ID_s2_bodyTxt05">
+<text><![CDATA[The software may contain a knowledge database that is pre-programmed with common problems and their solutions. This database may grow as technicians add their own records of problems and solutions.]]></text>
+</component>
+<component id="ID_s2_bodyTxt06">
+<text><![CDATA[The software may collect customer feedback regarding satisfaction with the call center's products and services.]]></text>
+</component>
+
+    
+<component id="ID_s3_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+
+            
+         <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+               <font size="16"><b>Call Prioritization</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+           <tr>
+              <th scope="col" id="Name" bgcolor='#666263' width="125"><font color='#ffffff'><b>Name</b></font></th>
+              <th scope="col" id="Definition" bgcolor='#666263'><font color='#ffffff'><b>Definition</b></font></th>
+              <th scope="col" id="Priority" bgcolor='#666263' width="175"><font color='#ffffff'><b>Priority</b></font></th>
+
+            </tr>
+            <tr>
+              <td scope="row" headers="Name" bgcolor='#E9E7E8'><font color='#393536'>Down</font></td>
+              <td headers="Definition" bgcolor='#E9E7E8'><font color='#393536'>The company cannot operate any of its computer equipment.</font></td>
+              <td headers="Priority" bgcolor='#E9E7E8'><font color='#393536'>1 (Most Urgent)</font></td>
+            </tr>
+            <tr>
+              <td scope="row" headers="Name" bgcolor='#F2F2F2'><font color='#393536'>Hardware</font></td>
+              <td headers="Definition" bgcolor='#F2F2F2'><font color='#393536'>One (or more) of the company’s computers is not functioning correctly.</font></td>
+              <td headers="Priority" bgcolor='#F2F2F2'><font color='#393536'>2 (Urgent)</font></td>
+            </tr>
+            <tr>
+              <td scope="row" headers="Name" bgcolor='#E9E7E8'><font color='#393536'>Software</font></td>
+              <td headers="Definition" bgcolor='#E9E7E8'><font color='#393536'>One (or more) of the company’s computers is experiencing software or operating system errors.</font></td>
+              <td headers="Priority" bgcolor='#E9E7E8'><font color='#393536'>2 (Urgent)</font></td>
+            </tr>
+            <tr>
+              <td scope="row" headers="Name" bgcolor='#F2F2F2'><font color='#393536'>Network</font></td>
+              <td headers="Definition" bgcolor='#F2F2F2'><font color='#393536'>One (or more) of the company’s computers cannot access the network.</font></td>
+              <td headers="Priority" bgcolor='#F2F2F2'><font color='#393536'>2 (Urgent)</font></td>
+            </tr>
+            <tr>
+              <td scope="row" headers="Name" bgcolor='#E9E7E8'><font color='#393536'>Enhancement</font></td>
+              <td headers="Definition" bgcolor='#E9E7E8'><font color='#393536'>There has been a request from the company for additional computer functionality.</font></td>
+              <td headers="Priority" bgcolor='#E9E7E8'><font color='#393536'>3 (Important)</font></td>
+            </tr>
+               
+           
+        </table>]]></text>
+    </component>	
+	
+	
+	
+</textcomponents>

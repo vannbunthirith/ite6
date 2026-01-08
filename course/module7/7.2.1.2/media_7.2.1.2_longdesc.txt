@@ -1,0 +1,1 @@
+The figure on this page lists the following main functions of a protocol: identifying and handling errors, compressing the data, determining how data is to be divided and packaged, addressing data packets, determining how to announce the sending and receiving of data packets.

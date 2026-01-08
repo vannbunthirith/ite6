@@ -1,0 +1,351 @@
+﻿<textcomponents>
+
+<component id="ID_test">
+<text><![CDATA[Caption text]]></text>
+</component>
+
+
+<!-- slide 1 -->
+<component id="ID_s01_title">
+<text><![CDATA[<b>Top View of a Laptop</b>]]></text>
+</component>
+
+
+<!--Textbox -->
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[Bluetooth Status LED]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[The Bluetooth status LED indicates when the Bluetooth wireless transceiver is enabled. Bluetooth is a wireless industry standard that enables portable devices to communicate over short distances.]]></text>
+</component>
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[Battery Status LED]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[The battery status LED indicates the status of the battery. A laptop computer can use a battery or an AC power adapter to operate. The type of battery and how the laptop is used affects how long a battery charge will last.]]></text>
+</component>
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[Standby LED]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[The Standby LED indicates whether the laptop is in standby or not. Standby mode reduces the amount of electricity used by the laptop by shutting off the monitor, hard drive, and CPU. A small amount of electricity is used to keep the RAM active and to make the data available. A laptop computer may enter standby mode when it has not been used for a predefined amount of time.]]></text>
+</component>
+<!-- end slide 1 -->
+
+
+
+
+<!-- slide 2 -->
+<component id="ID_s02_title">
+<text><![CDATA[<b>Rear View of a Laptop</b>]]></text>
+</component>
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Battery Bay]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[The battery bay is a connector that is used to attach a laptop battery.]]></text>
+</component>
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[AC Power Connector]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[The AC power connector is a connector that is used to attach the AC power adapter to the laptop and to charge the battery.]]></text>
+</component>
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[Parallel Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[The parallel port is a socket that is used to connect a device such as a printer or scanner.]]></text>
+</component>
+
+<!-- end slide 2 -->
+
+
+
+
+
+<!-- slide 3 -->
+
+<component id="ID_s03_title">
+<text><![CDATA[<b>Laptop Battery Comparison</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				
+	
+
+	<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+               <font size="16">Laptop Battery Comparison</font>
+            </caption>
+
+	<tr class="mtable_top">
+		<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>				
+	
+	<tr>
+		<th scope="col" id="Battery" bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>Type of Battery</b></font></th>
+		<th scope="col" id="Characteristics" bgcolor='#666263'class="msubtitle"><font color='#FFFFFF'><b>Characteristics</b></font></th>
+		<th scope="col" id="Common" bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>Common Use</b></font></th>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Battery" bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>Nickel-cadmium "Ni-Cad" (NiCd)</font></td>
+		<td headers="Characteristics"  bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Heavy for the power it holds, long life (many charging cycles), may exhibit memory effect</font></td>
+		<td headers="Common" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Toys, cordless phones, emergency lighting, power tools, camera flash</font></td>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Battery" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Nickel-metal-hydride (NiMH)</font></td>
+		<td  headers="Characteristics" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Moderate weight for power, moderate lifespan, may experience "polarity reversal" at end of cycle, shut down or recharge at once. May need several charge/discharge cycles to reach full capability</font></td>
+		<td headers="Common" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Cell phones, digital cameras, GPS units, flashlights, and other consumer electronics</font></td>
+		
+	</tr>	
+	<tr>
+		<td scope="row" headers="Battery" bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>Lithium-ion (Li-Ion)</font></td>
+		<td headers="Characteristics"  bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Light weight for power, no memory effect, can easily overheat, keep cool, charge often, seek freshest batteries (most recently manufactured)</font></td>
+		<td headers="Common" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Cell phones, laptops</font></td>
+	
+	</tr>
+	<tr>
+		<td scope="row" headers="Battery" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Lithium-polymer<br/>(Li-Poly or LiPo)</font></td>
+		<td headers="Characteristics"  bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Costly, small, lightweight for power, moderate capacity, fast recharge, moderate life span, do not short circuit, is not flammable</font></td>
+		<td headers="Common" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>PDAs, laptop computers, portable MP3 players, portable gaming devices, radio controlled airplanes</font></td>
+		
+	</tr></table>]]></text>
+</component>
+<!-- end slide 3 -->
+
+
+
+
+
+
+<!-- slide 4 -->
+<component id="ID_s04_title">
+<text><![CDATA[<b>Left Side View of a Laptop</b>]]></text>
+</component>
+
+<component id='ID_s04_titleTxt01'>
+	<text><![CDATA[Security Keyhole]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt01">
+<text><![CDATA[The security keyhole is a hard point in the laptop frame that is used to attach a security cable.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt02'>
+	<text><![CDATA[Universal Serial Bus (USB)]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt02">
+<text><![CDATA[The Universal Serial Bus (USB) port is a socket that is used to connect one or more peripherals.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt03'>
+	<text><![CDATA[S-video Port]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt03">
+<text><![CDATA[The S-video port is a four-pin mini-DIN connector that is used to output video signals to a compatible device. S-video separates the brightness and color portions of a video signal.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt04'>
+	<text><![CDATA[RJ-11 Modem Port]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt04">
+<text><![CDATA[The RJ-11 modem port is a device that is used to connect the laptop to a standard telephone line. The modem can be used to connect the computer to the Internet, to fax documents, and to answer incoming calls.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt05'>
+	<text><![CDATA[Ethernet Port]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt05">
+<text><![CDATA[The Ethernet port is an RJ-45 socket that is used to connect the laptop to a cabled local area network.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt06'>
+	<text><![CDATA[Network LEDs]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt06">
+<text><![CDATA[The two network LEDs are lights that indicate the status of the network connection. The green link light indicates network connectivity. The other LED light indicates the traffic to and from the laptop.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt07'>
+	<text><![CDATA[Headphone Jack]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt07">
+<text><![CDATA[The headphone jack is a socket that is used to output audio signals to connected stereo headphones or speakers.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt08'>
+	<text><![CDATA[Microphone Jack]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt08">
+<text><![CDATA[The microphone jack is a socket that is used to connect a microphone used for audio input.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt09'>
+	<text><![CDATA[Ventilation Grill]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt09">
+<text><![CDATA[The ventilation grill is a series of vents that allow hot air to be expelled from the interior of the laptop.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt10'>
+	<text><![CDATA[PC Combination Card Slot]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt10">
+<text><![CDATA[The PC combination card slot is an expansion slot that supports the ExpressCard expansion cards in the top slot and PC Cards in the bottom slot.]]></text>
+</component>
+<!-- end slide 4 -->
+
+
+
+
+<!-- slide 5 -->
+<component id="ID_s05_title">
+<text><![CDATA[<b>Front View of a Laptop</b>]]></text>
+</component>
+
+
+<component id='ID_s05_titleTxt01'>
+	<text><![CDATA[Infrared Port]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt01">
+<text><![CDATA[The infrared port is a line-of-sight wireless transceiver that is used for data transmission.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt02'>
+	<text><![CDATA[Speakers]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt02">
+<text><![CDATA[Speakers are an output device that convert audio signals produced within the laptop to sound.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt03'>
+	<text><![CDATA[Laptop Latch]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt03">
+<text><![CDATA[The laptop latch is a lever that is used to open the laptop lid.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt04'>
+	<text><![CDATA[Ventilation Grill]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt04">
+<text><![CDATA[The ventilation grill is a series of vents that allow hot air to be expelled from the interior of the laptop.]]></text>
+</component>
+<!-- end slide 5 -->
+
+
+
+
+<!-- slide 6 -->
+<component id="ID_s06_title">
+<text><![CDATA[<b>Right Side View of a Laptop</b>]]></text>
+</component>
+
+<component id='ID_s06_titleTxt01'>
+	<text><![CDATA[Optical Drive]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt01">
+<text><![CDATA[The optical drive is a disk drive that is used to read and write to optical media.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt02'>
+	<text><![CDATA[Optical Drive Activity Indicator]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt02">
+<text><![CDATA[The optical drive activity indicator is an LED that illuminates when the drive is in use.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt03'>
+	<text><![CDATA[Drive Bay Status Indicator]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt03">
+<text><![CDATA[The drive bay status indicator is an LED that is illuminated when a drive is installed in the laptop bay.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt04'>
+	<text><![CDATA[VGA Port]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt04">
+<text><![CDATA[The VGA port is a 15-pin socket that connects to external displays and projectors.]]></text>
+</component>
+
+<!-- end slide 6 -->
+
+
+
+<!-- slide 7 -->
+<component id="ID_s07_title">
+<text><![CDATA[<b>Bottom View of a Laptop</b>]]></text>
+</component>
+
+
+<component id='ID_s07_titleTxt01'>
+	<text><![CDATA[Hard Drive Access Panel]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt01">
+<text><![CDATA[The hard drive access panel is a cover that provides access to the internal hard drive bay.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt02'>
+	<text><![CDATA[Battery Latches]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt02">
+<text><![CDATA[The two battery latches are levers that are used when inserting, removing, or securing the laptop battery.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt03'>
+	<text><![CDATA[Docking Connector]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt03">
+<text><![CDATA[The docking connector is a socket that is used to attach a laptop to a docking station.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt04'>
+	<text><![CDATA[RAM Access Panel]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt04">
+<text><![CDATA[The RAM access panel is a cover that provides access to the expansion memory.]]></text>
+</component>
+
+<!-- end slide 7 -->
+
+<component id="ID_inst">
+  <text><![CDATA[Click the highlighted area for important content. Click the highlighted area again to close.]]></text> 
+</component>  
+
+</textcomponents>

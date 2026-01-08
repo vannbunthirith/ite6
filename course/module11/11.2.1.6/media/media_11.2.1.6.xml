@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Lab]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Install a Printer in Windows 7 and Vista]]></text>
+	</component>
+	
+</textcomponents>

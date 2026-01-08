@@ -1,0 +1,173 @@
+﻿<textcomponents>
+
+<!-- slide 1 -->
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Escalated Work Order</b>]]></text>
+	</component>
+	
+	<!-- grey text -->
+	<component id="ID_s1_txt01">
+	<text><![CDATA[Cisco Systems, Inc.]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+	<text><![CDATA[Office Manager]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+	<text><![CDATA[170 West Tasman Drive, San Jose, CA 95134]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt04">
+	<text><![CDATA[408-526-4000]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+	<text><![CDATA[HW]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt06">
+	<text><![CDATA[Open]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt07">
+	<text><![CDATA[Laptop]]></text>
+	</component>
+	
+	<component id="ID_s1_txt08">
+	<text><![CDATA[Y]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt09">
+	<text><![CDATA[Laptop]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt10">
+	<text><![CDATA[Won't Boot]]></text>
+	</component>
+	
+	<component id="ID_s1_txt11">
+	<text><![CDATA[Cisco001]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt12">
+	<text><![CDATA[Wireless network connection]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt13">
+	<text><![CDATA[Medium]]></text>
+	</component>
+	
+	<component id="ID_s1_txt14">
+	<text><![CDATA[Mobile]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt15">
+	<text><![CDATA[Windows 7]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt16">
+	<text><![CDATA[<font color='#000000'>Problem Description</font><br><textformat blockindent='15'><span class="indentText">User complains that the laptop won't boot up.</span><br><span class="indentText">No software was added recently. No operating system changes have been made.</span><br><span class="indentText">No peripherals have been added.</span></textformat><br><br><font color='#000000'>Problem Solution</font><br/><textformat blockindent='15'><span class="indentText">The level one technician was unable to resolve the problem within 10 minutes.</span><br/><span class="indentText">The work order is being escalated to a level two technician.</span></textformat>]]></text>
+	</component>
+
+	<!-- end grey text -->
+
+	<!-- black text -->
+	<component id="ID_s1_txt18">
+	<text><![CDATA[Work Order]]></text>
+	</component>
+	
+	<component id="ID_s1_txt19">
+	<text><![CDATA[<font color='#FFFFFF' size='11'><b>Generating a New Ticket</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt20">
+	<text><![CDATA[Company Name:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt21">
+	<text><![CDATA[Contact:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt22">
+	<text><![CDATA[Company Address:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt23">
+	<text><![CDATA[Company Phone:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt24">
+	<text><![CDATA[Category]]></text>
+	</component>
+	
+	<component id="ID_s1_txt25">
+	<text><![CDATA[Type]]></text>
+	</component>
+	
+	<component id="ID_s1_txt26">
+	<text><![CDATA[Item]]></text>
+	</component>
+	
+	<component id="ID_s1_txt27">
+	<text><![CDATA[Closure Code]]></text>
+	</component>
+	
+	<component id="ID_s1_txt28">
+	<text><![CDATA[Escalated?]]></text>
+	</component>
+	
+	<component id="ID_s1_txt29">
+	<text><![CDATA[Status]]></text>
+	</component>
+	
+	<component id="ID_s1_txt30">
+	<text><![CDATA[Pending]]></text>
+	</component>
+	
+	<component id="ID_s1_txt31">
+	<text><![CDATA[Pending Until Date]]></text>
+	</component>
+	
+	<component id="ID_s1_txt32">
+	<text><![CDATA[Business Impacting:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt33">
+	<text><![CDATA[Yes]]></text>
+	</component>
+	
+	<component id="ID_s1_txt34">
+	<text><![CDATA[No]]></text>
+	</component>
+	
+	<component id="ID_s1_txt35">
+	<text><![CDATA[Summary]]></text>
+	</component>
+	
+	<component id="ID_s1_txt36">
+	<text><![CDATA[Case ID]]></text>
+	</component>
+	
+	<component id="ID_s1_txt37">
+	<text><![CDATA[Priority]]></text>
+	</component>
+	
+	<component id="ID_s1_txt38">
+	<text><![CDATA[User Platform]]></text>
+	</component>
+	
+	<component id="ID_s1_txt39">
+	<text><![CDATA[Connection Type]]></text>
+	</component>
+	
+	<component id="ID_s1_txt40">
+	<text><![CDATA[Environment]]></text>
+	</component>
+	
+	<!-- end black text -->
+
+<!-- end slide 1 -->
+
+</textcomponents>

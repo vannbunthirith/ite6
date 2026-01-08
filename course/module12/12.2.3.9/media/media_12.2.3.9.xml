@@ -1,0 +1,96 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Identify Data Protection Terminology</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Match each data protection term to its description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each data protection term with its definition.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each data protection term with its definition. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_drag_header_01'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Data Protection Term</b></font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">Software Firewall</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">Degaussing</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">Trusted Platform Module</font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">Security Key Fob</font>]]></text>
+</component>
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">Principle of Least Privilege</font>]]></text>
+</component>
+
+
+<!--Questions-->
+<component id='ID_target_header_01'>
+	<text><![CDATA[<b>Data Protection Term</b>]]></text>
+</component>
+<component id='ID_text_header_01'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[Uses powerful magnets to eliminate the magnetic field on a hard drive]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Must be enabled in BIOS before using BitLocker]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[Users are limited to only the resources they need on the computer or network]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[A small device used for two-factor authentication]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[A program that runs on a computer to allow or deny traffic between the computer and other computers to which it is connected]]></text> 
+</component>
+
+   
+</textcomponents>

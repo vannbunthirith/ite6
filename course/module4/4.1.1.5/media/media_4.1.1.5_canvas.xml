@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_4.1.1.5.png" />
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" size="11" width="600" height="75" x="40" y="391.25" />
+   </slide>
+
+</data>

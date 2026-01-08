@@ -1,0 +1,17 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Reasons for Installing a New Drive</b>]]></text>
+	</component>
+	
+	<!-- Textbox -->
+	<component id='ID_titleTxt'>
+		<text><![CDATA[<b>Reasons for New Drive</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<ul><li>Increase storage space</li><li>Increase hard drive speed</li><li>Install a second operating system</li><li>Store the system swap file</li><li>Provide fault tolerance</li><li>Back up the original hard drive</li></ul>]]></text>
+	</component>
+	<!-- End Textbox -->
+
+</textcomponents>

@@ -1,0 +1,1 @@
+The figure on this page is a diagram that shows a large circle labelled as, ‘Browser Security’. Around the large circle and overlapping the large circle are four smaller circles. The smaller circles are labelled as, ‘ActiveX Filtering’, ‘Pop-up Blocker’, ‘SmartScreen Filter’, and ‘InPrivate Browsing’.

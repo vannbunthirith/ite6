@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+    	<slide>	
+            <element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490"  />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_12.1.1.8.png" />
+            <element type="TEXT" x="141.85" y="323.55" width="104" align="center" expand="down" compId="ID_s1_txt01" size="12"/>
+            <element type="BUBBLE" compId="ID_s1_bubble01" x="79.5" y="110.3" width="245.05" height="103.55" align="left" tailPosition="6" tailFlip="1" size="12" />
+            <element type="TEXT" x="425.45" y="323.55" width="104" align="center" expand="down" compId="ID_s1_txt02" size="12"/>
+            <element type="BUBBLE" compId="ID_s1_bubble02" x="396.8" y="136.5" width="169.95" height="80" align="left" tailPosition="6" tailFlip="1" size="12"/>
+    	</slide> 
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff"/>
+            <element type="TEXT" subType="TABLE" compId="ID_s2_table01" x="40" y="75" width="600" height="400" size="11" />
+        </slide>  
+    </slide> 
+</data>

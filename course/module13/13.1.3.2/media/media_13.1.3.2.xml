@@ -1,0 +1,27 @@
+
+
+
+<textcomponents>
+
+	<component id="ID_title">
+	    <text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+	<text><![CDATA[Service Level Agreement]]></text>
+	</component>
+
+	<component id="ID_txt02">
+	<text><![CDATA[<b>4.2.4  SERVICE MONITORING</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+	<text><![CDATA[<b>4.2.5  CONTINGENCY</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+	<text><![CDATA[<b>4.2.6  MAINTENANCE WINDOWS</b>]]></text>
+	</component>
+	<component id="ID_txt05">
+	<text><![CDATA[<b>Response Time Guarantee</b>]]></text>
+	</component>
+
+</textcomponents>

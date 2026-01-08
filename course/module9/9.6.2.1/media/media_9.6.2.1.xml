@@ -1,0 +1,283 @@
+﻿<textcomponents>
+
+<!--slide 1-->
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+        
+        <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Common Problems and Solutions for Laptops</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify" bgcolor='#666263'><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Laptop does not power on</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>Laptop is not plugged in</li><li>Battery is not charged</li><li>Battery will not hold a charge</li></ul></td>
+		<td  scope="Possible" bgcolor='#E9E7E8'><ul><li>Plug the laptop into AC power</li><li>Remove and reinstall the battery</li><li>Replace battery if it will not charge</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Laptop battery supports the system for a reduced period of time</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>Proper battery charging and discharging practices have not been followed</li><li>Extra peripherals are draining the battery</li><li>Power plan isn&#39;t configured correctly</li><li>Battery is not holding a charge for very long</li></ul></td>		
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Follow the battery charging procedures described in your manual</li><li>Remove unneeded peripherals and disable wireless NIC if possible</li><li>Modify power plan to decrease battery usage</li><li>Replace battery</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>External display has power but no image on the screen</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>Video cable is loose or damaged</li><li>The laptop is not sending a video signal to the external display </li></ul></td>
+		<td scope="Possible"  bgcolor='#E9E7E8'><ul><li>Reconnect or replace video cable</li><li>Use the Fn key along with the multi-purpose key to toggle to the external display </li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Laptop is powered on, but nothing is displayed on the display when the laptop lid is reopened</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The screen cutoff switch is dirty or damaged</li><li>The laptop has gone into sleep mode </li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Check the laptop repair manual for instructions about cleaning or replacing the LCD cutoff switch</li><li>Press a key on the keyboard to bring the computer out of sleep mode </li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The image on a laptop screen looks dull and pale</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The LCD backlight is not properly adjusted</li></ul></td>
+		<td scope="Possible"  bgcolor='#E9E7E8'><ul><li>Check the laptop repair manual for instructions about calibrating the LCD backlight</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The image on a laptop display is pixilated</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>Display properties are incorrect</li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Set the display to native resolution</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The laptop display is flickering</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>Images on the screen are not refreshing fast enough</li>
+<li>The inverter is damaged or malfunctioning </li></ul></td>
+		<td scope="Possible"  bgcolor='#E9E7E8'><ul><li>Adjust the screen refresh rate</li><li>Disassemble the display and replace the inverter </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>A user is experiencing a ghost cursor that moves on its own</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The track pad is dirty</li>
+<li>A track pad and mouse are being used at the same time</li><li>A finger or hand has touched the track pad while typing </li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Clean the track pad</li><li>Disconnect the mouse</li><li>Try not to touch the track pad while typing </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Pixels on the screen are dead, or not generating color</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>Power to the pixels has been cut off</li></ul></td>
+		<td scope="Possible"  bgcolor='#E9E7E8'><ul><li>Contact the manufacturer</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The image on the screen appears to flash lines or patterns of different color and size (artifacts)</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The display is not properly connected</li><li>The GPU is overheating</li><li>The GPU is faulty or malfunctioning </li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Disassemble the laptop to check the display connections</li><li>Disassemble and clean the computer, checking for dust and debris</li><li>Replace the GPU </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Color patterns on a screen are incorrect</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The display is not properly connected</li><li>The GPU is overheating</li><li>The GPU is faulty or malfunctioning </li></ul></td>
+		<td scope="Possible"  bgcolor='#E9E7E8'><ul><li>Disassemble the laptop to check the display connections</li><li>Disassemble and clean the computer, checking for dust and debris</li><li>Replace the GPU </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Images on a display are distorted</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>Display settings have been changed</li><li>The display is not properly connected</li><li>The GPU is overheating</li><li>The GPU is faulty or malfunctioning </li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Restore display settings to the original factory settings</li><li>Disassemble the computer to a point where you can check display connections</li><li>Disassemble and clean the computer, checking for dust and debris</li><li>Replace the GPU </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The network is fully functional and the wireless connection is enabled, but the laptop cannot connect to the network</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>Wi-Fi is turned off</li><li>Out of wireless range </li></ul></td>
+		<td  scope="Possible" bgcolor='#E9E7E8'><ul><li>Turn Wi-Fi on using the wireless NIC properties or the Fn key along with the appropriate multi-purpose key</li><li>Move closer to the wireless access point </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Input devices connected with Bluetooth are not functioning properly</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>Bluetooth is turned off</li><li>Batteries in the input device are dead</li><li>The input device is out of range </li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'><ul><li>Turn Bluetooth on by using the Bluetooth settings applet or the Fn key along with the appropriate multi-purpose key</li><li>Replace the batteries</li><li>Move the input device closer to the laptop&#39;s Bluetooth receiver</li><li>Verify that Bluetooth is turned on </li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Keyboard is inserting numbers instead of letters</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>Num lock is enabled</li></ul></td>
+		<td scope="Possible"  bgcolor='#E9E7E8'><ul><li>Turn Num Lock off using the Num Lock key or an Fn key along with the appropriate multi-purpose key</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The battery is swollen</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The battery has been overcharged</li><li>An incompatible charger has been used</li><li>The battery is defective</li></ul></td>
+		<td scope="Possible"  bgcolor='#F2F2F2'>Replace the battery with a new one from the manufacturer</td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<!--end slide 1-->
+
+
+<!--slide 2-->
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+          <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Common Problems and Solutions for Mobile Devices</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify2" bgcolor='#666263'><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable2" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible2" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The mobile device will not connect to the Internet.</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>Wi-Fi is not available.</li><li>There is no carrier data network in range.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Move to within the boundaries of a Wi-Fi network.</li>
+<li>Move to within the boundaries of a carrier data network.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>The mobile device will not turn on.</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>The battery is drained.</li><li>The power button is broken.</li><li>The device has failed.</li></ul></td>		
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Charge the mobile device or replace the battery with a charged battery.</li><li>Contact customer support to determine the next course of action.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>A tablet fails to charge or charges very slowly when connected to AC power.</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>The tablet is in use when charging.</li><li>The AC adapter does not have enough amperage.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Turn off the tablet when charging.</li><li>Use the AC adapter that came with the tablet.</li><li>Use an AC adapter that has the correct amount of amperage.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>A smartphone cannot connect to the carrier's network.</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'>The SIM card is not installed.</td>
+		<td headers="Possible2" bgcolor='#F2F2F2'>Install the SIM card.</td>
+	</tr>	
+
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>Mobile device does not power on</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>Battery is not charged.</li>
+<li>Battery will not hold a charge.</li><li>Power button is broken.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Plug the device into AC power to charge the battery.</li>
+<li>Replace the battery with a known good one.</li><li>Contact customer support to determine the next course of action.</li>
+<li>Use an AC adapter with the correct amperage rating.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>Mobile device battery supports the system for a reduced period of time.</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>Device settings are incorrectly configured.</li><li>Battery is not holding a charge.</li></ul></td>		
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Modify power plan to decrease battery usage.</li><li>Replace the battery.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>Mobile device will not connect to the Internet</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>Wi-Fi is not available.</li><li>Wi-Fi is turned off.</li><li>Wi-Fi settings are incorrect.</li><li>This is no carrier data network in range.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Turn on Wi-Fi.</li><li>Turn off airplane mode.</li>
+<li>Configure correct Wi-Fi settings.</li><li>Move to within the boundaries of a Wi-Fi network.</li><li>Move to within the boundaries of a carrier data network.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>Mobile device will not connect with Bluetooth</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>Bluetooth is turned off.</li><li>The devices are not paired.</li><li>Device is not in range.</li></ul></td>		
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Turn on Bluetooth.</li><li>Pair the device.</li><li>Bring the device into range.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The battery is swollen</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>The battery has been overcharged</li><li>An incompatible charger has been used</li><li>The battery is defective</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'>Replace the battery with a new one from the manufacturer</td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>The touchscreen is not responsive</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>The touchscreen is dirty</li><li>The touchscreen has shorted out due to damage or water</li><li>The touchscreen has failed</li></ul></td>		
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Clean the touchscreen</li><li>Replace the touchscreen</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The device exhibits very short battery life</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>The battery has been cycled so many times that it does not hold a high charge</li><li>The battery is defective</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'>Replace the battery</td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>The device is overheating</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>A power-intensive app is running while the device is charging</li><li>Many radios are on while the device is charging</li><li>The battery is defective</li></ul></td>		
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Close any unnecessary apps or remove the device from the charger</li><li>Turn off any unnecessary radios or remove the device from the charger</li><li>Replace the battery</li></ul></td>
+	</tr>
+	
+	
+</table>]]></text>
+</component>
+
+<!--end slide 2-->
+
+
+<!--slide 3-->
+<component id="ID_s3_title">
+<text><![CDATA[<b>Common Mobile Devices Problems and Solutions</b>]]></text>
+</component>
+    
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<!--<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Mobile Devices</b></font></td>
+		</tr>-->
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Mobile device does not power on</td>
+		<td bgcolor='#E9E7E8'><ul><li>Battery is not charged.</li>
+<li>Battery will not hold a charge.</li><li>Power button is broken.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Plug the device into AC power to charge the battery.</li>
+<li>Replace the battery with a known good one.</li><li>Contact customer support to determine the next course of action.</li>
+<li>Use an AC adapter with the correct amperage rating.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Mobile device battery supports the system for a reduced period of time.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Device settings are incorrectly configured.</li><li>Battery is not holding a charge.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Modify power plan to decrease battery usage.</li><li>Replace the battery.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Mobile device will not connect to the Internet</td>
+		<td bgcolor='#E9E7E8'><ul><li>Wi-Fi is not available.</li><li>Wi-Fi is turned off.</li><li>Wi-Fi settings are incorrect.</li><li>This is no carrier data network in range.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Turn on Wi-Fi.</li><li>Turn off airplane mode.</li>
+<li>Configure correct Wi-Fi settings.</li><li>Move to within the boundaries of a Wi-Fi network.</li><li>Move to within the boundaries of a carrier data network.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Mobile device will not connect with Bluetooth</td>
+		<td bgcolor='#F2F2F2'><ul><li>Bluetooth is turned off.</li><li>The devices are not paired.</li><li>Device is not in range.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Turn on Bluetooth.</li><li>Pair the device.</li><li>Bring the device into range.</li></ul></td>
+	</tr>	
+	
+</table>]]></text>
+</component>
+
+<!--end slide 3-->
+
+</textcomponents>

@@ -1,0 +1,158 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>POST</b>]]></text>
+</component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>Common Beep Codes</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+		<text><![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>			
+				<tr>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Beep Code</b></font></td>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Meaning</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='12' color='#ffffff'><b>Cause</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>1 Beep (No Video)</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Memory Refresh Failure</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad memory</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>2 Beeps</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Memory parity error</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad memory</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>3 Beeps</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Base 64 mem failure</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad memory</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>4 Beeps</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Timer not operational</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad motherboard</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>5 Beeps</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processor error</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad processor</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>6 Beeps</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8042 Gate A20 failure</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad CPU or Motherboard</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>7 Beeps</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processor exception</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad processor</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8 Beeps</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Video memory error</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad video card or memory</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>9 Beeps</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>ROM checksum error</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad BIOS</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10 Beeps</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>CMOS checksum error</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad motherboard</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>11 Beeps</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Cache memory bad</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad CPU or motherboard</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+
+	<component id='ID_s2_table_html'>
+		<text><![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16">Common Beep Codes</font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>			
+				<tr>
+					<th scope="col" id="Beep" bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Beep Code</b></font></th>
+					<th scope="col" id="Meaning" bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Meaning</b></font></th>
+					<th scope="col" id="Cause" bgcolor='#666263' valign="top"><font size='12' color='#ffffff'><b>Cause</b></font></th>
+				</tr>
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>1 Beep (No Video)</font></td>
+					<td headers="Meaning" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Memory Refresh Failure</font></td>
+					<td headers="Cause" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad memory</font></td>
+				</tr>
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>2 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Memory parity error</font></td>
+					<td headers="Cause" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad memory</font></td>
+				</tr>				
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>3 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Base 64 mem failure</font></td>
+					<td headers="Cause" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad memory</font></td>
+				</tr>							
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>4 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Timer not operational</font></td>
+					<td headers="Cause" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad motherboard</font></td>
+				</tr>							
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>5 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processor error</font></td>
+					<td headers="Cause" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad processor</font></td>
+				</tr>		
+				<tr> 
+					<td scope="row" headers="Beep" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>6 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8042 Gate A20 failure</font></td>
+					<td headers="Cause" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad CPU or Motherboard</font></td>
+				</tr>		
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>7 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processor exception</font></td>
+					<td headers="Cause" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad processor</font></td>
+				</tr>		
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Video memory error</font></td>
+					<td headers="Cause" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad video card or memory</font></td>
+				</tr>		
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>9 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>ROM checksum error</font></td>
+					<td headers="Cause" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad BIOS</font></td>
+				</tr>		
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>CMOS checksum error</font></td>
+					<td headers="Cause" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Bad motherboard</font></td>
+				</tr>		
+				<tr>
+					<td scope="row" headers="Beep" bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>11 Beeps</font></td>
+					<td headers="Meaning" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Cache memory bad</font></td>
+					<td headers="Cause" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Bad CPU or motherboard</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+
+</textcomponents>

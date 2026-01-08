@@ -1,0 +1,5 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Show Known File Types</b>]]></text>
+	</component>
+</textcomponents>

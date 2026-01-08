@@ -1,0 +1,20 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+	  <text><![CDATA[<b>Printer Connection Types</b>]]></text> 
+	</component>
+	<component id="ID_s1_txt01">
+	  <text><![CDATA[<b>Serial</b>]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+	  <text><![CDATA[<b>Parallel</b>]]></text> 
+	</component>
+	<component id="ID_s1_txt03">
+	  <text><![CDATA[<b>USB</b>]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+	  <text><![CDATA[<b>Firewire</b>]]></text> 
+	</component>
+	<component id="ID_s1_txt05">
+	  <text><![CDATA[<b>Ethernet</b>]]></text> 
+	</component>
+</textcomponents>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="IMAGE" x="40" y="50" width="599.95" height="400.3" subType="STD" src="media_1.1.2.10.A.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+            <element type="IMAGE" x="40" y="50" width="600" height="400" subType="STD" src="media_1.1.2.10.B.jpg" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="IMAGE" x="25" y="114" width="629.95" height="261.95" subType="STD" src="media_1.1.2.10.C.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#ffffff" />
+            <element type="TEXT" compId="ID_s3_txt01" x="123" y="385" width="100.5" expand="down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s3_txt02" x="251" y="385" width="100.5" expand="down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s3_txt03" x="386" y="385" width="100.5" expand="down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s3_txt04" x="523" y="385" width="100.5" expand="down" align="center" color="#ffffff" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_1.1.2.10.a.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" />
+            <element type="TEXT" compId="ID_s4_txt01" x="415" y="91" width="217.75" expand="up+down" align="left" />
+            <element type="TEXT" compId="ID_s4_txt02" x="415" y="160" width="217.75" expand="up+down" align="left" />
+            <element type="TEXT" compId="ID_s4_txt03" x="415" y="274" width="217.75" expand="up+down" align="left" />
+            <element type="TEXT" compId="ID_s4_txt04" x="415" y="342" width="217.75" expand="up+down" align="left" />
+            <element type="TEXT" compId="ID_s4_txt05" x="415" y="398" width="217.75" expand="up+down" align="left" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#ffffff" />
+            <element type="TEXT" subType="TABLE" compId="ID_s5_table_html" x="40" y="60" width="600" height="385" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_1.1.2.10.b.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s6_title" />
+            <element type="TEXT" compId="ID_s6_txt08" x="29" y="335" width="170.8" expand="down" align="center" rotation="269.9" />
+            <element type="TEXT" id="ID_static_11" text="1" x="64.5" y="394.1" align="center" width="3.8" />
+            <element type="TEXT" id="ID_static_2" text="2" x="64.5" y="356.95" align="center" width="6.25" />
+            <element type="TEXT" id="ID_static_3" text="3" x="64.5" y="322.2" align="center" width="6.5" />
+            <element type="TEXT" id="ID_static_4" text="4" x="64.5" y="283.85" align="center" width="6.6" />
+            <element type="TEXT" id="ID_static_5" text="5" x="64.5" y="245.5" align="center" width="6.5" />
+            <element type="TEXT" id="ID_static_6" text="6" x="64.5" y="209.55" align="center" width="6.3" />
+            <element type="TEXT" id="ID_static_7" text="7" x="64.5" y="173.55" align="center" width="5.85" />
+            <element type="TEXT" id="ID_static_8" text="8" x="64.5" y="137.6" align="center" width="6.6" />
+            <element type="TEXT" id="ID_static_9" text="9" x="64.5" y="99.25" align="center" width="6.3" />
+            <element type="TEXT" id="ID_static_10" text="10" x="57.9" y="63.3" align="center" width="12.2" />
+            <element type="TEXT" compId="ID_s6_txt01" x="91" y="449" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt11" x="92" y="407" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt02" x="161" y="449" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt12" x="160" y="404" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt03" x="231" y="449" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt13" x="231" y="384" width="58.3" expand="up" align="center" />
+            <element type="TEXT" compId="ID_s6_txt04" x="302" y="449" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt14" x="294" y="310" width="70.3" expand="up" align="center" color="#4e4c4d" />
+            <element type="TEXT" compId="ID_s6_txt05" x="372" y="449" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt15" x="366" y="234" width="70.3" expand="up" align="center" />
+            <element type="TEXT" compId="ID_s6_txt06" x="442" y="449" width="58.3" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt07" x="515" y="449" width="123.6" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s6_txt09" x="535" y="308" width="116.55" expand="down" align="center" color="#ffffff" rotation="269.9" />
+            <element type="TEXT" compId="ID_s6_txt10" x="603" y="308" width="116.55" expand="down" align="center" color="#ffffff" rotation="269.9" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s7_title" color="#ffffff" />
+            <element type="TEXT" subType="TABLE" compId="ID_s7_table_html" x="40" y="60" width="600" height="385" />
+        </slide>
+    </slide>
+</data>

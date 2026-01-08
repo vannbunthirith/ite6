@@ -1,0 +1,1 @@
+The figure on this page shows images of the following five printer connection types: Serial, Parallel, USB, FireWire, Ethernet.

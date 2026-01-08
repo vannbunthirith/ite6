@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.3 BIOS Security Configurations</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>BIOS Security Configurations</h1>
+        <div>
+          <p>The BIOS often supports many security features to protect BIOS settings, data on the hard drive, and recovery options should the computer be stolen. </p>
+          <p></p>
+          <p>These are some common security features found in the BIOS:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>BIOS passwords</b> - Passwords allow for different levels of access to the BIOS settings, as shown in Figure 1. Notice that there are two password settings that can be altered. The Supervisor Password can access all user-access passwords and all BIOS screens and settings. The User Password gives access to the BIOS based on a defined level. The table in Figure 2 displays common levels of user access to BIOS. The Supervisor Password must be set before the User Password can be configured.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Drive encryption</b> - A hard drive can be encrypted to prevent data theft. Encryption changes the data on the drive into code. Without the correct password, the computer cannot boot and data read from the hard drive cannot be understood. Even if the hard drive is placed in another computer, the data remains encrypted. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>LoJack</b> – This is a security feature that consists of two programs: the Persistence Module, which is embedded in the BIOS, and the Application Agent, installed by the user. When installed, the Persistence Module in the BIOS is activated and cannot be turned off. The Application Agent routinely contacts a monitoring center over the Internet to report device information and location. The owner can perform the functions described in Figure 3.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Trusted Platform Module (TPM)</b> – This is a chip designed to secure hardware by storing encryption keys, digital certificates, passwords, and data. TPM is used by Windows to support BitLocker full-disk encryption.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Secure boot</b> - Secure Boot is a UEFI security standard that ensures that a computer only boots an OS that is trusted by the motherboard manufacturer. Secure boot prevents an “unauthorized” OS from loading during startup.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Security tab of the BIOS Setup Utility showing the options for changing supervisor and user BIOS passwords. Figure 2 on this page shows the following table listing descriptions for common levels user access to the BIOS: Access Level: Full Access, Level Description: All screens and settings are available, except the supervisor password setting. Access Level: Limited Access, Level Description: Changes can be made to certain settings only, for example, the time and date. Access Level: View Only Access, Level Description: All screens are available, but no settings can be changed. Access Level: No Access, Level Description: No access is provided to the BIOS setup utility. Figure 3 on this shows the following LoJack security feature functions. Setting: Locate, Description: Locate the device using Wi-Fi or IP geolocation to see the last location. Setting: Lock, Description: Lock the device remotely to prevent access to your personal information, it can also display a customised message on the screen. Setting: Delete, Description: Delete all files on the device to protect personal information and prevent identity theft.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

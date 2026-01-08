@@ -1,0 +1,103 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Thick versus Thin Client</b>]]></text>
+    </component>
+    <component id="ID_table">
+        <text>
+            <![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+            <td bgcolor='#666263' width='200'><br/><font size="16" color='#393536'></font></td>
+			<td bgcolor='#666263' width="200"><font color='#FFFFFF' ><b>Thick Clients</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Thin Clients</b></font></td>
+		</tr>
+		<tr>
+  <td bgcolor='#F2F2F2'><b>Resources required</b></td>
+		<td bgcolor='#F2F2F2'>Monitor, mouse, keyboard, tower (with CPU and RAM), internal storage</td>
+		<td bgcolor='#F2F2F2'>Monitor, mouse, keyboard, small computer</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>Footprint</b></td>
+		<td bgcolor='#E9E7E8'>Large</td>
+		<td bgcolor='#E9E7E8'>Small</td>
+	</tr>
+	<tr>
+  <td bgcolor='#F2F2F2'><b>Network Access</b></td>
+		<td bgcolor='#F2F2F2'>Optional</td>
+		<td bgcolor='#F2F2F2'>Required</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>Data processing performed</b></td>
+		<td bgcolor='#E9E7E8'>Locally on computer</td>
+		<td bgcolor='#E9E7E8'>Remotely on servers</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>Effort to deploy corporately</b></td>
+		<td bgcolor='#E9E7E8'>More</td>
+		<td bgcolor='#E9E7E8'>Less</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Cost to deploy corporately</b></td>
+		<td bgcolor='#E9E7E8'>More</td>
+		<td bgcolor='#E9E7E8'>Less</td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+
+
+    <component id="ID_table_html">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+        <caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16">Thick versus Thin Client</font></caption>
+
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+            <th scope="col" bgcolor='#666263' width='200'><br/><font size="16" color='#393536'></font></th>
+			<th scope="col" id="Thick" bgcolor='#666263' width="200"><font color='#FFFFFF' ><b>Thick Clients</b></font></th>
+			<th scope="col" id="Thin" bgcolor='#666263' ><font color='#FFFFFF' ><b>Thin Clients</b></font></th>
+		</tr>
+		<tr>
+  <th scope="row" id="Resources" bgcolor='#F2F2F2'><b>Resources required</b></th>
+		<td headers="Resources Thick" bgcolor='#F2F2F2'>Monitor, mouse, keyboard, tower (with CPU and RAM), internal storage</td>
+		<td headers="Resources Thin" bgcolor='#F2F2F2'>Monitor, mouse, keyboard, small computer</td>
+	</tr>
+	<tr>
+  <th scope="row" id="Footprint" bgcolor='#E9E7E8'><b>Footprint</b></th>
+		<td headers="Footprint Thick" bgcolor='#E9E7E8'>Large</td>
+		<td headers="Footprint Thin" bgcolor='#E9E7E8'>Small</td>
+	</tr>
+	<tr>
+	  <th scope="row" id="Network" bgcolor='#F2F2F2'><b>Network Access</b></th>
+		<td headers="Network Thick" bgcolor='#F2F2F2'>Optional</td>
+		<td headers="Network Thin" bgcolor='#F2F2F2'>Required</td>
+	</tr>
+	<tr>
+	  <th scope="row" id="Data" bgcolor='#E9E7E8'><b>Data processing performed</b></th>
+		<td headers="Data Thick" bgcolor='#E9E7E8'>Locally on computer</td>
+		<td headers="Data Thin" bgcolor='#E9E7E8'>Remotely on servers</td>
+	</tr>
+	<tr>
+	  <th scope="row" id="Effort" bgcolor='#E9E7E8'><b>Effort to deploy corporately</b></th>
+		<td headers="Effort Thick" bgcolor='#E9E7E8'>More</td>
+		<td headers="Effort Thin" bgcolor='#E9E7E8'>Less</td>
+	</tr>
+	<tr>
+		<th scope="row" id="Cost" bgcolor='#E9E7E8'><b>Cost to deploy corporately</b></th>
+		<td headers="Cost Thick" bgcolor='#E9E7E8'>More</td>
+		<td headers="Cost Thin" bgcolor='#E9E7E8'>Less</td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+</textcomponents>

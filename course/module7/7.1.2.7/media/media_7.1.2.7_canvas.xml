@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="common.png" />
+
+	<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.1.2.7-s1.png" />
+	<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+	<element type="TEXT" compId="ID_s1_txt01" x="209" y="106" width="251.15" expand="up" align="left" size="11" />
+	<element type="TEXT" compId="ID_s1_txt02" x="287" y="145" width="141.6" expand="left+right" align="center" color="#ffffff" />
+	
+	<element type="TEXT" compId="ID_s1_txt01a" x="293" y="202" width="88.65" expand="up+down" align="center" />
+	<element type="TEXT" compId="ID_s1_txt02a" x="51" y="308" width="109.6" expand="down" align="center" />
+	<element type="TEXTBOX"  bodyId="ID_s1_txt03" x="30" y="362" width="180" height="90" />
+	<element type="TEXT" compId="ID_s1_txt04" x="508" y="308" width="109.6" expand="down" align="center" />
+	<element type="TEXTBOX"  bodyId="ID_s1_txt05" x="470" y="362" width="180" height="90" />
+	</slide>
+
+	<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.1.2.7-s2.png" />
+	<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+	<element type="TEXT" compId="ID_s2_txt01" x="218" y="297" width="251.25" expand="down" align="left" size="11" />
+	<element type="TEXT" compId="ID_s2_txt02" x="247" y="260" width="142.5" expand="left+right" align="center" color="#ffffff" />
+	<element type="TEXT" compId="ID_s2_txt01a" x="293" y="202" width="88.65" expand="up+down" align="center" />
+	<element type="TEXT" compId="ID_s2_txt02a" x="51" y="308" width="109.6" expand="down" align="center" />
+	<element type="TEXTBOX"  bodyId="ID_s2_txt03" x="30" y="362" width="180" height="90" />
+	<element type="TEXT" compId="ID_s2_txt04" x="508" y="308" width="109.6" expand="down" align="center" />
+	<element type="TEXTBOX"  bodyId="ID_s2_txt05" x="470" y="362" width="180" height="90" />
+	</slide>
+</slide>
+</data>

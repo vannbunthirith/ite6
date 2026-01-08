@@ -1,0 +1,1 @@
+The figure on this page is an image of a web browser with the default private IP address of the Wireless-N Broadband router. The figure also shows an image of the router’s Authorization dialog box that shows the default username and password.

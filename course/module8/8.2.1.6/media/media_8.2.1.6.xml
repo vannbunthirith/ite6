@@ -1,0 +1,63 @@
+﻿<textcomponents>
+
+<component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+			<caption  class="mtable_title" colspan="4" bgcolor='#FFFFFF'>
+                <font size="16" color='#393536'><b>ISP Connections Details</b></font>
+            </caption>
+		
+		<tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" id="Type" bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>Type</b></font></th>
+			<th scope="col" id="Advantages" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Advantages</b></font></th>
+			<th scope="col" id="Disadvantages" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Disadvantages</b></font></th>
+			<th scope="col" id="Speed" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Speed</b></font></th>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Type" bgcolor='#E9E7E8'>POTS</td>
+			<td headers="Advantages" bgcolor='#E9E7E8'>Widely available</td>
+			<td headers="Disadvantages" bgcolor='#E9E7E8'>Very slow speeds<br/>Cannot receive phone calls while connected</td>
+			<td headers="Speed" bgcolor='#E9E7E8'>MAX 56 kbps</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Type" bgcolor='#F2F2F2'>ISDN</td>
+			<td headers="Advantages" bgcolor='#F2F2F2'>Higher speeds than POTS</td>
+			<td headers="Disadvantages" bgcolor='#F2F2F2'>Still much slower than other broadband technologies</td>
+			<td headers="Speed" bgcolor='#F2F2F2'>BRI - up to 128 kbps <br/>PRI - up to 2.048 Mb/s</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Type" bgcolor='#E9E7E8'>DSL</td>
+			<td headers="Advantages" bgcolor='#E9E7E8'>Low cost</td>
+			<td headers="Disadvantages" bgcolor='#E9E7E8'>Distance from CO impacts speed</td>
+			<td headers="Speed" bgcolor='#E9E7E8'>24 kbps - 100 Mb/s</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Type" bgcolor='#F2F2F2'>Cable</td>
+			<td headers="Advantages" bgcolor='#F2F2F2'>Very high speed</td>
+			<td headers="Disadvantages" bgcolor='#F2F2F2'>Slow upload speeds</td>
+			<td headers="Speed" bgcolor='#F2F2F2'>27 kbps - 160 Mb/s</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Type" bgcolor='#E9E7E8'>Satellite</td>
+			<td headers="Advantages" bgcolor='#E9E7E8'>Available where DSL and cable are not</td>
+			<td headers="Disadvantages" bgcolor='#E9E7E8'>More expensive than other broadband technologies, and it is susceptible to weather conditions</td>
+			<td headers="Speed" bgcolor='#E9E7E8'>Up to 10 Mb/s or more</td>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Type" bgcolor='#F2F2F2'>Cellular</td>
+			<td headers="Advantages" bgcolor='#F2F2F2'>Available to mobile users</td>
+			<td headers="Disadvantages" bgcolor='#F2F2F2'>Not accessible every where</td>
+			<td headers="Speed" bgcolor='#F2F2F2'>20 kbps and up depending on the technology used</td>
+		</tr>
+				
+	</table>]]></text> 
+</component>
+
+</textcomponents>

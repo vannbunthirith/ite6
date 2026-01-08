@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>	
+            <element type="IMAGE" subType="bg" bgType="IMAGE" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+            <element type="IMAGE" x="25.05" y="122.8" width="360" height="269.5" subType="STD" src="media_1.2.1.8_s1.jpg" />
+            <element type="TEXTBOX" titleId="ID_s1_titleTxt" bodyId="ID_s1_bodyTxt" x="392.45" y="122.8" width="260" height="269.5" />
+        </slide>
+        <slide>	
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" />
+            <element type="IMAGE" x="60.25" y="66.5" width="271" height="390" subType="STD" src="media_1.2.1.8_s2.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_1.2.1.8_s2A.png" />
+            <element type="TEXT" compId="ID_s2_txt01" x="367.6" y="186" width="276.95" expand="up+down" align="left" size="11" />
+            <element type="TEXT" compId="ID_s2_txt02" x="367.6" y="223" width="276.95" expand="up+down" align="left" size="11" />
+            <element type="TEXT" compId="ID_s2_txt03" x="367.6" y="240" width="276.95" expand="up+down" align="left" size="11" />
+            <element type="TEXT" compId="ID_s2_txt04" x="367.6" y="257" width="276.95" expand="up+down" align="left" size="11" />
+            <element type="TEXT" compId="ID_s2_txt05" x="367.6" y="293" width="276.95" expand="up+down" align="left" size="11" />
+            <element type="TEXT" compId="ID_s2_txt06" x="367.6" y="337" width="276.95" expand="up+down" align="left" size="11" />
+            <element type="TEXT" compId="ID_s2_txt07" x="367.6" y="363" width="276.95" expand="up+down" align="left" size="11" />
+        </slide>
+    </slide>
+</data>

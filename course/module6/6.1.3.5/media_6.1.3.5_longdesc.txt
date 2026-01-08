@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Windows Performance Monitor. Below the explanatory text is a link to the Resource Monitor.Figure 2 on this page is an image of the Memory Diagnostic utility in Windows 8.x.

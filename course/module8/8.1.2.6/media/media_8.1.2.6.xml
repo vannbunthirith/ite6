@@ -1,0 +1,109 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Typical Network Modes</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Wireless Security Modes</b>]]></text>
+	</component>
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        
+
+		<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Typical Network Modes</font>
+            </caption>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Network" bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>Network Modes</b></font></th>
+			<th scope="col" id="DescriptionS2" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></th>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Network" bgcolor='#E9E7E8'>Mixed</td>
+			<td headers="DescriptionS2" bgcolor='#E9E7E8'><ul><li>Default mode.</li><li>Select if you have 802.11n (2.4 GHz), 802.11g, and 802.11b devices.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Network" bgcolor='#F2F2F2'>Wireless-B/G Only</td>
+			<td headers="DescriptionS2" bgcolor='#F2F2F2'>Select if you have both 802.11b and 802..11g (2.4 GHz) devices.</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Network" bgcolor='#E9E7E8'>Wireless-B Only</td>
+			<td headers="DescriptionS2" bgcolor='#E9E7E8'>Select if you have only 802.11b devices.</td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Network" bgcolor='#F2F2F2'>Wireless-G Only</td>
+			<td headers="DescriptionS2" bgcolor='#F2F2F2'>Select if you have only 802.11g devices.</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Network" bgcolor='#E9E7E8'>Wireless-N</td>
+			<td headers="DescriptionS2" bgcolor='#E9E7E8'>Select if you have only 802.11n devices.</td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Network" bgcolor='#F2F2F2'>Disabled</td>
+			<td headers="DescriptionS2" bgcolor='#F2F2F2'>Select to disable the wireless radio.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s4_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        
+
+		<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Wireless Security Modes</font>
+            </caption>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Security" bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>Security Modes</b></font></td>
+			<th scope="col" id="Description" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#E9E7E8'>Wired Equivalent Privacy <br/>(WEP)</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Encrypts the broadcast data between the wireless access point and the client using a 64-bit or 128-bit encryption key.</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#F2F2F2'>Temporal Key Integrity Protocol <br/>(TKIP)</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>This WEP patch automatically negotiates a new key every few minutes.</li><li>TKIP helps to prevent attackers from gaining enough data to break the encryption key.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#E9E7E8'>Advanced Encryption Standard <br/>(AES)</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>A more secure encryption system than TKIP.</li><li>AES also requires more computing power to run the stronger encryption.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#F2F2F2'>Wi-Fi Protected Access <br/>(WPA)</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>An improved version of WEP created as a temporary solution until 802.11i became ratified.</li><li>Now that 802.11i has been ratified, WPA2 has been released. It covers the entire 802.11i standard.</li><li>WPA uses much stronger encryption than WEP encryption.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#E9E7E8'>Wi-Fi Protected Access 2<br/>(WPA2)</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>An improved version of WPA that supports robust encryption, which provides government-grade security.</li><li>WPA2 can be enabled with password authentication (personal) or server authentication (enterprise).</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

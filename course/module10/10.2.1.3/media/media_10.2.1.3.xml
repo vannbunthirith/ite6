@@ -1,0 +1,71 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>iPhone is Temporarily Disabled After Incorrect Passcodes Entered</b>]]></text>
+	</component>	
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>iPhone is Temporarily After Incorrect Passcodes</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_table01'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			
+
+             <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16">iOS Failed Passcode Attempts</font>
+            </caption>
+
+			<tr class="mtable_top">
+				<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<th scope="col" id="Failed" bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Failed Attempts</b></font></th>
+				<th scope="col" id="Additional" bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Additional Time Device is Disabled</b></font></th>
+				<th scope="col" id="Total" bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Total Time Device is Disabled</b></font></th>
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#E9E7E8' width='110'>1 to 5</td>
+				<td headers="Additional" bgcolor='#E9E7E8'>0</td>
+				<td headers="Total" bgcolor='#E9E7E8'>0</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#F2F2F2'>6</td>
+				<td headers="Additional" bgcolor='#F2F2F2'>1 minute</td>	
+				<td headers="Total" bgcolor='#F2F2F2'>1 minute</td>		
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#E9E7E8'>7</td>
+				<td headers="Additional" bgcolor='#E9E7E8'>5 minutes</td>
+				<td headers="Total" bgcolor='#E9E7E8'>6 minutes</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#F2F2F2'>8</td>
+				<td headers="Additional" bgcolor='#F2F2F2'>15 minutes</td>	
+				<td headers="Total" bgcolor='#F2F2F2'>21 minutes</td>		
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#E9E7E8'>9</td>
+				<td headers="Additional" bgcolor='#E9E7E8'>60 minutes</td>
+				<td headers="Total" bgcolor='#E9E7E8'>81 minutes</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#F2F2F2'>10</td>
+				<td headers="Additional" bgcolor='#F2F2F2'>60 minutes</td>	
+				<td headers="Total" bgcolor='#F2F2F2'>141 minutes</td>		
+			</tr>
+			<tr>
+				<td scope="row" headers="Failed" bgcolor='#E9E7E8'>11</td>
+				<td headers="Additional" colspan='2' bgcolor='#E9E7E8'><i>Device Data Deleted</i></td>
+			</tr>
+	</table>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Erase Data After 10 Incorrect Passcodes on iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_txt01">
+        <text><![CDATA[Erase all Data]]></text>
+	</component>
+   
+</textcomponents>

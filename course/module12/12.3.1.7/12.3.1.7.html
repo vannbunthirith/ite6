@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.7 Managing Users</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Managing Users</h1>
+        <div>
+          <p>A regular maintenance task for administrators is to create and remove users from the network, change account passwords, or change user permissions. </p>
+          <p>The following can be done when managing local user accounts:</p>
+          <p>
+            <ul>
+              <li>Create a local user account</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Reset the password for a local user account </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Disable or activate a local user account</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Delete a local user account</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Rename a local user account</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Assign a logon script to a local user account</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Assign a home folder to a local user account</li>
+            </ul>
+          </p>
+          <p>There are two tools that can be used to accomplish these tasks:</p>
+          <p>
+            <ul>
+              <li>
+                <b>User Account Control (UAC)</b> – Use this to add, remove, or change attributes of individual users. When logged in as an administrator, use the UAC to configure settings to prevent malicious code from gaining administrative privileges.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Local Users and Groups Manager</b> – Can be used to create and manage users and groups that are stored locally on a computer. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Note</b>: You must have administrator privileges to manage users.</p>
+          <p></p>
+          <p>To open the UAC, use the following path: </p>
+          <p>
+            <b>Control Panel > User Accounts > Manage another account</b>
+          </p>
+          <p>To open the Local Users and Groups Manager, use the following path:</p>
+          <p>
+            <b>Control Panel > Administrative Tools > Computer Management > Local Users and Groups</b>
+          </p>
+          <p>By using Local Users and Groups, you can limit the ability of users and groups to perform certain actions by assigning rights and permissions to them. A right authorizes a user to perform certain actions on a computer, such as backing up files and folders or shutting down a computer. A permission is a rule that is associated with an object (usually a file, folder, or printer), and it regulates which users can have access to the object and in what manner.</p>
+          <p>From the Local Users and Groups window, double-click <b>Users</b>. There are two built-in accounts:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Administrator</b> – This account is disabled by default. When enabled, the account has full control of the computer, and it can assign user rights and access control permissions to users as necessary. The Administrator account is a member of the Administrators group on the computer. The Administrator account can never be deleted or removed from the Administrators group, but it can be renamed or disabled.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Guest</b> – This account is disabled by default. This account is used by users who do not have an account on the computer. By default, the account does not require a password. It is a member of the default Guests group, which allows a user to log on to a computer. </li>
+            </ul>
+          </p>
+          <p>To add a user, click the <b>Action</b> menu and select <b>New User</b>. This opens the New User window, as shown in Figure 2. From here you can assign a username, full name, description, and account options.</p>
+          <p>Double-clicking a user or right-clicking and choosing <b>Properties</b> opens the user properties window, as shown in Figure 3. This window allows you to change the user options defined when the user was created. Additionally, it permits you to lock an account. The window also lets you assign a user to a group using the <b>Member of</b> tab, or controlling which folders the user has access to using the <b>Profile</b> tab. </p>
+          <p></p>
+          <p>
+            <b>Note</b>: There is also another important type of account called the Power User. This account possesses most of the power of an administrator, such as installing programs or changing firewall settings, but lacks some of the privileges of an administrator, for security reasons.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Windows Computer Management window. Figure 2 on this page is an image of the Windows Add a New User dialog box. Figure 3 on this page is an image of the Guest Properties dialog box that shows the General tab.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Bandwidth is like the number of lanes.]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Network devices are like on-ramps, traffic signals, signs and maps.]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Traveling data is like traveling vehicles.]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,193 @@
+<textcomponents>
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Common Problems and Solutions</b></font>
+            </caption>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" id="Identify" bgcolor='#666263' valign="top" width="160"><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+			<th scope="col" id="Probable" bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+			<th scope="col" id="Possible" bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+		</tr>
+	
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'>NIC LED lights are not lit.</font>
+			</td>
+			<td headers="Probable" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>The network cable is unplugged or damaged.</li>
+					<li>The NIC is damaged.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>Reconnect or replace the network connection to the computer.</li>
+					<li>Replace the NIC.</li>
+				</ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'>User cannot SSH into a remote device.</font>
+			</td>
+			<td headers="Probable" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>The remote device is not configured for SSH access.</li>
+					<li>SSH is not allowed from the user or a particular network.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>Configure the remote device for SSH access.</li>
+					<li>Allow SSH access from the user or the network.</li>
+				</ul></font>
+			</td>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'>Laptop cannot detect the wireless router.</font>
+			</td>
+			<td headers="Probable" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>The wireless router/access point is configured with a different 802.11 protocol.</li>
+					<li>The SSID is not being broadcast.</li>
+					<li>The wireless NIC in the laptop is disabled.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>Configure the wireless router with a compatible protocol for the laptop.</li>
+					<li>Configure the wireless router to broadcast the SSID.</li>
+					<li>Enable the wireless NIC in the laptop.</li>
+				</ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536' valign="top">Computer has an IP address of 169.254.x.x.</font>
+			</td>
+			<td headers="Probable" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>The network cable is unplugged.</li>
+					<li>The router is powered off or the connection is faulty.</li>
+					<li>The NIC is damaged.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>Reconnect the network cable.</li>
+					<li>Ensure the router is powered on and is properly connected to the network.</li>
+					<li>Release and renew the IP address on the computer.</li>
+					<li>Replace the NIC.</li>
+				</ul></font>
+			</td>
+		</tr>	
+	
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'>Remote device does not respond to a ping request.</font>
+			</td>
+			<td headers="Probable" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>Windows firewall disables ping by default.</li>
+					<li>The remote device is configured to not respond to ping requests.</li> 
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>Set the firewall to enable the ping protocol.</li>
+					<li>Configure the remote device to respond to the ping request.</li> 
+				</ul></font>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#F2F2F2' valign="top"><font color='#393536'>A user can access the local network but cannot access the Internet.</font></td>
+			<td headers="Probable" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>The gateway address is incorrect or not configured.</li>
+					<li>The ISP is down.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>Ensure the correct gateway address is assigned to the NIC.</li>
+					<li>Call ISP to report outage.</li>
+				</ul></font>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'>The network is fully functional but the wireless device cannot connect to the network.</font>
+			</td>
+			<td headers="Probable" bgcolor='#E9E7E8' valign="top">
+				<font  color='#393536'><ul>
+					<li>The wireless capability of the device is turned off.</li>
+					<li>The device is out of wireless range.</li>
+					<li>There is interference from other wireless devices using the same frequency range.</li> 
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>Enable wireless capability of the device.</li>
+					<li>Move closer to the wireless router/access point.</li>
+					<li>Change wireless router to a different channel.</li>
+				</ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'>A Windows computer, just connected to a network with only Windows computers, cannot view shared resources.</font>
+			</td>
+			<td headers="Probable" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>Workgroup name is incorrect.</li>
+					<li>Network location is incorrect.</li>
+					<li>Network Discovery and File Sharing is turned off.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#F2F2F2' valign="top">
+				<font color='#393536'><ul>
+					<li>Correct workgroup name.</li>
+					<li>Change to the correct network location.</li>
+					<li>Turn on Network Discovery and File Sharing.</li>
+				</ul></font>
+			</td>
+		</tr>
+			
+		<tr>
+			<td scope="row" headers="Identify" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'>A user cannot map a network drive.</font>
+			</td>
+			<td headers="Probable" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>User does not have appropriate permissions.</li>
+					<li>Incorrect workgroup.</li>
+					<li>Network Discovery and File Sharing is turned off.</li>
+				</ul></font>
+			</td>
+			<td headers="Possible" bgcolor='#E9E7E8' valign="top">
+				<font color='#393536'><ul>
+					<li>Configure appropriate permissions for this user.</li>
+					<li>Change workgroup name.</li>
+					<li>Turn on Network Discovery and File Sharing.</li>
+				</ul></font>
+			</td>
+		</tr>	
+</table>]]>
+</text>
+</component>
+</textcomponents>

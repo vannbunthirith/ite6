@@ -1,0 +1,243 @@
+﻿<textcomponents>
+    <!-- slide 1 -->
+    <component id='ID_s1_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 3. Test the Theory to Determine Cause</b></font></td>
+		</tr>
+	
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		 
+		<tr> 
+			<td width='150' bgcolor='#E9E7E8'>Common steps to determine cause</td>	
+			<td bgcolor='#E9E7E8'><ul><li>Ensure the device is powered on.</li><li>Ensure the power switch for an outlet is turned on.</li><li>Ensure the surge protector is turned on.</li><li>Ensure external cable connections are secure.</li><li>Ensure that the designated boot drive is bootable.</li><li>Verify the boot order in BIOS setup.</li></ul></td>		 
+		</tr>
+	 
+	</table>]]>
+        </text>
+    </component>
+    <component id='ID_s1_table_html'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 3. Test the Theory to Determine Cause</b></font></caption>
+		
+	
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		 
+		<tr> 
+			<td scope="row" width='150' bgcolor='#E9E7E8'>Common steps to determine cause</td>	
+			<td bgcolor='#E9E7E8'><ul><li>Ensure the device is powered on.</li><li>Ensure the power switch for an outlet is turned on.</li><li>Ensure the surge protector is turned on.</li><li>Ensure external cable connections are secure.</li><li>Ensure that the designated boot drive is bootable.</li><li>Verify the boot order in BIOS setup.</li></ul></td>		 
+		</tr>
+	 
+	</table>]]>
+        </text>
+    </component>
+    <!-- end slide 1 -->
+    <!-- slide 2 -->
+    <!-- black text -->
+    <component id="ID_s2_txt18">
+        <text>
+            <![CDATA[Work Order]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt19">
+        <text>
+            <![CDATA[<font color='#FFFFFF' size='11'><b>Generating a New Ticket</b></font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt20">
+        <text>
+            <![CDATA[Company Name:]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt21">
+        <text>
+            <![CDATA[Contact:]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt22">
+        <text>
+            <![CDATA[Company Address:]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt23">
+        <text>
+            <![CDATA[Company Phone:]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt24">
+        <text>
+            <![CDATA[Category]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt25">
+        <text>
+            <![CDATA[Type]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt26">
+        <text>
+            <![CDATA[Item]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt27">
+        <text>
+            <![CDATA[Code]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt28">
+        <text>
+            <![CDATA[Escalated]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt29">
+        <text>
+            <![CDATA[Status]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt30">
+        <text>
+            <![CDATA[Pending]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt31">
+        <text>
+            <![CDATA[Pending Until Date]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt32">
+        <text>
+            <![CDATA[Business Impacting:]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt33">
+        <text>
+            <![CDATA[Yes]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt34">
+        <text>
+            <![CDATA[No]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt35">
+        <text>
+            <![CDATA[Summary]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt36">
+        <text>
+            <![CDATA[Case ID]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt37">
+        <text>
+            <![CDATA[Priority]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt38">
+        <text>
+            <![CDATA[User Platform]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt39">
+        <text>
+            <![CDATA[Connection Type]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt40">
+        <text>
+            <![CDATA[Environment]]>
+        </text>
+    </component>
+    <!-- end black text -->
+    <!-- grey text -->
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Cisco Systems, Inc.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[Office Manager]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[170 West Tasman Drive, San Jose, CA 95134]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[408-526-4000]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[HW]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt06">
+        <text>
+            <![CDATA[OPEN]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt07">
+        <text>
+            <![CDATA[Laptop]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt08">
+        <text>
+            <![CDATA[N]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt09">
+        <text>
+            <![CDATA[Laptop]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt10">
+        <text>
+            <![CDATA[Won't Boot]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt11">
+        <text>
+            <![CDATA[Cisco001]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt12">
+        <text>
+            <![CDATA[Wireless network connection]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt13">
+        <text>
+            <![CDATA[Medium]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt14">
+        <text>
+            <![CDATA[Mobile]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt15">
+        <text>
+            <![CDATA[Windows 7]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt16">
+        <text>
+            <![CDATA[<font color='#000000'>Problem Description</font><br><textformat blockindent='15'><span class="indentText">User complains that the laptop won't boot up.</span><br><span class="indentText">No software was added recently. No operating system changes have been made.</span><br><span class="indentText">No peripherals have been added.</span></textformat><br><br><font color='#000000'>Problem Solution</font><textformat blockindent='15'><br/><span class="indentText">Repairs attempted:</span><br/></textformat><textformat blockindent='30'><span class="indentTextMore">Replaced AC adapter</span><br/><span class="indentTextMore">Resecured the battery</span></textformat>]]>
+        </text>
+    </component>
+    <!-- end grey text -->
+    <!-- end slide 2 -->
+</textcomponents>

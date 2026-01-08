@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.6 Maintaining Accounts</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Maintaining Accounts</h1>
+        <div>
+          <p>Employees in an organization often require different levels of access to data. For example, a manager and an accountant might be the only employees in an organization with access to the payroll files.</p>
+          <p></p>
+          <p>Employees can be grouped by job requirements and given access to files according to group permissions. This process helps manage employee access to the network. Temporary accounts can be set up for employees who need short-term access. Close management of network access can help to limit areas of vulnerability that might allow a virus or malicious software to enter the network.</p>
+          <p></p>
+          <p>
+            <b>Terminating Employee Access</b>
+          </p>
+          <p></p>
+          <p>When an employee leaves an organization, access to data and hardware on the network should be terminated immediately. If the former employee has stored files in a personal space on a server, eliminate access by disabling the account. If the employee’s replacement requires access to the applications and personal storage space, you can re-enable the account and change the name to the name of the new employee.</p>
+          <p></p>
+          <p>
+            <b>Guest Accounts</b>
+          </p>
+          <p></p>
+          <p>Temporary employees and guests may need access to the network. For example, visitors might require access to email, the Internet, and a printer on the network. These resources can be made available to a special account called Guest. When guests are present, they can be assigned to the Guest account. When no guests are present, the account can be disabled until the next guest arrives.</p>
+          <p></p>
+          <p>Some guest accounts require extensive access to resources, as in the case of a consultant or a financial auditor. This type of access should be granted only for the period of time required to complete the work.</p>
+          <p></p>
+          <p>To configure all of the users and groups on a computer, open the <b>Local Users and Groups Manager</b>, as shown for Windows 8.1 in the figure. In all versions of Windows, type <b>lusrmgr.msc</b> in the Search box, or Run Line utility.</p>
+          <p></p>
+          <p>
+            <b>Login Times</b>
+          </p>
+          <p></p>
+          <p>In some situations, you may want employees to only be allowed to login during specific hours, such as 7 a.m. to 6 p.m. Logins would be blocked during other times of the day.</p>
+          <p></p>
+          <p>
+            <b>Failed Login Attempts</b>
+          </p>
+          <p></p>
+          <p>You may want to configure a threshold for the number of times a user is allowed to attempt a login. By default in Windows, failed login attempts are set to zero, which means that the user will never be locked out until this setting is changed. </p>
+          <p></p>
+          <p>
+            <b>Idle Timeout and Screen Lock</b>
+          </p>
+          <p></p>
+          <p>Employees may or may not logout of their computer when they leave the workplace. Therefore, it is a security best practice to configure an idle timer that will automatically log the user out and lock the screen after a specified period of time. The user must log back in to unlock the screen. </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of Local Users and Groups Manager utility in Windows 8.1.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

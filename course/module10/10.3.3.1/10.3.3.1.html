@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.3.3.1 Introduction to Email</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.3.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Introduction to Email</h1>
+        <div>
+          <p>The email structure relies on servers and clients. Email servers are responsible for forwarding email messages sent by their users. Users utilize email clients to compose, read and manage their messages. Email clients can be web-based or standalone applications. Standalone email clients are platform dependent. This section focuses on email clients for mobile devices.</p>
+          <p></p>
+          <p>The following information is required when setting up an email account:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Display name</b> - This can be your real name, nickname, or any name that you want people to see.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Email address</b> - This is the address people need to send email to you. An email address is a username followed by the @ symbol and the domain of the email server (user@example.net).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Email protocols used by the incoming mail server </b>- Different protocols provide different email services.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Incoming and outgoing mail server names</b> - These names are provided by the network administrator or ISP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Username</b> - This is used to log in to the mail servers.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Account password</b> - The password should be strong, because mail accounts are often available from websites.</li>
+            </ul>
+          </p>
+          <p>The protocols used in email include the following:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Post Office Protocol version 3 (POP3)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Internet Message Access Protocol (IMAP)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Simple Mail Transfer Protocol (SMTP)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Multipurpose Internet Mail Extensions (MIME)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Secure Socket Layer (SSL)</li>
+            </ul>
+          </p>
+          <p>You need to know how to configure a device to accept the correct incoming mail format. You can configure the email client software using a wizard.</p>
+          <p></p>
+          <p>
+            <b>POP3</b>
+          </p>
+          <p></p>
+          <p>Post Office Protocol 3 (POP3) retrieves emails from a remote server over TCP/IP. POP3 does not leave a copy of the email on the server; however, some implementations allow users to specify that mail be saved for some period of time. POP3 supports end users that have intermittent connections, such as dialup. A POP3 user can connect, download email from the server, and then disconnect. POP3 usually uses port 110.</p>
+          <p></p>
+          <p>
+            <b>IMAP</b>
+          </p>
+          <p></p>
+          <p>Internet Mail Access Protocol (IMAP) allows local email clients to retrieve email from a server. Like POP3, IMAP allows you to download email from an email server using an email client. The difference is that IMAP allows the user to organize email on the network email server, and to download copies of email. The original email remains on the network email server. Unlike POP3, IMAP typically leaves the original email on the server until you move the email to a personal folder in your email application. IMAP synchronizes email folders between the server and client. IMAP is faster than POP3, but IMAP requires more disk space on the server and more CPU resources. The most recent version of IMAP is IMAP4. IMAP4 is often used in large networks, such as a university campus. IMAP usually uses port 143.</p>
+          <p></p>
+          <p>
+            <b>SMTP</b>
+          </p>
+          <p></p>
+          <p>Simple Mail Transfer Protocol (SMTP) is a text-based protocol that transmits emails across a TCP/IP network. It is an email format for text that uses only ASCII encoding. SMTP must be implemented to send email. SMTP sends email from an email client to an email server or from one email server to another. A message is sent after recipients are identified and verified. SMTP usually uses port 25.</p>
+          <p></p>
+          <p>
+            <b>MIME</b>
+          </p>
+          <p></p>
+          <p>Multipurpose Internet Mail Extension (MIME) extends the email format to include text in ASCII standard as well as other formats, such as pictures and word processor documents. MIME is normally used in conjunction with SMTP.</p>
+          <p></p>
+          <p>
+            <b>SSL</b>
+          </p>
+          <p></p>
+          <p>Secure Sockets Layer (SSL) was developed to transmit files securely. All data exchanged between the email client and the email server is encrypted. When configuring an email client to use SSL, make sure to use the correct port number for the email server.</p>
+          <p></p>
+          <p>
+            <b>Exchange </b>
+          </p>
+          <p></p>
+          <p>Exchange is an email server, contact manager, and calendaring software created by Microsoft. Exchange uses a proprietary messaging architecture called Messaging Application Programming Interface (MAPI). MAPI is used by Microsoft Office Outlook to connect to Exchange servers, to provide email, calendar, and contact management.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page shows a person sending an email from a tablet.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

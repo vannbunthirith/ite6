@@ -1,0 +1,83 @@
+﻿<textcomponents>
+    <!--CONSTANT-->
+    <component id="ID_s1_txt01a">
+        <text>
+            <![CDATA[Network]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02a">
+        <text>
+            <![CDATA[Server]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Resources are stored on the server.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Client]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[A client is a hardware/software combination that people use directly.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt01a">
+        <text>
+            <![CDATA[Network]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02a">
+        <text>
+            <![CDATA[Server]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[Resources are stored on the server.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[Client]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[A client is a hardware/software combination that people use directly.]]>
+        </text>
+    </component>
+    <!--SLIDE 1-->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>File Server and Client Download Example</b>]]></text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Files are downloaded from the server to the client.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[Download]]>
+        </text>
+    </component>
+    <!--SLIDE 2-->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>File Server and Client Upload Example</b>]]></text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Files are uploaded from the client to the server for storage.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[Upload]]>
+        </text>
+    </component>
+</textcomponents>

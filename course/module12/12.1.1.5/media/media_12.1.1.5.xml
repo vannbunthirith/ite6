@@ -1,0 +1,281 @@
+﻿<textcomponents>
+
+	<!-- Slide 1 -->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Types of TCP/IP Attacks</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Denial of Service (DoS)]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Distributed DoS]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Syn Flood]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Spoofing]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Man-in-the-Middle]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Replay]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[DNS Poisoning]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>TCP/IP Attacks</b>]]></text>
+	</component>
+	
+	<!-- Slide 2 -->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>DoS Attack</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Internet]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>WWW.XYZCORP.COM</b><br/>Web Server]]></text>
+	</component>
+
+	<component id="ID_s2_txt03">
+	<text><![CDATA[DoS Attacker]]></text>
+	</component>
+
+	<component id="ID_s2_txt04">
+	<text><![CDATA[<font color="#FFFFFF">This website is very slow today!</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt05">
+	<text><![CDATA[<font color="#FFFFFF">I'll send so many pings that the server can't respond to anyone else.</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt06">
+	<text><![CDATA[<font color="#FFFFFF">Help, I can't accomplish any work!</font>]]></text>
+	</component>
+	
+	<!-- controller -->
+	
+	<!-- Slide 3 -->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>DDoS Attack</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[DDoS code activated.]]></text> 
+	</component>
+
+	<component id="ID_s3_txt03">
+	<text><![CDATA[<b>WWW.ABCBANK.COM</b></br>DDoS code activated.]]></text> 
+	</component>
+
+	<component id="ID_s3_txt04">
+	<text><![CDATA[DDoS Attacker]]></text> 
+	</component>
+
+	<component id="ID_s3_txt05">
+	<text><![CDATA[Internet]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt06">
+	<text><![CDATA[<font color="#FFFFFF">I have infected computers across the Internet with the DDoS code. I will activate them all now.</font>]]></text> 
+
+	</component>
+	<component id="ID_s3_txt07">
+	<text><![CDATA[<font color="#FFFFFF">I am overloaded with too much traffic.</font>]]></text> 
+	</component>
+
+	<component id="ID_s3_txt08">
+	<text><![CDATA[<font color="#393536">DDoS code activated.</font>]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt09">
+	<text><![CDATA[<font color="#393536">DDoS code activated.</font>]]></text> 
+	</component>
+
+	
+	<!-- controller -->
+
+	
+
+	<!-- Slide 4 -->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Sample TCP SYN Flood Attack</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>Attacker sends multiple SYN requests to a web server.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>Valid user sends SYN request.</b>]]></text>
+	</component>
+	
+		<component id="ID_s4_txt03">
+		<text><![CDATA[Web Server]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+		<text><![CDATA[<b>Web server sends SYN-ACK replies.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt05">
+		<text><![CDATA[<b>Web server waits to complete three-way handshake.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt06">
+		<text><![CDATA[<b>Web server is unavailable.</b>]]></text>
+	</component>
+
+	<component id="ID_s4_txt07">
+		<text><![CDATA[Web Server]]></text>
+	</component>
+	<component id="ID_s4_txt08">
+		<text><![CDATA[Web Server]]></text>
+	</component>
+	
+	<!-- Slide 5 -->
+	 <component id="ID_s5_title">
+		<text><![CDATA[<b>Man-in-the-Middle Attack Example</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_txt01">
+		<text><![CDATA[Victim]]></text>
+	</component>
+	
+	<component id="ID_s5_txt02">
+		<text><![CDATA[Web Server]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>Step 1</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt02">
+		<text><![CDATA[<b>Step 2</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt03">
+		<text><![CDATA[<b>Step 3</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt04">
+		<text><![CDATA[<b>Step 4</b>]]></text>
+	</component>
+
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[When a victim requests a web page, the request is directed to the attacker's computer.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt02">
+		<text><![CDATA[The attacker's computer receives the request and retrieves the real page from the legitimate website.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt03">
+		<text><![CDATA[The attacker can alter the legitimate web page and apply transformations to the data.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt04">
+		<text><![CDATA[The attacker forwards the requested page to the victim.]]></text>
+	</component>
+	
+	<component id="ID_inst">
+		<text><![CDATA[Click the numbers for more information.]]></text>
+	</component>
+	
+
+	<component id="end3">
+		<text><![CDATA[End]]></text>
+		</component>
+		
+		<component id="fforward3">
+		<text><![CDATA[Fast Forward]]></text>
+		</component>
+		
+		<component id="pause3">
+		<text><![CDATA[Pause]]></text>
+		</component>
+		
+		<component id="play3">
+		<text><![CDATA[Play]]></text>
+		</component>
+		
+		<component id="rewind3">
+		<text><![CDATA[Rewind]]></text>
+		</component>
+		
+		<component id="start3">
+		<text><![CDATA[Start]]></text>
+		</component>
+
+
+			<component id="end2">
+		<text><![CDATA[End]]></text>
+		</component>
+		
+		<component id="fforward2">
+		<text><![CDATA[Fast Forward]]></text>
+		</component>
+		
+		<component id="pause2">
+		<text><![CDATA[Pause]]></text>
+		</component>
+		
+		<component id="play2">
+		<text><![CDATA[Play]]></text>
+		</component>
+		
+		<component id="rewind2">
+		<text><![CDATA[Rewind]]></text>
+		</component>
+		
+		<component id="start2">
+		<text><![CDATA[Start]]></text>
+		</component>
+	
+
+
+		<component id="disc-end">
+	       <text>
+	           <![CDATA[End media]]>
+	       </text>
+	   </component>
+	   <component id="disc-fforward">
+	       <text>
+	           <![CDATA[Fast Forward media]]>
+	       </text>
+	   </component>
+	   <component id="disc-pause">
+	       <text>
+	           <![CDATA[Pause media]]>
+	       </text>
+	   </component>
+	   <component id="disc-play">
+	       <text>
+	           <![CDATA[Play media]]>
+	       </text>
+	   </component>
+	   <component id="disc-rewind">
+	       <text>
+	           <![CDATA[Rewind media]]>
+	       </text>
+	   </component>
+	   <component id="disc-start">
+	       <text>
+	           <![CDATA[Start media]]>
+	       </text>
+	   </component>
+	
+
+</textcomponents>

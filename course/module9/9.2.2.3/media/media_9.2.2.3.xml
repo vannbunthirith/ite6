@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_title">
+  <text><![CDATA[<b>Wireless Adapter Types</b>]]></text> 
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[Mini-PCI]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[Mini-PCIe]]></text> 
+</component>
+<component id="ID_txt03">
+  <text><![CDATA[PCI Express Micro]]></text> 
+</component>
+</textcomponents>

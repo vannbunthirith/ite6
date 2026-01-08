@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+        <slide>
+            <element type="IMAGE" x="25" y="60" width="630" height="358.85" subType="STD" src="media_2.2.2.2_A.png" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="41" y="40" width="598.8" height="409.95" subType="STD" src="media_2.2.2.2_B.png" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="75" width="629.95" height="332.15" subType="STD" src="media_2.2.2.2_C.png" />
+        </slide>
+    </slide>
+</data>

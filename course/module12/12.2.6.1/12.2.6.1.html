@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.6.1 Physical Equipment Protection Methods</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.6.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Physical Equipment Protection Methods</h1>
+        <div>
+          <p>Physical security is as important as data security. When a computer is taken, the data is also stolen. It is important to restrict access to premises using fences, door locks, and gates. For example, a mantrap is often used to prevent tailgating, it is a small room with two doors, one of which must be closed before the other can be opened. Protect the network infrastructure, such as cabling, telecommunication equipment, and network devices, with the following:</p>
+          <p>
+            <ul>
+              <li>Secured telecommunications rooms, equipment cabinets, and cages</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Cable locks and security screws for hardware devices</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Wireless detection for unauthorized access points</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Hardware firewalls</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Network management system that detects changes in wiring and patch panels</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Wireless devices to prevent physical resets</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>BIOS/UEFI Passwords</b>
+          </p>
+          <p></p>
+          <p>Your Windows, Linux, or Mac user password for logging into your computer does not prevent someone from booting your computer from a CD or flash drive with a different operating system. After it is booted, the malicious user could access or erase your files. You can prevent someone from booting your PC or laptop by entering a BIOS or UEFI password. Although encrypting your hard drive is a better solution, there are situations where you may consider configuring a BIOS or UEFI password. For example, computers that are regularly used by the public or in a public workspace would be candidates for a BIOS or UEFI password. After it is configured, a BIOS or UEFI password is relatively difficult to reset. Therefore, be sure you remember it.</p>
+          <p></p>
+          <p>
+            <b>AutoRun and AutoPlay</b>
+          </p>
+          <p></p>
+          <p>AutoRun is a Windows feature that automatically follows the instructions in a special file called <b>autorun.inf</b> when new media, such as a CD, DVD, or flash drive, is inserted into the computer. AutoPlay is different from AutoRun. The AutoPlay feature is a convenient way to automatically identify when new media, such as optical disks, external hard drives, or thumb drives, are inserted or connected to the computer. AutoPlay prompts the user to choose an action based on the content of the new media, such as run a program, play music, or explore the media. </p>
+          <p></p>
+          <p>On Windows, AutoRun is executed first, unless it is disabled. If AutoRun is not disabled, it follows the instructions in the autorun.inf file. Beginning with Windows Vista, AutoRun is not allowed to bypass AutoPlay. However, you are still just one click away from unknowingly running malware through the AutoPlay dialog. Therefore, it is a security best practice to determine what programs will use AutoPlay. The most secure solution is to turn off AutoPlay, as shown in Figure 1.  AutoPlay is found in <b>Control Panel > AutoPlay</b> in all versions of Windows from starting with Vista.</p>
+          <p></p>
+          <p>
+            <b>Multifactor Authentication</b>
+          </p>
+          <p></p>
+          <p>Earlier, we discussed two-factor authentication using a security key fob. The two factors are something you know, such as a password, and something you have, such as a security key fob. Multifactor authentication adds something you are, such as a fingerprint scan, as shown in Figure 2. When considering a security program, the cost of the implementation has to be balanced against the value of the data or the equipment to be protected.</p>
+          <p></p>
+          <p>
+            <b>Bring Your Own Device (BYOD)</b>
+          </p>
+          <p></p>
+          <p>Personal and corporate-owned mobile devices must also be protected. It used to be that the only devices that were allowed to be used within the corporate infrastructure were the ones that the company owned. With the drastic increase in personal devices, almost all companies now must create and follow a BYOD policy. One of the biggest challenges to the company is to what degree the company can control the device. Sensitive, confidential, or privileged information must be protected, no matter who owns the device. A BYOD policy can save a company a lot of money, but the user must agree to and follow the policy. Another challenge to this arrangement is employee privacy. When the employee gives up some control of their device, they may also be giving up some of their own privacy along with it.</p>
+          <p></p>
+          <p>
+            <b>Profile Security Requirements</b>
+          </p>
+          <p></p>
+          <p>A good security practice is to create and apply security profiles to mobile devices. A security profile is usually a text file that defines the security settings and specifies configuration settings on a device. These settings can be applied directly to a device, a specific user, or a group of users. Multiply profiles may apply at the same time as well. It is common for there to be different security profiles for devices in a BYOD than corporate-owned devices. The requirements of these security profiles will vary based on the role of an individual or group, the type of device or operating system, and also the policies of the organization.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Windows AutoPlay window that shows the, ‘Use AutoPlay for all media and devices’ option disabled and highlighted. Figure 2 on this page is an image of a person using a USB fingerprint scanner for authentication.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+The figure on this page lists the following common reasons for the error, used as part of the second step of troubleshooting which is, establish a theory of probable cause: device is powered off, power switch for an outlet is turned off, surge protector is turned off, loose external cable connections, non-bootable disk in floppy drive, incorrect boot order in BIOS setup.

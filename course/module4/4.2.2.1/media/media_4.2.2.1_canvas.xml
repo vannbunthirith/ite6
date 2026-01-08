@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+        <slide>
+            <element type="TEXT" subType="TABLE" compId="ID_s1_table_html" x="30" y="45" width="620" height="400" size="11" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TABLE" compId="ID_s2_table_html" x="30" y="45" width="620" height="400" size="11" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TABLE" compId="ID_s3_table_html" x="30" y="45" width="620" height="400" size="11" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TABLE" compId="ID_s4_table_html" x="30" y="45" width="620" height="400" size="11" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TABLE" compId="ID_s5_table_html" x="30" y="45" width="620" height="400" size="11" />
+        </slide>
+    </slide>
+</data>

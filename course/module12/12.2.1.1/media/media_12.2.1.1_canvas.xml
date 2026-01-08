@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.jpg" />
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_12.2.1.1.A.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+			<element type="BUBBLE" compId="ID_s1_bubble01" x="19" y="79" width="220" height="92.15" align="left" tailPosition="4" tailFlip="0" />
+			<element type="BUBBLE" compId="ID_s1_bubble02" x="435" y="85" width="220" height="86.4" align="left" tailPosition="8" tailFlip="1" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+			<element type="TEXTBOX" titleId="ID_s2_txtTitle01" bodyId="ID_s2_txtBody01" x="90" y="120" width="500" height="174.1" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.jpg" />
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_12.2.1.1.B.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title" />
+			<element type="TEXT" compId="ID_s3_txt02" x="83" y="85" width="253.2" expand="up+down" align="center" />
+			<element type="TEXT" compId="ID_s3_txt03" x="107" y="143" width="232.6" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt04" x="107" y="190" width="232.6" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt05" x="107" y="237" width="232.6" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt06" x="107" y="284" width="232.6" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt07" x="107" y="331" width="232.6" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt08" x="107" y="379" width="232.6" expand="down" align="left" />
+		</slide>
+	</slide>
+</data>

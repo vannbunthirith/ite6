@@ -1,0 +1,108 @@
+<textcomponents>
+
+<!-- Slide 1-->
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Network Types</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each network type to a definition.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[LAN]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Peer-to-Peer]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[MAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[WLAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[WAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[PAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Client-Server]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each network type to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each network type to its description. Please click <b>Reset</b> to try again.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Network Type</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[A network that connects devices within the range of an individual person. All of these devices are dedicated to a single host.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[ A network that has no hierarchy among the computers, nor are there any dedicated servers. Each client has equivalent capabilities and responsibilities.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[A network that encompasses a small geographical area, typically owned by an individual or wholly managed by an IT department.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[A network that spans across a large campus or city and consists of various buildings interconnected through wireless or fiber optic backbones. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[A network that uses radio waves to transmit data between wireless devices. This network can operate in infrastructure or ad hoc mode.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[A network that connects multiple networks that are in geographically separate locations and is owned by a service provider.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[A network where hosts request information or services from a server. The server provides the requested information or service to the hosts.]]></text>
+	</component>
+</textcomponents>

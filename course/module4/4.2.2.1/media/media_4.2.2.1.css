@@ -1,0 +1,16 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s1_table{
+	letter-spacing: -0.8px !important;
+	
+}
+
+@media only screen and (device-width: 768px) {
+#ID_s1_table{
+	letter-spacing: -0.8px !important;
+	
+}
+
+}

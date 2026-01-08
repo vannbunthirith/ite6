@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.4 Windows Firewall</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows Firewall</h1>
+        <div>
+          <p>A firewall selectively denies traffic to a computer or network segment. Firewalls generally work by opening and closing the ports used by various applications. By opening only the required ports on a firewall, you are implementing a restrictive security policy. Any packet not explicitly permitted is denied. In contrast, a permissive security policy permits access through all ports, except those explicitly denied. In the past, software and hardware were shipped with permissive settings. As users neglected to configure their equipment, the default permissive settings left many devices exposed to attackers. Most devices now ship with settings as restrictive as possible, while still allowing easy setup.</p>
+          <p></p>
+          <p>Configuring the Windows firewall can be completed in two ways:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Automatically</b> - The user is prompted to Keep Blocking, Unblock, or Ask Me Later for unsolicited requests. These requests might be from legitimate applications that have not been configured previously or from a virus or worm that has infected the system.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Manage Security Settings</b> - The user manually adds the program or ports that are required for the applications in use on the network.</li>
+            </ul>
+          </p>
+          <p>To allow program access through the Windows Firewall in Windows 7, use the following path: </p>
+          <p></p>
+          <p>
+            <b>Control Panel > Windows Firewall > Allow a program or feature through Windows Firewall > Change settings > Allow another program...</b>
+          </p>
+          <p></p>
+          <p>To allow program access through the Windows Firewall in Windows Vista, use the following path: </p>
+          <p></p>
+          <p>
+            <b>Control Panel > Security Center > Windows Firewall > Change Settings > Continue > Exceptions > Add Program</b>
+          </p>
+          <p></p>
+          <p>To allow program access through the Windows Firewall in Windows 8.1 and 8.0, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > Windows Firewall > Allow an app or feature through Windows Firewall > Change settings > Allow another app…</b>
+          </p>
+          <p></p>
+          <p>If you wish to use a different software firewall, you will need to disable Windows Firewall. To disable the Windows Firewall in Windows 7, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > Windows Firewall > Turn Windows Firewall on or off > Turn off Windows Firewall (not recommended) > OK</b>
+          </p>
+          <p></p>
+          <p>To disable the Windows Firewall in Windows Vista, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > Security Center > Windows Firewall > Turn Windows Firewall on or off > Continue > Off (not recommended) > OK</b>
+          </p>
+          <p></p>
+          <p>To disable the Windows Firewall in Windows 8.1 and 8.0, as shown in the figure, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > Windows Firewall > Turn Windows Firewall on or off > Turn off Windows Firewall (not recommended) > OK</b>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of the Customize Settings window of the Windows Firewall utility in Windows 8 and Windows 8.1.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

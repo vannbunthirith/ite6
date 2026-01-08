@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.6 Overview of Disk Utilities</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Overview of Disk Utilities</h1>
+        <div>
+          <p>Most operating systems are quite reliable, but problems could still occur and damage the system. A disk that is damaged or has corrupted sectors could lose data, or the OS could malfunction. Most disk problems are the same regardless of the operating system used. To help diagnose and solve disk-related problems, most modern operating systems include disk utility tools. Below are a few common maintenance tasks that can be performed using disk utility software:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Partition management –</b> When working with computer disks, partitions may need to be created, deleted or resized. If the OS is running off a partition that needs attention, the computer should be booted from an external disk before any work is done in the system partition. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mount or Unmount disk partitions –</b> On Unix-like systems, mounting a partition relates to the process of binding a partition of a disk or a disk image file (usually a .iso) to a folder location. This is a common task in Unix-like systems. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Disk Format – </b>Before a partition can be used by the user or the system, it must be formatted.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Bad Sector Check – </b>Modern disks are able to detect and flag bad sectors. When a disk sector is flagged as bad, it becomes harmless to the OS because it will no longer be used to store data. While it is common to have a few bad sectors in any disk, a large number of bad sectors could be an indicator of a failing disk. Disk utilities can be used not only to search, detect and flag bad sectors, but also to attempt salvaging data stored in bad sectors by moving it to healthy disk sectors. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Query S.M.A.R.T. attributes – </b>An abbreviation for Self-Monitoring, Analysis and Reporting Technology, S.M.A.R.T. is a great feature added to modern disks. Included in the disk’s controller itself, S.M.A.R.T. can detect and report a number of attributes about the disk’s health. The goal of S.M.A.R.T. is to anticipate disk failure, allowing the user to move the data to a healthy disk before the failing disk becomes inaccessible. Modern disk utilities are able to query S.M.A.R.T. attributes, alert the user and recommend repairing actions.</li>
+            </ul>
+          </p>
+          <p>Ubuntu Linux includes Disks, as shown in Figure 1. With Disks, users can perform the most common disk-related tasks including partition management, mount or unmount, format disks and query S.M.A.R.T.</p>
+          <p></p>
+          <p>To access Disks, use the following path:</p>
+          <p></p>
+          <p>Click the Ubuntu button at the top of Launcher <b>></b> type <b>Disks ></b> click the Disks’ icon</p>
+          <p></p>
+          <p>OS X includes Disk Utility, as shown in Figure 2. In addition to supporting the main disk maintenance tasks, Disk Utility also supports Verify Disk Permissions and Repair Disk Permissions. Repair Disk Permission is a common troubleshoot step in OS X. Disk Utility can also be used to backup disks to image files and perform an image recovery to disk from image files. These files contain the entire contents of a disk.</p>
+          <p></p>
+          <p>To start Disk Utility on OS X, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Applications > Utilities > Disk Utility</b>
+          </p>
+          <p></p>
+          <p>
+            <b>Multiboot</b>
+          </p>
+          <p></p>
+          <p>Sometimes it is necessary to have more than one operating system installed in the computer. In those situations, the user must perform the installation of one OS, install a boot manager and then install the second OS. A boot manager is a program that is located in the boot sector and allows the user to choose which OS to use at boot time. By tracking the partition where a specific OS was installed, a boot manager can direct the BIOS to the correct partition, allowing it to load the desired operating system. </p>
+          <p></p>
+          <p>A popular boot manager for Linux is <b>grub. </b>For OS X, a common boot manager is <b>boot camp.</b></p>
+          <p></p>
+          <p>The maximum number of operating systems allowed will depend on the size of the disk and while the boot manager technology allows a computer to have multiple OSs installed, only one OS can be used at a time. To switch from one OS to another, a reboot is necessary.</p>
+          <p></p>
+          <p>
+            <b>Note:</b> Before working on disks containing important data, a full disk backup is advised and considered best practice.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Ubuntu Disks screen. Figure 2 on this page is an image of the iOS Disk Utility.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

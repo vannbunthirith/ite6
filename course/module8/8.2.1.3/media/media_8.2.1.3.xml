@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Line of Sight Wireless Internet Service</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Line of Sight Transmission]]></text> 
+  </component>
+</textcomponents>

@@ -1,0 +1,1 @@
+Figure 1 on this page shows the Windows Network and Sharing Center window. Figure 2 on this page is an image of the Windows HomeGroup window with the, ‘Create a homegroup’ button selected. Figure 3 on this page is an image of the Windows HomeGroup window that shows that a homegroup has been created. The, ‘Join Now’ button is selected.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.1 CSMA/CD</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>CSMA/CD</h1>
+        <div>
+          <p>Ethernet protocols describe the rules that control how communication occurs on an Ethernet network. To ensure that all Ethernet devices are compatible with each other, the IEEE developed standards for manufacturers and programmers to follow when developing Ethernet devices.</p>
+          <p>The Ethernet architecture is based on the IEEE 802.3 standard. The IEEE 802.3 standard specifies that a network implement the Carrier Sense Multiple Access with Collision Detection (CSMA/CD) access control method:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Carrier</b> – This is the wire used to transmit data.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Sense</b> - Each device listens to the wire to determine if it is clear to send data, as shown in the figure.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Multiple Access</b> - There can be many devices accessing the network at the same time.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Collision Detection</b> - A collision causes a doubling of voltage on the wire, which is detected by the devices’ NICs.</li>
+            </ul>
+          </p>
+          <p>In CSMA/CD, all devices listen to the network wire for clearance to send data. This process is similar to waiting to hear a dial tone on a phone before dialing a number. When the device detects that no other device is transmitting, the device can attempt to send data. If no other device sends any data at the same time, this transmission arrives at the destination computer with no problems. If another device transmits at the same time, a collision occurs on the wire. </p>
+          <p></p>
+          <p>The first station that detects the collision sends out a jam signal that tells all stations to stop transmitting and to run a backoff algorithm. A backoff algorithm calculates random times in which the end station tries transmitting again. This random time is typically in 1 or 2 milliseconds (ms). This sequence occurs every time there is a collision on the network and can reduce Ethernet transmission by up to 40 percent.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Most Ethernet networks today are full duplex. In full duplex Ethernet, there is rarely a collision because devices can transmit and receive at the same time.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a topology of the Carrier Sense Multiple Access with Collision Detection (CSMA/CD) access control method. The topology shows three desktop computers connected to a central Ethernet hub. Two of the connections are transmitting frames. The three desktop computers have callouts that say, “I will send data when the wire is clear.”</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>	
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />	
+		<element type="IMAGE" subType="STD" x="48.75" y="60.3" width="580.1" height="366.15" src="2.1.2.1.jpg" />	
+	</slide>
+</data>

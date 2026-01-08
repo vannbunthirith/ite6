@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>CPU Requirements</b>]]></text>
+	</component>
+	
+
+<!-- Textbox -->
+
+<component id='ID_bodyTxt'>
+	<text><![CDATA[<ul><li>The new CPU must fit into the existing CPU socket.</li><li>The new CPU must be compatible with the motherboard chipset.</li><li>The new CPU must operate with the existing motherboard and power supply.</li></ul>]]></text>
+</component>
+
+<component id='ID_titleTxt'>
+	<text><![CDATA[<b>Requirements</b>]]></text>
+</component>
+<!-- EndTextbox -->
+
+</textcomponents>

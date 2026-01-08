@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+
+		<slide>
+			 <element type="IMAGE" subType="bg" bgType="IMAGE" />
+			 <element type="IMAGE" x="80" y="40" width="519.9" height="402.45" subType="STD" src="media_13.3.1.1.jpg" />
+		</slide>
+
+        <slide type="MBUTTON">
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />
+            <slide buttonType="BLUE" buttonX="50" buttonY="115" buttonWidth="250" buttonHeight="21" compId="ID_s2_btn01" selected="true">
+            	<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s2_titleTxt01" bodyId="ID_s2_bodyTxt01" size="11"  width="300" height="300" x="350" y="105" animated="2" visible="1" />	
+            </slide>
+            <slide buttonType="BLUE" buttonX="50" buttonY="157.80" buttonWidth="250" buttonHeight="21" compId="ID_s2_btn02" selected="false">
+            	<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s2_titleTxt02" bodyId="ID_s2_bodyTxt02" size="11"  width="300" height="300" x="350" y="105" animated="2" visible="1" />	
+            </slide>
+            <slide buttonType="BLUE" buttonX="50" buttonY="200" buttonWidth="250" buttonHeight="21" compId="ID_s2_btn03" selected="false">
+            	<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s2_titleTxt03" bodyId="ID_s2_bodyTxt03" size="11"  width="300" height="300" x="350" y="105" animated="2" visible="1" />	
+            </slide>
+            <slide buttonType="BLUE" buttonX="50" buttonY="243" buttonWidth="250" buttonHeight="21" compId="ID_s2_btn04" selected="false">
+            	<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s2_titleTxt04" bodyId="ID_s2_bodyTxt04" size="11"  width="300" height="300" x="350" y="105" animated="2" visible="1" />	
+            </slide>
+            <slide buttonType="BLUE" buttonX="50" buttonY="286" buttonWidth="250" buttonHeight="21" compId="ID_s2_btn05" selected="false">
+            	<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s2_titleTxt05" bodyId="ID_s2_bodyTxt05" size="11"  width="300" height="350" x="350" y="105" animated="2" visible="1" />	
+            </slide>
+            <slide buttonType="BLUE" buttonX="50" buttonY="329" buttonWidth="250" buttonHeight="21" compId="ID_s2_btn06" selected="false">
+            	<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s2_titleTxt06" bodyId="ID_s2_bodyTxt06" size="11"  width="300" height="300" x="350" y="105" animated="2" visible="1" />	
+            </slide>		 		
+        </slide>
+
+		<slide>
+			 <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />
+			 <element type="TEXT" subType="TABLE" compId="ID_s3_table" x="40" y="90" width="599.95" height="270" size="11" />
+		</slide>
+
+  </slide>
+</data>

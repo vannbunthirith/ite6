@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	
+	<slide type="MBAR">
+
+		<slide>
+			<element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490"  />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<element type="TEXT" compId="ID_s1_table_html" x="50" y="80" width="620" height="331" />
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490"  />
+			<element type="IMAGE" x="40" y="69" width="599.95" height="336.65" subType="STD" src="4_2_1_2_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		</slide>
+		
+		
+		<slide>
+			<element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490"  />
+			<element type="IMAGE" x="50" y="33" width="579.85" height="422.35" subType="STD" src="4_2_1_2_B.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+		</slide>
+		
+		
+		<slide>
+			<element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490"  />
+			<element type="IMAGE" x="123" y="40" width="445.95" height="405.45" subType="STD" src="4_2_1_2_C.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+		</slide>
+				
+				 
+</slide>
+
+
+
+</data>

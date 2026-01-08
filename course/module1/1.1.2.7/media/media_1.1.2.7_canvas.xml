@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490" />
+        <slide type="MBUTTON">
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+            <slide buttonType="BLUE" buttonX="65" buttonY="146.90" buttonWidth="230" buttonHeight="21" compId="ID_s1_btn01" selected="true">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt01" bodyId="ID_s1_txt01" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="190.70" buttonWidth="230" buttonHeight="21" compId="ID_s1_btn02" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt02" bodyId="ID_s1_txt02" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="234.50" buttonWidth="230" buttonHeight="21" compId="ID_s1_btn03" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt03" bodyId="ID_s1_txt03" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="278.30" buttonWidth="230" buttonHeight="21" compId="ID_s1_btn04" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt04" bodyId="ID_s1_txt04" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide>
+                <element type="IMAGE" />
+            </slide>
+        </slide>
+        <slide type="MBUTTON">
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF" />
+            <slide buttonType="BLUE" buttonX="65" buttonY="146.90" buttonWidth="230" buttonHeight="21" compId="ID_s3_btn01" selected="true">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s3_title_txt01" bodyId="ID_s3_txt01" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="190.70" buttonWidth="230" buttonHeight="21" compId="ID_s3_btn02" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s3_title_txt02" bodyId="ID_s3_txt02" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="234.50" buttonWidth="230" buttonHeight="21" compId="ID_s3_btn03" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s3_title_txt03" bodyId="ID_s3_txt03" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide>
+                <element type="IMAGE" />
+            </slide>
+        </slide>
+        <slide type="MBUTTON">
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#FFFFFF" />
+            <slide buttonType="BLUE" buttonX="65" buttonY="146.90" buttonWidth="230" buttonHeight="21" compId="ID_s4_btn01" selected="true">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s4_title_txt01" bodyId="ID_s4_txt01" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="190.70" buttonWidth="230" buttonHeight="21" compId="ID_s4_btn02" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s4_title_txt02" bodyId="ID_s4_txt02" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide buttonType="BLUE" buttonX="65" buttonY="234.50" buttonWidth="230" buttonHeight="21" compId="ID_s4_btn03" selected="false">
+                <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s4_title_txt03" bodyId="ID_s4_txt03" size="11" width="270" height="300" x="345" y="95" animated="2" visible="1" />
+            </slide>
+            <slide>
+                <element type="IMAGE" />
+            </slide>
+        </slide>
+    </slide>
+</data>

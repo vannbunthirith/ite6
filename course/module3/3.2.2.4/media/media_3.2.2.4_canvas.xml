@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" src="bg1.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+            <element type="TEXT" subType="TABLE" compId="ID_s1_table_html" x="50" y="140" width="580" height="238" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490" />
+            <element type="IMAGE" x="90" y="95" width="500" height="298" subType="STD" src="3_2_2_4_B.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490" />
+            <element type="IMAGE" x="90" y="95" width="500" height="298" subType="STD" src="3_2_2_4_C.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg1.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#FFFFFF" />
+            <element type="TEXT" subType="TABLE" compId="ID_s4_table_html" x="50" y="95" width="580" height="350" />
+        </slide>
+    </slide>
+</data>

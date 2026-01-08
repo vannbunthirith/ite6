@@ -1,0 +1,62 @@
+﻿<textcomponents>
+
+
+
+ <component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+	<!--<tr>
+		<td bgcolor='#98D3D1' valign="top"><font color='#1C3635'><b>Bit Value</b></font></td>
+	</tr>-->
+	<tr>
+		<td  bgcolor='#FFFFFF' valign="top"><font size='16' class="mtitle"><b>Step 5: Verify Full System Functionality and if Applicable Implement Preventive Measures</b></font></td>
+			
+	</tr>
+	<tr class="mtable_top">
+		<td bgcolor='#4E4C4D' class="mtable_top" ><font size='2' color='#4E4C4D'><span style="color:#ffffff">.</span></font></td>
+	</tr>
+	
+	<tr>  
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>
+			<ul><li>Reboot the computer.</li>
+			<li>Ensure multiple applications work properly.</li>
+			<li>Verify network and Internet connections.</li>
+			<li>Print a document from one application.</li>
+			<li>Ensure all attached devices work properly.</li>
+			<li>Ensure no error messages are received.</li></ul>
+		</font></td>		 
+	</tr>
+
+	</table>]]></text>
+</component>
+
+<component id='ID_table_html'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+	<caption class="mtable_title" colspan="1" bgcolor='#FFFFFF'><font size="16"><b>Step 5: Verify Full System Functionality and if Applicable Implement Preventive Measures</b></font></caption>
+	<!--<tr>
+		<td bgcolor='#98D3D1' valign="top"><font color='#1C3635'><b>Bit Value</b></font></td>
+	</tr>-->
+	
+	<tr class="mtable_top">
+		<td bgcolor='#4E4C4D' class="mtable_top" ><font size='2' color='#4E4C4D'><span style="color:#ffffff">.</span></font></td>
+	</tr>
+	
+	<tr>  
+		<td scope="row" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>
+			<ul><li>Reboot the computer.</li>
+			<li>Ensure multiple applications work properly.</li>
+			<li>Verify network and Internet connections.</li>
+			<li>Print a document from one application.</li>
+			<li>Ensure all attached devices work properly.</li>
+			<li>Ensure no error messages are received.</li></ul>
+		</font></td>		 
+	</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

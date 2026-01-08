@@ -1,0 +1,204 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Unix File Permissions</b>]]></text> 
+    </component>
+
+     <component id="ID_s1_txt01">
+        <text><![CDATA[User]]></text> 
+    </component>
+
+     <component id="ID_s1_txt02">
+        <text><![CDATA[Group]]></text> 
+    </component>
+     <component id="ID_s1_txt03">
+        <text><![CDATA[Other]]></text> 
+    </component>
+
+    <component id="ID_s1_txt04">
+        <text><![CDATA[File or directory bit:<br/>- indicates it is a file, d indicates it is a directory]]></text> 
+    </component>    
+	
+    <component id="ID_s1_txt05">
+        <text><![CDATA[<b>Use octal values to define the permissions:</b>]]></text> 
+    </component> 
+
+    <component id="ID_s1_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+            <tr>
+                <td bgcolor='#666263' width='70' ><font color='#F2F2F2'><b>- or d</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>x</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>x</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>x</b></font></td>
+               
+             </tr>
+        </table>]]></text>
+    </component>
+
+    
+    <component id="ID_s1_table02">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+            <caption  class="mtable_title" colspan="4" bgcolor='#FFFFFF'>
+                <font size="16">Octal codes for permissions</font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="4" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+             <tr>
+                <th scope="col" id="Binary"  bgcolor='#666263' width='80'><font color='#F2F2F2'><b>Binary</b></font></th>
+                <th scope="col" id="Octal"  bgcolor='#666263' width='80'><font color='#F2F2F2'><b>Octal</b></font></th>
+                <th scope="col" id="Permission"  bgcolor='#666263' width='110'><font color='#F2F2F2'><b>Permission</b></font></th>
+                <th scope="col" id="Description"  bgcolor='#666263' ><font color='#F2F2F2'><b>Description</b></font></th>
+             </tr>
+
+            
+
+             <tr>
+                <td scope="row" headers="Binary" bgcolor='#E9E7E8'>000</td>
+                <td headers="Octal" bgcolor='#E9E7E8'>0</td>
+                <td headers="Permission" bgcolor='#E9E7E8'>---</td>
+                <td headers="Description" bgcolor='#E9E7E8'>No access</td>
+
+            </tr>
+            <tr>
+                <td scope="row" headers="Binary" bgcolor='#F2F2F2'>001</td>
+                <td headers="Octal" bgcolor='#F2F2F2'>1</td>   
+                <td headers="Permission" bgcolor='#F2F2F2'>--x</td>     
+                <td headers="Description" bgcolor='#F2F2F2'>Execution only</td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Binary" bgcolor='#E9E7E8'>010</td>
+                <td headers="Octal" bgcolor='#E9E7E8'>2</td>
+                <td headers="Permission" bgcolor='#E9E7E8'>-w-</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Write only</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Binary" bgcolor='#F2F2F2'>011</td>
+                <td headers="Octal" bgcolor='#F2F2F2'>3</td>
+                <td headers="Permission" bgcolor='#F2F2F2'>-wx</td>        
+                <td headers="Description" bgcolor='#F2F2F2'>Write and Execution</td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Binary" bgcolor='#E9E7E8'>100</td>
+                <td headers="Octal" bgcolor='#E9E7E8'>4</td>
+                <td headers="Permission" bgcolor='#E9E7E8'>r--</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Read only</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Binary" bgcolor='#F2F2F2'>101</td>
+                <td headers="Octal" bgcolor='#F2F2F2'>5</td>
+                <td headers="Permission" bgcolor='#F2F2F2'>r-x</td>        
+                <td headers="Description" bgcolor='#F2F2F2'>Read and Execution</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Binary" bgcolor='#E9E7E8'>110</td>
+                <td headers="Octal" bgcolor='#E9E7E8'>6</td>
+                <td headers="Permission" bgcolor='#E9E7E8'>rw-</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Read and Write</td>
+            </tr>
+             <tr>
+                <td scope="row" headers="Binary" bgcolor='#F2F2F2'>111</td>
+                <td headers="Octal" bgcolor='#F2F2F2'>7</td>
+                <td headers="Permission" bgcolor='#F2F2F2'>rwx</td>
+                <td headers="Description" bgcolor='#F2F2F2'>Read, Write and Execution</td>
+            </tr>
+
+
+        </table>]]></text>
+    </component>
+
+     <component id="ID_s2_title">
+        <text><![CDATA[<b>Administrative Command Line Tools</b>]]></text> 
+    </component>
+
+     <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+           
+
+            <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Administrative command line tools</font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+			
+             <tr>
+                <th scope="col" id="Command" bgcolor='#666263' width='200'><font color='#F2F2F2'><b>Command</b></font></th>
+                <th scope="col" id="Description2" bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></th>
+             </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>mv</b></font></td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Moves or renames files and directories</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>chmod</b></font></td>
+                <td  headers="Description2"bgcolor='#F2F2F2'>Modifies file permissions</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>chown</b></font></td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Changes the ownership of a file</td>   
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>dd</b></font></td>
+                <td headers="Description2" bgcolor='#F2F2F2'>Copies data from an input to an output</td>
+            </tr>
+			
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>shutdown</b></font></td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Shuts down the system</td>   
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>pwd</b></font></td>
+                <td headers="Description2" bgcolor='#F2F2F2'>Displays the name of the current directory</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>passwd</b></font></td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Changes user password</td>   
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>ps</b></font></td>
+                <td headers="Description2" bgcolor='#F2F2F2'>Lists the process currently running in the system</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>su</b></font></td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Simulates a login as another user or to become a super-user</td>   
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>sudo</b></font></td>
+                <td headers="Description2" bgcolor='#F2F2F2'>Runs command as another user</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>ifconfig</b></font></td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Displays or configures network card related information</td>   
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>apt-get</b></font><br/>(not available on OS X, by default)</td>
+                <td headers="Description2" bgcolor='#F2F2F2'>Is the Ubuntu Linux package manager and is used to install, configure and remove packages on Ubuntu</td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>iwconfig</b></font><br/>(not available on OS X, by default)</td>
+                <td headers="Description2" bgcolor='#E9E7E8'>Displays or configures wireless network card related information</td>   
+            </tr>
+
+        </table>]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,68 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 5: Verify Full System Functionality and if Applicable Implement Preventive Measures</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Verify full functionality</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul>
+			<li>Shut down the computer and restart it</li>
+			<li>Check event logs to make sure there are no new warnings or errors</li>
+			<li>Check Device Manager to see that there are no warnings or errors</li>
+			<li>Run DxDiag to make sure DirectX is running correctly</li>
+			<li>Make sure applications run properly</li>
+			<li>Make sure network shares are accessible</li>
+			<li>Make sure the Internet can be accessed</li>
+			<li>Re-run system file checker to ensure all files are correct</li>
+			<li>Check Task Manager to ensure that the status of all programs is Running</li>
+			<li>Re-run any third party diagnostic tools</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+<component id="ID_s1_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 5: Verify Full System Functionality and if Applicable Implement Preventive Measures</b></font></caption>
+
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Verify full functionality</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul>
+			<li>Shut down the computer and restart it</li>
+			<li>Check event logs to make sure there are no new warnings or errors</li>
+			<li>Check Device Manager to see that there are no warnings or errors</li>
+			<li>Run DxDiag to make sure DirectX is running correctly</li>
+			<li>Make sure applications run properly</li>
+			<li>Make sure network shares are accessible</li>
+			<li>Make sure the Internet can be accessed</li>
+			<li>Re-run system file checker to ensure all files are correct</li>
+			<li>Check Task Manager to ensure that the status of all programs is Running</li>
+			<li>Re-run any third party diagnostic tools</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+
+</textcomponents>

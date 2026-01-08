@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.3 IPv4 Address Format</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>IPv4 Address Format</h1>
+        <div>
+          <p>When a host is configured with an IPv4 address, it is entered in dotted decimal format, as shown in Figure 1. Imagine if you had to enter the 32-bit binary equivalent. The address 192.168.200.8 would be entered as 11000000101010001100100000001000. If just one bit were mistyped, the address would be different. The device then might not be able to communicate on the network.</p>
+          <p></p>
+          <p>Each number separated by a period is called an octet because it represents 8 bits. Therefore, the address 192.168.200.8 has four octets. Each bit in an octet can be either a 1 (on) or a 0 (off). Also, each bit in an octet represents a value. The rightmost bit represents a 1. Each bit to its left is doubled, so that the leftmost bit represents 128. To convert the binary address, add the values of every bit that is a 1 in each octet, as shown in Figure 2.</p>
+          <p></p>
+          <p>In addition, an IPv4 address is composed of two parts. The first part identifies the network. The second part identifies a host on that network. Both parts are required.</p>
+          <p></p>
+          <p>When a computer prepares data to send out on the network, it must determine whether to send data directly to the intended receiver or to a router. It will send it directly to the receiver if the receiver is on the same network. Otherwise, it will send the data to a router. A router then uses the network portion of the IP address to route traffic between different networks.</p>
+          <p></p>
+          <p>Computers and routers use the subnet mask to calculate the network portion of the destination IPv4 address. Like an IPv4 address, the subnet mask is represented in dotted-decimal. For example, the subnet mask for the IPv4 address 192.168.200.8 might be 255.255.255.0, as shown in Figure 1. A computer uses both the address and the subnet mask to determine the network portion of the address. It does so at the binary level. In Figure 3, the 192.168.200.8 address and 255.255.255.0 subnet mask are converted to their binary equivalents. An octet with the decimal value 255 is 8 ones in binary. A one bit in the subnet mask means that bit is part of the network portion. So the first 24 bits of the 192.168.200.8 address are network bits. The last 8 bits are host bits. </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Internet Protocol Version 4 (TCP/IPv4) Properties dialog box that shows that when a host is configured with an IPv4 address, it is entered in the following dotted decimal format: 192.168.200.8. Figure 2 on this page is a diagram that demonstrates how to convert a binary address into dotted decimal notation as follows. IPv4 address in binary notation: 11000000.10101000.11001000.00001000. Each octet has eight bits and each bit represents a number. The place values for each bit in an octet are: 128, 64, 32, 16, 8, 4, 2, 1. All bits with the value “1” are added together. The first octet in the IPv4 address is: 11000000. The first two bits to the right have values of “1”. Therefore, add 128 and 64 which equals 192. When all the octets are calculated the dotted decimal notation is: 192.168.200.8. Figure 3 on this page is a table that shows the following IPv4 address and Subnet mask converted to their binary equivalents. Dotted Decimal: 192.168.200.8, Network Portion: 11000000.10101000.11001000, Host Portion: .00001000. Dotted Decimal: 255.255.255.0, Network Portion: 11111111.11111111.11111111, Host Portion: .00000000. Dotted Decimal: 192.168.200.0, Network Portion: 11000000.10101000.11001000, Host Portion: .00000000.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

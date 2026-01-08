@@ -1,0 +1,117 @@
+﻿<textcomponents>
+	<component id='ID_s1_title'>
+	<text><![CDATA[<b>BIOS Passwords</b>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Access Level</b>]]></text>
+</component>
+
+	<component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="145"><font color='#FFFFFF' ><b>Access Level</b></font></td>
+			<td bgcolor='#666263'  valign="top"  ><font color='#FFFFFF' ><b>Level Description</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Full Access</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>All screens and settings are available, except the supervisor password setting.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Limited Access</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>Changes can be made to certain settings only, for example, the time and date.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>View Only Access</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>All screens are available, but no settings can be changed.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>No Access</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>No access is provided to the BIOS setup utility.</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_table_html"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Access Levels</font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" id="Access" bgcolor='#666263'  valign="top"  width="145"><font color='#FFFFFF' ><b>Access Level</b></font></th>
+			<th scope="col" id="Level" bgcolor='#666263'  valign="top"  ><font color='#FFFFFF' ><b>Level Description</b></font></th>
+			
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Access" bgcolor='#E9E7E8'><b>Full Access</b></td>
+			<td headers="Level" bgcolor='#E9E7E8'><ul><li>All screens and settings are available, except the supervisor password setting.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Access" bgcolor='#E9E7E8'><b>Limited Access</b></td>
+			<td headers="Level" bgcolor='#E9E7E8'><ul><li>Changes can be made to certain settings only, for example, the time and date.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Access" bgcolor='#E9E7E8'><b>View Only Access</b></td>
+			<td headers="Level" bgcolor='#E9E7E8'><ul><li>All screens are available, but no settings can be changed.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Access" bgcolor='#E9E7E8'><b>No Access</b></td>
+			<td headers="Level" bgcolor='#E9E7E8'><ul><li>No access is provided to the BIOS setup utility.</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>LoJack Functions</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[<b>Locate</b>]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[<b>Lock</b>]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[<b>Delete</b>]]></text>
+</component>
+
+<component id='ID_s3_txt04'>
+	<text><![CDATA[<ul><li>Locate the device using Wi-Fi or IP geolocation to see the last location.</li></ul>]]></text>
+</component>
+
+<component id='ID_s3_txt05'>
+	<text><![CDATA[<ul><li>Lock the device remotely to prevent access to your personal information.</li><li>It can also display a customized message on the screen</li></ul>]]></text>
+</component>
+
+<component id='ID_s3_txt06'>
+	<text><![CDATA[<ul><li>Delete all files on the device to protect personal information and prevent identity theft.</li></ul>]]></text>
+</component>
+</textcomponents>

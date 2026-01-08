@@ -1,0 +1,302 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Well-Known Port Numbers</b>]]></text>
+	</component>
+
+	<component id="ID_table01">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="4" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="90" valign="top"><font color='#FFFFFF' ><b>Port Number</b></font></td>
+			<td bgcolor='#666263' width="75" valign="top"><font color='#FFFFFF' ><b>Protocol</b></font></td>
+			<td bgcolor='#666263' width="340" valign="top"><font color='#FFFFFF' ><b>Application</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Acronym</b></font></td>
+		</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8'>20</td>
+				<td bgcolor='#E9E7E8'>TCP</td>
+				<td bgcolor='#E9E7E8'>File Transfer Protocol (data)</td>
+				<td bgcolor='#E9E7E8'>FTP</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>21</td>
+				<td bgcolor='#F2F2F2'>TCP</td>
+				<td bgcolor='#F2F2F2'>File Transfer Protocol (control)</td>
+				<td bgcolor='#F2F2F2'>FTP</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>22</td>
+				<td bgcolor='#E9E7E8'>TCP</td>
+				<td bgcolor='#E9E7E8'>Secure Shell </td>
+				<td bgcolor='#E9E7E8'>SSH</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>23</td>
+				<td bgcolor='#F2F2F2'>TCP</td>
+				<td bgcolor='#F2F2F2'>Telnet</td>
+				<td bgcolor='#F2F2F2'> — </td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>25</td>
+				<td bgcolor='#E9E7E8'>TCP</td>
+				<td bgcolor='#E9E7E8'>Simple Mail Transfer Protocol</td>
+				<td bgcolor='#E9E7E8'>SMTP</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>53</td>
+				<td bgcolor='#F2F2F2'>UDP, TCP</td>
+				<td bgcolor='#F2F2F2'>Domain Name Service</td>
+				<td bgcolor='#F2F2F2'>DNS</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>67</td>
+				<td bgcolor='#E9E7E8'>UDP</td>
+				<td bgcolor='#E9E7E8'>Dynamic Host Configuration Protocol (server)</td>
+				<td bgcolor='#E9E7E8'>DHCP</td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#F2F2F2'>68</td>
+				<td bgcolor='#F2F2F2'>UDP</td>
+				<td bgcolor='#F2F2F2'>Dynamic Host Configuration Protocol (client)</td>
+				<td bgcolor='#F2F2F2'>DHCP</td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8'>69</td>
+				<td bgcolor='#E9E7E8'>UDP</td>
+				<td bgcolor='#E9E7E8'>Trivial File Transfer Protocol</td>
+				<td bgcolor='#E9E7E8'>TFTP</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>80</td>
+				<td bgcolor='#F2F2F2'>TCP</td>
+				<td bgcolor='#F2F2F2'>Hypertext Transfer Protocol</td>
+				<td bgcolor='#F2F2F2'>HTTP</td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>110</td>
+				<td bgcolor='#E9E7E8'>TCP</td>
+				<td bgcolor='#E9E7E8'>Post Office Protocol version 3</td>
+				<td bgcolor='#E9E7E8'>POP3</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>137-139</td>
+				<td bgcolor='#F2F2F2'>UDP, TCP</td>
+				<td bgcolor='#F2F2F2'>NetBIOS/NetBT</td>
+				<td bgcolor='#F2F2F2'>-</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>143</td>
+				<td bgcolor='#E9E7E8'>TCP</td>
+				<td bgcolor='#E9E7E8'>Internet Message Access Protocol</td>
+				<td bgcolor='#E9E7E8'>IMAP</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>161</td>
+				<td bgcolor='#F2F2F2'>UDP</td>
+				<td bgcolor='#F2F2F2'>Simple Network Management Protocol</td>
+				<td bgcolor='#F2F2F2'>SNMP</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>427</td>
+				<td bgcolor='#E9E7E8'>UDP, TCP</td>
+				<td bgcolor='#E9E7E8'>Service Location Protocol</td>
+				<td bgcolor='#E9E7E8'>SLP</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>443</td>
+				<td bgcolor='#F2F2F2'>TCP</td>
+				<td bgcolor='#F2F2F2'>Hypertext Transfer Protocol Secure</td>
+				<td bgcolor='#F2F2F2'>HTTPS</td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>445</td>
+				<td bgcolor='#E9E7E8'>TCP</td>
+				<td bgcolor='#E9E7E8'>Server Message Block/Common Internet File System</td>
+				<td bgcolor='#E9E7E8'>SMB/CIFS</td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>548</td>
+				<td bgcolor='#F2F2F2'>TCP</td>
+				<td bgcolor='#F2F2F2'>Apple Filing Protocol</td>
+				<td bgcolor='#F2F2F2'>AFP</td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>3389</td>
+				<td bgcolor='#E9E7E8'>UDP, TCP</td>
+				<td bgcolor='#E9E7E8'>Remote Desktop Protocol</td>
+				<td bgcolor='#E9E7E8'>RDP</td> 
+			</tr>
+
+		</table>]]></text>
+	</component>
+
+	<component id="ID_table01_html">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+				<caption class="mtable_title" colspan="4" bgcolor='#FFFFFF'><font size="16">Well-known Port Numbers</font></caption>
+
+        <tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Port" bgcolor='#666263' width="90" valign="top"><font color='#FFFFFF' ><b>Port Number</b></font></th>
+			<th scope="col" id="Protocol" bgcolor='#666263' width="75" valign="top"><font color='#FFFFFF' ><b>Protocol</b></font></th>
+			<th scope="col" id="Application" bgcolor='#666263' width="340" valign="top"><font color='#FFFFFF' ><b>Application</b></font></th>
+			<th scope="col" id="Acronym" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Acronym</b></font></th>
+		</tr>
+			
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>20</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>File Transfer Protocol (data)</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>FTP</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>21</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>File Transfer Protocol (control)</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>FTP</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>22</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Secure Shell </td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>SSH</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>23</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Telnet</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'> — </td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>25</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Simple Mail Transfer Protocol</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>SMTP</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>53</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>UDP, TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Domain Name Service</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>DNS</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>67</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>UDP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Dynamic Host Configuration Protocol (server)</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>DHCP</td>
+			</tr>
+			
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>68</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>UDP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Dynamic Host Configuration Protocol (client)</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>DHCP</td>
+			</tr>
+			
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>69</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>UDP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Trivial File Transfer Protocol</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>TFTP</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>80</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Hypertext Transfer Protocol</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>HTTP</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>110</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Post Office Protocol version 3</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>POP3</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>137-139</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>UDP, TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>NetBIOS/NetBT</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>-</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>143</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Internet Message Access Protocol</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>IMAP</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>161</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>UDP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Simple Network Management Protocol</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>SNMP</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>427</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>UDP, TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Service Location Protocol</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>SLP</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>443</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Hypertext Transfer Protocol Secure</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>HTTPS</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>445</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Server Message Block/Common Internet File System</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>SMB/CIFS</td>
+			</tr>
+
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#F2F2F2'>548</td>
+				<td headers="Protocol" bgcolor='#F2F2F2'>TCP</td>
+				<td headers="Application" bgcolor='#F2F2F2'>Apple Filing Protocol</td>
+				<td headers="Acronym" bgcolor='#F2F2F2'>AFP</td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Port" bgcolor='#E9E7E8'>3389</td>
+				<td headers="Protocol" bgcolor='#E9E7E8'>UDP, TCP</td>
+				<td headers="Application" bgcolor='#E9E7E8'>Remote Desktop Protocol</td>
+				<td headers="Acronym" bgcolor='#E9E7E8'>RDP</td> 
+			</tr>
+
+		</table>]]></text>
+	</component>
+</textcomponents>

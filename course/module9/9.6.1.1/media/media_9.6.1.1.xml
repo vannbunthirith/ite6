@@ -1,0 +1,43 @@
+<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+       <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+               <font size="16"><b>Step 1: Identify the Problem</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+			<th scope="col" colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Identify the Problem for Laptops</b></font></th>
+		</tr>
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width='145'>Open-ended questions</td>
+  <td bgcolor='#E9E7E8'><ul><li>What problems are you experiencing with your laptop?</li><li>What software has been installed recently?</li><li>What were you doing when the problem was identified?</li><li>What error messages have you received?</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2'>Closed-ended questions</td>
+  <td bgcolor='#F2F2F2'><ul><li>Is the laptop under warranty?</li><li>Is the laptop currently using the battery? Can the laptop operate using the AC adapter? Can the laptop boot and show the operating system desktop?</li></ul></td>		
+	</tr>	
+
+    <tr>
+			<th scope="col" colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Identify the Problem for Mobile Devices</b></font></th>
+		</tr>
+    <tr>
+		<td scope="row" bgcolor='#E9E7E8' width='145'>Open-ended questions</td>
+  <td bgcolor='#E9E7E8'><ul><li>What is the problem you are experiencing?</li><li>What is the make and model of your mobile device?</li><li>What service provider do you have?</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2'>Closed-ended questions</td>
+  <td bgcolor='#F2F2F2'><ul><li>Has this problem happened before?</li><li>Has anyone else used the mobile device?</li><li>Is your mobile device under warranty? </li></ul></td>		
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

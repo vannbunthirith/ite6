@@ -1,0 +1,91 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>MBR and GPT Comparison</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='220'><font color='#FFFFFF'><b>MBR</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>GPT</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Maximum of 4 primary partitions</td>
+                <td bgcolor='#E9E7E8'>Maximum of 128 partitions in Windows</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Maximum partition size of 2TB</td>
+                <td bgcolor='#F2F2F2'>Maximum partition size of 9.4 ZB (9.4 × 10^21 bytes) </td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>No partition table backup</td>
+                <td bgcolor='#E9E7E8'>Stores a partition table backup</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Partition and boot data stored in one place</td>
+                <td bgcolor='#F2F2F2'>Partition and boot data stored in multiple locations across the disk</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Any computer can boot from MBR</td>
+                <td bgcolor='#E9E7E8'>Computer must be UEFI-based and run a 64-bit OS</td>
+            </tr>
+        </table>]]></text>
+    </component>
+
+     <component id="ID_table_html">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+           <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">MBR and GTP Comparison</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="MBR" bgcolor='#666263' width='220'><font color='#FFFFFF'><b>MBR</b></font></th>
+                <th scope="col" id="GPT" bgcolor='#666263'><font color='#FFFFFF'><b>GPT</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="MBR" bgcolor='#E9E7E8'>Maximum of 4 primary partitions</td>
+                <td headers="GPT" bgcolor='#E9E7E8'>Maximum of 128 partitions in Windows</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="MBR" bgcolor='#F2F2F2'>Maximum partition size of 2TB</td>
+                <td headers="GPT" bgcolor='#F2F2F2'>Maximum partition size of 9.4 ZB (9.4 × 10^21 bytes) </td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="MBR" bgcolor='#E9E7E8'>No partition table backup</td>
+                <td headers="GPT" bgcolor='#E9E7E8'>Stores a partition table backup</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="MBR" bgcolor='#F2F2F2'>Partition and boot data stored in one place</td>
+                <td headers="GPT" bgcolor='#F2F2F2'>Partition and boot data stored in multiple locations across the disk</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="" bgcolor='#E9E7E8'>Any computer can boot from MBR</td>
+                <td headers="GPT" bgcolor='#E9E7E8'>Computer must be UEFI-based and run a 64-bit OS</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

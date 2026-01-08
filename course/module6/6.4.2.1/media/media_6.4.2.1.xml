@@ -1,0 +1,204 @@
+<textcomponents>
+
+<!--slide 1-->
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' ><font color='#FFFFFF'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The OS locks up.</td>
+  <td bgcolor='#E9E7E8'><ul><li>The computer is overheating.</li><li>Some of the operating system files may be corrupted.</li><li>The power supply, RAM, hard drive, or motherboard may be defective.</li><li>The BIOS settings may be incorrect.</li><li>An unknown event has occurred that has caused the OS to lock up.</li><li>An incorrect driver has been installed.</li></ul></td>
+  <td bgcolor='#E9E7E8'><ul><li>Clean internal components.</li><li>Check the fan connections to ensure fans are operating properly.</li><li>Run the system file checker (SFC) to replace corrupt operating system files.</li><li>Test the power supply, RAM, hard drive, or motherboard with third party diagnostic software and replace as necessary.</li><li>Examine and adjust the BIOS settings.</li><li>Address any events in the Event Log.</li><li>Install or roll back updated drivers.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The keyboard or mouse does not respond.</td>
+  <td bgcolor='#F2F2F2'><ul><li>The computer has an incompatible or an out-of-date driver.</li><li>The cable has been damaged or disconnected.</li><li>The device is defective.</li><li>A KVM switch is being used and the active computer is not being displayed.</li><li>Wireless keyboard or mouse has failed.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Reboot the computer.</li><li>Install or roll back drivers.</li><li>Replace or reconnect the cable.</li><li>Replace the device.</li><li>Change the input on the KVM switch.</li><li>Replace the battery.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The operating system will not start.</td>
+		<td bgcolor='#E9E7E8'><ul><li>A hardware device failed to initialize.</li><li>Some of the operating system files may be corrupted.</li><li>The boot sector is corrupted.</li><li>The power supply, RAM, hard drive, or motherboard may be defective.</li><li>New hardware drivers did not install properly.</li><li>Windows updates have corrupted the operating system.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Reboot the computer.</li><li>Restore Windows using the System Restore tool.</li><li>Recover the system disk using the System Image Recovery tool.</li><li>Perform a Repair Installation on the operating system.</li><li>Use the Recovery Environment to fix the boot sector.</li><li>Replace the power supply, RAM, hard drive, or motherboard with one that works.</li><li>Disconnect any newly connected devices and use the Last Known Good Configuration option to start the operating system.</li><li>Boot the computer in Safe Mode and address all events in the Event Log.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer displays an "Invalid Boot Disk" error after POST.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The boot order is not set correctly in BIOS.</li><li>The hard drive is not detected.</li><li>The hard drive does not have an operating system installed.</li><li>The MBR is corrupted.</li><li>The GPT is corrupted.</li><li>The computer has a boot sector virus.</li><li>The hard drive is failing.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Change the boot order in BIOS to start with the boot drive.</li><li>Reconnect the hard drive cables.</li><li>Install an operating system.</li><li>Using a system repair disc, run bootrec /FixMbr  to repair the MBR.</li><li>Using a system repair disc, run DISKPART to repair the GPT (or the MBR).</li><li>Run antivirus software.</li><li>Replace the hard drive.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer displays a "BOOTMGR is missing" error after POST.</td>
+		<td bgcolor='#E9E7E8'><ul><li>BOOTMGR is missing or damaged.</li><li>Boot Configuration Data is missing or damaged.</li><li>The boot order is not set correctly in BIOS.</li><li>The MBR is corrupted.</li><li>The hard drive is failing.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Restore BOOTMGR from installation media.</li><li>Restore the Boot Configuration Data from installation media.</li><li>Change the boot order in BIOS to start with the boot drive.</li><li>Run bootrec /FixMbr  from the Recovery Environment.</li><li>Run chkdsk /F /R from the Recovery Environment.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>A service failed to start when the computer booted.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The service is not enabled.</li><li>The service is set to Manual.</li><li>The failed service requires another service to be enabled.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Enable the service.</li><li>Set the service to Automatic.</li><li>Re-enable the required service.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>A device did not start when the computer booted.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The external device is not powered on.</li><li>The data cable or power cable is not connected to the device.</li><li>The device has been disabled in BIOS.</li><li>The device has failed.</li><li>The device has a conflict with a newly installed device.</li><li>The driver is corrupted.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Power on the external device.</li><li>Secure the data cable and power cable to the device.</li><li>Enable the device in BIOS.</li><li>Replace the device.</li><li>Remove the newly installed device.</li><li>Re-install or roll back the driver.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer continually restarts without displaying the desktop.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The computer is set to restart when there is a failure.</li><li>A startup file has become corrupted.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Press F8 to open the Advanced Options Menu and choose Disable automatic restart on system failure.</li><li>Run chkdsk /F /R from the Recovery Environment.</li><li>Use the Recovery Environment to perform an Automatic Repair, or a System Restore.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer displays a black or blue screen of death (BSOD).</td>
+		<td bgcolor='#E9E7E8'><ul><li>A driver is not compatible with the hardware.</li><li>The RAM is failing.</li><li>The power supply is failing.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Research the STOP error and the name of the module that produced the error.</li><li>Replace any failing devices with known-good devices.</li><li>Perform a memory check.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer locks up without any error messages.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The CPU or FSB settings are incorrect on the motherboard or in the BIOS.</li><li>The computer is overheating.</li><li>An update has corrupted the operating system.</li><li>The RAM is failing.</li><li>The power supply is failing.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Reset the CPU and FSB settings.</li><li>Check and replace any cooling devices as necessary.</li><li>Uninstall the software update or perform a System Restore.</li><li>Run chkdsk /F /R from the Recovery Environment.</li><li>Replace any failing devices with known-good devices.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>An application does not install.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The downloaded application installer contains a virus and has been prevented from installing by virus protection software.</li><li>The installation disk or file is corrupted.</li><li>The installer is not compatible with the operating system.</li><li>The hardware does not meet the minimum requirements.</li><li>The software on which the application relies is not installed.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Obtain a new installation disk or delete the file and download the installation file again.</li><li>Run the installer under compatibility mode</li><li>Install hardware that meets the minimum installation requirements.</li><li>Install any software on which the application relies.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>A computer with Windows 7 installed does not run Aero.</td>
+		<td bgcolor='#F2F2F2'>The computer does not meet the minimum hardware requirements for running Aero.</td>		
+		<td bgcolor='#F2F2F2'>Upgrade the processor, RAM, and video card to meet the minimum Microsoft requirements for Aero.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The UAC no longer prompts the user for permission.</td>
+		<td bgcolor='#E9E7E8'>The UAC has been turned off.</td>
+		<td bgcolor='#E9E7E8'>Turn on the UAC in the User Account applet in the Control Panel.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>No Gadgets appear on the desktop.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The Gadgets have never been installed or have been uninstalled.</li><li>The XML necessary to render the Gadget is broken, corrupted, or not installed.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Right-click the desktop > Gadgets > right-click a Gadget > Add.</li><li>Register the file msxml3.dll by entering regsvr32 msxml3.dll > Enter at the command prompt.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer is running slowly and has a delayed response.</td>
+		<td bgcolor='#E9E7E8'>A process is using most of the CPU resources.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Restart the process using the Services console (services.msc).</li><li>If the process is not needed, end the process with Task Manager.</li><li>Restart the computer.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>After upgrading to Windows 7 or Vista, the computer runs very slowly.</td>
+		<td bgcolor='#F2F2F2'>Aero is causing the computer to run slowly.</td>		
+		<td bgcolor='#F2F2F2'>Turn off Aero.</td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<component id='ID_table_html'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions</b></font></caption>
+	
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify" bgcolor='#666263' ><font color='#FFFFFF'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable" bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible" bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The OS locks up.</td>
+  <td headers="Probable" bgcolor='#E9E7E8'><ul><li>The computer is overheating.</li><li>Some of the operating system files may be corrupted.</li><li>The power supply, RAM, hard drive, or motherboard may be defective.</li><li>The BIOS settings may be incorrect.</li><li>An unknown event has occurred that has caused the OS to lock up.</li><li>An incorrect driver has been installed.</li></ul></td>
+  <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Clean internal components.</li><li>Check the fan connections to ensure fans are operating properly.</li><li>Run the system file checker (SFC) to replace corrupt operating system files.</li><li>Test the power supply, RAM, hard drive, or motherboard with third party diagnostic software and replace as necessary.</li><li>Examine and adjust the BIOS settings.</li><li>Address any events in the Event Log.</li><li>Install or roll back updated drivers.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The keyboard or mouse does not respond.</td>
+  <td headers="Probable" bgcolor='#F2F2F2'><ul><li>The computer has an incompatible or an out-of-date driver.</li><li>The cable has been damaged or disconnected.</li><li>The device is defective.</li><li>A KVM switch is being used and the active computer is not being displayed.</li><li>Wireless keyboard or mouse has failed.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Reboot the computer.</li><li>Install or roll back drivers.</li><li>Replace or reconnect the cable.</li><li>Replace the device.</li><li>Change the input on the KVM switch.</li><li>Replace the battery.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The operating system will not start.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>A hardware device failed to initialize.</li><li>Some of the operating system files may be corrupted.</li><li>The boot sector is corrupted.</li><li>The power supply, RAM, hard drive, or motherboard may be defective.</li><li>New hardware drivers did not install properly.</li><li>Windows updates have corrupted the operating system.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Reboot the computer.</li><li>Restore Windows using the System Restore tool.</li><li>Recover the system disk using the System Image Recovery tool.</li><li>Perform a Repair Installation on the operating system.</li><li>Use the Recovery Environment to fix the boot sector.</li><li>Replace the power supply, RAM, hard drive, or motherboard with one that works.</li><li>Disconnect any newly connected devices and use the Last Known Good Configuration option to start the operating system.</li><li>Boot the computer in Safe Mode and address all events in the Event Log.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer displays an "Invalid Boot Disk" error after POST.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The boot order is not set correctly in BIOS.</li><li>The hard drive is not detected.</li><li>The hard drive does not have an operating system installed.</li><li>The MBR is corrupted.</li><li>The GPT is corrupted.</li><li>The computer has a boot sector virus.</li><li>The hard drive is failing.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Change the boot order in BIOS to start with the boot drive.</li><li>Reconnect the hard drive cables.</li><li>Install an operating system.</li><li>Using a system repair disc, run bootrec /FixMbr  to repair the MBR.</li><li>Using a system repair disc, run DISKPART to repair the GPT (or the MBR).</li><li>Run antivirus software.</li><li>Replace the hard drive.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer displays a "BOOTMGR is missing" error after POST.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>BOOTMGR is missing or damaged.</li><li>Boot Configuration Data is missing or damaged.</li><li>The boot order is not set correctly in BIOS.</li><li>The MBR is corrupted.</li><li>The hard drive is failing.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Restore BOOTMGR from installation media.</li><li>Restore the Boot Configuration Data from installation media.</li><li>Change the boot order in BIOS to start with the boot drive.</li><li>Run bootrec /FixMbr  from the Recovery Environment.</li><li>Run chkdsk /F /R from the Recovery Environment.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>A service failed to start when the computer booted.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The service is not enabled.</li><li>The service is set to Manual.</li><li>The failed service requires another service to be enabled.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Enable the service.</li><li>Set the service to Automatic.</li><li>Re-enable the required service.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>A device did not start when the computer booted.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The external device is not powered on.</li><li>The data cable or power cable is not connected to the device.</li><li>The device has been disabled in BIOS.</li><li>The device has failed.</li><li>The device has a conflict with a newly installed device.</li><li>The driver is corrupted.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Power on the external device.</li><li>Secure the data cable and power cable to the device.</li><li>Enable the device in BIOS.</li><li>Replace the device.</li><li>Remove the newly installed device.</li><li>Re-install or roll back the driver.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer continually restarts without displaying the desktop.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The computer is set to restart when there is a failure.</li><li>A startup file has become corrupted.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Press F8 to open the Advanced Options Menu and choose Disable automatic restart on system failure.</li><li>Run chkdsk /F /R from the Recovery Environment.</li><li>Use the Recovery Environment to perform an Automatic Repair, or a System Restore.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer displays a black or blue screen of death (BSOD).</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>A driver is not compatible with the hardware.</li><li>The RAM is failing.</li><li>The power supply is failing.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Research the STOP error and the name of the module that produced the error.</li><li>Replace any failing devices with known-good devices.</li><li>Perform a memory check.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer locks up without any error messages.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The CPU or FSB settings are incorrect on the motherboard or in the BIOS.</li><li>The computer is overheating.</li><li>An update has corrupted the operating system.</li><li>The RAM is failing.</li><li>The power supply is failing.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Reset the CPU and FSB settings.</li><li>Check and replace any cooling devices as necessary.</li><li>Uninstall the software update or perform a System Restore.</li><li>Run chkdsk /F /R from the Recovery Environment.</li><li>Replace any failing devices with known-good devices.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>An application does not install.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The downloaded application installer contains a virus and has been prevented from installing by virus protection software.</li><li>The installation disk or file is corrupted.</li><li>The installer is not compatible with the operating system.</li><li>The hardware does not meet the minimum requirements.</li><li>The software on which the application relies is not installed.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Obtain a new installation disk or delete the file and download the installation file again.</li><li>Run the installer under compatibility mode</li><li>Install hardware that meets the minimum installation requirements.</li><li>Install any software on which the application relies.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>A computer with Windows 7 installed does not run Aero.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'>The computer does not meet the minimum hardware requirements for running Aero.</td>		
+		<td headers="Possible" bgcolor='#F2F2F2'>Upgrade the processor, RAM, and video card to meet the minimum Microsoft requirements for Aero.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The UAC no longer prompts the user for permission.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'>The UAC has been turned off.</td>
+		<td headers="Possible" bgcolor='#E9E7E8'>Turn on the UAC in the User Account applet in the Control Panel.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>No Gadgets appear on the desktop.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The Gadgets have never been installed or have been uninstalled.</li><li>The XML necessary to render the Gadget is broken, corrupted, or not installed.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Right-click the desktop > Gadgets > right-click a Gadget > Add.</li><li>Register the file msxml3.dll by entering regsvr32 msxml3.dll > Enter at the command prompt.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer is running slowly and has a delayed response.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'>A process is using most of the CPU resources.</td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Restart the process using the Services console (services.msc).</li><li>If the process is not needed, end the process with Task Manager.</li><li>Restart the computer.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>After upgrading to Windows 7 or Vista, the computer runs very slowly.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'>Aero is causing the computer to run slowly.</td>		
+		<td headers="Possible" bgcolor='#F2F2F2'>Turn off Aero.</td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<!--end slide 1-->
+
+</textcomponents>

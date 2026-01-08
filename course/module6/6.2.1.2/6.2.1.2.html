@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.2 Hypervisor: Virtual Machine Manager</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Hypervisor: Virtual Machine Manager</h1>
+        <div>
+          <p>The software that creates and manages a virtual machine on a host machine is called the hypervisor, or Virtual Machine Manager (VMM). A hypervisor can run multiple virtual machines on a single host computer. Each virtual machine runs its own operating system. The number of virtual machines that can run at the same time depends on the host machine’s hardware resources. The hypervisor allocates the physical system resources, such as CPU, RAM, and hard drive, to each virtual machine as needed. This ensures that the operation of one virtual machine does not interfere with another.</p>
+          <p></p>
+          <p>Figure 1 shows the two types of hypervisors: Type 1 (native) and Type 2 (hosted). A Type 1 hypervisor runs directly on the hardware of a host and manages the allocation of system resources to virtual operating systems. A Type 2 hypervisor is hosted by an OS. The Windows Hyper-V and Windows Virtual PC are examples of a Type 2 hypervisor.</p>
+          <p></p>
+          <p>
+            <b>Windows Hyper-V</b>
+          </p>
+          <p></p>
+          <p>Windows Hyper-V is a virtualization platform for Windows 8. It provides software infrastructure and basic management tools to create and manage a virtualized server computing environment. A virtualized server environment has many advantages:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>It can reduce the costs of operating and maintaining physical servers by increasing hardware utilization.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>It can increase development and test efficiency by reducing the amount of time it takes to set up hardware and software.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>It can improve server availability without using as many physical computers.</li>
+            </ul>
+          </p>
+          <p>Windows Hyper-V must be enabled before it can be used. To enable Windows Hyper-V, shown in Figure 2, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > Programs and Features ></b> click <b>Turn Windows features on or off > check the Hyper-V box ></b> click <b>OK</b>.</p>
+          <p></p>
+          <p>You may need to restart the host machine before the changes can take effect.</p>
+          <p></p>
+          <p>Figure 3 shows the Hyper-V manager tool in Windows 8.</p>
+          <p></p>
+          <p>
+            <b>Windows Virtual PC</b>
+          </p>
+          <p></p>
+          <p>Windows Virtual PC is the virtualization platform for Windows 7. Virtual PC allows you to partition system resources for a Windows OS among virtual machines running a licensed copy of Windows 7 or Vista. You can download Virtual PC from the Microsoft Windows website. </p>
+          <p></p>
+          <p>
+            <b>Windows XP Mode</b>
+          </p>
+          <p></p>
+          <p>Windows XP Mode is a program available for Windows 7. Windows XP Mode uses virtualization technology to allow users to run Windows XP programs in Windows 7. It opens a virtual machine on the Windows 7 desktop that provides a fully functional version of Windows XP, including access to all system resources. After installing a program in Windows XP Mode, you can run the program in XP Mode and access it from the Windows 7 Start Menu.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Before using Windows XP Mode, download and install Windows Virtual PC.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Microsoft has decommissioned Windows XP Mode, and it is not included in Windows versions later than Windows 7. </p>
+          <p></p>
+          <p>To access XP Mode in Windows 7, follow these steps:</p>
+          <p>
+            <b>Step 1</b>. Click <b>Start > </b>click<b> All Programs</b>.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. Click <b>Windows Virtual PC</b><b>></b> click <b>Windows XP Mode</b>.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page shows two diagram that represents the two types of Hypervisor. The first diagram represents a Type 1 Native hypervisor. It shows a box labelled as ‘Server’. The box contains three smaller boxes aligned horizontally each labelled as, ‘OS’. Below the three OS boxes is a larger box the width of the three OS boxes. This box is labelled as, ‘Hypervisor’. Below the Hypervisor is another box, the same width as the Hypervisor, labelled as, ‘Hardware’. The second diagram represents a Type 2 Hosted hypervisor. It is similar to the Type 1 diagram but the main box is labelled as, ‘Host’ instead of ‘Server’. This box has the same contents as the Type 1 diagram with an extra box between the hypervisor and the hardware. The extra box is labelled as, ‘Operating System’.Figure 2 on this page is an image of the Windows Features utility with the Hyper-V option highlighted.Figure 3 on this page is an image of the Hyper-V Manager utility in Windows 8.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

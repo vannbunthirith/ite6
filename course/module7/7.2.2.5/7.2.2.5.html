@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.5 Wireless Security</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Wireless Security</h1>
+        <div>
+          <p>The best way to secure a wireless network is to use authentication and encryption. Two types of authentication were introduced with the original 802.11 standard, as shown in the figure:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Open system authentication</b> - Any wireless device can connect to the wireless network. This should only be used in situations where security is of no concern.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Shared key authentication</b> - Provides mechanisms to authenticate and encrypt data between a wireless client and AP or wireless router. </li>
+            </ul>
+          </p>
+          <p>The three shared key authentication techniques for WLANs are as follows:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Wired Equivalent Privacy (WEP)</b> - This was the original 802.11 specification securing WLANs. However, the encryption key never changes when exchanging packets, making it easy to hack.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wi-Fi Protected Access (WPA)</b> - This standard uses WEP, but secures the data with the much stronger Temporal Key Integrity Protocol (TKIP) encryption algorithm. TKIP changes the key for each packet, making it much more difficult to hack.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>IEEE 802.11i/WPA2 </b>- IEEE 802.11i is now the industry standard for securing WLANs. The Wi-Fi alliance version is called WPA2. 802.11i and WPA2 both use the Advanced Encryption Standard (AES) for encryption. AES is currently considered the strongest encryption protocol.</li>
+            </ul>
+          </p>
+          <p>Since 2006, any device that bears the Wi-Fi Certified logo is WPA2 certified. Therefore, modern WLANs should always use the 802.11i/WPA2 standard.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a diagram listing the following two types of authentication introduced with the original 802.11 standard: Open, no password required, any willing client can associate, ideal to provide free internet access. Shared Key, Wired Equivalent Privacy (WEP), Wi-Fi Protected Access (WPA), IEEE 802.11i/WPA2.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

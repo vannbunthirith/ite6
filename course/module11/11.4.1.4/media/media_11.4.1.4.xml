@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title_01">
+<text><![CDATA[<b>Operating Environment Guidelines</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<ul><li>Keep paper dry.</li><li>Keep printer in a cool, dust-free environment.</li><li>Store toner in a clean, dry environment.</li><li>Clean glass on scanners.</li></ul>]]></text> 
+  </component>
+
+</textcomponents>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>	
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.png" />
+<element type="IMAGE" x="25" y="35" width="630" height="420" subType="STD" src="media_0.0.1.4.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#fff"/>
+</slide>
+
+</data>

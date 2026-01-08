@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.3 Setting the Network Location</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Setting the Network Location</h1>
+        <div>
+          <p>The first time a computer with Windows connects to a network, a network location profile must be selected. Each network location profile has different default settings. Depending on the profile selected, file and printer sharing or network discovery can be turned off or on, and different firewall settings can be applied. </p>
+          <p></p>
+          <p>Windows has three network locations profiles called:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Home Network</b> - Choose this network location for home networks or when you trust the people and devices on the network. Network discovery is turned on, which allows you to see other computers and devices on the network and other network users to see your computer.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Work Network</b> - Choose this network location for a small office or other workplace network. Network discovery is turned on. A homegroup cannot be created or joined.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Public Network</b> - Choose this network location for airports, coffee shops, and other public places. Network discovery is turned off. This network location provides the most protection. Also choose this network location if you connect directly to the Internet without using a router, or if you have a mobile broadband connection. Homegroup is not available.</li>
+            </ul>
+          </p>
+          <p>Computers that belong to and share resources on either a Public, Work, or Home network must be members of the same Workgroup. Computers on a Home network can also belong to a homegroup. A homegroup provides a simple method for file and printer sharing. Windows Vista does not support the homegroup feature.</p>
+          <p></p>
+          <p>There is a fourth network location profile called <b>Domain Network</b> and is typically used for enterprise workplaces. This profile is controlled by the network administrator and cannot be selected or changed by users connected to the enterprise.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: If there is only one computer on a network and file or printer sharing is not needed, the most secure choice is Public.</p>
+          <p></p>
+          <p>You can change the default settings for all network location profiles, as shown in Figure 2. Changes to the default profile are applied to every network that uses the same network location profile.</p>
+          <p></p>
+          <p>If the Set Network Location window does not display when connecting a computer to the network for the first time, you might need to release and renew the IP address for the computer. After opening the command prompt on the computer, type <b>ipconfig /release</b> and then type <b>ipconfig /renew</b> to receive an IP address from the router.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Windows Set Network Location window. Figure 2 on this page is an image of the Windows Advanced sharing settings window.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

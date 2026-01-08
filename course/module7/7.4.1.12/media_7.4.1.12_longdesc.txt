@@ -1,0 +1,1 @@
+This task cannot be completed as it requires Packet Tracer, which is inaccessible. The following objectives are listed for your information. Objectives: Configure the computers to use DHCP. Configure Static addressing. Use ipconfig to retrieve host IP information. Use ping to verify connectivity.

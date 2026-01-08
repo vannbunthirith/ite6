@@ -1,0 +1,1 @@
+Figure 1 on this page is an image showing a pin grid array (PGA) central processing unit and the motherboard socket that it fits into. Figure 2 on this page is an image showing a land grid array (LGA) central processing unit and the motherboard socket that it fits into.

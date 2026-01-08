@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#fff" />
+            <element type="IMAGE" x="80" y="55" width="520" height="401" subType="STD" src="media_8.1.2.5_s1.png" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#fff" />
+            <element type="IMAGE" x="80" y="55" width="520" height="401" subType="STD" src="media_8.1.2.5_s2.png" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_8.1.2.5_s2_A.png" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#fff" />
+            <element type="IMAGE" x="80" y="55" width="520" height="401" subType="STD" src="media_8.1.2.5_s3.png" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#fff" />
+            <element type="IMAGE" x="80" y="55" width="520" height="401" subType="STD" src="media_8.1.2.5_s4.png" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#fff" />
+            <element type="IMAGE" x="80" y="55" width="520" height="401" subType="STD" src="media_8.1.2.5_s5.png" />
+            <element type="TEXT" textId="s5_staticTxt" width="475.15" height="136.55" x="101" y="103" align="left" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s6_title" color="#fff" />
+            <element type="IMAGE" x="80" y="55" width="520" height="401" subType="STD" src="media_8.1.2.5_s6.png" />
+        </slide>
+    </slide>
+    <text id="s5_staticTxt">
+        <![CDATA[<pre>Packet Tracer PC Command Line 1.0
+PC> <b>ipconfig /renew</b>
+
+IP Address......................: 10.10.10.100
+Subnet Mask.....................: 255.255.255.0
+Default Gateway.................: 10.10.10.1
+DNS Server......................: 64.100.0.1
+
+PC></pre>]]>
+    </text>
+</data>

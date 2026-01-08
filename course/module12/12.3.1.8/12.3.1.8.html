@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.8 Managing Groups</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Managing Groups</h1>
+        <div>
+          <p>Users can be assigned to groups for easier management. </p>
+          <p>The following can be done when managing local groups:</p>
+          <p>
+            <ul>
+              <li>Create a local group</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Add a member to a local group</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Identify members of a local group</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Delete a local group </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Create a local user account</li>
+            </ul>
+          </p>
+          <p>To open the Local Users and Groups Manager, use the following path:</p>
+          <p>
+            <b>Control Panel > Administrative Tools > Computer Management > Local Users and Groups</b>
+          </p>
+          <p>From the Local Users and Groups window, double-click <b>Groups</b>. There are many built-in groups available, as shown in Figure 1. However, the three most commonly used groups are:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Administrators</b> – Members of this group have full control of the computer, and they can assign user rights and access control permissions to users as necessary. The Administrator account is a default member of this group. Because this group has full control of the computer, use caution when you add users to this group.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Guest </b>- Members of this group have a temporary profile created at log on, and when the member logs off, the profile is deleted. The Guest account (which is disabled by default) is also a default member of this group.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Users</b> – Members of this group can perform common tasks, such as running applications, using local and network printers, and locking the computer. Members cannot share directories or create local printers.</li>
+            </ul>
+          </p>
+          <p>It is important to note that running your computer as a member of the Administrators group makes the system vulnerable to Trojan horses and other security risks. It is recommended that you add your domain user account only to the Users group (and not to the Administrators group) to perform routine tasks, including running programs and visiting Internet sites. When it becomes necessary to perform administrative tasks on the local computer, use <b>Run as Administrator</b> to start a program using administrative credentials.</p>
+          <p>To create a new group, click the <b>Action</b> menu and select <b>New Group</b>. Alternatively, you can also right-click <b>Groups</b> and select <b>New Group… </b>which opens the <b>New Group</b> window, as shown in Figure 2. From here you can create new groups and assign users to them.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Windows Computer Management window. Figure 2 on this page is an image of the Windows New Group dialog box.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

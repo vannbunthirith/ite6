@@ -1,0 +1,253 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Advanced Problems and Solutions for Operating Systems</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></td>
+		</tr>
+
+
+            <tr>
+                <td bgcolor='#E9E7E8'>The computer displays an "Invalid Boot Disk" error after the POST.</td>
+                <td bgcolor='#E9E7E8'><ul><li>Media that does not have an operating system is in a drive.</li><li>The boot order is not set correctly in the BIOS/UEFI settings.</li><li>The hard drive is not detected.</li><li>The hard drive does not have an operating system installed.</li><li>The MBR/GPT is corrupted.</li><li>The computer has a boot sector virus.</li><li>The hard drive is failing.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Remove all media from the drives.</li><li>Change the boot order in the BIOS/UEFI settings to start with the boot drive.</li><li>Reconnect the hard drive cables.</li><li>Install an operating system.</li><li>Use the <font face="_typewriter"><b><i>bootrec /fixmbr </i></b></font> command from the System.</li><li>Recovery options of Windows 7 or Vista.</li><li>Run virus removal software.</li><li>Replace the hard drive.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>The computer displays an "Inaccessible Boot Device" error after the POST.</td>
+                <td bgcolor='#F2F2F2'><ul><li>A recently installed device driver is incompatible with the boot controller.</li><li>BOOTMGR is corrupted.</li></ul></td>
+                <td bgcolor='#F2F2F2'><ul><li>Use the last known good configuration to boot the computer.</li><li>Boot the computer in safe mode and load a restore point from before the installation of new hardware.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>The computer displays a "BOOTMGR is missing" error after the POST.</td>
+                <td bgcolor='#E9E7E8'><ul><li>BOOTMGR is missing or damaged.</li><li>The boot order is not set correctly in the BIOS/UEFI settings.</li><li>The MBR/GPT is corrupted.</li><li>The hard drive is failing.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Restore BOOTMGR using the Windows Recovery Environment.</li><li>Change the boot order in the BIOS settings to start with the boot drive.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> from the recovery console.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>A service failed to start when the computer booted.</td>
+                <td bgcolor='#F2F2F2'><ul><li>A service failed to start when the computer booted.</li><li>The service is not enabled.</li><li>The service is set to Manual and the failed service requires another service to be enabled.</li></ul></td>
+                <td bgcolor='#F2F2F2'><ul><li>Enable the service.</li><li>Set the service to Automatic and re-enable the required service.</li></ul></td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>A device did not start when the computer booted.</td>
+                <td bgcolor='#E9E7E8'><ul><li>The device has been disabled in the BIOS settings.</li><li>The device has a conflict with a newly installed device.</li><li>The driver is corrupted.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Enable the device in the BIOS settings.</li><li>Remove the newly installed device.</li><li>Re-install or roll back the driver.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>A program listed in the registry is not found.</td>
+                <td bgcolor='#F2F2F2'><ul><li>The uninstall program did not work correctly.</li><li>The hard drive has become corrupted.</li><li>The computer has a virus.</li></ul></td>
+                <td bgcolor='#F2F2F2'><ul><li>Re-install the program and run the un-install program again.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> to fix the hard drive file entries.</li><li>Scan for and remove the virus.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>The computer continually restarts without displaying the desktop.</td>
+                <td bgcolor='#E9E7E8'><ul><li>The computer is set to restart when there is a failure.</li><li>A startup file has become corrupted.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Press F8 to open the Advanced Options Menu and choose Disable automatic restart on system failure.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> from the Recovery Environment.</li><li>Run the Automatic Repair from the Recovery Environment in Windows 8.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>The computer displays a black or blue screen of death (BSOD).</td>
+                <td bgcolor='#F2F2F2'><ul><li>A driver is not compatible with the hardware.</li><li>There is a hardware failure.</li></ul></td>
+                <td bgcolor='#F2F2F2'><ul><li>Research the STOP error and the name of the module that produced the error.</li><li>Replace any failing devices with known-good devices.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>The computer locks up without any error messages.</td>
+                <td bgcolor='#E9E7E8'><ul><li>The CPU or FSB settings are incorrect on the motherboard or in the BIOS settings.</li><li>The computer is overheating.</li><li>An update has corrupted the operating system.</li><li>There is a hardware failure.</li><li>The computer has a virus.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Check and reset the CPU and FSB settings.</li><li>Check and replace any cooling devices as necessary.</li><li>Uninstall the software update or perform a System Restore.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> from the Recovery Environment.</li><li>Replace any failing devices with known-good devices.</li><li>Scan for and remove the virus.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>An application does not install.</td>
+                <td bgcolor='#F2F2F2'>The installation application is not compatible with the operating system.</td>
+                <td bgcolor='#F2F2F2'>Run the installation application under compatibility mode.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>The search feature takes a long time to find results.</td>
+                <td bgcolor='#E9E7E8'><ul><li>The index service is not running.</li><li>The index service is not indexing in the correct locations.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Start the index services using <b>services.msc</b>.</li><li>Change the settings of the index service in the Advanced Options panel.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>The computer is running slowly and has a delayed response.</td>
+                <td bgcolor='#F2F2F2'>A process is using most of the CPU resources.</td>
+                <td bgcolor='#F2F2F2'><ul><li>Restart the process with <b>services.msc</b>.</li><li>If the process is not needed, end the process with Task Manager.</li><li>Restart the computer.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>When you run a program, a missing or corrupt DLL message is displayed.</td>
+                <td bgcolor='#E9E7E8'><ul><li>One or more programs using the DLL file was uninstalled and removed the DLL file that was needed by another program.</li><li>The DLL file was corrupted during a bad installation.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Reinstall the program that has a missing or corrupt DLL file.</li><li>Reinstall the application that uninstalled the DLL.</li><li>Run <font face="_typewriter"><b><i>sfc /scannow </i></b></font> in Safe Mode.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>RAID is not detected during installation.</td>
+                <td bgcolor='#F2F2F2'><ul><li>Windows does not include the proper drivers to recognize RAID.</li><li>RAID settings in BIOS/UEFI are incorrect.</li></ul></td>
+                <td bgcolor='#F2F2F2'><ul><li>Install the proper drivers.</li><li>Change settings in BIOS/UEFI to enable RAID.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>A system file is corrupted.</td>
+                <td bgcolor='#E9E7E8'>Computer was shut down improperly.</td>
+                <td bgcolor='#E9E7E8'><ul><li>Repair your computer from the advanced startup options menu.</li><li>Boot computer in Safe Mode and run <font face="_typewriter"><b><i>sfc /scannow </i></b></font>.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>Computer boots to safe mode.</td>
+                <td bgcolor='#F2F2F2'>The computer has been configured to boot in Safe Mode.</td>
+                <td bgcolor='#F2F2F2'>Use msconfig to adjust the startup settings for the program.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>A file fails to open.</td>
+                <td bgcolor='#E9E7E8'><ul><li>The computer has a virus.</li><li>The file is corrupted.</li><li>The file type is not associated with any program.</li></ul></td>
+                <td bgcolor='#E9E7E8'><ul><li>Scan for and remove any viruses.</li><li>Restore the file from backup.</li><li>Choose a program to open the file type.</li></ul></td>
+            </tr>
+        </table>]]></text>
+    </component>
+
+
+    <component id="ID_table_html">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+            
+
+
+        <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Advanced Problems and Solutions for Operating Systems</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+            <th scope="col" id="Identify" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identify the Problem</b></font></th>
+            <th scope="col" id="Probable" bgcolor='#666263' ><font color='#FFFFFF' ><b>Probable Causes</b></font></th>
+            <th scope="col" id="Possible" bgcolor='#666263' ><font color='#FFFFFF' ><b>Possible Solutions</b></font></th>
+        </tr>
+
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer displays an "Invalid Boot Disk" error after the POST.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>Media that does not have an operating system is in a drive.</li><li>The boot order is not set correctly in the BIOS/UEFI settings.</li><li>The hard drive is not detected.</li><li>The hard drive does not have an operating system installed.</li><li>The MBR/GPT is corrupted.</li><li>The computer has a boot sector virus.</li><li>The hard drive is failing.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Remove all media from the drives.</li><li>Change the boot order in the BIOS/UEFI settings to start with the boot drive.</li><li>Reconnect the hard drive cables.</li><li>Install an operating system.</li><li>Use the <font face="_typewriter"><b><i>bootrec /fixmbr </i></b></font> command from the System.</li><li>Recovery options of Windows 7 or Vista.</li><li>Run virus removal software.</li><li>Replace the hard drive.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer displays an "Inaccessible Boot Device" error after the POST.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'><ul><li>A recently installed device driver is incompatible with the boot controller.</li><li>BOOTMGR is corrupted.</li></ul></td>
+                <td headers="Possible" bgcolor='#F2F2F2'><ul><li>Use the last known good configuration to boot the computer.</li><li>Boot the computer in safe mode and load a restore point from before the installation of new hardware.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer displays a "BOOTMGR is missing" error after the POST.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>BOOTMGR is missing or damaged.</li><li>The boot order is not set correctly in the BIOS/UEFI settings.</li><li>The MBR/GPT is corrupted.</li><li>The hard drive is failing.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Restore BOOTMGR using the Windows Recovery Environment.</li><li>Change the boot order in the BIOS settings to start with the boot drive.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> from the recovery console.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>A service failed to start when the computer booted.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'><ul><li>A service failed to start when the computer booted.</li><li>The service is not enabled.</li><li>The service is set to Manual and the failed service requires another service to be enabled.</li></ul></td>
+                <td headers="Possible" bgcolor='#F2F2F2'><ul><li>Enable the service.</li><li>Set the service to Automatic and re-enable the required service.</li></ul></td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>A device did not start when the computer booted.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>The device has been disabled in the BIOS settings.</li><li>The device has a conflict with a newly installed device.</li><li>The driver is corrupted.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Enable the device in the BIOS settings.</li><li>Remove the newly installed device.</li><li>Re-install or roll back the driver.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>A program listed in the registry is not found.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'><ul><li>The uninstall program did not work correctly.</li><li>The hard drive has become corrupted.</li><li>The computer has a virus.</li></ul></td>
+                <td headers="Possible" bgcolor='#F2F2F2'><ul><li>Re-install the program and run the un-install program again.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> to fix the hard drive file entries.</li><li>Scan for and remove the virus.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer continually restarts without displaying the desktop.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>The computer is set to restart when there is a failure.</li><li>A startup file has become corrupted.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Press F8 to open the Advanced Options Menu and choose Disable automatic restart on system failure.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> from the Recovery Environment.</li><li>Run the Automatic Repair from the Recovery Environment in Windows 8.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer displays a black or blue screen of death (BSOD).</td>
+                <td headers="Probable" bgcolor='#F2F2F2'><ul><li>A driver is not compatible with the hardware.</li><li>There is a hardware failure.</li></ul></td>
+                <td headers="Possible" bgcolor='#F2F2F2'><ul><li>Research the STOP error and the name of the module that produced the error.</li><li>Replace any failing devices with known-good devices.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer locks up without any error messages.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>The CPU or FSB settings are incorrect on the motherboard or in the BIOS settings.</li><li>The computer is overheating.</li><li>An update has corrupted the operating system.</li><li>There is a hardware failure.</li><li>The computer has a virus.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Check and reset the CPU and FSB settings.</li><li>Check and replace any cooling devices as necessary.</li><li>Uninstall the software update or perform a System Restore.</li><li>Run <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> from the Recovery Environment.</li><li>Replace any failing devices with known-good devices.</li><li>Scan for and remove the virus.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>An application does not install.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'>The installation application is not compatible with the operating system.</td>
+                <td headers="Possible" bgcolor='#F2F2F2'>Run the installation application under compatibility mode.</td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>The search feature takes a long time to find results.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>The index service is not running.</li><li>The index service is not indexing in the correct locations.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Start the index services using <b>services.msc</b>.</li><li>Change the settings of the index service in the Advanced Options panel.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer is running slowly and has a delayed response.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'>A process is using most of the CPU resources.</td>
+                <td headers="Possible" bgcolor='#F2F2F2'><ul><li>Restart the process with <b>services.msc</b>.</li><li>If the process is not needed, end the process with Task Manager.</li><li>Restart the computer.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>When you run a program, a missing or corrupt DLL message is displayed.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>One or more programs using the DLL file was uninstalled and removed the DLL file that was needed by another program.</li><li>The DLL file was corrupted during a bad installation.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Reinstall the program that has a missing or corrupt DLL file.</li><li>Reinstall the application that uninstalled the DLL.</li><li>Run <font face="_typewriter"><b><i>sfc /scannow </i></b></font> in Safe Mode.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>RAID is not detected during installation.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'><ul><li>Windows does not include the proper drivers to recognize RAID.</li><li>RAID settings in BIOS/UEFI are incorrect.</li></ul></td>
+                <td headers="Possible" bgcolor='#F2F2F2'><ul><li>Install the proper drivers.</li><li>Change settings in BIOS/UEFI to enable RAID.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>A system file is corrupted.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'>Computer was shut down improperly.</td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Repair your computer from the advanced startup options menu.</li><li>Boot computer in Safe Mode and run <font face="_typewriter"><b><i>sfc /scannow </i></b></font>.</li></ul></td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#F2F2F2'>Computer boots to safe mode.</td>
+                <td headers="Probable" bgcolor='#F2F2F2'>The computer has been configured to boot in Safe Mode.</td>
+                <td headers="Possible" bgcolor='#F2F2F2'>Use msconfig to adjust the startup settings for the program.</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="Identify" bgcolor='#E9E7E8'>A file fails to open.</td>
+                <td headers="Probable" bgcolor='#E9E7E8'><ul><li>The computer has a virus.</li><li>The file is corrupted.</li><li>The file type is not associated with any program.</li></ul></td>
+                <td headers="Possible" bgcolor='#E9E7E8'><ul><li>Scan for and remove any viruses.</li><li>Restore the file from backup.</li><li>Choose a program to open the file type.</li></ul></td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

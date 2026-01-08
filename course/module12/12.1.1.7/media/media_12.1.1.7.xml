@@ -1,0 +1,34 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Microsoft Internet Explorer Zero-Day Vulnerability</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Day 0<br/>Zero-day malware in the wild]]></text>
+	</component>
+
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Day 16<br/>First antivirus signature deployed]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Day 17<br/>Second antivirus signature deployed]]></text>
+	</component>	
+
+	<component id="ID_txt04">
+		<text><![CDATA[Day 18<br/>Third antivirus signature deployed]]></text>
+	</component>	
+
+	<component id="ID_txt05">
+		<text><![CDATA[Traditional response]]></text>
+	</component>	
+
+	<component id="ID_txt06">
+		<text><![CDATA[Security advisory issued]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Microsoft IE patched]]></text>
+	</component>		
+</textcomponents>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+		    <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.jpg" />	
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.4.1.6_s1.png" />
+            <element type="TEXT" textId="ID_s1_txt1" x="78.2" y="252.75" width="523.6" expand="up" align="center" size="13" />
+            <text id="ID_s1_txt1">
+		<![CDATA[<pre>2001 : 0DB8 : 0000 : 1111 : 0000 : 0000 : 0000 : 0200
+
+FE80 : 0000 : 0000 : 0000 : 0123 : 4567 : 89AB : CDEF
+
+FF02 : 0000 : 0000 : 0000 : 0000 : 0000 : 0000 : 0001</pre>]]></text>
+		</slide>
+
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF"/>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />	
+            <element type="TEXT" subType="TABLE" compId="ID_s2_table01_html" x="90" y="160" width="500" height="225" size="12" />
+		</slide>
+
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF"/>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />	
+            <element type="TEXT" subType="TABLE" compId="ID_s3_table01" x="90" y="160" width="500" height="225" size="12" />
+		</slide>
+
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#FFFFFF"/>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />	
+            <element type="TEXT" subType="TABLE" compId="ID_s4_table01" x="90" y="160" width="500" height="225" size="12" />
+		</slide>
+	</slide>
+</data>
+

@@ -1,0 +1,213 @@
+﻿<textcomponents>
+
+
+
+<component id="ID_inst">
+  <text><![CDATA[<b>Click the highlighted area for important content. Click the highlighted area again to close. </b>]]></text> 
+</component>  
+  
+
+<!-- slide 1 -->
+<component id="ID_s01_title">
+<text><![CDATA[<b>Top View of a Docking Station</b>]]></text>
+</component>
+
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[Power Button]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[The power button is a control that turns the power on and turns the power off to the laptop when the laptop is connected to the docking station.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[Eject Button]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[The eject button is a lever that releases the laptop from the docking station so that the laptop can be removed.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[Docking Connector]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[The docking connector is a socket that is used to attach a laptop to a docking station.]]></text>
+</component>
+
+<!-- end slide 1 -->
+
+
+
+
+
+<!-- slide 2 -->
+
+<component id="ID_s02_title">
+<text><![CDATA[<b>Rear View of a Docking Station</b>]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Exhaust Vent]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[The exhaust vent is an outlet that expels hot air from the interior of the docking station. ]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[AC Power Connector]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[The AC power connector is a socket that is used to connect the AC power adapter to the docking station.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[PC Combination Card Slot]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[The PC combination card slot is an expansion slot that supports the ExpressCard expansion cards in the top slot and PC Cards in the bottom slot.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt04'>
+	<text><![CDATA[VGA Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt04">
+<text><![CDATA[The VGA port is a 15-pin socket that allows output to external displays and projectors.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt05'>
+	<text><![CDATA[DVI Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt05">
+<text><![CDATA[The DVI port is a socket that is used to attach a digital video monitor.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt06'>
+	<text><![CDATA[Line In Connector]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt06">
+<text><![CDATA[The Line In connector is a socket that is used to attach an audio source.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt07'>
+	<text><![CDATA[Headphone Connector]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt07">
+<text><![CDATA[The headphone connector is a socket that is used to attach an audio output device. 
+]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt08'>
+	<text><![CDATA[Universal Serial Bus (USB)]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt08">
+<text><![CDATA[The Universal Serial Bus (USB) port is a socket that is used to connect one or more peripherals.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt09'>
+	<text><![CDATA[Mouse Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt09">
+<text><![CDATA[The mouse port is a PS/2 socket that is used to attach an external mouse.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt10'>
+	<text><![CDATA[Keyboard Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt10">
+<text><![CDATA[The keyboard port is a PS/2 socket that is used to attach an external keyboard.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt11'>
+	<text><![CDATA[External-Diskette-Drive Connector]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt11">
+<text><![CDATA[The external-diskette-drive connector is a socket that is used to connect an external disk drive.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt12'>
+	<text><![CDATA[Parallel Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt12">
+<text><![CDATA[The parallel port is a socket that is used to connect a device such as a printer or scanner.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt13'>
+	<text><![CDATA[Serial Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt13">
+<text><![CDATA[The serial port is a socket that is used to connect a device such as a mouse or trackball.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt14'>
+	<text><![CDATA[RJ-11 Modem Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt14">
+<text><![CDATA[The RJ-11 modem port is a device that is used to connect the laptop to a standard telephone line.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt15'>
+	<text><![CDATA[Ethernet Port]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt15">
+<text><![CDATA[The Ethernet port is an RJ-45 socket that is used to connect the laptop to a cabled local area network. ]]></text>
+</component>
+
+<!-- end slide 2 -->
+
+
+
+
+
+<!-- slide 3 -->
+<component id="ID_s03_title">
+<text><![CDATA[<b>Right Side View of a Docking Station</b>]]></text>
+</component>
+
+<component id='ID_s03_titleTxt01'>
+	<text><![CDATA[Key Lock]]></text>
+</component>
+
+<component id="ID_s03_bodyTxt01">
+<text><![CDATA[The key lock is a socket into which a key is inserted to lock the laptop to the docking station.]]></text>
+</component>
+<!-- end slide 3 -->
+
+
+
+
+  
+</textcomponents>

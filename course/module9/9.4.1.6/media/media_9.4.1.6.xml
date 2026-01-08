@@ -1,0 +1,104 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity: Identify Connection Types</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match the connection type to its description.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Infrared]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Bluetooth]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Tether]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Micro / Mini USB ]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Lightning]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[NFC]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each connection type to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each connection type to its description. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Connection Type</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Mobile devices communicate with each other when they are touched together.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[This uses your cellular phone as a modem for another device, such as a tablet or laptop. The connection is made over a USB cable or Bluetooth.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Devices charge and transfer data using this wired connection.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[This wireless connection allows data exchange over a distance of up to 33 feet (10 m).]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[This wired connection allows Apple devices to connect to host computers and other peripherals.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[This connection allows mobile devices to remotely control devices, such as a TV or audio equipment.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

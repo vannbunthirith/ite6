@@ -1,0 +1,16 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Broadband Technologies</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+	<text><![CDATA[Satellite Receiver]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[DSL Modem]]></text>
+	</component>
+	<component id="ID_txt03">
+	<text><![CDATA[Cable Modem]]></text>
+	</component>
+	
+</textcomponents>

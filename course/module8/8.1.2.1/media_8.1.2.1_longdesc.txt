@@ -1,0 +1,1 @@
+The figure on this page is an image that shows an Ethernet cable about to be plugged into a NIC. The NIC has a green LED and an amber LED.

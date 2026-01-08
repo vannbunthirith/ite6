@@ -1,0 +1,44 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>IDS Operation</b>]]></text>
+    </component>
+
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Switch]]></text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Switch]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[IDS-enabled Sensor]]></text>
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Target]]></text>
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Management Console]]></text>
+    </component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>IPS Operation</b>]]></text>
+    </component>
+
+    <component id="ID_s2_txt01">
+        <text><![CDATA[Bit Bucket]]></text>
+    </component>
+    
+    <component id="ID_s2_txt02">
+        <text><![CDATA[IPS-enabled Sensor]]></text>
+    </component>
+    
+    <component id="ID_s2_txt03">
+        <text><![CDATA[Target]]></text>
+    </component>
+    
+    <component id="ID_s2_txt04">
+        <text><![CDATA[Management Console]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,1 @@
+The figure on this page is an interactive activity that checks the learner’s understanding of the following difference between TCP and UDP.TCP: Reliable, resends lost data, delivers data in sequenced order, and acknowledges data UDP: Does not require acknowledgments, delivers data as it arrives, fast, low overhead, and does not resend lost data.

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+		<slide>
+		<element type="IMAGE" x="40" y="75" width="599.9" height="343.15" subType="STD" src="media_3.1.5.10.A.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="65" y="53" width="549.65" height="396.55" subType="STD" src="media_3.1.5.10.B.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF"/>
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="40" y="75" width="599.7" height="345.95" subType="STD" src="media_3.1.5.10.C.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF"/>
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="40" y="55" width="599.7" height="381.05" subType="STD" src="media_3.1.5.10.D.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#FFFFFF"/>
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="40" y="55" width="599.8" height="396.45" subType="STD" src="media_3.1.5.10.E.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#FFFFFF"/>
+		</slide>
+	</slide>
+		
+</data>

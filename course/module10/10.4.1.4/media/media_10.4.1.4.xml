@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Lab]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Install Linux in a Virtual Machine and Explore the GUI]]></text>
+	</component>
+	
+</textcomponents>

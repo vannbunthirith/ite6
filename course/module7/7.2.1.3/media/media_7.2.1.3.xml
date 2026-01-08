@@ -1,0 +1,113 @@
+<textcomponents>
+
+<!--slide 1-->
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>OSI Model</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='105'><font color='#F2F2F2'><b>OSI Model</b></font></td>
+		<td bgcolor='#666263' width='65'><font color='#F2F2F2'><b>Layer</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Application</td>
+		<td bgcolor='#E9E7E8'>7</td>
+		<td bgcolor='#E9E7E8'>Responsible for network services to applications</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Presentation</td>
+		<td bgcolor='#F2F2F2'>6</td>		
+		<td bgcolor='#F2F2F2'>Transforms data formats to provide a standard interface for the application layer</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Session</td>
+		<td bgcolor='#E9E7E8'>5</td>
+		<td bgcolor='#E9E7E8'>Establishes, manages, and terminates the connections between the local and remote application</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Transport</td>
+		<td bgcolor='#F2F2F2'>4</td>
+		<td bgcolor='#F2F2F2'>Provides reliable transport and flow control across a network</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Network</td>
+		<td bgcolor='#E9E7E8'>3</td>
+		<td bgcolor='#E9E7E8'>Responsible for logical addressing and the domain of routing</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Data Link</td>
+		<td bgcolor='#F2F2F2'>2</td>
+		<td bgcolor='#F2F2F2'>Provides physical addressing and media access procedures</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Physical</td>
+		<td bgcolor='#E9E7E8'>1</td>
+		<td bgcolor='#E9E7E8'>Defines all the electrical and physical specifications for devices</td>
+	</tr>
+</table>]]></text>
+</component>
+
+<component id='ID_table_html'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<caption class="mtable_title" colspan="3" bgcolor='#F2F2F2'><font size="16"><b>OSI Model</b></font>
+		</caption>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="OSI" bgcolor='#666263' width='105'><font color='#F2F2F2'><b>OSI Model</b></font></th>
+		<th scope="col" id="Layer" bgcolor='#666263' width='65'><font color='#F2F2F2'><b>Layer</b></font></th>
+		<th scope="col" id="Description" bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#E9E7E8'>Application</td>
+		<td headers="Layer" bgcolor='#E9E7E8'>7</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Responsible for network services to applications</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#F2F2F2'>Presentation</td>
+		<td headers="Layer" bgcolor='#F2F2F2'>6</td>		
+		<td headers="Description" bgcolor='#F2F2F2'>Transforms data formats to provide a standard interface for the application layer</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#E9E7E8'>Session</td>
+		<td headers="Layer" bgcolor='#E9E7E8'>5</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Establishes, manages, and terminates the connections between the local and remote application</td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#F2F2F2'>Transport</td>
+		<td headers="Layer" bgcolor='#F2F2F2'>4</td>
+		<td headers="Description" bgcolor='#F2F2F2'>Provides reliable transport and flow control across a network</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#E9E7E8'>Network</td>
+		<td headers="Layer" bgcolor='#E9E7E8'>3</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Responsible for logical addressing and the domain of routing</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#F2F2F2'>Data Link</td>
+		<td headers="Layer" bgcolor='#F2F2F2'>2</td>
+		<td headers="Description" bgcolor='#F2F2F2'>Provides physical addressing and media access procedures</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="OSI" bgcolor='#E9E7E8'>Physical</td>
+		<td headers="Layer" bgcolor='#E9E7E8'>1</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Defines all the electrical and physical specifications for devices</td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--end slide 1-->
+
+</textcomponents>

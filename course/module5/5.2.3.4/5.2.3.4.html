@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.4 Windows Registry</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows Registry</h1>
+        <div>
+          <p>The Windows Registry keys are an important part of the Windows boot process. These keys are recognized by their distinctive names, which begin with HKEY_, as shown in the figure. The words and letters that follow HKEY_ represent the portion of the OS controlled by that key. Every setting in Windows, from the background of the desktop and the color of the screen buttons, to the licensing of applications, is stored in the Registry. When a user makes changes to the Control Panel settings, file associations, system policies, or installed software, the changes are stored in the Registry.</p>
+          <p></p>
+          <p>Each user account has a unique section of the Registry. The Windows login process loads system settings from the Registry to reconfigure the system for each individual user account.</p>
+          <p></p>
+          <p>The Registry is also responsible for recording the location of Dynamic Link Library (DLL) files. A DLL file consists of program code that can be used by different programs to perform common functions. DLL files are very important to the functionality of an operating system and any applications that users may install.</p>
+          <p></p>
+          <p>To ensure that a DLL can be located by the operating system or a program, it must be registered. It is typically registered automatically during the installation process. A user may need to manually register a DLL file when a problem is encountered. Registering a DLL maps the path to the file, making it easier for programs to locate necessary files.</p>
+          <p></p>
+          <p>To register a DLL file in Windows 8.0 and 8.1 using the command-line tool, use the following path:</p>
+          <p></p>
+          <p>Move the mouse to the upper right corner of the screen > The Charms Bar displays > Search and Type <b>Command</b> > click the <b>Command Prompt</b> > type <b>regsvr32</b><i>filename.dll</i></p>
+          <p></p>
+          <p>To register a DLL file in Windows 7 and Vista using the command-line tool, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Start</b> > Type Command in the <b>Search Programs and Files</b> bar > type <b>regsvr32</b><i>filename.dll</i></p>
+          <p></p>
+          <p>
+            <b>Note</b>: The filename for the dll file must contain the full path of the filename, for example C:\Windows\System32\wuapi.dll.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a table listing the following Windows Registry Keys. HKEY: HKEY_CLASSES_ROOT, Description: Information about which file extensions map to a particular application. HKEY: HKEY_CURRENT_USER, Description: Information, such as desktop settings and history, related to the current user of a PC. HKEY: HKEY_USERS, Description: Information about all users who have logged onto a system. HKEY: HKEY_LOCAL_MACHINE, Description: Information relating to the hardware and software. HKEY: HKEY_CURRENT_CONFIG, Description: Information relating to all active devices on a system.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

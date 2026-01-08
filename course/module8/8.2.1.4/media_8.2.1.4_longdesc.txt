@@ -1,0 +1,1 @@
+The figure on this page shows an ISP network sending the signal through a cable to a WiMax transmitter. The WiMax transmitter then relays the signal to a second WiMax transmitter which broadcasts the signal to a home which is in line of sight.

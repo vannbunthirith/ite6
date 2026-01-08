@@ -1,0 +1,1 @@
+The figure on this page is an image of the BIOS Setup Utility displaying the following system overview: version, build date, id, processor details, system memory, system timer, and system date.

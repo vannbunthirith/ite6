@@ -1,0 +1,88 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<font color='#FFFFFF'><b>Activity – Identify Physical Security Devices</b></font>]]></text>
+	</component>
+	
+	<component id='ID_s1_instr_title'>
+		<text><![CDATA[Instructions]]></text>
+	</component>
+	
+	<component id='ID_s1_instr_body'>
+		<text><![CDATA[Match each physical security device to its description.]]></text>
+	</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag_header_01'>
+		<text><![CDATA[<font color="#FFFFFF"><b>Physical Security Device</b></font>]]></text>
+	</component>
+
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Key Fob]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Smart Card]]></text>
+	</component>
+	
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Biometric Device]]></text>
+	</component>
+	
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each physical security device to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each physical security device to its description. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Physical Security Device</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Device Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Uses physical characteristics of the user as an aid to positive identification.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Uses an embedded integrated circuit chip to store data safely.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Uses a small radio system to communicate with the computer.]]></text>
+	</component> 
+	
+	
+	
+	
+
+	
+	
+</textcomponents>

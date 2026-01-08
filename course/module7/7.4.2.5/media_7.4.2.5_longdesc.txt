@@ -1,0 +1,1 @@
+The figure on this page is an animation that shows how UDP segments are transmitted from sender to receiver as follows. Step 1: A file is sent to a server using the Trivial File Transfer Protocol (TFTP) application. UDP segments the data to be sent and sends all data, best-effort. Step 2: The file server receives all six segments, no acknowledgment is sent.

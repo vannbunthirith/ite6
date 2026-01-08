@@ -1,0 +1,23 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Jailbreaking on iOS Devices – Terminal on iPhone</b>]]></text>
+	</component>
+
+	<component id="ID_s1_text">
+        <text><![CDATA[The image shows a jailbroken iPhone running a terminal application to gain access to the device’s command line interface. Notice how the user mobile became root and was able to list the contents of the / directory. Later, the root user also started a command line packet sniffer (tcpdump) on the phone’s wireless card. None of these tasks are possible without jailbreaking.]]></text>
+	</component>
+    
+		<component id="ID_s1_header">
+        <text><![CDATA[ ]]></text>
+	</component>
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Jailbreaking on iOS Devices – iPhone as SSH Server</b>]]></text>
+	</component>
+
+	<component id="ID_s2_text">
+        <text><![CDATA[The image shows a SSH connection to a jailbroken iPhone running a SSH server. Notice how the root user displays information about the kernel in use (Darwin) and shows the currently established SSH connection (TCP port 22). None of these tasks are possible without jailbreaking.]]></text>
+	</component>
+   
+
+</textcomponents>

@@ -1,0 +1,90 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Device Manager</b>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id='ID_s2_title'>
+		<text><![CDATA[<b>Device Manager Icons</b>]]></text>
+</component>
+
+	<component id="ID_s2_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+          <td bgcolor='#666263' width="145"><font color='#F2F2F2'><b>Device Manager Icon</b></font></td>
+          <td bgcolor='#666263'><font color='#F2F2F2'><b>Explanation</b></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8'><img alt='error' src="icon_warn.png" class="alignment" width="25" height="25" halign="middle"/></td>
+          <td bgcolor='#E9E7E8'>The device has an error. A problem code is displayed to explain the problem.</td>
+        </tr>
+		<tr>
+          <td bgcolor='#F2F2F2'><img alt='disabled' src="icon_xbox.png" class="alignment" width="25" height="25"/></td>
+          <td bgcolor='#F2F2F2'>The device is disabled. The device is installed in the computer, but no driver is loaded for it.</td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8'><img alt='info' src="icon_info.png" class="alignment" width="25" height="25"/></td>
+          <td bgcolor='#E9E7E8'>The device was manually selected. The Use Automatic Settings option is not selected for the device.</td>
+        </tr>
+		<tr>
+          <td bgcolor='#F2F2F2'><img alt='question' src="icon_Qmark.png" class="alignment" width="14" height="26"/></td>
+          <td bgcolor='#F2F2F2'>A device-specific driver is not available. A compatible driver has been installed.</td>
+        </tr>
+		</table>
+		]]></text>
+	</component>
+
+  <component id="ID_s2_table_html">
+    <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+      <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Device Manager Icons</font></caption>
+
+        <tr class="mtable_top">
+      <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+    </tr>
+        <tr>
+          <th scope="col" id="Device" bgcolor='#666263' width="145"><font color='#F2F2F2'><b>Device Manager Icon</b></font></th>
+          <th scope="col" id="Explanation" bgcolor='#666263'><font color='#F2F2F2'><b>Explanation</b></font></th>
+        </tr>
+        <tr>
+          <td scope="row" headers="Device" bgcolor='#E9E7E8'><img alt='error' src="icon_warn.png" class="alignment" width="25" height="25" halign="middle"/></td>
+          <td headers="Explanation" bgcolor='#E9E7E8'>The device has an error. A problem code is displayed to explain the problem.</td>
+        </tr>
+    <tr>
+          <td scope="row" headers="Device" bgcolor='#F2F2F2'><img alt='disabled' src="icon_xbox.png" class="alignment" width="25" height="25"/></td>
+          <td headers="Explanation" bgcolor='#F2F2F2'>The device is disabled. The device is installed in the computer, but no driver is loaded for it.</td>
+        </tr>
+        <tr>
+          <td scope="row" headers="Device" bgcolor='#E9E7E8'><img alt='info' src="icon_info.png" class="alignment" width="25" height="25"/></td>
+          <td headers="Explanation" bgcolor='#E9E7E8'>The device was manually selected. The Use Automatic Settings option is not selected for the device.</td>
+        </tr>
+    <tr>
+          <td scope="row" headers="Device" bgcolor='#F2F2F2'><img alt='question' src="icon_Qmark.png" class="alignment" width="14" height="26"/></td>
+          <td headers="Explanation" bgcolor='#F2F2F2'>A device-specific driver is not available. A compatible driver has been installed.</td>
+        </tr>
+    </table>
+    ]]></text>
+  </component>
+
+<!--Slide 3-->
+
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Windows 8 Devices and Printers Utility</b>]]></text>
+</component>
+
+<!--Slide 4-->
+
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>Windows 8 Sound Utility</b>]]></text>
+</component>
+
+
+
+</textcomponents>

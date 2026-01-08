@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.2.2 Transport Layer Features</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transport Layer Features</h1>
+        <div>
+          <p>Data flowing between a source application and a destination application is known as a conversation. A computer can maintain multiple conversations between multiple applications at the same time, as shown in the figure. This is possible because of the three main features of the transport layer:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Tracking individual conversation between applications</b> - a device can have multiple applications that are using the network at the same time.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Segmenting Data and Reassembling Segments</b> - a sending device segments application data into blocks that are an appropriate size. A receiving device reassembles the segments into application data.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Identifying the Applications</b> - To pass data streams to the proper applications, the transport layer must identify the target application. To accomplish this, the transport layer assigns each application an identifier called a port number.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a diagram that shows a desktop computer maintaining multiple conversations with multiple applications. The transport layer ensures that even with multiple applications running on a device, all applications receive the correct data: email, instant messaging, web browser displaying multiple web pages, IP telephony (VoIP), and streaming video.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

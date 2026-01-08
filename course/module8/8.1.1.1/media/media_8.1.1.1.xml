@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Typical Home Network</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Wireless Router]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[ISP]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[DSL Modem]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[In small businesses and homes, wireless routers perform the role of access point, Ethernet switch, and router.]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,146 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Ubuntu Unity GUI</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[System and Notification Menu]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+ 		 <text><![CDATA[Top Menu Bar]]></text> 
+  	</component>
+	<component id="ID_s1_txt03">
+ 		 <text><![CDATA[Dash Search Box]]></text> 
+  </component>
+  <component id="ID_s1_txt04">
+ 		 <text><![CDATA[Launcher]]></text> 
+  </component>
+   <component id="ID_s1_txt05">
+  		<text><![CDATA[Lenses]]></text> 
+  </component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>OS X GUI</b>]]></text>
+	</component>
+
+	 <component id="ID_s2_txt01">
+  		<text><![CDATA[Notification Center Icon]]></text> 
+  </component>
+
+   <component id="ID_s2_txt02">
+  		<text><![CDATA[Spotlight Icon]]></text> 
+  </component>
+
+  <component id="ID_s2_txt03">
+  		<text><![CDATA[Status Menu]]></text> 
+  </component>
+
+   <component id="ID_s2_txt04">
+  		<text><![CDATA[Menu Bar]]></text> 
+  </component>
+
+  <component id="ID_s2_txt05">
+  		<text><![CDATA[Application Menu]]></text> 
+  </component>
+
+  <component id="ID_s2_txt06">
+  		<text><![CDATA[Apple Menu]]></text> 
+  </component>
+
+   <component id="ID_s2_txt07">
+  		<text><![CDATA[Dock]]></text> 
+  </component>
+
+  <component id="ID_s2_txt08">
+  		<text><![CDATA[Desktop area]]></text> 
+  </component>
+
+	 <component id="ID_s1_titleTxt01">
+    <text><![CDATA[System and Notification Menu]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt01">
+    <text><![CDATA[Many important functions are located in the indicator menus at the top right corner of your screen. Use the indicator menu to switch users, shut down your computer, control the volume level, or change network settings.]]></text>
+  </component>
+  
+  <component id="ID_s1_titleTxt02">
+    <text><![CDATA[Top Menu Bar]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt02">
+    <text><![CDATA[A multipurpose menu bar containing the currently running application, buttons to control the active window, and system controls and notifications.]]></text>
+  </component>
+
+   <component id="ID_s1_titleTxt03">
+    <text><![CDATA[Dash Search Box]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt03">
+    <text><![CDATA[Holds the Search tool and a list of recently used applications. Dash includes lenses at the bottom of the Dash area, which allow the user to fine tune Dash search results. To access Dash, simply click the Ubuntu button on the top of the Launcher.]]></text>
+  </component>
+
+
+   <component id="ID_s1_titleTxt04">
+    <text><![CDATA[Launcher]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt04">
+    <text><![CDATA[A dock placed on the left side of the screen that serves as application launcher and switcher. Right-click any application hosted on the Launcher to access a short list of tasks the application can perform.
+]]></text>
+  </component>
+   <component id="ID_s1_titleTxt05">
+    <text><![CDATA[Lenses]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt05">
+    <text><![CDATA[Allows the user to fine tune the results.]]></text>
+  </component>
+
+
+   <component id="ID_s2_titleTxt01">
+    <text><![CDATA[Notification Center Icon ]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt01">
+    <text><![CDATA[Allows the user to see all notifications.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt02">
+    <text><![CDATA[Spotlight icon]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt02">
+    <text><![CDATA[Used for searching for apps, documents, images and other files.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt03">
+    <text><![CDATA[Status Menu]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt03">
+    <text><![CDATA[Displays date and time and status of your computer and some features, such as Bluetooth and wireless.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt04">
+    <text><![CDATA[Menu Bar]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt04">
+    <text><![CDATA[Contains the Apple menu, currently active application menus, status menus and indicators, Spotlight, and Notification Center.
+]]></text>
+  </component>
+
+
+  <component id="ID_s2_titleTxt05">
+    <text><![CDATA[Application Menu]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt05">
+   <text><![CDATA[Displays the name of the active application in bold and the menu of the active application.]]></text>
+  </component>
+
+   <component id="ID_s2_titleTxt06">
+    <text><![CDATA[Apple menu]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt06">
+   <text><![CDATA[Access system preferences, software updates, power controls, and more.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt07">
+    <text><![CDATA[Dock]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt07">
+   <text><![CDATA[Displays thumbnails of frequently used applications and the running applications that are minimized. One of the important functions included in the Dock is Force Quit. By right-clicking a running application in the Dock, the user can choose to close an unresponsive application.]]></text>
+  </component>
+
+</textcomponents>

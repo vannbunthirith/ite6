@@ -1,0 +1,14 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>Basic Netiquette</b>]]></text> 
+    </component>
+	
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[<ul><li>Be pleasant and polite.</li><li>Begin each email, even within a thread, with an appropriate greeting.</li><li>Never send chain letters via email.</li><li>Do not send or reply to flames.</li><li>Use mixed case. UPPER CASE IS CONSIDERED SHOUTING.</li><li>Check grammar and spelling before you post.</li><li>Be ethical.</li><li>Never mail or post anything you would not say to someone's face.</li></ul>]]></text> 
+    </component>
+	
+</textcomponents>

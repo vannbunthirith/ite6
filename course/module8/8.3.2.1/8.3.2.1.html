@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.1 DHCP Services</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>DHCP Services</h1>
+        <div>
+          <p>Hosts on networks perform a certain role. Some of these hosts perform security tasks, while others provide web services. There are also many legacy or embedded systems that perform specific tasks such as file or print services.</p>
+          <p></p>
+          <p>A host needs IP address information before it can send data on the network. Two important IP address services are Dynamic Host Configuration Protocol (DHCP) and Domain Name Service (DNS). </p>
+          <p></p>
+          <p>DHCP is the service used by ISPs, network administrators, and wireless routers to automatically assign IP addressing information to hosts, as shown in Figure 1. </p>
+          <p></p>
+          <p>As shown in Figure 2, when an IPv4, DHCP-configured device boots up or connects to the network, the client broadcasts a DHCP discover (DHCPDISCOVER) message to identify any available DHCP servers on the network. A DHCP server replies with a DHCP offer (DHCPOFFER) message, which offers a lease to the client. The offer message contains the IPv4 address and subnet mask to be assigned, the IPv4 address of the DNS server, and the IPv4 address of the default gateway. The lease offer also includes the duration of the lease.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a topology that shows three ISPs connected to the internet. Each Isp has a router DHCP server. An ISP DHCP server is also connected to the internet. A mobile worker is connected to ISP 1 using wireless. A corporate network is shown with three desktop computers connected to Switch1 and three other desktop computers connected to Switch2, which is connected to Switch1. Switch2 is also connected to a local DHCP server. Switch1 is connected to a router, which is connected to ISP2. A home and small business network is shown with three desktop computers connected to a wireless router, which is connected to ISP 3. The mobile worker and all the desktop computers are labelled as, ‘DHCP Clients”. Figure 2 on this page is a diagram that shows the DHCP client sending a DHCP Discover (DHCPDISCOVER) message to a DHCP server requesting an IP address. The server sends a DHCP Offer (DHCPOFFER) message back to the client offering an IP address. The client sends a DHCP Request (DHCPREQUEST) message back to the server selecting an IP address. The server sends a DHCP Pack (DCHPACK) message back to the client acknowledging the selected IP address.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

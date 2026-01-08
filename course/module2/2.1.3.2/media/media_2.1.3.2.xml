@@ -1,0 +1,22 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Computer Power Supply</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Computer Power Supply Connectors</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Common Power Supply Connectors</b>]]></text>
+	</component>
+
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Power Supply Voltages</b>]]></text>
+	</component>	
+	
+	
+</textcomponents>

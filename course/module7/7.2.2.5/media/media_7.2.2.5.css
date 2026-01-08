@@ -1,0 +1,14 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+li {
+    list-style-image: url("../images/bullet_dot_white.png") !important;
+    margin-left:15px!important;
+   
+}
+
+.spacer{
+	margin-left: 10px!important;
+}

@@ -1,0 +1,106 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity: Identify the TCP/IP Attack</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each type of TCP/IP attack to its description. Not all attack types will be used.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Replay]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Syn Flood]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[DDoS]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[DNS Poisoning]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Spoofing]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Man-in-the-Middle]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[DoS]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each TCP/IP attack type to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each TCP/IP attack type to its description. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>TCP/IP Attack Type</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>TCP/IP Attack Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[An attacker intercepts communications between computers to steal information transiting through the network.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Type of attack that creates a large amount of requests from a single source, aiming to overwhelm the destination device.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[A computer uses a forged IP or MAC address to pretend to be a trusted computer to gain access to resources.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Data transmissions are intercepted and recorded by an attacker. They are then sent to the destination computer. The destination computer handles these transmissions as though they are authentic.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[This attack randomly opens TCP ports at the source of the attack with a large amount of false SYN requests. This causes sessions to be denied to others.]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

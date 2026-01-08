@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>	
+	<slide type="MBAR">
+        <element type="IMAGE" subType="bg" bgType="IMAGE" />
+        <slide> 	
+		  <element type="IMAGE" subType="STD" x="91.3" y="71" width="503" height="335" src="4_1_1_3_A.jpg" />	
+        </slide>
+        
+        <slide>
+		  <element type="IMAGE" subType="STD" x="127.3" y="47" width="390" height="390" src="4_1_1_3_B.jpg" />	
+        </slide>
+	</slide>
+</data>

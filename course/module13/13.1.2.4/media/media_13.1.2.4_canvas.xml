@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBUTTON">
+		<element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490"  />
+		<slide buttonType="BLUE" buttonX="40" buttonY="149.8" buttonWidth="210" buttonHeight="21" compId="ID_s1_btn01" selected="true">
+			<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt01" bodyId="ID_s1_txt01" size="11"  width="360" height="325" x="280" y="70" animated="2" visible="1" />	
+		</slide>
+		<slide buttonType="BLUE" buttonX="40" buttonY="188.55" buttonWidth="210" buttonHeight="21" compId="ID_s1_btn02" selected="false">
+			<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt02" bodyId="ID_s1_txt02" size="11"  width="360" height="325" x="280" y="70" animated="2" visible="1" />	
+		</slide>
+		<slide buttonType="BLUE" buttonX="40" buttonY="227.3" buttonWidth="210" buttonHeight="21" compId="ID_s1_btn03" selected="false">
+			<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt03" bodyId="ID_s1_txt03" size="11"  width="360" height="325" x="280" y="70" animated="2" visible="1" />	
+		</slide>
+		<slide buttonType="BLUE" buttonX="40" buttonY="266.05" buttonWidth="210" buttonHeight="21" compId="ID_s1_btn04" selected="false">
+			<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt04" bodyId="ID_s1_txt04" size="11"  width="360" height="325" x="280" y="70" animated="2" visible="1" />	
+		</slide>
+		<slide buttonType="BLUE" buttonX="40" buttonY="304.8" buttonWidth="210" buttonHeight="21" compId="ID_s1_btn05" selected="false">
+			<element type="TEXTBOX" subType="ROLLOVER" titleId="ID_s1_title_txt05" bodyId="ID_s1_txt05" size="11"  width="360" height="325" x="280" y="70" animated="2" visible="1" />	
+		</slide>
+		<slide>
+			<element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490" />
+		</slide>
+	</slide>
+</data>

@@ -1,0 +1,8 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_txt06{
+left: -84px !important;
+top: 27px !important;
+}

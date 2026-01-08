@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>Printer Manufacturer's Driver Download Web Page</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[<b>Shop for Products and Services</b>]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[<b>Explore and Create</b>]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[<b>Support and Drivers</b>]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[<b>Support and Drivers</b>]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[<b>Driver and Software Download</b>]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<b>Product Support and Troubleshooting</b>]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[<b>Support Communities</b>]]></text>
+</component>
+
+<component id='ID_txt08'>
+	<text><![CDATA[<b>Enter a product name or number.</b>]]></text>
+</component>
+
+<component id='ID_txt09'>
+	<text><![CDATA[<b>SEARCH</b>]]></text>
+</component>
+
+<component id='ID_txt10'>
+	<text><![CDATA[How do I find my product name or number?]]></text>
+</component>
+
+<component id='ID_txt11'>
+	<text><![CDATA[ ]]></text>
+</component>
+
+</textcomponents>

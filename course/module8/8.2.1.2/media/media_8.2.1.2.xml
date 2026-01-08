@@ -1,0 +1,21 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>DSL Connection</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Home Computer or Network]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[DSL Modem]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Twisted Pair]]></text> 
+  </component>
+
+<component id="ID_txt05">
+  <text><![CDATA[ISP]]></text> 
+  </component>
+  
+</textcomponents>

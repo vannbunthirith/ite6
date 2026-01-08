@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of a SATA power connector. Figure 2 on this page is an image of a Molex to SATA power adapter. Figure 3 on this page is an image that shows a technician connecting the SATA power connector to the internal drive. Figure 4 on this page is an image that shows the fan power connector connected to the motherboard.

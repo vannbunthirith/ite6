@@ -1,0 +1,1 @@
+The figure on this page is a diagram that shows a large circle labelled as, ‘Cloud Computing Model’. Around the large circle and overlapping the large circle are five smaller circles. The smaller circles are labelled as, ‘On demand Self-service’, ‘Broad Network Access’, ‘Resource Pooling’, ‘Rapid Elasticity’, and ‘Measured Service’.

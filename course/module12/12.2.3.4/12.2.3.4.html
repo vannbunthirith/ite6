@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.4 File and Folder Permissions</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>File and Folder Permissions</h1>
+        <div>
+          <p>Permissions are rules you configure to limit folder or file access for an individual or for a group of users. The figure lists the permissions that are available for files and folders. To configure file- or folder-level permissions in all versions of Windows, use the following path:</p>
+          <p></p>
+          <p>Right-click the file or folder and select <b>Properties > Security > Edit…</b></p>
+          <p></p>
+          <p>
+            <b>Principle of Least Privilege</b>
+          </p>
+          <p></p>
+          <p>Users should be limited to only the resources they need in a computer system or on a network. For example, they should not be able to access all files on a server if they only need access to a single folder. It may be easier to provide users access to the entire drive, but it is more secure to limit access to only the folder that is needed to perform their job. This is known as the principle of least privilege. Limiting access to resources also prevents malicious programs from accessing those resources if the user’s computer becomes infected.</p>
+          <p></p>
+          <p>
+            <b>Restricting User Permissions</b>
+          </p>
+          <p></p>
+          <p>File and network share permissions can be granted to individuals or through membership within a group. These share permissions are much different than file and folder level NTFS permissions. If an individual or a group is denied permissions to a network share, this denial overrides any other permissions given. For example, if you deny someone permission to a network share, the user cannot access that share, even if the user is the administrator or part of the administrator group. The local security policy must outline which resources and the type of access allowed for each user and group.</p>
+          <p></p>
+          <p>When the permissions of a folder are changed, you are given the option to apply the same permissions to all sub-folders. This is known as permission propagation. Permission propagation is an easy way to apply permissions to many files and folders quickly. After parent folder permissions have been set, folders and files that are created inside the parent folder inherit the permissions of the parent folder. </p>
+          <p></p>
+          <p>Also, the location of the data and the action performed on the data determine how the permissions are propagated:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Data is moved to the same volume</b> – It will keep the original permissions</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Data is copied to the same volume</b> – It will inherit new permissions</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Data is moved to a different volume</b> – It will inherit new permissions</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Data is copied to a different volume</b> – It will inherit new permissions</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a table that lists the following permissions that are available for files and folders. Permission Level: Full Control, Description: User can see the contents of a file or folder, change and delete existing files and folders, and run programs in a folder. Permission Level: Modify, Description: Users can change and delete existing files and folders, but cannot create new ones. Permission Level: Read and Execute, Description: Users can see the contents of existing files and folders and can run programs in a folder. Permission Level: Read, Description: Users can see the contents of a folder and open files and folders. Permission Level: Write, Description: Users can create new files and folders and make changes to existing files and folders.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

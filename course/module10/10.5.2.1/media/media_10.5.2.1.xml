@@ -1,0 +1,786 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Common Problems and Solutions</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            
+            
+            <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+               <font size="16"><b>Common Problems and Solutions for Mobile Device Operating Systems</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <th scope="col" id="Identify1" bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identify the Problem</b></font></th>
+                <th scope="col" id="Probable1" bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Probable Causes</b></font></th>
+                <th scope="col" id="Solutions1" bgcolor='#666263' ><font color='#FFFFFF'><b>Possible Solutions</b></font></th>
+            </tr>
+
+           
+           
+            <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>The mobile device will not connect to the Internet.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Wi-Fi is turned off.</li>
+                            <li>Wi-Fi settings are incorrect.</li>
+                            <li>Airplane mode is turned on.</li></ul>
+                             
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Turn on Wi-Fi.</li>
+                            <li>Reconfigure the Wi-Fi settings.</li>
+                            <li>Turn off Airplane mode.</li></ul>
+                           
+                       
+                   </font>
+                </td>
+            </tr>
+           
+            <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>An app fails to respond.</font></td>
+
+                <td headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>The app does not work correctly.</li>
+                            <li>The app failed to close.</li></ul>
+                           
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                                <ul><li>Force the app to close.</li>
+                                <li>Restart the mobile device.</li>
+                                <li>Reinstall the app.</li>
+                                <li>Remove and reinsert the battery, if possible.</li>
+                                <li>Reset the mobile device.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+           
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>The mobile device fails to respond.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>The operating system has encountered an error.</li>
+                            <li>An app has caused the operating system to become unresponsive.</li></ul>
+
+                            
+                             
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                                <ul><li>Restart the mobile device.</li>
+                                <li>Remove and reinsert the battery, if possible.</li>
+                                <li>Reset the mobile device.</li></ul>
+
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>The mobile device cannot send or receive email.</font></td>
+
+                <td  headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            
+                            <ul><li>The mobile device is not connected to the Internet.</li>
+                            <li>The email account settings are incorrect.</li></ul>
+                             
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                               <ul><li>Connect the device to a Wi-Fi or cellular data network.</li>
+                                <li>Reconfigure the email account settings.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+
+           
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>The mobile device cannot install additional apps or save photos.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       The mobile device is out of storage space.
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                                <ul><li>Insert a memory card or replace the memory card with a larger one, if possible.</li>
+                                <li>Remove unnecessary files.</li>
+                                <li>Uninstall unnecessary apps.</li></ul>
+  
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>A mobile device cannot connect with a Bluetooth device.</font></td>
+
+                <td headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>Bluetooth is not enabled on the mobile device.</li>
+                        <li>The Bluetooth device is out of range of the mobile device.</li>
+                        <li>The Bluetooth device is not turned on.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Enable Bluetooth on the mobile device.</li>
+                            <li>Move the Bluetooth device to within range of the mobile device.</li>
+                            <li>Turn on the Bluetooth device.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>A mobile device cannot pair with a Bluetooth device.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                        <ul><li>Bluetooth is not enabled on the mobile device.</li>
+                        <li>The Bluetooth device is not turned on.</li>
+                        <li>The pin code is incorrect.</li></ul>
+                            
+                      
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Enable Bluetooth on the mobile device.</li>
+                            <li>Turn on the Bluetooth device.</li>
+                            <li>Enter the correct pin code.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>Mobile device display looks dim.</font></td>
+
+                <td headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Brightness is set too low in the display settings.</li>
+                            <li>Auto brightness does not work well in well-lit areas.</li>
+                            <li>Auto brightness is not calibrated correctly.</li></ul>
+                             
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Increase the brightness in the display settings.</li>
+                            <li>Turn off auto brightness.</li>
+                            <li>Recalibrate the light sensor.</li></ul>
+                           
+                       
+                   </font>
+                </td>
+            </tr>
+           
+            <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>The mobile device cannot broadcast to an external monitor.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>No wireless display-capable device is available.</li>
+                            <li>Miracast, WiDi, AirPlay, or other wireless display technology is not enabled.</li></ul>
+                           
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                                <ul><li>Install a wireless display-capable device or turn it on if there is one available.</li>
+                                <li>Enable the wireless display capability.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+           
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>The mobile device is exhibiting slow performance.</font></td>
+
+                <td headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>A GPS application is running.</li>
+                            <li>One or more power-intensive apps is running.</li></ul>
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                                <ul><li>Turn off the GPS or close the GPS application.</li>
+                                <li>Close all unnecessary apps.</li>
+                                <li>Restart the device.</li></ul>
+
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>The mobile device is unable to decrypt email.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            
+                            <ul><li>Your email client is not set up to decrypt email.</li>
+                            <li>You do not have the correct decryption key.</li></ul>
+                             
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                               <ul><li>Configure the email client to decrypt encrypted email.</li>
+                                <li>Attain the decryption key from the sender of the encrypted email.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+
+           
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>The mobile device operating system has frozen.</font></td>
+
+                <td headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            
+                            <ul><li>An app is not compatible with the device.</li>
+                            <li>Network connectivity is poor.</li>
+                            <li>The device has failing hardware.</li></ul>
+                             
+                       
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                                <ul><li>Uninstall the incompatible app.</li>
+                                <li>Move to an area with better network coverage.</li>
+                                <li>Replace any failing hardware.</li></ul>
+  
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#E9E7E8'><font color='#393536'>The mobile device has no sound coming from the speakers.</font></td>
+
+                <td headers="Probable1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The volume of the device is set too low in the audio settings or in an app.</li>
+                        <li>The volume is muted.</li>
+                        <li>The speaker has failed.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Turn up the volume in the audio settings or in the app.</li>
+                            <li>Unmute the volume.</li>
+                            <li>Replace the speaker.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify1" bgcolor='#F2F2F2'><font color='#393536'>The mobile device touchscreen has inaccurate response.</font></td>
+
+                <td headers="Probable1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The touchscreen is not calibrated in the display settings or in an app.</li>
+                        <li>The touchscreen is dirty.</li>
+                        <li>The touchscreen is shorting out due to damage or water.</li></ul>
+                            
+                      
+                   </font>
+                </td>
+                <td headers="Solutions1" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Recalibrate the touchscreen in the display settings or in the app.</li>
+                            <li>Clean the touchscreen.</li>
+                            <li>Replace the touchscreen.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Common Problems and Solutions</b>]]></text> 
+    </component>
+    
+   <component id="ID_s2_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+           
+
+
+            <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Common Problems and Solutions for Mobile OS Security</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <th scope="col" id="Problem2" bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identify the Problem</b></font></td>
+                <th scope="col" id="Probable2" bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Probable Causes</b></font></td>
+                <th scope="col" id="Solutions2" bgcolor='#666263' ><font color='#FFFFFF'><b>Possible Solutions</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#E9E7E8'><font color='#393536'>A mobile device has a weak signal or the signal has been dropped. </font></td>
+
+                <td headers="Probable2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>There are not enough cell towers in the area.</li>
+                            <li>The area is between coverage areas of the carrier.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Move to a more populated area that will have more cell towers.</li>
+                            <li>Move to an area within the range of your carrier.</li></ul>
+
+                       
+                   </font>
+                </td>
+            </tr>
+
+              <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#F2F2F2'><font color='#393536'>The power of a mobile device is draining more quickly than normal.</font></td>
+
+                <td headers="Probable2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The device is roaming between cell towers or areas of coverage.</li>
+                        <li>The display is set to a high level of brightness.</li>
+                        <li>An app is using too many resources.</li>
+                        <li>Too many radios are in use.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Move to an area within the range of your carrier.</li>
+                            <li>Set the display to a lower brightness level.</li>
+                            <li>Close any unnecessary apps.</li>
+                            <li>Turn off any unnecessary radios.</li>
+                            <li>Reboot the device.</li></ul>
+
+                            
+                       
+                   </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#E9E7E8'><font color='#393536'>A mobile device has slow data speeds .</font></td>
+
+                <td headers="Probable2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The connected cell is too far away for high speed data.</li>
+                        <li>The mobile device is roaming.</li>
+                        <li>Data transmission has gone over the usage limit for a device.</li>
+                        <li>The device is experiencing high resource utilization.</li></ul>  
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Move closer to a cell tower. </li>
+                            <li>Move to an area within the range of your carrier.</li>
+                            <li>Raise the data limit of the device.</li>
+                            <li>Turn off data usage for the device.</li>
+                            <li>Close any unnecessary apps.</li>
+                            <li>Restart the device.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td scope="row" headers="Problem2"  bgcolor='#F2F2F2'><font color='#393536'>A mobile device connects to a WiFi network unintentionally.</font></td>
+
+                <td headers="Probable2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       The device is set to automatically connect to unknown WiFi networks.
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       Set the device so that it will only connect to known WiFi networks.
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Problem2"  bgcolor='#E9E7E8'><font color='#393536'>A mobile device pairs to a Bluetooth device unintentionally.
+</font></td>
+
+                <td headers="Probable2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                      The device is set to automatically pair with unknown devices.
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        Set the device to turn off Bluetooth pairing by default.
+                   </font>
+                </td>
+            </tr>
+            <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#E9E7E8'><font color='#393536'>A mobile device has leaked personal files and data. </font></td>
+
+                <td headers="Probable2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>The device has been lost or stolen.</li>
+                            <li>The device has been compromised by malware.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>Remote lock or wipe the device.</li>
+                            <li>Scan for and remove malware from the device.</li></ul>
+                      
+                   </font>
+                </td>
+            </tr>
+
+              <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#F2F2F2'><font color='#393536'>A mobile device account has been accessed by unauthorized personnel.</font></td>
+
+                <td headers="Probable2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>Credentials are being stored by default.</li>
+                        <li>No VPN is being used.</li>
+                        <li>No passcode is set on the device.</li>
+                        <li>The passcode on the device has been discovered.</li>
+                        <li>The device has been compromised by malware.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Set the device to not store credentials by default.</li>
+                            <li>Use a VPN connection.</li>
+                            <li>Set a passcode on the device.</li>
+                            <li>Change the passcode to a stronger passcode.</li>
+                            <li>Scan for and remove malware from the device.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Problem2"  bgcolor='#E9E7E8'><font color='#393536'>An app has achieved unauthorized access to root.</font></td>
+
+                <td headers="Probable2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                      The device has been compromised by malware.
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                      Scan for and remove malware from the device.
+                   </font>
+                </td>
+            </tr>
+
+              <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#F2F2F2'><font color='#393536'>A mobile device is being tracked without permission.</font></td>
+
+                <td headers="Probable2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The GPS is on, but not in use by any apps.</li>
+                        <li>An app allows connection to the GPS.</li>
+                        <li>The device has been compromised by malware.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Turn off the GPS when not in use.</li>
+                            <li>Shut down or remove any unwanted apps that allow connection to the GPS.</li>
+                            <li>Scan for and remove malware from the device.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+            <tr>
+                <td  scope="row" headers="Problem2" bgcolor='#E9E7E8'><font color='#393536'>A mobile device camera or microphone is being accessed without permission.</font></td>
+
+                <td headers="Probable2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>An app allows connection to the camera or microphone.</li>
+                            <li>The device has been compromised by malware.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Solutions2" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>Shut down or remove any unwanted apps that allow connection to the camera or microphone.</li>
+                            <li>Scan for and remove malware from the device.</li></ul>
+                      
+                   </font>
+                </td>
+            </tr>
+
+        </table>]]></text>
+        
+    </component>
+
+
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Common Problems and Solutions</b>]]></text> 
+    </component>
+    
+    <component id="ID_s3_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            
+
+            <caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16"><b>Common Problems and Solutions for Linux and OS X Operating Systems</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <th scope="col" id="Identify3" bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identify the Problem</b></font></td>
+                <th scope="col" id="Causes3" bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Probable Causes</b></font></td>
+                <th scope="col" id="Possible3" bgcolor='#666263' ><font color='#FFFFFF'><b>Possible Solutions</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td scope="row" headers="Identify3" bgcolor='#E9E7E8'><font color='#393536'>The automatic backup operation does not start. </font></td>
+
+                <td headers="Causes3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>Time Machine is turned off in OS X.</li>
+                            <li> Deja Dup is turned off in Linux.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Turn on Time Machine in OS X.</li>
+                            <li>Turn on Dejà Dup in Linux.</li></ul>
+
+                       
+                   </font>
+                </td>
+            </tr>
+
+              <tr>
+                <td scope="row" headers="Identify3" bgcolor='#F2F2F2'><font color='#393536'>The directory appears empty.</font></td>
+
+                <td headers="Causes3" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The directory is the mount point for another disk or partition.</li>
+                        <li>The files were accidentally deleted.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Remount the disk using the correct directory with Disk Utility for OS X.</li>
+                            <li>Remount the disk using the correct directory with Disks for Linux.</li>
+                            <li>Restore the deleted files from backup using Time Machine or Dejà Dup.</li></ul>
+
+                            
+                       
+                   </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Identify3" bgcolor='#E9E7E8'><font color='#393536'>An application stops responding in OS X.</font></td>
+
+                <td headers="Causes3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The application has stopped working.</li>
+                        <li>The application was using a resource that became unavailable.</li></ul>  
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Force Quit the application. </li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td scope="row" headers="Identify3" bgcolor='#F2F2F2'><font color='#393536'>Wi-Fi is not accessible using Ubuntu.</font></td>
+
+                <td headers="Causes3" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>The wireless NIC driver did not install correctly. </li></ul>
+                         
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Install the Linux driver from the manufacturer’s website, if available.</li>
+                            <li>Install the Linux driver from the Ubuntu repositories, if available.</li></ul>
+
+                       
+                   </font>
+                </td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Identify3" bgcolor='#E9E7E8'><font color='#393536'>OS X cannot read the remote optical disc using Remote Disc.
+</font></td>
+
+                <td headers="Causes3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                       <ul> <li>The Mac already has an optical drive installed.</li>
+                        <li>The option to request permission to use the optical drive has been enabled.</li></ul>
+
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Place the media in the local optical drive.</li>
+                            <li>Accept the request for permission to use the drive.</li></ul>
+
+
+                       
+                   </font>
+                </td>
+            </tr>
+            <tr>
+                <td scope="row" headers="Identify3" bgcolor='#E9E7E8'><font color='#393536'>Linux fails to boot and you receive a “Missing GRUB” or “Missing LILO” message. </font></td>
+
+                <td headers="Causes3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       
+                            <ul><li>GRUB or LILO has been corrupted.</li>
+                            <li>GRUB or LILO has been deleted.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#E9E7E8'>
+                    <font color='#393536'>
+                       Run Linux from the installation media, open a terminal and install the boot manager with the command: sudo grub-install or sudo lilo-install
+                   </font>
+                </td>
+            </tr>
+
+              <tr>
+                <td scope="row" headers="Identify3" bgcolor='#F2F2F2'><font color='#393536'>Linux or Mac OS freezes on startup and exhibits kernel panic where there is a stop screen.</font></td>
+
+                <td headers="Causes3" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                       
+                        <ul><li>A driver has become corrupted.</li>
+                        <li>Hardware is failing.</li></ul>
+                      
+                   </font>
+                </td>
+                <td headers="Possible3" bgcolor='#F2F2F2'>
+                    <font color='#393536'>
+                        
+                            <ul><li>Update all device drivers from the manufacturer’s website.</li>
+                            <li>Replace any failing hardware.</li></ul>
+                       
+                   </font>
+                </td>
+            </tr>
+        </table>]]></text>
+        
+    </component>
+</textcomponents>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.4 Drive Mapping or Drive Letter Assignment</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Drive Mapping or Drive Letter Assignment</h1>
+        <div>
+          <p>In Windows, letters are used to name physical or logical drives. This process is called drive mapping or drive letter assignment. A Windows computer can have up to 26 physical and logical drives, because there are 26 letters in the English alphabet. Drive C is reserved for the primary, active partition. In Windows Vista and Windows 7, you can assign letters A or B to drives if you do not have floppy drives. As extra storage devices are added to the system, Windows will attempt to automatically map them to the next free letter. In this way, an optical drive, extra internal disks and external storage devices are traditionally labeled as drive D, E, F, and so forth. The maximum number of additional drives is dependent on the hardware of a specific computer.</p>
+          <p></p>
+          <p>You can change, add, and remove drive letters and paths. By default, Windows assigns a letter to a partition or drive after it is created or added. You can change the drive designation to any letter as long as that letter is not already in use.</p>
+          <p></p>
+          <p>To change a drive letter in Windows from the Disk Management utility, right-click the drive and select <b>Change Drive Letter and Paths</b>.</p>
+          <p></p>
+          <p>
+            <b>Adding Drives</b>
+          </p>
+          <p></p>
+          <p>To increase the amount of storage space available on a computer, or to implement a Redundant Array of Independent Disks (RAID) setup, you can add drives to the computer. If the additional hard drive has been installed correctly, the BIOS should automatically recognize it. After the drive is installed, you can check if it is recognized using the Disk Management utility. If the disk is available, it probably requires formatting before it can be used. If it does not appear, troubleshoot the problem.</p>
+          <p></p>
+          <p>
+            <b>Adding Arrays</b>
+          </p>
+          <p></p>
+          <p>To set up a Redundant Array of Independent Disks (RAID), two or more drives must be installed in a computer. You can add an array with the Disk Management utility. You have the following options:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>New Spanned Volume</b> - Creates a disk partition that consists of disk space from more than one physical disk. The data on a spanned volume is not fault tolerant.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>New Striped Volume</b> - A dynamic partition that stores data in stripes on more than one physical disk. Also known as RAID 0, this type volume achieves high read/write speeds. Data is spread across multiple physical disks, allowing parts of it to be accessed simultaneously. Because the data on a striped volume is not fault tolerant, this type of volume should not be used to store important data.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>New Mirrored Volume</b> – Requires two physical disks. Also known as RAID 1, all data written to the volume is written to both disks simultaneously. This operation makes the data stored on a mirrored volume fault tolerant.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>New RAID-5 Volume</b> – RAID 5 is a dynamic partition that stores data in stripes on more than one physical disk, while also storing recovery information for each stripe. Called parity data, this recovery information can be used to rebuild the data on a disk that has failed. The creation of parity information makes the data on a RAID-5 volume fault tolerant.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>To add an array in the Disk Management utility, right-click the desired disk and select an option.</p>
+          <p></p>
+          <p>In addition to the Disk Management utility options described above, another common RAID type is RAID 10, also known as RAID 1+0. RAID 10 is a volume consisting of a mix of RAID 0 and RAID 1. RAID 10 stores data in stripes on multiple physical disks while mirroring that data on another set of disks. RAID 10 is both fast and fault tolerant.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: The options available for adding an array are based on system limitations. Not all options may be available</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a diagram that represents the following disk arrays. Disk Array: Spanned Volume, Description: The data is written sequentially. Each volume spans across multiple disks when more storage space is needed. Disk Array: Striped Volume, Description: The data is divided and stored across disks for faster read and write access. Disk Array: Mirrored Volume, Description: The data is written to multiple disks at the same time to ensure fault tolerance. Disk Array: Raid 5 Volume, Description: The data is divided and stored across disks with parity to ensure fault tolerance.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

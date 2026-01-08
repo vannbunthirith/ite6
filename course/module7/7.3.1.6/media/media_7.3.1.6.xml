@@ -1,0 +1,123 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Identify Network Devices</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each device to a description.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Router]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Modem]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Firewall]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Patch Panel]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Switch]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Wireless Access Point]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Repeater]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[Hub]]></text>
+	</component>
+	<component id='ID_s1_drag09'>
+		<text><![CDATA[PoE Switch]]></text>
+	</component>
+
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each device to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each device to its description. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Device</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Regenerates weak signals to effectively extend the distance a signal can travel.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Resides between two or more networks and protects data and equipment on a network from unauthorized access. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Uses IP addresses to forward traffic to other networks.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Converts a computer’s digital data into a format that can be transmitted on the ISP’s network.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Transfers small amounts of DC current over Ethernet cable, along with data, to power special devices.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Filters and segments network traffic by sending data only to the device to which it is sent.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Receives data on one port and sends it out to all other ports.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Provides network access to devices that use radio waves to communicate with other devices.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[A place to collect incoming cable runs from the various networking devices throughout a facility.]]></text>
+	</component> 
+
+
+
+</textcomponents>

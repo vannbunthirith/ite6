@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.5.2 User and System File Locations</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.5.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>User and System File Locations</h1>
+        <div>
+          <p>
+            <b>User File Locations</b>
+          </p>
+          <p></p>
+          <p>By default, Windows stores most of the files created by users in the folder C:\Users\User_name\. Each user’s folder contains folders for music, videos, websites, and pictures, among others, as shown in Figure 1. Many programs also store specific user data here. If a single computer has many users, they have their own folders containing their favorites, desktop items, and cookies. Cookies are files that contain information from web pages that the users have visited.</p>
+          <p></p>
+          <p>
+            <b>System Folder</b>
+          </p>
+          <p></p>
+          <p>When the Windows OS is installed, most of the files that are used to run the computer are located in the folder C:\Windows\system32. The content of the Windows System Folder is shown in Figure 2.</p>
+          <p></p>
+          <p>
+            <b>Fonts</b>
+          </p>
+          <p></p>
+          <p>The folder C:\Windows\Fonts contains the fonts installed on the computer. Fonts come in several formats, including TrueType, OpenType, Composite, and PostScript. Some examples of font typefaces are Arial, Times New Roman, and Courier. You can access the Fonts folder through the Control Panel. You can install fonts by double-clicking the font file <b>> Install</b>.</p>
+          <p></p>
+          <p>
+            <b>Temporary Files</b>
+          </p>
+          <p></p>
+          <p>The Temporary Files folder contains files created by the OS and programs that are needed for a short period of time. For example, temporary files might be created while an application is being installed to make more RAM available for other applications.</p>
+          <p></p>
+          <p>Almost every program uses temporary files, which are usually automatically deleted when the application or the OS is finished using them. However, some temporary files must be deleted manually. Because temporary files take up hard drive space that could be used for other files, it is a good idea to delete them as necessary every two or three months.</p>
+          <p></p>
+          <p>In Windows, temporary files are usually located in the following folders:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>C:\Windows\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>C:\Users\User_Name\AppData\Local\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>%USERPROFILE%\AppData\Local\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <b>Note</b>: %USERPROFILE% is an environment variable set by the OS with the username that is currently logged on to the computer. Environment variables are used by the operating system, applications, and software installation programs.</p>
+          <p></p>
+          <p>To see the environment variables that are configured in Windows, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > System > Advanced system settings > Advanced tab > Environment Variables</b>
+          </p>
+          <p>
+            <b>Program Files</b>
+          </p>
+          <p></p>
+          <p>The Program Files folder is used by most application installation programs to install software. In 32-bit systems, all programs are 32-bit and are installed in the folder C:\Program Files. In 64-bit systems, 64-bit programs are installed in the folder C:\Program Files, while 32-bit programs are usually installed in the folder C:\Program Files (x86).</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Windows Explorer window listing user folders.Figure 2 on this page is an image of the Windows Explorer window listing system folders.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

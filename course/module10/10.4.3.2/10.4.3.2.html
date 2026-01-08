@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.3.2 Administrative Commands</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Administrative Commands</h1>
+        <div>
+          <p>In order to organize the system and reinforce boundaries within the system, Unix utilizes file permissions. File permissions are built into the file system structure and provide a mechanism to define permissions to every file. Every file on Unix systems carries its file permissions which define the actions that the owner, the group and others can do with the file. The possible permissions rights are Read, Write and Execute. Using the <b>ls</b> command and the <b>–l</b> parameter to list additional information about the file, consider the output of the <b>ls –l </b>command below:</p>
+          <p></p>
+          <p>
+            <b>rod@machine: $ ls –l my_awesome_file</b>
+          </p>
+          <p></p>
+          <p>
+            <b>-rwxrw-r-- 1 rod staff 1108485 Aug 14 7:34 My_Awesome_File </b>
+          </p>
+          <p></p>
+          <p>
+            <b>rod@machine: $</b>
+          </p>
+          <p></p>
+          <p>The output above provides lots of information about <b>My_Awesome_File</b>.</p>
+          <p></p>
+          <p>The first portion of the output above displays the permissions associated to <b>My_Awesome_File</b>. File permissions are always displayed in the User, Group and Other order which leads to the conclusion that <b>My_Awesome_File</b> can be:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>The user who owns the file can Read, Write and eXecute the file. This is represented by rwx</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The group that owns the file can Read and Write to the file. This is represented by rw-.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Any other user or group in the system can only Read the file. This is represented by r--.</li>
+            </ul>
+          </p>
+          <p>The next portion is the number of hard links to the file, in this instance it is a numeral 1. This portion is not in the scope of this course.</p>
+          <p></p>
+          <p>The third portion displays the username of the owner of the file. The fourth portion displays the name of the group that owns the file. In this case, the user <b>rod</b> and the group <b>staff</b> both have some level of ownership over the file.</p>
+          <p></p>
+          <p>The fifth portion displays the file size in bytes. <b>My_Awesome_File</b> has 1108485 bytes or about 1.1MB.</p>
+          <p></p>
+          <p>The sixth portion displays the date and time of the last modification. </p>
+          <p></p>
+          <p>The seventh portion displays the file name.</p>
+          <p></p>
+          <p>Figure 1 shows a breakdown of file permissions in Unix.</p>
+          <p></p>
+          <p>The only user who can override file permissions in Unix is the root user. Having the power to override file permissions, the root user can write to any file. Because everything is treated as a file, the root user has full control over the Unix operating system. Root access is often required before performing maintenance and administrative tasks.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Because Linux and OS X are based on Unix, both operating systems are in full compliance with Unix file permissions.</p>
+          <p></p>
+          <p>See Figure 2 for a few administrative command line tools. </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page shows a diagram that lists the following file permission codes on Unix. Bit 1: File or Directory bit, ‘-‘ indicates it is a file, ‘d’ indicates it is a directory. Bits 2 – 4: User permissions. Bits 5 – 7: Group permissions. Bits 8 – 10: Other permissions. The figure also shows a table that lists the following file permissions on Unix. Binary: 000, Octal: 0, Permission: ‘---‘, Description: No access. Binary: 001, Octal: 1, Permission: ‘—x’, Description: Execution only. Binary: 010, Octal: 2, Permission: ‘-w-‘, Description: Write only. Binary: 011, Octal: 3, Permission: ‘-wx’, Description: Write and Execution. Binary: 100, Octal: 4, Permission: ‘r--‘, Description: Read only. Binary: 101, Octal: 5, Permission: ‘r-x’, Description: Read and Execution. Binary: 110, Octal: 6, Permission: ‘rw-‘, Description: Read and Write. Binary: 111, Octal: 7, Permission: ‘rwx’, Descriptions: Read, Write, and Execution. Figure 2 on this page is a table that lists the following few administrative command line tools. Command: ‘chmod’, Description: Modifies file permissions. Command: ‘chown’, Descriptions: Changes the ownership of a file. Command: ‘dd’, Description: Copies data from an input to an output. Command: ‘shutdown’, Description: Shuts down the system. Command: ‘pwd’, Description: Displays the name of the current directory. Command: ‘passwd’, Description: Changes user password. Command: ‘ps’, Description: Lists the process currently running in the system. Command: ‘su’, Description: Simulates a login as another user or to become a super-user. Command: ‘sudo’, Description: Runs command as another user. Command: ‘ifconfig’, Description: Displays or configures network card related information. Command: ‘apt-get’ (not available on OS X, by default), Description: Is the Ubuntu Linux package manager and is used to install, configure and remove packages on Ubuntu. Command: ‘iwconfig’ (not available on OS X, by default), Description: Displays or configures wireless network card related information.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

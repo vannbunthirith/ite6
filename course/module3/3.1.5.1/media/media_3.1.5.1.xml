@@ -1,0 +1,92 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Type of Motherboard Power Connectors</b>]]></text>
+</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>ATX Standard</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Motherboard Connector Descriptions</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'><b>ATX</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>20-pin main motherboard connector</li><li>6-pin auxiliary connector</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>ATX12V v2.x</b></td>
+			<td bgcolor='#F2F2F2'><ul><li>24-pin main motherboard connector</li><li>4-pin auxiliary connector</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>AMD GES</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>24-pin main motherboard connector</li><li>8-pin auxiliary connector</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>EPS12V</b></td>
+			<td bgcolor='#F2F2F2'><ul><li>24-pin main motherboard connector</li><li>8-pin auxiliary connector often provided as two combined 4-pin connectors</li></ul></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_s3_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Types of Motherboard Power Connections</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="ATX" bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>ATX Standard</b></font></th>
+			<th scope="col" id="Motherboard" bgcolor='#666263' ><font color='#FFFFFF' ><b>Motherboard Connector Descriptions</b></font></th>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="ATX" bgcolor='#E9E7E8'><b>ATX</b></td>
+			<td headers="Motherboard" bgcolor='#E9E7E8'><ul><li>20-pin main motherboard connector</li><li>6-pin auxiliary connector</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="ATX" bgcolor='#F2F2F2'><b>ATX12V v2.x</b></td>
+			<td headers="Motherboard" bgcolor='#F2F2F2'><ul><li>24-pin main motherboard connector</li><li>4-pin auxiliary connector</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="ATX" bgcolor='#E9E7E8'><b>AMD GES</b></td>
+			<td headers="Motherboard" bgcolor='#E9E7E8'><ul><li>24-pin main motherboard connector</li><li>8-pin auxiliary connector</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="ATX" bgcolor='#F2F2F2'><b>EPS12V</b></td>
+			<td headers="Motherboard" bgcolor='#F2F2F2'><ul><li>24-pin main motherboard connector</li><li>8-pin auxiliary connector often provided as two combined 4-pin connectors</li></ul></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Connecting the 24-pin ATX12V v2.x Main Motherboard Connector</b>]]></text>
+</component>
+
+<!-- Slide 3 -->
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Connecting the 4-pin ATX12V v2.x Auxiliary Power Connector</b>]]></text>
+</component>
+
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>Connecting the 4-pin CPU Fan</b>]]></text>
+</component>
+
+
+
+</textcomponents>

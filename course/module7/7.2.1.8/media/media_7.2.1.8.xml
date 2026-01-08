@@ -1,0 +1,75 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+	<text><![CDATA[<b>Comparing the OSI Model and the TCP/IP Model</b>]]></text>
+	</component>
+	
+	<component id="ID_txt0A">
+	  <text><![CDATA[<b>OSI Model</b>]]></text> 
+	  </component>
+	<component id="ID_txt0B">
+	  <text><![CDATA[<b>TCP/IP Model</b>]]></text> 
+	  </component>
+	  
+	<component id="ID_s1_osi_txt07">
+		<text><![CDATA[Application]]></text>
+	</component>
+		<component id="ID_s1_osi_txt06">
+		<text><![CDATA[Presentation ]]></text>
+	</component>
+		<component id="ID_s1_osi_txt05">
+		<text><![CDATA[Session]]></text>
+	</component>
+		<component id="ID_s1_osi_txt04">
+		<text><![CDATA[Transport]]></text>
+	</component>
+		<component id="ID_s1_osi_txt03">
+		<text><![CDATA[Network]]></text>
+	</component>
+		<component id="ID_s1_osi_txt02">
+		<text><![CDATA[Data Link]]></text>
+	</component>
+		<component id="ID_s1_osi_txt01">
+		<text><![CDATA[Physical]]></text>
+	</component>
+
+	<component id="ID_s1_layer07">
+		<text><![CDATA[<b>7</b>]]></text>
+	</component>
+		<component id="ID_s1_layer06">
+		<text><![CDATA[<b>6</b>]]></text>
+	</component>
+		<component id="ID_s1_layer05">
+		<text><![CDATA[<b>5</b>]]></text>
+	</component>
+		<component id="ID_s1_layer04">
+		<text><![CDATA[<b>4</b>]]></text>
+	</component>
+		<component id="ID_s1_layer03">
+		<text><![CDATA[<b>3</b>]]></text>
+	</component>
+		<component id="ID_s1_layer02">
+		<text><![CDATA[<b>2</b>]]></text>
+	</component>
+		<component id="ID_s1_layer01">
+		<text><![CDATA[<b>1</b>]]></text>
+	</component>
+  
+	<component id="ID_txt10">
+	  <text><![CDATA[Application]]></text> 
+	  </component>
+	<component id="ID_txt11">
+	  <text><![CDATA[Transport]]></text> 
+	  </component>
+	<component id="ID_txt12">
+	  <text><![CDATA[Internet]]></text> 
+	  </component>
+	<component id="ID_txt13">
+	  <text><![CDATA[Network Access]]></text> 
+	  </component>
+	  
+	<component id="ID_txt14">
+	  <text><![CDATA[The key similarities are in the transport and network layers; however, the two models differ in how they relate to the layers above and below each layer.]]></text> 
+	</component>
+  
+</textcomponents>

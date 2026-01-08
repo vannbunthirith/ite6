@@ -1,0 +1,165 @@
+﻿<textcomponents>
+<!--SLIDE 1-->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Motherboard Printed Circuit Board</b>]]></text>
+	</component>
+  
+  
+<!--SLIDE 2-->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Motherboard Connections</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Chipset]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[BIOS/UEFI<br/>Chip]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Expansion Slots]]></text>
+	</component>
+  
+  
+<!--SLIDE 3-->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Motherboard with Components Installed</b>]]></text>
+	</component>
+  
+  
+<!--SLIDE 4-->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Motherboard Component Connections</b>]]></text>
+	</component>
+  
+	<component id="ID_s4_txt01">
+        <text><![CDATA[PCI Express Graphics Adapter Slot]]></text>
+	</component>  
+	
+	<component id="ID_s4_txt02">
+        <text><![CDATA[Hard Drives]]></text>
+	</component>
+	
+	<component id="ID_s4_txt03">
+        <text><![CDATA[Southbridge]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+        <text><![CDATA[32-bit PCI slot]]></text>
+	</component>	
+	<component id="ID_s4_txt05">
+        <text><![CDATA[32-bit PCI slot]]></text>
+	</component>	
+	<component id="ID_s4_txt06">
+        <text><![CDATA[64-bit PCI slot]]></text>
+	</component>	
+	<component id="ID_s4_txt07">
+        <text><![CDATA[64-bit PCI slot]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt08">
+        <text><![CDATA[Keyboard Mouse USB]]></text>
+	</component>
+	
+	<component id="ID_s4_txt09">
+        <text><![CDATA[BIOS UEFI]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt10">
+        <text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_s4_txt11">
+        <text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_s4_txt12">
+        <text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_s4_txt13">
+        <text><![CDATA[RAM]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt14">
+        <text><![CDATA[Northbridge]]></text>
+	</component>	
+	<component id="ID_s4_txt15">
+        <text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s4_txt16">
+        <text><![CDATA[PCI Adapter Slots]]></text>
+	</component>
+	
+	
+<!--SLIDE 5-->
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Motherboard Form Factors</b>]]></text>
+	</component>
+      
+    <component id="ID_s5_table"><text><![CDATA[
+		<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Form Factor</b></font></td>
+				<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#E9E7E8'>ATX</td>
+				<td bgcolor='#E9E7E8'><ul><li>Advanced Technology eXtended</li><li>Most popular form factor.</li><li>12 in X 9.6 in (30.5 cm X 24.4 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>Micro-ATX</td>
+				<td bgcolor='#F2F2F2'><ul><li>Smaller footprint than the ATX.</li><li>Popular in desktop and small form factor computers.</li><li>9.6 in X 9.6 in (24.4 cm X 24.4 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>Mini-ITX</td>
+				<td bgcolor='#E9E7E8'><ul><li>Designed for small devices such as thin clients and set-top boxes.</li><li>6.7in X 6.7 in (17cm X 17 cm )</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>ITX</td>
+				<td bgcolor='#F2F2F2'><ul><li>Comparable form factor to Micro-ATX</li><li>8.5 in X 7.5 in (21.5 cm X 19.1 cm)</li></ul></td>
+			</tr>	
+		</table>]]></text> 
+	</component>
+
+	<component id="ID_s5_table_html"><text><![CDATA[
+		<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+			<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="3">Motherboard Form Factors</font></caption>
+
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<th scope="col" id="Form" bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Form Factor</b></font></th>
+				<th scope="col" id="Description" bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></th>
+			</tr>
+	
+			<tr>
+				<td scope="row" headers="Form" bgcolor='#E9E7E8'>ATX</td>
+				<td headers="Description" bgcolor='#E9E7E8'><ul><li>Advanced Technology eXtended</li><li>Most popular form factor.</li><li>12 in X 9.6 in (30.5 cm X 24.4 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Form" bgcolor='#F2F2F2'>Micro-ATX</td>
+				<td headers="Description" bgcolor='#F2F2F2'><ul><li>Smaller footprint than the ATX.</li><li>Popular in desktop and small form factor computers.</li><li>9.6 in X 9.6 in (24.4 cm X 24.4 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Form" bgcolor='#E9E7E8'>Mini-ITX</td>
+				<td headers="Description" bgcolor='#E9E7E8'><ul><li>Designed for small devices such as thin clients and set-top boxes.</li><li>6.7in X 6.7 in (17cm X 17 cm )</li></ul></td>
+			</tr>
+			<tr>
+				<td scope="row" headers="Form" bgcolor='#F2F2F2'>ITX</td>
+				<td headers="Description" bgcolor='#F2F2F2'><ul><li>Comparable form factor to Micro-ATX</li><li>8.5 in X 7.5 in (21.5 cm X 19.1 cm)</li></ul></td>
+			</tr>	
+		</table>]]></text> 
+	</component>
+</textcomponents>

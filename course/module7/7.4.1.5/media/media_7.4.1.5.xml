@@ -1,0 +1,177 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>How Many Addresses Are Available with IPv6?</b>]]></text>
+</component> 
+
+
+
+<component id="ID_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="110"><font color='#FFFFFF' ><b>Number Name</b></font></td>
+			<td bgcolor='#666263' width="110"><font color='#FFFFFF' ><b>Scientific Notation</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Number of Zeros</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>1 Thousand</td>
+			<td bgcolor='#E9E7E8'>10^3</td>
+			<td bgcolor='#E9E7E8'>1,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>1 Million</td>
+			<td bgcolor='#F2F2F2'>10^6</td>
+			<td bgcolor='#F2F2F2'>1,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#FAB37D'>1 Billion</td>
+			<td bgcolor='#FAB37D'>10^9</td>
+			<td bgcolor='#FAB37D'>1,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>1 Trillion</td>
+			<td bgcolor='#F2F2F2'>10^12</td>
+			<td bgcolor='#F2F2F2'>1,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>1 Quadrillion</td>
+			<td bgcolor='#E9E7E8'>10^15</td>
+			<td bgcolor='#E9E7E8'>1,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>1 Quintillion</td>
+			<td bgcolor='#F2F2F2'>10^18</td>
+			<td bgcolor='#F2F2F2'>1,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>1 Sextillion</td>
+			<td bgcolor='#E9E7E8'>10^21</td>
+			<td bgcolor='#E9E7E8'>1,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>1 Septillion</td>
+			<td bgcolor='#F2F2F2'>10^24</td>
+			<td bgcolor='#F2F2F2'>1,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>1 Octillion</td>
+			<td bgcolor='#E9E7E8'>10^27</td>
+			<td bgcolor='#E9E7E8'>1,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>1 Nonillion</td>
+			<td bgcolor='#F2F2F2'>10^30</td>
+			<td bgcolor='#F2F2F2'>1,000,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>1 Decillion</td>
+			<td bgcolor='#E9E7E8'>10^33</td>
+			<td bgcolor='#E9E7E8'>1,000,000,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td bgcolor='#B5D9B3'>1 Undecillion</td>
+			<td bgcolor='#B5D9B3'>10^36</td>
+			<td bgcolor='#B5D9B3'>1,000,000,000,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+<component id="ID_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16">Comparison of IPv4 and IPv6 address space</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Number" bgcolor='#666263' width="110"><font color='#FFFFFF' ><b>Number Name</b></font></th>
+			<th scope="col" id="Scientific" bgcolor='#666263' width="110"><font color='#FFFFFF' ><b>Scientific Notation</b></font></th>
+			<th scope="col" id="Zeros" bgcolor='#666263' ><font color='#FFFFFF' ><b>Number of Zeros</b></font></th>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#E9E7E8'>1 Thousand</td>
+			<td headers="Scientific" bgcolor='#E9E7E8'>10^3</td>
+			<td headers="Zeros" bgcolor='#E9E7E8'>1,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#F2F2F2'>1 Million</td>
+			<td headers="Scientific" bgcolor='#F2F2F2'>10^6</td>
+			<td headers="Zeros" bgcolor='#F2F2F2'>1,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#FAB37D'>1 Billion</td>
+			<td headers="Scientific" bgcolor='#FAB37D'>10^9</td>
+			<td headers="Zeros" bgcolor='#FAB37D'>1,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#F2F2F2'>1 Trillion</td>
+			<td headers="Scientific" bgcolor='#F2F2F2'>10^12</td>
+			<td headers="Zeros" bgcolor='#F2F2F2'>1,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#E9E7E8'>1 Quadrillion</td>
+			<td headers="Scientific" bgcolor='#E9E7E8'>10^15</td>
+			<td headers="Zeros" bgcolor='#E9E7E8'>1,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#F2F2F2'>1 Quintillion</td>
+			<td headers="Scientific" bgcolor='#F2F2F2'>10^18</td>
+			<td headers="Zeros" bgcolor='#F2F2F2'>1,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#E9E7E8'>1 Sextillion</td>
+			<td headers="Scientific" bgcolor='#E9E7E8'>10^21</td>
+			<td headers="Zeros" bgcolor='#E9E7E8'>1,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#F2F2F2'>1 Septillion</td>
+			<td headers="Scientific" bgcolor='#F2F2F2'>10^24</td>
+			<td headers="Zeros" bgcolor='#F2F2F2'>1,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#E9E7E8'>1 Octillion</td>
+			<td headers="Scientific"  bgcolor='#E9E7E8'>10^27</td>
+			<td headers="Zeros" bgcolor='#E9E7E8'>1,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#F2F2F2'>1 Nonillion</td>
+			<td headers="Scientific" bgcolor='#F2F2F2'>10^30</td>
+			<td headers="Zeros" bgcolor='#F2F2F2'>1,000,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#E9E7E8'>1 Decillion</td>
+			<td headers="Scientific" bgcolor='#E9E7E8'>10^33</td>
+			<td headers="Zeros" bgcolor='#E9E7E8'>1,000,000,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Number" bgcolor='#B5D9B3'>1 Undecillion</td>
+			<td headers="Scientific" bgcolor='#B5D9B3'>10^36</td>
+			<td headers="Zeros" bgcolor='#B5D9B3'>1,000,000,000,000,000,000,000,000,000,000,000,000</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+ 
+<component id="ID_txt01">
+<text><![CDATA[There are 4 billion IPv4 addresses]]></text>
+</component>  
+
+<component id="ID_txt02">
+<text><![CDATA[There are 340 undecillion IPv6 addresses]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Legend</b>]]></text>
+</component>
+
+</textcomponents>

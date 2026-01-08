@@ -1,0 +1,33 @@
+﻿<textcomponents>
+
+<!--Slide 1-->
+<component id='ID_s1_caption'>
+	<text><![CDATA[A flat head screwdriver is used to loosen or tighten slotted screws.]]></text>
+</component>
+
+<!--Slide 2-->
+<component id='ID_s2_caption'>
+	<text><![CDATA[A Phillips head screwdriver is used to tighten or loosen cross-head screws.]]></text>
+</component>
+
+<!--Slide 3-->
+<component id='ID_s3_caption'>
+	<text><![CDATA[A torx screwdriver is used to tighten or loosen screws that have a star-like depression on the top, a feature that is mainly found on laptops.]]></text>
+</component>
+
+<!--Slide 4-->
+<component id='ID_s4_caption'>
+	<text><![CDATA[A hex driver, sometimes called a nut driver, is used to tighten nuts in the same way that a screwdriver tightens screws.]]></text>
+</component>
+
+<!--Slide 5-->
+<component id='ID_s5_caption'>
+	<text><![CDATA[A part retriever is used to retrieve parts from locations that are too small for your hand to fit.]]></text>
+</component>
+
+<!--Slide 6-->
+<component id='ID_s6_caption'>
+	<text><![CDATA[A flashlight is used to light up areas that you cannot see well.]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,104 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Installing the Motherboard</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match the step number to the  description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each step number to its description.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each step number to its description. Please click <b>Reset</b> to try again.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Check</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Reset</b>]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_s1_title_header_01'>
+	<text><![CDATA[<b>Steps</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header_01'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536"><b>1</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536"><b>2</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536"><b>3</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536"><b>4</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536"><b>5</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536"><b>6</b></font>]]></text>
+</component>
+
+
+<!--Questions-->
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Install the standoffs in the computer case at the same locations of the mounting holes in the motherboard.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Align the screw holes of the motherboard with the standoffs.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Install the I/O connector plate in the back of the computer case.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Insert all the motherboard screws and hand-tighten all screws before tightening with a screwdriver.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Choose the proper motherboard standoffs for the case.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Align the I/O connectors on the back of the of the motherboard with the openings in the I/O plate.]]></text> 
+</component>
+
+</textcomponents>

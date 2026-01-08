@@ -1,0 +1,130 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Verify Socket Compatibility</b>]]></text>
+</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>CPU Socket Architectures</b>]]></text>
+</component>
+
+
+ <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>CPU Architectures</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Installation Notes</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Single-Edge Connector (SEC)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>Align the notches on the CPU to the keys in the SEC socket.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Low-Insertion Force (LIF)</b></td>
+			<td bgcolor='#E9E7E8' rowspan="3"><textformat blockindent='-14'>Align the CPU so that the connection 1 indicator is lined up with pin 1 on the CPU socket.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Zero-Insertion Force (ZIF)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Pin Grid Array (PGA)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Land Grid Array (LGA)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>Align the CPU so that the two notches on the CPU fit into the two socket extensions.</textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_table_html"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">CPU Socket Architectures</font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" id="CPU" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>CPU Architectures</b></font></th>
+			<th scope="col" id="Installation" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Installation Notes</b></font></th>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="CPU" bgcolor='#E9E7E8'><b>Single-Edge Connector (SEC)</b></td>
+			<td headers="Installation" bgcolor='#E9E7E8'><textformat blockindent='-14'>Align the notches on the CPU to the keys in the SEC socket.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="CPU" bgcolor='#E9E7E8'><b>Low-Insertion Force (LIF)</b></td>
+			<td headers="Installation" bgcolor='#E9E7E8' rowspan="3"><textformat blockindent='-14'>Align the CPU so that the connection 1 indicator is lined up with pin 1 on the CPU socket.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="CPU" bgcolor='#E9E7E8'><b>Zero-Insertion Force (ZIF)</b></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="CPU" bgcolor='#E9E7E8'><b>Pin Grid Array (PGA)</b></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="CPU" bgcolor='#E9E7E8'><b>Land Grid Array (LGA)</b></td>
+			<td headers="Installation" bgcolor='#E9E7E8'><textformat blockindent='-14'>Align the CPU so that the two notches on the CPU fit into the two socket extensions.</textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<!-- Slide 3 -->
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>CPU Installation</b>]]></text>
+</component>
+
+<!-- Slide 4 -->
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>Close the Latch Plate</b>]]></text>
+</component>
+
+<!-- Slide 5 -->
+<component id='ID_s5_title'>
+	<text><![CDATA[<b>Close the Load Lever</b>]]></text>
+</component>
+
+<!-- Slide 6 -->
+<component id='ID_s6_title'>
+	<text><![CDATA[<b>Secure the Load Lever Under Retention Tab</b>]]></text>
+</component>
+
+<!-- Slide 7 -->
+<component id='ID_s7_title'>
+	<text><![CDATA[<b>Apply Thermal Compound</b>]]></text>
+</component>
+
+<!-- Slide 8 -->
+<component id='ID_s8_title'>
+	<text><![CDATA[<b>Install the Heat Sink and Fan Assembly</b>]]></text>
+</component>
+
+</textcomponents>

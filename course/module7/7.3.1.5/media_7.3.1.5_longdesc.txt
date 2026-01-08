@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of a patch panel. Figure 2 on this page is a topology. The topology shows a network cable with a repeater. On one side of the repeater is a weakened signal. As the signal passes through the repeater it is regenerated and passed on to the next device. Figure 3 on this page is an image of a PoE Injector.

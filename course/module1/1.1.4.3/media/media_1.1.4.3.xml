@@ -1,0 +1,220 @@
+﻿<textcomponents>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Note: This list is not exhaustive]]>
+        </text>
+    </component>
+    <component id="ID_s1_table">
+        <text>
+            <![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Display Resolutions</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr class="mtable_title">
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Display Standard</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Linear Pixels</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Aspect Ratio</b></font></td>
+				
+			</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>VGA</td>
+			<td bgcolor='#E9E7E8'>640x480</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>SVGA</td>
+			<td bgcolor='#F2F2F2'>800x600</td>
+			<td bgcolor='#F2F2F2'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>HD</td>
+			<td bgcolor='#E9E7E8'>1280x720</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WXGA</td>
+			<td bgcolor='#F2F2F2'>1280x800</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>SXGA</td>
+			<td bgcolor='#E9E7E8'>1280x1024</td>
+			<td bgcolor='#E9E7E8'>5:4</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QHD</td>
+			<td bgcolor='#F2F2F2'>1440x2560</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UXGA</td>
+			<td bgcolor='#E9E7E8'>1600x1200</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>FHD</td>
+			<td bgcolor='#F2F2F2'>1920x1080</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UHD</td>
+			<td bgcolor='#E9E7E8'>3840x2160</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WQUXGA</td>
+			<td bgcolor='#F2F2F2'>3840x2400</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FUHD</td>
+			<td bgcolor='#E9E7E8'>7680x4320</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QUHD</td>
+			<td bgcolor='#F2F2F2'>15360x8640</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		
+	</table>]]>
+        </text>
+    </component>
+    <component id="ID_s1_table_html">
+        <text>
+            <![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Display Resolutions</b></font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr class="mtable_title">
+				<th scope="col" id="Display" bgcolor='#666263'><font color='#FFFFFF'><b>Display Standard</b></font></th>
+				<th scope="col" id="Linear" bgcolor='#666263'><font color='#FFFFFF'><b>Linear Pixels</b></font></th>
+				<th scope="col" id="Aspect" bgcolor='#666263'><font color='#FFFFFF'><b>Aspect Ratio</b></font></th>
+				
+			</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#E9E7E8'>VGA</td>
+			<td headers="Linear" bgcolor='#E9E7E8'>640x480</td>
+			<td headers="Aspect" bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#F2F2F2'>SVGA</td>
+			<td headers="Linear" bgcolor='#F2F2F2'>800x600</td>
+			<td headers="Aspect" bgcolor='#F2F2F2'>4:3</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#E9E7E8'>HD</td>
+			<td headers="Linear" bgcolor='#E9E7E8'>1280x720</td>
+			<td headers="Aspect" bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#F2F2F2'>WXGA</td>
+			<td headers="Linear" bgcolor='#F2F2F2'>1280x800</td>
+			<td headers="Aspect" bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#E9E7E8'>SXGA</td>
+			<td headers="Linear" bgcolor='#E9E7E8'>1280x1024</td>
+			<td headers="Aspect" bgcolor='#E9E7E8'>5:4</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#F2F2F2'>QHD</td>
+			<td headers="Linear"  bgcolor='#F2F2F2'>1440x2560</td>
+			<td headers="Aspect" bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#E9E7E8'>UXGA</td>
+			<td headers="Linear" bgcolor='#E9E7E8'>1600x1200</td>
+			<td headers="Aspect" bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#F2F2F2'>FHD</td>
+			<td headers="Linear" bgcolor='#F2F2F2'>1920x1080</td>
+			<td headers="Aspect" bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#E9E7E8'>UHD</td>
+			<td headers="Linear" bgcolor='#E9E7E8'>3840x2160</td>
+			<td headers="Aspect" bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td headers="Display" bgcolor='#F2F2F2'>WQUXGA</td>
+			<td headers="Linear" bgcolor='#F2F2F2'>3840x2400</td>
+			<td headers="Aspect" bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#E9E7E8'>FUHD</td>
+			<td headers="Linear" bgcolor='#E9E7E8'>7680x4320</td>
+			<td headers="Aspect" bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td headers="Display" scope="row" bgcolor='#F2F2F2'>QUHD</td>
+			<td headers="Linear" bgcolor='#F2F2F2'>15360x8640</td>
+			<td headers="Aspect" bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		
+	</table>]]>
+        </text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Connecting Multiple Monitors to a Single Computer</b>]]></text>
+    </component>
+    <component id="ID_s2_btn01">
+        <text>
+            <![CDATA[Hardware Needed]]>
+        </text>
+    </component>
+    <component id="ID_s2_btn02">
+        <text>
+            <![CDATA[Software Configuration]]>
+        </text>
+    </component>
+    <component id="ID_s2_btn03">
+        <text>
+            <![CDATA[Advantages]]>
+        </text>
+    </component>
+    <component id="ID_s2_title01">
+        <text>
+            <![CDATA[<b>Hardware Needed</b>]]></text>
+    </component>
+    <component id="ID_s2_title02">
+        <text>
+            <![CDATA[<b>Software Configuration</b>]]></text>
+    </component>
+    <component id="ID_s2_title03">
+        <text>
+            <![CDATA[<b>Advantages</b>]]></text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[<ul><li>Two or more video ports</li><li>Additional monitor(s)</li></ul>]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[1. <textformat blockindent='14'>Click <b>Start > Control Panel > Display</b>.</textformat><BR/><BR/>2. <textformat blockindent='14'>Click <b>Change display settings</b>. (The <span class="alignment">Screen Resolution window should show</span> <br/><span class="alignment">two monitor icons. If multiple monitors</span> are <br/><span class="alignment">not displayed on the screen, the monitor</span> <br/><span class="alignment">may not be supported.)</span></textformat><BR/><BR/>3. <textformat blockindent='14'>Click the monitor icon that represents <br/><span class="alignment">your main display. If the monitor is not</span> <br/><span class="alignment">already the main display, check the box</span> <br/><span class="alignment">next to <b>Make this my main display</b>.</span></textformat><BR/><BR/>4. <textformat blockindent='14'>Choose <b>Extend these displays</b> from the <br/><span class="alignment"><b>Multiple displays</b> drop-down box.</span></textformat><BR/><BR/>5. <textformat blockindent='14'>Click<b> Identify</b>. Windows 7 will display large <br/><span class="alignment">numbers to identify the two monitors.</span> <br/><span class="alignment">Drag and drop the monitor icons to match</span> <br/><span class="alignment">the physical arrangement of the monitors.</span></textformat><BR/><BR/>6. <textformat blockindent='14'>Choose the desired <b>Resolution</b> and <br/><span class="alignment"><b>Orientation</b> from the drop-down boxes.</span></textformat><br/><br/>7. <textformat blockindent='14'>Click <b>OK</b>.</textformat>]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[<ul><li>Extending the Windows desktop across two monitors is an inexpensive way to enhance a computer.</li><li>Dualview can also be used to add a second monitor to laptops.</li><li>Using multiple monitors increases productivity. For example, a user can use one screen to video conference while taking notes in an application displayed on the other monitor.</li></ul>]]>
+        </text>
+    </component>
+    <component id="transcript">
+        <text>
+            <![CDATA[<b>transcript goes here</b>]]></text>
+    </component>
+</textcomponents>

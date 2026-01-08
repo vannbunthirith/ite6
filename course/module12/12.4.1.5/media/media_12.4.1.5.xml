@@ -1,0 +1,43 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+
+			<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 5: Verify Full System Functionality and if Applicable Implement Preventive Measures</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable">
+                <td scope="row" bgcolor='#E9E7E8' width="150">Verify full functionality</td>
+				
+                <td bgcolor='#E9E7E8'>
+					
+					<ul>
+					<li>Re-scan computer to ensure no viruses remain.</li>
+					<li>Re-scan computer to ensure no spyware remains.</li>
+					<li>Check the security software logs to ensure no problems remain.</li>
+					<li>Check computer for the latest OS patches and updates.</li>
+					<li>Test network and Internet connectivity.</li>
+					<li>Ensure all applications are working.</li>
+					<li>Verify access to authorized resources such as shared printers and databases.</li>
+					<li>Make sure entries are secured.</li>
+					<li>Ensure security policy is enforced.</li>
+				</ul>
+				
+				</td>
+            </tr>
+ 
+            
+        </table>]]></text>
+    </component>
+	
+</textcomponents>

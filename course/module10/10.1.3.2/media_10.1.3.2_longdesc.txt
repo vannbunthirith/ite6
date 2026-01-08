@@ -1,0 +1,1 @@
+Figure 1 on this page is an image that shows the iOS Multitasking Bar. Figure 2 on this page is an image that shows an Alert Badge at the top right corner of an app icon.

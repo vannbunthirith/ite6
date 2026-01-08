@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Administrator Command Prompt showing the output of the scanstate c:\usmt (User State Migration Tool) command.Figure 2 on this page is an image of the Easy Transfer utility on Windows 8.1.Figure 3 on this page is an image of the Easy Transfer utility on Windows 7 and Windows Vista.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s1_titleTxt01" bodyId="ID_s1_bodyTxt01" x="85" y="141" width="510" height="209" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="122" width="364.65" height="259.95" subType="STD" src="media_1.2.1.7.B.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s2_titleTxt01" bodyId="ID_s2_bodyTxt01" x="412" y="122" width="240" height="260" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="122" width="364.65" height="259.95" subType="STD" src="media_1.2.1.7.C.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s3_titleTxt01" bodyId="ID_s3_bodyTxt01" x="412" y="122" width="240" height="260" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="122" width="364.65" height="259.95" subType="STD" src="media_1.2.1.7.D.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s4_titleTxt01" bodyId="ID_s4_bodyTxt01" x="412" y="122" width="240" height="260" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="122" width="364.65" height="259.95" subType="STD" src="media_1.2.1.7.E.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s5_titleTxt01" bodyId="ID_s5_bodyTxt01" x="412" y="122" width="240" height="260" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="122" width="364.65" height="259.95" subType="STD" src="media_1.2.1.7.F.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s6_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s6_titleTxt01" bodyId="ID_s6_bodyTxt01" x="412" y="122" width="240" height="260" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="25" y="122" width="364.65" height="259.95" subType="STD" src="media_1.2.1.7.G.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s7_title" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s7_titleTxt01" bodyId="ID_s7_bodyTxt01" x="412" y="122" width="240" height="260" />
+        </slide>
+    </slide>
+</data>

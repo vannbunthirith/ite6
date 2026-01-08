@@ -1,0 +1,17 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>RAM Upgrade Questions</b>]]></text>
+	</component>
+	
+	<!-- Textbox -->
+	<component id='ID_titleTxt'>
+		<text><![CDATA[<b>New RAM Questions</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<ul><li>What type of RAM does the motherboard currently use?</li><li>Are there available RAM slots?</li><li>Can the RAM be installed one module at a time or must it be grouped into matching banks?</li><li>Does the new RAM match the speed, latency, type, and voltage of the existing RAM?</li></ul>]]></text>
+	</component>
+	<!-- End Textbox -->
+
+</textcomponents>

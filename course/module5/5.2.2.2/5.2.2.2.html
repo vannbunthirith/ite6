@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.2 Other Installation Methods</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Other Installation Methods</h1>
+        <div>
+          <p>A standard installation of Windows is sufficient for most computers used in a home or small office environment but there are cases when a custom installation process is required.</p>
+          <p></p>
+          <p>Take for example, an IT support department; technicians in these environments must install hundreds of Windows systems. Performing this many installations in the standard way is not feasible.</p>
+          <p></p>
+          <p>A standard installation is done via the installation media (DVD or USB drive) provided by Microsoft and is an interactive process; the installer prompts the user for settings such as time zone and system language.</p>
+          <p></p>
+          <p>A custom installation of Windows can save time and provide a consistent configuration across computers within a large organization. A popular technique to install Windows across many computers is to perform installation in one computer and use it as a reference installation. When installation is completed, an image is created. An image is a file that contains all the data from a partition.</p>
+          <p></p>
+          <p>When the image is ready, technicians can perform a much shorter installation by simply replicating and deploying the image to all computers in the organization. If the new installation requires any adjustments, those can be done quickly after the image is deployed.</p>
+          <p></p>
+          <p>An image of a system is created based on the following steps:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Perform a full Windows installation on a computer. This computer must be as similar as possible to the computers that will later receive the installation to avoid driver incompatibility issues.</p>
+          <p>
+            <b>Step 2</b>. Using a software tool such as imageX<b>, </b>create an image of the installation. The figure shows the <b>imageX</b> command line tool.</p>
+          <p>
+            <b>Step 3</b>. The result should be one large image file containing a copy of the entire OS installation currently present on the reference system.</p>
+          <p></p>
+          <p>In Windows Vista and prior, the standard installation was done based on individual files contained in the installation DVD. Today, when installing Windows 7 or 8.x, the installation process is based on an image file as it applies an image to the hard disk from the installation DVD – install.wim.</p>
+          <p></p>
+          <p>Windows has several different types of custom installations:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Network Installation </b>– This includes Preboot Execution Environment (PXE) Installation, Unattended Installation, and Remote Installation.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Image-based Internal partition Installation </b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Other Types of Custom Installations </b>– This includes Windows Advanced Startup Options, Refresh your PC (Windows 8.x only), System Restore, Upgrade, Repair installation, Remote network installation, Recovery partition, and Refresh/restore.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of the Administrator Command Prompt showing the output of the imageX command.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

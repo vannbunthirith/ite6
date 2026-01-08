@@ -1,0 +1,66 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 3: Test the Theory to Determine Cause</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Common steps to determine cause</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul>
+			<li>Log in as a different user</li>
+			<li>Use third party diagnostic software</li>
+			<li>Determine if new software or software updates have just been installed</li>
+			<li>Uninstall recently installed applications</li>
+			<li>Boot into safe mode to determine if the problem is driver-related</li>
+			<li>Roll back newly updated drivers</li>
+			<li>Examine Device Manager for device conflicts</li>
+			<li>Examine Event logs for warnings or errors</li>
+			<li>Check the hard drive for errors and fix file system issues</li>
+			<li>Use the system file checker to recover corrupt system files</li>
+			<li>Use system restore if a system update or service pack has been installed</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+<component id="ID_s1_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 3: Test the Theory to Determine Cause</b></font></caption>
+
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Common steps to determine cause</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul>
+			<li>Log in as a different user</li>
+			<li>Use third party diagnostic software</li>
+			<li>Determine if new software or software updates have just been installed</li>
+			<li>Uninstall recently installed applications</li>
+			<li>Boot into safe mode to determine if the problem is driver-related</li>
+			<li>Roll back newly updated drivers</li>
+			<li>Examine Device Manager for device conflicts</li>
+			<li>Examine Event logs for warnings or errors</li>
+			<li>Check the hard drive for errors and fix file system issues</li>
+			<li>Use the system file checker to recover corrupt system files</li>
+			<li>Use system restore if a system update or service pack has been installed</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

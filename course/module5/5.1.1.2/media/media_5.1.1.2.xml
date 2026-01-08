@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Command-line Interface</b>]]></text>
+</component>
+
+
+
+<!--Slide 2-->
+<component id='ID_s2_title'>
+		<text><![CDATA[<b>Graphical User Interface</b>]]></text>
+</component>
+
+
+
+</textcomponents>

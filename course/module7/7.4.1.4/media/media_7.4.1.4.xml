@@ -1,0 +1,135 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>IPv4 Address Classes</b>]]></text>
+	</component>  	
+
+	<component id="ID_s1_txt01">
+	<text><![CDATA[N = Network; H = Host]]></text>
+	</component>    
+
+    <component id="ID_table01"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="5" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="70" valign="top"><font color='#FFFFFF' ><b>Class</b></font></td>
+			<td bgcolor='#666263' width="100" valign="top"><font color='#FFFFFF' ><b>First Octet</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Subnet Mask</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Network/Host</b><br/>(N = Network, H = Host)</font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Number of Hosts per Network</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>A</td>
+			<td bgcolor='#E9E7E8'>0-127</td>
+			<td bgcolor='#E9E7E8' >255.0.0.0</td>
+			<td bgcolor='#E9E7E8' >N.H.H.H</td>
+			<td bgcolor='#E9E7E8' >16,777,214</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>B</td>
+			<td bgcolor='#F2F2F2'>128-191</td>
+			<td bgcolor='#F2F2F2'>255.255.0.0</td>
+			<td bgcolor='#F2F2F2'>N.N.H.H</td>
+			<td bgcolor='#F2F2F2'>65,534</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>C</td>
+			<td bgcolor='#E9E7E8'>192-223</td>
+			<td bgcolor='#E9E7E8' >255.255.255.0</td>
+			<td bgcolor='#E9E7E8' >N.N.N.H</td>
+			<td bgcolor='#E9E7E8' >254</td>
+		</tr>
+        
+	</table>]]></text> 
+</component>
+
+<component id="ID_table01_html"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+        <caption class="mtable_title" colspan="5" bgcolor='#FFFFFF'><font size="16">IPv4 Address Classes</font></caption>
+
+        <tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Class" bgcolor='#666263' width="70" valign="top"><font color='#FFFFFF' ><b>Class</b></font></th>
+			<th scope="col" id="First" bgcolor='#666263' width="100" valign="top"><font color='#FFFFFF' ><b>First Octet</b></font></th>
+			<th scope="col" id="Subnet" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Subnet Mask</b></font></th>
+			<th scope="col" id="Network" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Network/Host</b><br/>(N = Network, H = Host)</font></th>
+			<th scope="col" id="Number" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Number of Hosts per Network</b></font></th>
+		</tr>
+		<tr>
+			<td scope="row" headers="Class" bgcolor='#E9E7E8'>A</td>
+			<td headers="First" bgcolor='#E9E7E8'>0-127</td>
+			<td headers="Subnet" bgcolor='#E9E7E8' >255.0.0.0</td>
+			<td headers="Network" bgcolor='#E9E7E8' >N.H.H.H</td>
+			<td headers="Number" bgcolor='#E9E7E8' >16,777,214</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Class" bgcolor='#F2F2F2'>B</td>
+			<td headers="First" bgcolor='#F2F2F2'>128-191</td>
+			<td headers="Subnet" bgcolor='#F2F2F2'>255.255.0.0</td>
+			<td headers="Network" bgcolor='#F2F2F2'>N.N.H.H</td>
+			<td headers="Number" bgcolor='#F2F2F2'>65,534</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Class" bgcolor='#E9E7E8'>C</td>
+			<td headers="First" bgcolor='#E9E7E8'>192-223</td>
+			<td headers="Subnet" bgcolor='#E9E7E8' >255.255.255.0</td>
+			<td headers="Network" bgcolor='#E9E7E8' >N.N.N.H</td>
+			<td headers="Number" bgcolor='#E9E7E8' >254</td>
+		</tr>
+        
+	</table>]]></text> 
+</component>
+
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Subnet Mask in Prefix Notation</b>]]></text>
+	</component> 
+
+    <component id="ID_table02"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <caption class="mtable_title" colspan="5" bgcolor='#FFFFFF'><font size="16">Subnet Mask in Prefix Notation</font></caption>
+
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="140" valign="top"><font color='#FFFFFF' ><b>Subnet Mask</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Binary</b></font></td>
+			<td bgcolor='#666263' width="140" valign="top"><font color='#FFFFFF' ><b>Prefix</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>255.0.0.0</td>
+			<td bgcolor='#E9E7E8'>11111111.00000000.00000000.00000000</td>
+			<td bgcolor='#E9E7E8'>/8</td>
+		
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>255.255.0.0</td>
+			<td bgcolor='#F2F2F2'>11111111.11111111.00000000.00000000</td>
+			<td bgcolor='#F2F2F2'>/16</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>255.255.255.0</td>
+			<td bgcolor='#F2F2F2'>11111111.11111111.11111111.00000000</td>
+			<td bgcolor='#E9E7E8'>/24</td>
+			
+		</tr>
+        
+	</table>]]></text> 
+</component>
+
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>CIDR Supernet Example</b>]]></text>
+	</component> 
+</textcomponents>

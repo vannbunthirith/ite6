@@ -1,0 +1,62 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Motherboard Comparison</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+        <text><![CDATA[Laptop Motherboard]]></text>
+	</component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Desktop Motherboard]]></text>
+	</component>
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Laptop and Desktop Design Comparison</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+			<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16" color='#393536'><b>Laptop and Desktop Design Comparison</b></font>
+            </caption>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	 
+	<tr>
+		<th scope="col" id="Component" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Component</b></font></th>
+		<th scope="col" id="Laptop" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Laptop</b></font></th>
+		<th scope="col" id="Desktop" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Desktop</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Component" bgcolor='#E9E7E8'>Motherboard form factor</td>
+		<td headers="Laptop" bgcolor='#E9E7E8'>Proprietary</td>
+		<td headers="Desktop" bgcolor='#E9E7E8'>ATX, Micro-ATX, Mini-ITX, ITX</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Component" bgcolor='#F2F2F2'>Expansion Slot</td>
+		<td headers="Laptop" bgcolor='#F2F2F2'>Mini-PCI</td>
+		<td headers="Desktop" bgcolor='#F2F2F2'>PCI, PCI-X, PCIe, miniPCI</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Component" bgcolor='#E9E7E8'>RAM slot type</td>
+		<td headers="Laptop" bgcolor='#E9E7E8'>SODIMM</td>
+		<td headers="Desktop" bgcolor='#E9E7E8'>DIMM</td>
+	</tr>
+</table>]]></text>
+</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>SODIMM</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+        <text><![CDATA[SODIMM – Small Outline Dual In-line Memory Module]]></text>
+	</component>
+    
+   
+</textcomponents>

@@ -1,0 +1,48 @@
+﻿<textcomponents>
+<!--Slide 1-->
+    
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+	<td bgcolor='#DAE17A' class="title" width='300px'>
+		<font color='#393536' size='14'><b>Boot Sequence for Windows 7</b></font>
+	</td>
+</tr> 
+
+<tr>
+	<td bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+</tr>
+			<tr>
+		<td bgcolor='#FFFFFF' valign="top" width='400'><font color='#393536'>Power on Self Test (POST)</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>POST for each adapter card that has a BIOS</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>BIOS reads the MBR</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>MBR takes over control of the boot process and starts BOOTMGR</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>BOOTMGR reads the Boot Configuration Data file to know which OS to load and where to find the OS on the boot partition</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top" width='250'><font color='#393536'>BOOTMGR invokes WINLOAD.EXE in order to load the NTOSKRNL.EXE file and HAL.DLL</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>BOOTMGR reads the registry files and loads device drivers</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>NTOSKRNL.EXE starts the WINLOGON.EXE program and displays the Windows login screen</font></td>
+	</tr>
+		</table>]]></text>
+</component>
+
+<!--Slide 21-->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Boot Device Priority</b>]]></text>
+</component>
+
+</textcomponents>

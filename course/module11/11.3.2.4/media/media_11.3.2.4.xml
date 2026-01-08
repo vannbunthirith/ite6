@@ -1,0 +1,11 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Dedicated Print Server</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Corporate Network]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Print Server]]></text>
+	</component>
+</textcomponents>

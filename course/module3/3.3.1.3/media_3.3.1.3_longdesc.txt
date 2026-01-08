@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the BIOS release notes. Figure 2 on this page is an image of the BIOS Setup Utility showing the version of the installed BIOS. Figure 3 on this page is an image of the UEFI BIOS utility showing the version of the installed BIOS.

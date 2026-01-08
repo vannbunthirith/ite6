@@ -1,0 +1,20 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Widgets]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Folders]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[All Apps]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Apps]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Expanded Folder]]></text>
+	</component>
+</textcomponents>

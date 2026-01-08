@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Windows Connect to a Workplace utility that shows the Internet address field and the Destination name field. Figure 2 on this page is an image of the Windows Connect to a Workplace utility that shows the User name field, the Password field, and the Domain (optional) field.

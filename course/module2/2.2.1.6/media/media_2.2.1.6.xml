@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+<component id="ID_s1_caption">
+<text><![CDATA[A digital multimeter is used to test the integrity of circuits and the quality of electricity in computer components.]]></text>
+</component>
+
+<component id="ID_s2_caption">
+<text><![CDATA[A loopback adapter is used to test the basic functionality of computer ports.]]></text>
+</component>
+
+<component id="ID_s3_caption">
+<text><![CDATA[A tone generator and probe is used to trace cables.]]></text>
+</component>
+
+<component id="ID_s5_caption">
+<text><![CDATA[An external enclosure houses a hard drive that can be used to diagnose a customer hard drive or a computer that does not boot. The external enclosure can also be used to create backups of a customer's hard drive.]]></text>
+</component>
+
+</textcomponents>

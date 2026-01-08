@@ -1,0 +1,34 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+ 
+
+
+    <caption  class="mtable_title" colspan="2 bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 1: Identify the Problem</b></font>
+            </caption>
+
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="240" valign="top"><font  color='#393536'>Open-ended Questions</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul><li>What problems are you experiencing with your printer or scanner?</li><li>What software or hardware has been changed recently on your computer?</li><li>What were you doing when the problem was identified?</li><li>What error messages have you received?</li></ul></font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Closed-ended Questions</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><ul><li>Is the printer under warranty?</li><li>Can you print a test page?</li><li>Is this a new printer?</li><li>Is the printer powered on?</li></ul></font></td>
+	</tr>
+	
+
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

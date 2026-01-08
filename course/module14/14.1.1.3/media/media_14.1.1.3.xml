@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Lab]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Remote Technician – Fix a Hardware Problem]]></text>
+	</component>
+	
+</textcomponents>

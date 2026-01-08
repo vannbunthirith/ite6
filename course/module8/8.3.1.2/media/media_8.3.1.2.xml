@@ -1,0 +1,31 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_txt00">
+		<text><![CDATA[<b>Data Center</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Cloud Computing]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[High Speed Networking]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Software as a Service]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Network Security]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Virtualization]]></text>
+	</component>
+	
+</textcomponents>

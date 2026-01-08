@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.2 Locator Applications</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Locator Applications</h1>
+        <div>
+          <p>If a mobile device is misplaced or stolen, it is possible to find it using a locator app. A locator app should be installed and configured on each mobile device before it is lost. Both Android and iOS have many different apps for remotely locating a device.</p>
+          <p></p>
+          <p>Similar to Apple’s Find My Phone, Android Device Manager allows a user to locate, ring, or lock a lost Android device, or to erase data from the device. To manage a lost device, the user must visit Android Device Manager Dashboard hosted at <a href="https://www.google.com/android/devicemanager" target="_blank">https://www.google.com/android/devicemanager</a>  and log in with the Google account used on the Android device. Android Device Manager is included and enabled by default on Android 5.x and can be found under <b>Settings > Security > Device Administration</b>.</p>
+          <p></p>
+          <p>Most iOS users use the Find My iPhone app, as shown in the figure. The first step is to install the app, start it, and follow the instructions to configure the software. The Find My iPhone app can be installed on different iOS devices to locate the lost device. If a second iOS device is not available, the device can also be found by logging in to the iCloud website and using the Find My iPhone feature. After initiating the location option from a website or second iOS device, the locator app uses location data from the following sources to locate the device:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Cellular towers</b> - The app calculates the location of the device by analyzing the signal strength from the towers to which it can connect. Because the towers are at known locations, the location of the device can be determined. This is called triangulation.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wi-Fi hotspots</b> - The app looks up the approximate location of Wi-Fi hotspots that the missing device can detect. A file containing many known hotspots and their location is stored on the device.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>GPS</b> - The app uses data from the GPS receiver to determine the location of the device.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Note</b>: If the app is unable to locate the lost device, the device might be turned off or disconnected. The device must be connected to a cellular or wireless network to receive commands from the app, or to send location information to the user.</p>
+          <p></p>
+          <p>After the device is located, you might be able to perform additional functions, such as sending a message or playing a sound. These options are useful if you have misplaced your device. If the device is close by, playing a sound indicates exactly where it is. If the device is at another location, sending a message to display on the screen allows someone to contact you if it has been found.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of the iOS iCloud Find My Phone screen.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

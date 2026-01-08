@@ -1,0 +1,21 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#flashContent {
+  width: 470px;
+  height: 400px;
+  margin: auto;
+}
+
+
+#flashContent {
+	width:98%;
+	height:98%;
+}
+
+.orangeBG {
+    background-color: #CB6D25;
+    padding: 3px 3px;
+}

@@ -1,0 +1,1 @@
+The figure on this page is a diagram that shows that the transport layer moves data between applications on devices in the network and that the transport layer is the link between the application layer and the lower layers.

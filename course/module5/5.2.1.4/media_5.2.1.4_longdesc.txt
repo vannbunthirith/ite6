@@ -1,0 +1,1 @@
+The figure on this page is an image of the Windows Setup utility listing two partitions. The two partitions were created by selecting “Drive 0 Unallocated Space” and clicking “New”. The installer also allows the user to specify the size of the new partition.

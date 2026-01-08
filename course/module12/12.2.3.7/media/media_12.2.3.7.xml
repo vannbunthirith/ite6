@@ -1,0 +1,67 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Degaussing Wand</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Wiping Data From A Hard Disk Drive</b>]]></text>
+	</component>
+		
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			
+
+			<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Data Wiping Methods</font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="Data" bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Data Wiping Method</b></font></th>
+                <th scope="col" id="Description" bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Data" bgcolor='#E9E7E8'>Data Wiping</td>
+				
+                <td headers="Description" bgcolor='#E9E7E8'>
+					
+					<ul><li>Useful when needing to occasionally wipe a drive.</li>
+					<li>Software tool takes a long time to erase a disk.</li>
+					<li>Tool may offer multiple data overwriting choices including using special patterns of 1s and 0s, mathematical algorithms, and random bits.</li>
+					<li>Data wiping tools are available for free.</li></ul>
+					
+				</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Data" bgcolor='#F2F2F2'>Degaussing Wand</td>
+                <td headers="Description" bgcolor='#F2F2F2'>
+				
+				<ul><li>Useful when needing to occasionally wipe a drive.</li>
+				<li>Hard drive platters must be exposed to the wand for approximately 2 minutes.</li>
+				<li>Costs much less that an electromagnetic degaussing device.</li></ul>
+				
+				</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Data" bgcolor='#E9E7E8'>Electromagnetic Degaussing Device</td>
+                <td headers="Description" bgcolor='#E9E7E8'>
+				
+				<ul><li>Useful to bulk erase multiple drives.</li>
+				<li>Degaussing devices take very little time (e.g., 10 seconds) to wipeout a hard drive.</li>
+				<li>A degaussing tool can be very expensive (e.g., US$20,000).</li></ul>
+				
+				</td>
+            </tr>
+ 
+
+        </table>]]></text>
+    </component>
+</textcomponents>

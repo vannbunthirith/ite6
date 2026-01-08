@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.5 Advanced NIC Settings</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Advanced NIC Settings</h1>
+        <div>
+          <p>Some NICs provide advanced features. In most network environments, the only NIC setting that you must configure is the IP address information. You can leave the advanced NIC settings at their default values. However, when a computer connects to a network that does not support some or all of the default settings, you must make the necessary changes to the advanced settings. These changes may be required so that the computer can connect to the network, enable features required by the network, or achieve a better network connection. </p>
+          <p></p>
+          <p>
+            <b>Note:</b> Improperly setting the advanced features can lead to connection failure or performance degradation. </p>
+          <p></p>
+          <p>Advanced features are located in the <b>Advanced</b> tab in the NIC configuration window. The <b>Advanced</b> tab contains all the parameters that the NIC manufacturer has available. </p>
+          <p></p>
+          <p>
+            <b>Note</b>: The Advanced features available and tab layout of features depend on the OS and the specific NIC adapter and driver installed.</p>
+          <p></p>
+          <p>Some advanced tab features include:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Speed and Duplex</b> – Theses settings must match with the device to which the NIC is connected. By default, the settings are automatically negotiated. A speed or duplex mismatch can slow down data transfer rates. If this occurs, then you may have to change either the duplex, speed, or both. Figure 1 shows speed and duplex settings. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wake on LAN</b> - WoL settings are used to wake up a networked computer from a very low power mode state. Very low power mode means that the computer is turned off but is still connected to a power source. To support WoL, the computer must have an ATX-compatible power supply and a WoL-compatible NIC. A wake-up message, called a magic packet, is sent to the NIC of the computer. The magic packet contains the MAC address of the NIC connected to the computer. When the NIC receives the magic packet, the computer wakes up. You configure WoL in either the motherboard BIOS or the NIC driver firmware. Figure 2 shows the configuration in the driver firmware.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Quality of Service</b> - QoS, also called 802.1q QoS, is a variety of techniques that control the flow of network traffic, improve transmission speeds, and improve real-time communications traffic. Both the networked computer and the network device must have QoS enabled for the service to function. When QoS is installed and enabled on a computer, Windows can limit available bandwidth to accommodate high-priority traffic. When QoS is disabled, all traffic is treated equally. QoS is enabled by default, as shown in Figure 3.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Intel® Ethernet Connection 1217-LM Properties dialog box that shows the Advanced tab. The, ‘Speed & Duplex’ property is selected as well as its corresponding value of, ‘Auto Negotiation’. Figure 2 on this page is an image of the Intel® Ethernet Connection 1217-LM Properties dialog box that shows the Advanced tab. The, ‘Wake on Magic Packet’ property is selected as well as its corresponding value of, ‘Enabled’. Figure 3 on this page is an image of the Local Area Connection Properties dialog box in Windows 7 and Windows Vista. The, ‘QoS Packet Scheduler’ component is selected.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

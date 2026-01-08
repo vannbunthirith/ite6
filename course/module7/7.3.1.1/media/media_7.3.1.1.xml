@@ -1,0 +1,33 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Modem Examples</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Analog<br/>Modem]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[DSL<br/>Modem]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Cable<br/>Modem]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Analog Phone Line]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Digital Phone Line]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Cable HFC Network]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[Internet]]></text>
+	</component>
+</textcomponents>

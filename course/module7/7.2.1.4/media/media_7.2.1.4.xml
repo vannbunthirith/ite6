@@ -1,0 +1,353 @@
+<textcomponents>
+	
+	<component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>TCP/IP Model</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="200"><font color='#FFFFFF' ><b>TCP/IP Layer</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Application</b></td>
+			<td bgcolor='#E9E7E8'>Where high-level protocols such as SMTP and FTP operate</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Transport</b></td>
+			<td bgcolor='#E9E7E8'>Specifies which application requested or is receiving data through specific ports</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Internet</b></td>
+			<td bgcolor='#E9E7E8'>Where IP addressing and routing take place</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Network Access</b></td>
+			<td bgcolor='#E9E7E8'>Where MAC addressing and physical components of the network exist</td>
+		</tr>
+		
+	
+	</table>]]></text> 
+</component>
+
+<component id="ID_table_html"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+	<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>TCP/IP Model</b></font></caption>
+		
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" id="Layer" bgcolor='#666263'  valign="top" width="200"><font color='#FFFFFF' ><b>TCP/IP Layer</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Layer" bgcolor='#E9E7E8'><b>Application</b></td>
+			<td headers="Description" bgcolor='#E9E7E8'>Where high-level protocols such as SMTP and FTP operate</td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Layer" bgcolor='#E9E7E8'><b>Transport</b></td>
+			<td headers="Description" bgcolor='#E9E7E8'>Specifies which application requested or is receiving data through specific ports</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Layer" bgcolor='#E9E7E8'><b>Internet</b></td>
+			<td headers="Description" bgcolor='#E9E7E8'>Where IP addressing and routing take place</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Layer" bgcolor='#E9E7E8'><b>Network Access</b></td>
+			<td headers="Description" bgcolor='#E9E7E8'>Where MAC addressing and physical components of the network exist</td>
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[<b>Application Layer</b>]]></text>
+</component>
+
+<component id="ID_s2_txt02">                                         
+<text><![CDATA[Name<br/>System]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+<text><![CDATA[Host<br/>Config]]></text>
+</component>
+
+<component id="ID_s2_txt04">
+<text><![CDATA[Email]]></text>
+</component>
+
+<component id="ID_s2_txt05">
+<text><![CDATA[File<br/>Transfer]]></text>
+</component>
+
+<component id="ID_s2_txt06">
+<text><![CDATA[Web]]></text>
+</component>
+
+<component id="ID_s2_txt07">
+<text><![CDATA[<b>Transport Layer</b>]]></text>
+</component>
+
+<component id="ID_s2_txt08">
+<text><![CDATA[<b>Internet Layer</b>]]></text>
+</component>
+
+<component id="ID_s2_txt09">
+<text><![CDATA[IP Support]]></text>
+</component>
+
+<component id="ID_s2_txt10">
+<text><![CDATA[Routing Protocols]]></text>
+</component>
+
+<component id="ID_s2_txt11">
+<text><![CDATA[<b>Network Access<br> Layer</b>]]></text>
+</component>
+
+
+<!--button and textbox text
+	ID_titleTxt01
+	ID_bodyTxt01
+-->
+<component id="ID_btn01">
+<text><![CDATA[<font>DNS</font>]]></text>
+</component>
+<component id="ID_titleTxt01">
+<text><![CDATA[<b>Domain Name System (or Service)</b>]]></text>
+</component> 
+<component id="ID_bodyTxt01">
+<text><![CDATA[Translates domain names, such as cisco.com, into IP addresses]]></text>
+</component> 
+
+
+<component id="ID_btn02">
+<text><![CDATA[<font>BOOTP</font>]]></text>
+</component>
+<component id="ID_titleTxt02">
+<text><![CDATA[<b>Bootstrap Protocol</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt02">
+<text><![CDATA[<ul><li>Enables a diskless workstation to discover its own IP address, the IP address of a BOOTP server on the network, and a file to be loaded into memory to boot the machine</li><li>BOOTP is being superseded by DHCP</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn03">
+<text><![CDATA[<font>DHCP</font>]]></text>
+</component>
+<component id="ID_titleTxt03">
+<text><![CDATA[<b>Dynamic Host Configuration Protocol</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt03">
+<text><![CDATA[<ul><li>Dynamically assigns IP addresses to client stations at start-up</li><li>Allows the addresses to be re-used when no longer needed</li></ul>]]></text>
+</component>
+
+
+<component id="ID_btn04">
+<text><![CDATA[<font>SMTP</font>]]></text>
+</component>
+<component id="ID_titleTxt04">
+<text><![CDATA[<b>Simple Mail Transfer Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt04">
+<text><![CDATA[<ul><li>Enables clients to send email to a mail server </li><li>Enables servers to send email to other servers </li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn05">
+<text><![CDATA[<font>POP</font>]]></text>
+</component>
+<component id="ID_titleTxt05">
+<text><![CDATA[<b>Post Office Protocol version 3 (POP3)</b>]]></text>
+</component> 
+<component id="ID_bodyTxt05">
+<text><![CDATA[<ul><li>Enables clients to retrieve email from a mail server</li><li>Downloads email from the mail server to the desktop</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn06">
+<text><![CDATA[<font>IMAP</font>]]></text>
+</component>
+<component id="ID_titleTxt06">
+<text><![CDATA[<b>Internet Message Access Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt06">
+<text><![CDATA[<ul><li>Enables clients to access email stored on a mail server </li><li>Maintains email on the server</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn07">
+<text><![CDATA[<font>FTP</font>]]></text>
+</component>
+<component id="ID_titleTxt07">
+<text><![CDATA[<b>File Transfer Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt07">
+    <text><![CDATA[<ul><li>Sets rules that enable a user on one host to access and transfer files to and from another host over a network </li><li>A reliable, connection-oriented, and acknowledged file delivery protocol</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn08">
+<text><![CDATA[<font>TFTP</font>]]></text>
+</component>
+<component id="ID_titleTxt08">
+<text><![CDATA[<b>Trivial File Transfer Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt08">
+<text><![CDATA[<ul><li>A simple, connectionless file transfer protocol</li><li>A best-effort, unacknowledged file delivery protocol</li><li>Utilizes less overhead than FTP</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn09">
+<text><![CDATA[<font>HTTP</font>]]></text>
+</component>
+<component id="ID_titleTxt09">
+<text><![CDATA[<b>Hypertext Transfer Protocol</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt09">
+<text><![CDATA[Set of rules for exchanging text, graphic images, sound, video, and other multimedia files on the World Wide Web]]></text>
+</component> 
+
+
+<component id="ID_btn10">
+<text><![CDATA[<font>UDP</font>]]></text>
+</component>
+<component id="ID_titleTxt10">
+<text><![CDATA[<b>User Datagram Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt10">
+<text><![CDATA[<ul><li>Enables a process running on one host to send packets to a process running on another host</li><li>Does not confirm successful datagram transmission</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn11">
+<text><![CDATA[<font>TCP</font>]]></text>
+</component>
+<component id="ID_titleTxt11">
+<text><![CDATA[<b>Transmission Control Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt11">
+<text><![CDATA[<ul><li>Enables reliable communication between processes running on separate hosts</li><li>Reliable, acknowledged transmissions that confirm successful delivery</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn12">
+<text><![CDATA[<font>IP</font>]]></text>
+</component>
+<component id="ID_titleTxt12">
+<text><![CDATA[<b>Internet Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt12">
+<text><![CDATA[<ul><li>Receives message segments from the transport layer</li><li>Packages messages into packets</li><li>Addresses packets for end-to-end delivery over an Internetwork</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn13">
+<text><![CDATA[<font>NAT</font>]]></text>
+</component>
+<component id="ID_titleTxt13">
+<text><![CDATA[<b>Network Address Translation</b>]]></text>
+</component> 
+<component id="ID_bodyTxt13">
+<text><![CDATA[Translates IP addresses from a private network into globally unique public IP addresses]]></text>
+</component> 
+
+
+<component id="ID_btn14">
+<text><![CDATA[<font>ICMP</font>]]></text>
+</component>
+<component id="ID_titleTxt14">
+<text><![CDATA[<b>Internet Control Message Protocol</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt14">
+<text><![CDATA[Provides feedback from a destination host to a source host about errors in packet delivery]]></text>
+</component> 
+
+
+<component id="ID_btn15">
+<text><![CDATA[<font>OSPF</font>]]></text>
+</component>
+<component id="ID_titleTxt15">
+<text><![CDATA[<b>Open Shortest Path First</b>]]></text>
+</component> 
+<component id="ID_bodyTxt15">
+<text><![CDATA[<ul><li>Link-state routing protocol</li><li>Hierarchical design based on areas</li><li>Open standard interior routing protocol</li></ul>]]></text>
+</component> 
+
+
+<component id="ID_btn16">
+<text><![CDATA[<font>EIGRP</font>]]></text>
+</component>
+<component id="ID_titleTxt16">
+<text><![CDATA[<b>Enhanced Interior Gateway Routing Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt16">
+<text><![CDATA[<ul><li>Cisco proprietary routing protocol</li><li>Uses composite metric based on bandwidth, delay, load and reliability</li></ul>]]></text>
+</component>
+
+
+<component id="ID_btn17">
+<text><![CDATA[<font>ARP</font>]]></text>
+</component>
+<component id="ID_titleTxt17">
+<text><![CDATA[<b>Address Resolution Protocol</b>]]></text>
+</component> 
+<component id="ID_bodyTxt17">
+<text><![CDATA[Provides dynamic address mapping between an IP address and a hardware address]]></text>
+</component> 
+
+
+<component id="ID_btn18">
+<text><![CDATA[<font>PPP</font>]]></text>
+</component>
+<component id="ID_titleTxt18">
+<text><![CDATA[<b>Point-to-Point Protocol</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt18">
+<text><![CDATA[Provides a means of encapsulating packets for transmission over a serial link]]></text>
+</component> 
+
+
+<component id="ID_btn19">
+<text><![CDATA[<font>Ethernet</font>]]></text>
+</component>
+<component id="ID_titleTxt19">
+<text><![CDATA[<b>Ethernet</b>]]></text>
+</component> 
+
+<component id="ID_bodyTxt19">
+<text><![CDATA[Defines the rules for wiring and signaling standards of the network access layer]]></text>
+</component> 
+
+
+<component id="ID_btn20">
+<text><![CDATA[<font>Interface Drivers</font>]]></text>
+</component>
+
+<component id="ID_titleTxt20">
+<text><![CDATA[<b>Interface Driver</b>]]></text>
+</component> 
+
+<component id="ID_bodyTxt20">
+<text><![CDATA[Provides instruction to a machine for the control of a specific interface on a network device]]></text>
+</component>
+
+
+</textcomponents>

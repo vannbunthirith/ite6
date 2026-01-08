@@ -1,0 +1,1 @@
+The figure on this page is an image that shows a technician about to install a new hard drive. The figure also lists the following requirements for installing a hard drive: increase storage space, increase hard drive speed, install a second operating system, store the system swap file, provide fault tolerance, back up the original hard drive.

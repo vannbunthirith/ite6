@@ -1,0 +1,1 @@
+Figure 1 on this page shows an Ethernet cable about to be plugged into a router. Figure 2 on this page is a topology that shows a desktop computer connected to a wireless router. The wireless router is connected to a broadband modem. The broadband modem is connected to the Internet.

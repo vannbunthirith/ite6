@@ -1,0 +1,132 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Fully Expanded IPv6 Address Examples</b>]]></text>
+	</component>		
+
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Compressing an IPv6 Address</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_table01">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"> </font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+	
+			<tr>
+				<td width="175" bgcolor='#E9E7E8' width="175" >Fully expanded</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">2001:<b><font color="#F68026">0</font></b>DB8:<b><font color="#F68026">000</font></b>0:1111:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">0</font></b>200</font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#F2F2F2'>No leading 0s</td>
+				<td bgcolor='#F2F2F2'><font face="_typewriter">2001: DB8:   0:1111:   0:   0:   0: 200</font></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8'>Compressed</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">2001:DB8:0:1111::200</font></td>
+			</tr>
+		</table>]]></text>
+	</component>	
+
+	<component id="ID_s2_table01_html">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Compressing an IPv6 Address</font>
+			</caption>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+	
+			<tr>
+				<td scope="row" width="175" bgcolor='#E9E7E8' width="175" >Fully expanded</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">2001:<b><font color="#F68026">0</font></b>DB8:<b><font color="#F68026">000</font></b>0:1111:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">0</font></b>200</font></td>
+			</tr>
+	
+			<tr>
+				<td scope="row" bgcolor='#F2F2F2'>No leading 0s</td>
+				<td bgcolor='#F2F2F2'><font face="_typewriter">2001: DB8:   0:1111:   0:   0:   0: 200</font></td>
+			</tr>
+			
+			<tr>
+				<td scope="row" bgcolor='#E9E7E8'>Compressed</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">2001:DB8:0:1111::200</font></td>
+			</tr>
+		</table>]]></text>
+	</component>	
+	
+
+
+
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Compressing an IPv6 Address</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_table01">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<caption class="mtable_title"  colspan="2" bgcolor='#FFFFFF'><font size="16">Compressing an IPv6 Address</font>
+			</caption>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="175">Fully expanded</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">FE80:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">0</font></b>123:4567:89AB:CDEF</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>No leading 0s</td>
+				<td bgcolor='#F2F2F2'><font face="_typewriter">FE80:   0:   0:   0: 123:4567:89AB:CDEF</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>Compressed</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">FE80::123:4567:89AB:CDEF</font></td>
+			</tr>
+		</table>]]></text>
+	</component>	
+
+
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Compressing an IPv6 Address</b>]]></text>
+	</component>
+		
+	<component id="ID_s4_table01">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Compressing an IPv6 Address</font>
+			</caption>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' width="175">Fully expanded</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">FF02:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>0:<b><font color="#F68026">000</font></b>1</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>No leading 0s</td>
+				<td bgcolor='#F2F2F2'><font face="_typewriter">FF02:   0:   0:   0:   0:   0:   0:   1</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8'>Compressed</td>
+				<td bgcolor='#E9E7E8'><font face="_typewriter">FF02::1</font></td>
+			</tr>
+		</table>]]></text>
+	</component>	
+	
+</textcomponents>

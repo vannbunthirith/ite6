@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Cloud Services Model</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Software as a Service (SaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Platform as a Service (PaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Infrastructure as a Service (IaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[IT as a Service (ITaaS)]]></text>
+	</component>
+	
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<b>Software as a Service (SaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[The Cloud provider is responsible for access to services, such as email, communication, and virtual desktops that are delivered over the Internet.]]></text>
+	</component>
+
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<b>Platform as a Service (PaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[The Cloud provider is responsible for access to the development tools and services used to deliver the applications.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<b>Infrastructure as a Service (IaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[The Cloud provider is responsible for access to the network equipment, virtualized network services, and supporting network infrastructure.]]></text>
+	</component>	
+	
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<b>IT as a Service (ITaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[The Cloud provider is responsible for IT support for IaaS, PaaS, and SaaS service models. In the ITaaS model, an organization contracts with the Cloud provider for individual or bundled services.]]></text>
+	</component>
+
+</textcomponents>

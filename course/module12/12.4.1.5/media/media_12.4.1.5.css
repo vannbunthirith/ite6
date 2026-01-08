@@ -1,0 +1,9 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.mtable td ul li{
+	letter-spacing: -0.6px !important;
+	margin-left: 20px !important;
+}

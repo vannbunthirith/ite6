@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.1.4 Security Settings for Account Policies</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Security Settings for Account Policies</h1>
+        <div>
+          <p>When assigning passwords, the level of password control should match the level of protection required. Assign strong passwords whenever possible. Figure 1 shows guidelines for creating strong passwords.</p>
+          <p></p>
+          <p>Use the <b>Password Policy</b> in <b>Account Policies</b> to enforce password requirements. The configurations in Figure 2 meet the following requirements:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Enforce password history</b> - The user may reuse a password after 24 unique passwords have been saved.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Maximum password age</b> - The user must change the password after 90 days.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Minimum password age</b> - The user must wait one day before changing a password again. This prevents users from entering a different password 24 times in order to use a previous password again.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Minimum password length</b> - The password must be at least 8 characters.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Password must meet complexity requirements </b>- The password must not contain the user's account name or parts of the user's full name that exceed two consecutive characters. The password must contain three of the following four categories: uppercase letters, lowercase letters, numbers, and symbols.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Store passwords using reversible encryption</b> - Storing passwords using reversible encryption is essentially the same as storing plaintext versions of the passwords. For this reason, this policy should never be enabled unless application requirements outweigh the need to protect password information.</li>
+            </ul>
+          </p>
+          <p>Use the <b>Account Lockout Policy</b> in <b>Account Policies</b> to prevent brute-force login attempts. For example, the configuration shown in Figure 3 allows the user to enter the wrong username and/or password five times. After five attempts, the account is locked out for 30 minutes. After 30 minutes, the number of attempts is reset to zero and the user can attempt to login again. This policy would also protect against a dictionary attack, where every word in the dictionary is entered to try to gain access.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is a table that lists the following guidelines for creating strong passwords. Characteristic: Minimum length, Guideline: Use at least eight characters. Characteristic: Complexity, Guideline: Include letters, numbers, symbols, and punctuation. Use a variety of keys on the keyboard, not just common letters and characters. Characteristic: Variety, Guideline: Use a different password for each site or computer that you use. Characteristic: Expiration, Guideline: Passwords should be made to expire within an acceptable time period. The shorter the time period, the more secure the computer will be. Also, a reminder to change the passwords you have for email, banking, and credit card websites on the average of every three to four months. Figure 2 on this page is an image of the Windows Local Security Policy window that lists the security policy configurations. Figure 3 on this page is an image of the Windows Local Security Policy window that shows the, ‘Account lockout threshold’ policy set to, ‘5 invalid logon attempts’.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>BIOS System Time and System Date</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>BIOS Device Settings</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>BIOS Boot Order</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>BIOS CPU Clock Speed</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>BIOS Virtualization Settings</b>]]></text>
+	</component>	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>Configuring BIOS Settings</b>]]></text>
+	</component>
+
+	<component id="ID_s6_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>BIOS Setting</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Setting Specifics</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Time and Date</td>
+			<td bgcolor='#E9E7E8'><ul><li>Always set these fields to the correct time and date because they are referenced by the operating system and other programs. </li><li>Incorrect date and time may cause unexpected problems.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Disabling Devices</td>
+			<td bgcolor='#F2F2F2'><ul><li>Disable the motherboard built-in features if installing a dedicated video card, sound card, or network card.</li><li>If a device is not working, check the advanced BIOS settings to see if the device is disabled by default or has been accidently disabled. </li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Boot Order</td>
+			<td bgcolor='#E9E7E8'><ul><li>Create the boot order based on user needs. </li><li>Disable or remove unused devices from the boot order list.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Clock Speed </td>
+			<td bgcolor='#F2F2F2'><ul><li>Overclocking a CPU voids the warranty of the CPU, can result in a shorter CPU life span, or cause damage to the CPU. </li><li>Always install a cooling system capable of dissipating the extra heat created by overclocking to avoid CPU damage. </li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Virtualization</td>
+			<td bgcolor='#E9E7E8'><ul><li>Disable this setting if virtualization does not perform correctly or will not be used.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s6_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  	
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">BIOS Settings</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="BIOS" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>BIOS Setting</b></font></th>
+			<th scope="col" id="Setting" bgcolor='#666263' ><font color='#FFFFFF' ><b>Setting Specifics</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="BIOS" scope="row" bgcolor='#E9E7E8'>Time and Date</td>
+			<td headers="Setting" bgcolor='#E9E7E8'><ul><li>Always set these fields to the correct time and date because they are referenced by the operating system and other programs. </li><li>Incorrect date and time may cause unexpected problems.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="BIOS" scope="row" bgcolor='#F2F2F2'>Disabling Devices</td>
+			<td headers="Setting" bgcolor='#F2F2F2'><ul><li>Disable the motherboard built-in features if installing a dedicated video card, sound card, or network card.</li><li>If a device is not working, check the advanced BIOS settings to see if the device is disabled by default or has been accidently disabled. </li></ul></td>
+		</tr>
+		<tr>
+			<td headers="BIOS" scope="row" bgcolor='#E9E7E8'>Boot Order</td>
+			<td headers="Setting" bgcolor='#E9E7E8'><ul><li>Create the boot order based on user needs. </li><li>Disable or remove unused devices from the boot order list.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="BIOS" scope="row" bgcolor='#F2F2F2'>Clock Speed </td>
+			<td headers="Setting" bgcolor='#F2F2F2'><ul><li>Overclocking a CPU voids the warranty of the CPU, can result in a shorter CPU life span, or cause damage to the CPU. </li><li>Always install a cooling system capable of dissipating the extra heat created by overclocking to avoid CPU damage. </li></ul></td>
+		</tr>
+		<tr>
+			<td headers="BIOS" scope="row" bgcolor='#E9E7E8'>Virtualization</td>
+			<td headers="Setting" bgcolor='#E9E7E8'><ul><li>Disable this setting if virtualization does not perform correctly or will not be used.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,1 @@
+The figure on this page is a topology that shows a client and a proxy server connected to a router. The router is connected to the network. A HTTP server is also connected to the network. The client’s browser is magnified displaying a web page.

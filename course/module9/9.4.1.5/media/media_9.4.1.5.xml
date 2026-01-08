@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+		<text><![CDATA[Wired Connections]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Micro/Mini USB Connectors]]></text> 
+	 </component>
+
+	 <component id="ID_s1_txt02">
+		<text><![CDATA[Lightning Connector]]></text> 
+	 </component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Wireless Connections using NFC</b>]]></text>
+	</component>
+	
+</textcomponents>

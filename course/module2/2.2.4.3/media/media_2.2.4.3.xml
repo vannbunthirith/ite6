@@ -1,0 +1,165 @@
+﻿<textcomponents>
+
+<!--Slide 1-->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>Clockwise</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>Counterclockwise</b>]]></text>
+</component>
+
+
+<!--Slide 2-->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+
+<!--Slide 3-->
+<component id='ID_s3_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+
+<!--Slide 4-->
+<component id='ID_s4_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+
+<!--Slide 5-->
+<component id='ID_s5_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s5_inst'>
+	<text><![CDATA[<p>To explore the different functions of the multimeter, click the buttons, the dial, and the leads.</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt'>
+	<text><![CDATA[<b>Fluke Networks 110 Multimeter</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt'>
+	<text><![CDATA[<p>The Fluke Networks 110 Multimeter is an example of equipment used to test for voltage. To explore the different functions of the multimeter, click on the buttons and switch positions.</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt01'>
+	<text><![CDATA[<b>Display</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt01'>
+	<text><![CDATA[To view information displayed.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt02'>
+	<text><![CDATA[<b>Hold</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt02'>
+	<text><![CDATA[Display HOLD is enabled. Display freezes the present reading. In MIN MAX AVG mode, the MIN MAX AVG recording is paused.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt03'>
+	<text><![CDATA[<b>MIN MAX AVG</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt03'>
+	<text><![CDATA[MIN MAX AVG mode is enabled. Minimum, maximum, or average reading is displayed.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt04'>
+	<text><![CDATA[<b>Range</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt04'>
+	<text><![CDATA[The Meter selects the range with the best resolution. In manual range mode, the user selects the range.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt05'>
+	<text><![CDATA[<b>Hz</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt05'>
+	<text><![CDATA[Frequency from 50 Hz to 5 kHz. Notes: AC voltage and current AC-coupled, True RMS, up to 500 Hz.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt06'>
+	<text><![CDATA[<b>COM</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt06'>
+	<text><![CDATA[Common (return) terminal for all measurements. When measuring voltages, this is often referred to as ground.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt07'>
+	<text><![CDATA[<b>Input Terminal</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt07'>
+	<text><![CDATA[Input terminal for voltage, continuity, resistance, diode test, capacitance, and voltage frequency measurements.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt08'>
+	<text><![CDATA[<b>Power Off</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt08'>
+	<text><![CDATA[Power off.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt09'>
+	<text><![CDATA[<b>AC</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt09'>
+	<text><![CDATA[Alternating current, from 300 mV to 600 V.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt10'>
+	<text><![CDATA[<b>DC</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt10'>
+	<text><![CDATA[Direct current, from 1mV to 600 V.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt11'>
+	<text><![CDATA[<b>Beeper</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt11'>
+	<text><![CDATA[Beeper turns on at less than 20 Ohms and turns off at greater than 250 Ohms.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt12'>
+	<text><![CDATA[<b>Ohms</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt12'>
+	<text><![CDATA[Ohms from 0.1 Ohms to 40 Mega Ohms.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt13'>
+	<text><![CDATA[<b>Diodes</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt13'>
+	<text><![CDATA[Tests diodes. A result of 'OL' indicates that an open diode is present.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt14'>
+	<text><![CDATA[<b>Capacitance</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt14'>
+	<text><![CDATA[Capacitance, from 1 nF to 9999 µF.]]></text>
+</component>
+
+
+</textcomponents>

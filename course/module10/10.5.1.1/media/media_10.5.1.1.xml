@@ -1,0 +1,81 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Identify the Problem</b>]]></text> 
+    </component>
+
+
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+         <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 1. Identify the Problem for Mobile Device Operating Systems</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td scope="row" bgcolor='#E9E7E8' width='145'>Open-Ended Questions</td>
+ 			<td bgcolor='#E9E7E8'><ul>
+				<li>What is the problem you are experiencing?</li>
+                <li>What is the version of mobile OS are you using?</li>
+                <li>What service provider do you have?</li>
+                <li>What apps have you installed recently?</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Closed-Ended Questions</td>
+  			<td bgcolor='#F2F2F2'><ul>
+				<li>Has this problem happened before?</li>
+                <li>Has anyone else used the mobile device?</li>
+                <li>Is your mobile device under warranty?</li>
+                <li>Have you modified the operating system on the mobile device?</li>
+                <li>Have you installed any apps from an unapproved source?</li>
+                <li>Does the mobile device connect to the Internet?</li>
+			</ul></td>		
+		</tr>
+	</table>]]></text>
+</component>
+
+
+    
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Identify the Problem</b>]]></text> 
+</component>
+    
+<component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+
+        <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 1. Identify the Problem for Linux or OS X</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td scope="row" bgcolor='#E9E7E8' width='145'>Open-Ended Questions</td>
+ 			<td bgcolor='#E9E7E8'><ul>
+				<li>What is the problem you are experiencing?</li>
+                <li>What is the make and model of your computer?</li>
+                <li>What version of Linux or OS X is it running?</li>
+                <li>What programs or drivers have you installed recently?</li>
+                <li>What OS updates have you installed recently?</li>
+                <li>What system configurations have you changed recently?</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Closed-Ended Questions</td>
+  			<td bgcolor='#F2F2F2'><ul>
+				<li>Has this problem happened before?</li>
+                <li>Has anyone else used the computer?</li>
+                <li>Is your computer under warranty?</li>
+                <li>Does the computer connect to the Internet?</li>
+			</ul></td>		
+		</tr>
+	</table>]]></text>
+</component>
+</textcomponents>

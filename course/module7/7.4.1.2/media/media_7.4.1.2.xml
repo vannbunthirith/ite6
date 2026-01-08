@@ -1,0 +1,39 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>IPv4 Address Format</b>]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[32 bits in dotted decimal notation]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[<b>IPv6 Address Format</b>]]></text> 
+</component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[128 bits in hexadecimal format]]></text> 
+</component>
+<component id="ID_s1_txt05">
+  <text><![CDATA[128 bits in compressed format]]></text> 
+</component>
+
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Laptop addresses before move <br/>MAC</b>: 00-50-56-BE-D7-87<br/><b>IPv4:</b> 192.168.200.8<br/><b>IPv6:</b> 2001:db8:cafe:200::8]]></text>
+</component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[<b>Laptop addresses after move <br/>MAC:</b> 00-50-56-BE-D7-87<br/><b>IPv4:</b> 192.168.100.8<br/><b>IPv6:</b> 2001:db8:cafe:100::8]]></text> 
+</component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[<b>LAN 1</b>]]></text> 
+</component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[<b>LAN 2</b>]]></text> 
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Laptop Addressing Information</b>]]></text>
+</component>
+<component id="ID_s3_txt01">
+  <text><![CDATA[&lt;output omitted&gt;]]></text> 
+</component>
+</textcomponents>

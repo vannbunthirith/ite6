@@ -1,0 +1,15 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#img1 {
+    -webkit-transform: rotate(91deg);
+    -moz-transform: rotate(91deg);
+    -o-transform: rotate(91deg);
+}
+
+span .wrongImage{
+width: 16px;
+height: 16px;
+background-image: url("wrong.png");
+}

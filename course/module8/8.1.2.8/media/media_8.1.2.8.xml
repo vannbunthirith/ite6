@@ -1,0 +1,278 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+<text><![CDATA[<b>ipconfig Command Options</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+        <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>ipconfig Command Options</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="ipconfig" bgcolor='#666263' width="200"><font color='#F2F2F2'><b>ipconfig Command Options</b></font></th>
+		<th scope="col" id="Purpose" bgcolor='#666263'><font color='#F2F2F2'><b>Purpose</b></font></th>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="ipConfig" bgcolor='#E9E7E8' valign="top">/all</td>
+		<td headers="Purpose" bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>Displays full configuration information of all network adapters.</textformat></td>		
+	</tr>
+	<tr>
+		<td scope="row" headers="ipConfig" bgcolor='#F2F2F2' valign="top">/release</td>
+		<td headers="Purpose" bgcolor='#F2F2F2' valign="top">Releases the IP address of a network adapter.</td>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="ipConfig" bgcolor='#E9E7E8' valign="top">/renew</td>
+		<td headers="Purpose" bgcolor='#E9E7E8' valign="top">Renews the IP address of a network adapter.</td>
+		 
+	</tr>
+	<tr>
+		<td scope="row" headers="ipConfig" bgcolor='#F2F2F2' valign="top">/flushdns</td>
+		<td headers="Purpose" bgcolor='#F2F2F2' valign="top">Empties the cache that stores DNS information.</td>
+		 
+	</tr>
+	<tr>
+		<td scope="row" headers="ipConfig" bgcolor='#E9E7E8' valign="top">/registerdns</td>
+		<td headers="Purpose" bgcolor='#E9E7E8' valign="top">Refreshes the DHCP lease and re-registers the adapter with DNS.</td>
+		 
+	</tr>
+	<tr>
+		<td scope="row" headers="ipConfig" bgcolor='#F2F2F2' valign="top">/displaydns</td>
+		<td headers="Purpose" bgcolor='#F2F2F2' valign="top">Shows DNS information in the cache.</td>		 
+	</tr>
+</table>]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>ping Command Options</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>ping Command Options</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Purpose</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-t</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>Ping the specified host until stopped</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-a</td>
+		<td bgcolor='#F2F2F2' valign="top">Resolve the address to a hostname</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-n count</td>
+		<td bgcolor='#E9E7E8' valign="top">Number of echo requests to send</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-l size</td>
+		<td bgcolor='#F2F2F2' valign="top">Send the buffer size</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-f</td>
+		<td bgcolor='#E9E7E8' valign="top">Set the Don&apos;t Fragment flag in the packet</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-i TTL</td>
+		<td bgcolor='#F2F2F2' valign="top">Time To Live</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-v TOS</td>
+		<td bgcolor='#E9E7E8' valign="top">Type Of Services</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-r count</td>
+		<td bgcolor='#F2F2F2' valign="top">Record the route for count hops</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-s count</td>
+		<td bgcolor='#E9E7E8' valign="top">Timestamp for count hops</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-j host-list</td>
+		<td bgcolor='#F2F2F2' valign="top">Loose source route along host-list</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-k host-list</td>
+		<td bgcolor='#E9E7E8' valign="top">Strict source route along host-list</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-w time out</td>
+		<td bgcolor='#F2F2F2' valign="top">Timeout in milliseconds to wait for each reply</td>		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>net Commands</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>net Commands</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Purpose</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net/? or net help</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>Displays the net commands</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">nbtstat</td>
+		<td bgcolor='#F2F2F2' valign="top">Displays protocol statistics and current TCP/IP connections using NetBIOS over TCO/IP (NBT)</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">netstat</td>
+		<td bgcolor='#E9E7E8' valign="top">Displays active TCP connections</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net accounts</td>
+		<td bgcolor='#F2F2F2' valign="top">Updates the user accounts database and modifies password and logon requirements</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net computer</td>
+		<td bgcolor='#E9E7E8' valign="top">Adds or deletes computers</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net config [workstation | server]</td>
+		<td bgcolor='#F2F2F2' valign="top">Displays configuration information</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net continue</td>
+		<td bgcolor='#E9E7E8' valign="top">Continues a service that has been suspended by net pause</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net file</td>
+		<td bgcolor='#F2F2F2' valign="top">Displays the names of all open shared files on a server</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net group</td>
+		<td bgcolor='#E9E7E8' valign="top">Adds, displays, or modifies global groups</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net help [command]</td>
+		<td bgcolor='#F2F2F2' valign="top">Displays information about specific net commands</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net helpmsg</td>
+		<td bgcolor='#E9E7E8' valign="top">Provides error and problem-solving information </td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net localgroup</td>
+		<td bgcolor='#F2F2F2' valign="top">Adds, displays, or modifies local groups</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net name</td>
+		<td bgcolor='#E9E7E8' valign="top">Adds or deletes a messaging name</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net pause</td>
+		<td bgcolor='#F2F2F2' valign="top">Pauses services that are currently running</td>		 
+	</tr>
+ 
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net print</td>
+		<td bgcolor='#E9E7E8' valign="top">Displays print queue or print job information, or controls a specified print job</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net send</td>
+		<td bgcolor='#F2F2F2' valign="top">Sends messages</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net session</td>
+		<td bgcolor='#E9E7E8' valign="top">Displays or disconnects sessions between computers</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net share</td>
+		<td bgcolor='#F2F2F2' valign="top">Displays or manages shared printers or directories</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net start</td>
+		<td bgcolor='#E9E7E8' valign="top">Displays started services</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net statistics [workstation | server ] </td>
+		<td bgcolor='#F2F2F2' valign="top">Displays workstation and server statistics</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net stop [service]</td>
+		<td bgcolor='#E9E7E8' valign="top">Stops specified network service</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net time</td>
+		<td bgcolor='#F2F2F2' valign="top">Displays or synchronizes network time</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net use</td>
+		<td bgcolor='#E9E7E8' valign="top">Displays or manages remote connections</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net user</td>
+		<td bgcolor='#F2F2F2' valign="top">Creates, modifies, or lists user accounts</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net view</td>
+		<td bgcolor='#E9E7E8' valign="top">Displays network resources or computers</td>
+		 
+	</tr>
+
+</table>]]></text>
+</component>
+
+    
+
+</textcomponents>

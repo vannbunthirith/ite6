@@ -1,0 +1,21 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Case Fan</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>CPU Heat Sink</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>CPU Fan</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Graphics Card Cooling System</b>]]></text>
+	</component>
+    
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Water Cooling System</b>]]></text>
+	</component>
+</textcomponents>

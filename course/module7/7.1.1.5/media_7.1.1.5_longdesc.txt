@@ -1,0 +1,1 @@
+The figure on this page is an interactive activity that checks the learner’s understanding of the following media representations of network devices. Host Devices: IP phone, server, smartphone, printer, Intermediary Devices: Access point, switch, router, modem, wireless router, Network Media: Serial line, connecting line, wireless signal.

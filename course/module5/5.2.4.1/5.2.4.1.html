@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.1 Multiboot Procedures</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Multiboot Procedures</h1>
+        <div>
+          <p>You can have multiple operating systems on a single computer. Some software applications may require the most recent version of an OS, while other applications require an older version. There is a dual-boot process for multiple operating systems on a computer. During the boot process, if the Windows Boot Manager (BOOTMGR) determines that more than one OS is present, you are prompted to choose the OS that you want to load. Figure 1 shows the BOOTMGR for Windows 8.x. Figure 2 shows the BOOTMGR for Windows 7 and Vista.</p>
+          <p></p>
+          <p>To create a dual-boot system in Microsoft Windows, the hard drive must contain more than one partition.</p>
+          <p></p>
+          <p>The oldest OS should be installed on the primary partition or the hard drive marked as the active partition first. Install the second OS on the second partition or hard drive. The boot files are automatically installed in the active partition.</p>
+          <p></p>
+          <p>
+            <b>BOOTMGR File</b>
+          </p>
+          <p>During the installation, the BOOTMGR file is created on the active partition to allow selecting the OS to boot on startup. You can edit the BOOTMGR file to change the order of the operating systems. You can also change the length of time allowed during the boot phase to select the OS. Typically, the default time is 30 seconds. This time period delays the boot time of the computer by the specified time, unless the user intervenes to select a particular OS. If the disk has only one OS, change the time to 5 or 10 seconds to boot up the computer faster.</p>
+          <p></p>
+          <p>To change the time to display the list of operating systems, use the following path:</p>
+          <p></p>
+          <p>Select <b>Start > Control Panel > System and Security > System > Advanced System Settings ></b> click the <b>Advanced </b>tab <b>> </b>In the <b>Startup and Recovery </b>area, select <b>Settings</b></p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Boot Manager in Windows 8.x.Figure 2 on this page is an image of the Boot Manager in Windows 7 and Windows Vista.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<textcomponents>
+
+<!--SLIDE 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Host Device Icons</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Desktop Computer]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[Laptop Computer]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[Server]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Tablet]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+	<text><![CDATA[Smartphone]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+	<text><![CDATA[Printer]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+	<text><![CDATA[Camera]]></text>
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[IP Phone]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+	<text><![CDATA[Scanner]]></text>
+</component>
+
+<!--SLIDE 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Examples of Shared Resources on a Computer Network</b>]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+	<text><![CDATA[<ul><li>Services, such as printing or scanning</li><li>Storage space on devices, such as hard drives or optical drives</li><li>Applications, such as databases</li><li>Information stored on other computers, such as documents and photos</li><li>Calendars, synchronizing between a computer and a smartphone</li></ul>]]></text>
+</component>
+
+</textcomponents>

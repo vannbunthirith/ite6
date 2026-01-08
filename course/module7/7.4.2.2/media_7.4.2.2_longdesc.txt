@@ -1,0 +1,1 @@
+The figure on this page is a diagram that shows a desktop computer maintaining multiple conversations with multiple applications. The transport layer ensures that even with multiple applications running on a device, all applications receive the correct data: email, instant messaging, web browser displaying multiple web pages, IP telephony (VoIP), and streaming video.

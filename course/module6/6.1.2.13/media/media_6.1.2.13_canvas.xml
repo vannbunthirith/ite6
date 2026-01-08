@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="IMAGE" x="65" y="55" width="549.9" height="400.7" subType="STD" src="media_6.1.2.13.A.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+            <element type="TEXT" subType="TABLE" compId="ID_s2_table_html" x="40" y="106" width="600" height="190.85" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#ffffff" />
+            <element type="IMAGE" x="105" y="55" width="470" height="414.75" subType="STD" src="media_6.1.2.13.C.jpg" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#ffffff" />
+            <element type="IMAGE" x="160" y="55" width="360" height="402.15" subType="STD" src="media_6.1.2.13.D.png" />
+        </slide>
+    </slide>
+</data>

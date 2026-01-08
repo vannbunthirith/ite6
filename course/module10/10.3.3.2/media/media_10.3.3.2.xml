@@ -1,0 +1,105 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity – Matching Email Protocols</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each term to a definition.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[SMTP]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[MIME]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Exchange]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[SSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[POP3]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[IMAP]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each term to its definition.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each term to its definition. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Term</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Developed to transmit files securely. All data exchanged between the email client and the email server is encrypted.
+]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Allows the user to organize email on the network email server, and to download copies of email. The original email remains on the network email server. Default port is 143.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[An email server, contact manager, and calendaring software created by Microsoft.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Retrieves emails from a remote server over TCP/IP.  Normally does not leave a copy of email on the server.  Default port is 110.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[A text-based protocol that transmits emails across a TCP/IP network. Default port is 25.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Extends the email format to include text in ASCII standard as well as other formats, such as pictures and word processor documents.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Protocol Functions</b>]]></text>
+</component>
+<component id='ID_s1_bodyTxt'>
+	<text><![CDATA[<ul><li>Identifying and handling errors</li><li>Compressing the data</li><li>Determining how data is to be divided and packaged</li><li>Addressing data packets</li><li>Determining how to announce the sending and receiving of data packets</li></ul>]]></text>
+</component>
+
+<component id='ID_s1_titleTxt'>
+	<text><![CDATA[<b>Protocol Functions</b>]]></text>
+</component>
+</textcomponents>

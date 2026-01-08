@@ -1,0 +1,1 @@
+The figure on this page is a topology that shows a client and a server connected to a network. The client opens the first connection to the server for control traffic. The client opens the second connection for data traffic. Data flows through the network between the devices.

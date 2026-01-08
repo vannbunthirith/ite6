@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.1 Common Communication Encryption Types</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Common Communication Encryption Types</h1>
+        <div>
+          <p>Communication between two computers may require a secure communication. To do so, the following protocols are required:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Hash encoding</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Symmetric encryption</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Asymmetric encryption</b>
+              </li>
+            </ul>
+          </p>
+          <p>Hash encoding, or hashing, ensures the integrity of the message. This means it ensures that the message is not corrupt or been tampered with during transmission. Hashing uses a mathematical function to create a numeric value, called a message digest that is unique to the data. If even one character is changed, the function output will not be the same. The function can only be used one way. Therefore, knowing the message digest does not allow an attacker to recreate the message, making it difficult for someone to intercept and change messages. Hash encoding is illustrated in Figure 1. The most popular hashing algorithm is now Secure Hash Algorithm (SHA) which is replacing the older Message Digest 5 (MD5) algorithm. </p>
+          <p></p>
+          <p>Symmetric encryption ensures the confidentiality of the message. If an encrypted message is intercepted, it cannot be understood. It can only be decrypted (i.e., read) using the password (i.e., key) that it was encrypted with. Symmetric encryption requires both sides of an encrypted conversation to use an encryption key to encode and decode the data. The sender and receiver must use identical keys. Symmetric encryption is shown in Figure 2. Advanced Encryption Standard (AES) and the older Triple Data Encryption Algorithm (3DES) are examples of symmetric encryption.</p>
+          <p></p>
+          <p>Asymmetric encryption also ensures confidentiality of the message. It requires two keys, a private key and a public key. The public key can be widely distributed, including emailing in plaintext or posting on the web. The private key is kept by an individual and must not be disclosed to any other party. These keys can be used in two ways:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Public key encryption is used when a single organization needs to receive encrypted text from a number of sources. The public key can be widely distributed and used to encrypt the messages. The intended recipient is the only party to have the private key, which is used to decrypt the messages. Asymmetric encryption using a public key is shown in Figure 3.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>In the case of digital signatures, a private key is required for encrypting a message, and a public key is needed to decode the message. This approach allows the receiver to be confident about the source of the message because only a message encrypted using the originator’s private key could be decrypted by the public key. RSA is the most popular example of asymmetric encryption.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Note</b>: Symmetric encryption requires that the two systems be pre-configured with a secret key. Asymmetric encryption requires that only one system has the private key.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is a topology that demonstrates hash encoding. The topology shows two desktop computers connected over the Internet. One computer has a callout that says, “Here is the quote you requested”. Sender enters message to be hash encoded. The message is transmitted over the network (secure or unsecure). The hash algorithm (SHA or MD5) produces a message digest, ‘A7DE89DCA00AC8…’ The sender sends the message digest along with the message. The receiver recovers the sent message. The receiver’s hash algorithm produces a message digest. If the two message digests are not identical, the message has been changed or tampered with. Figure 2 on this page is a topology that demonstrates symmetric encryption. The topology shows two desktop computers connected over the Internet. One computer has a callout that says, “Here is the quote you requested”. The sender enters the message to be encrypted. The sender enters secret encryption key to encode the message, ‘A7DE89DCA00AC8…’ The sender sends the message over an unsecure network. The receiver enters identical secret key to decode the encrypted message. The receiver recovers the decrypted message. Figure 3 on this page is a topology that demonstrates asymmetric encryption. The topology shows two desktop computers connected over the Internet. One computer has a callout that says, “Here is the quote you requested”. Sender enters message to be encrypted. The sender enters the receiver’s public key to encode the message, ‘1AG65B00BDE735… The sender sends the message over an unsecure network. The receiver enters the security private key to decode the message, ‘1BAF55D000EF795…’ The receiver recovers the sent message. The receiver recovers the message.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+﻿<textcomponents>
+	<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+       
+
+		<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+               <font size="16"><b>Step 1: Identify the Problem</b></font>
+            </caption>
+
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	  
+		<tr>
+			<td scope="row" bgcolor='#E9E7E8' width="200">Open-ended questions</td>
+			
+			<td bgcolor='#E9E7E8'><ul>
+			<li>What problems are you experiencing with your computer or network device?</li>
+					<li>What software has been installed on your computer recently?</li>
+					<li>What were you doing when the problem was identified?</li>
+					<li>What error message have you received?</li>
+					<li>What type of network connection is the computer using?</li>
+			</ul>
+			</td> 
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Closed-ended questions</td>
+			<td bgcolor='#F2F2F2'><ul><li>Has anyone else used your computer recently?</li>
+			<li>Can you see any shared files or printers?</li>
+			<li>Have you changed your password recently?</li>
+			<li>Can you access the Internet?</li>
+			<li> Are you currently logged into the network?</li>
+			<li>Is anyone else having this problem?</li></ul>
+			</td> 
+		</tr>	
+</table>]]></text>
+</component>
+</textcomponents>

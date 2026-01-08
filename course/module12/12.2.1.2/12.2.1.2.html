@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.1.2 Accessing Windows Local Security Policy</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Accessing Windows Local Security Policy</h1>
+        <div>
+          <p>In most networks that use Windows computers, Active Directory is configured with Domains on a Windows Server. Windows computers are members of a domain. The administrator configures a Domain Security Policy that applies to all computers that join. Account policies are automatically set when a user logs in to Windows.</p>
+          <p></p>
+          <p>Windows Local Security Policy can be used for stand-alone computers that are not part of an Active Directory domain. To access Local Security Policy in Windows 7 and Vista, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Start > Control Panel > Administrative Tools > Local Security Policy</b>
+          </p>
+          <p></p>
+          <p>In Windows 8 and 8.1, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Search > secpol.msc </b>and then click <b>secpol</b>.</p>
+          <p></p>
+          <p>The Local Security Policy Tool opens, as shown in the figure.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: In all versions of Windows, you can use the <b>Run</b> command <b>secpol.msc</b> to open the Local Security Policy tool.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of Windows Local Security Policy window.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

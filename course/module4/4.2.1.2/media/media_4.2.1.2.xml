@@ -1,0 +1,99 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 1: Identify the Problem</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="260" valign="top"><font  color='#393536'>Customer Information</font></td>
+		<td bgcolor='#E9E7E8' width="260" valign="top"><font  color='#393536'><ul><li>Company Name</li><li>Contact Name</li><li>Address</li><li>Phone Number</li></ul></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Computer Configuration</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><ul><li>Manufacturer and Model</li><li>Operating System</li><li>Network Environment</li><li>Connection Type</li></ul></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>Problem Description</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul><li>Open-ended Questions</li><li>Closed-ended Questions</li></ul></font></td> 	
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' colspan='2' valign="top"><font color='#393536'>Error Messages</font></td>
+	</tr>							
+	<tr>
+		<td bgcolor='#E9E7E8' colspan='2'><font  color='#393536'>Beep Sequences</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' colspan='2' valign="top"><font  color='#393536'>LEDs</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' colspan='2'><font  color='#393536'>POST</font></td>
+	</tr>
+
+	</table>]]></text> 
+</component>
+
+<component id="ID_s1_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+			<font size="16"><b>Step 1: Identify the Problem</b></font></caption>
+    
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="260" valign="top"><font  color='#393536'>Customer Information</font></td>
+		<td bgcolor='#E9E7E8' width="260" valign="top"><font  color='#393536'><ul><li>Company Name</li><li>Contact Name</li><li>Address</li><li>Phone Number</li></ul></font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Computer Configuration</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><ul><li>Manufacturer and Model</li><li>Operating System</li><li>Network Environment</li><li>Connection Type</li></ul></font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' valign="top"><font  color='#393536'>Problem Description</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul><li>Open-ended Questions</li><li>Closed-ended Questions</li></ul></font></td> 	
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2' colspan='2' valign="top"><font color='#393536'>Error Messages</font></td>
+	</tr>							
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' colspan='2'><font  color='#393536'>Beep Sequences</font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2' colspan='2' valign="top"><font  color='#393536'>LEDs</font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' colspan='2'><font  color='#393536'>POST</font></td>
+	</tr>
+
+	</table>]]></text> 
+</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+<!-- Slide 4 -->
+<component id='ID_s3_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+<!-- Slide 6 -->
+<component id='ID_s4_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+</textcomponents>

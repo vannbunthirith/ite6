@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Power Options utility in Windows 7 running on a laptop that shows that Hibernate is enabled. Figure 2 on this page is an image of the Advanced Settings screen of the Power Options utility in Windows 7 running on a laptop. Figure 3 on this page is an image of the Edit Plan Settings utility in Windows 7 running on a laptop.

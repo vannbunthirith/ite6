@@ -1,0 +1,135 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Encapsulation</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Email Data]]></text>
+</component>
+
+<component id="ID_txt01a">
+<text><![CDATA[Encapsulation]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Data]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Data]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Data]]></text> 
+</component>  
+
+<component id="ID_txt05">
+<text><![CDATA[Data]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Network header]]></text> 
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Data]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Frame header]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Network header]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[Data]]></text> 
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[Frame trailer]]></text> 
+</component>  
+
+<component id="ID_txt12">
+<text><![CDATA[Data]]></text> 
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Segment]]></text> 
+</component>
+
+<component id="ID_txt14">
+<text><![CDATA[Packet]]></text> 
+</component>  
+
+<component id="ID_txt15">
+<text><![CDATA[Frame]]></text> 
+</component>
+
+<component id="ID_txt16">
+<text><![CDATA[Bits]]></text> 
+</component>
+
+<component id="ID_txt17">
+<text><![CDATA[Passing data down through the layers]]></text> 
+</component>
+
+<component id="ID_txt18">
+<text><![CDATA[<b>1100010101000101100101001010101001</b>]]></text> 
+</component>
+
+<component id="ID_txt19">
+<text><![CDATA[Transport header]]></text> 
+</component>  
+
+<component id="ID_txt20">
+<text><![CDATA[Transport header]]></text> 
+</component>     
+
+<component id="ID_txt21">
+<text><![CDATA[Transport header]]></text> 
+</component>  
+
+<component id='ID_titleTxt01'>
+	<text><![CDATA[Data]]></text>
+</component>
+
+<component id='ID_bodyTxt01'>
+	<text><![CDATA[Data - The general term for the PDU used at the application layer]]></text>
+</component>
+
+<component id='ID_titleTxt02'>
+	<text><![CDATA[Segment]]></text>
+</component>
+
+<component id='ID_bodyTxt02'>
+	<text><![CDATA[Segment - Transport layer PDU]]></text>
+</component>
+
+<component id='ID_titleTxt03'>
+	<text><![CDATA[Packet]]></text>
+</component>
+
+<component id='ID_bodyTxt03'>
+	<text><![CDATA[Packet - Network layer PDU]]></text>
+</component>
+
+<component id='ID_titleTxt04'>
+	<text><![CDATA[Frame <br>(medium dependent)]]></text>
+</component>
+
+<component id='ID_bodyTxt04'>
+	<text><![CDATA[Frame – Data Link layer PDU]]></text>
+</component>
+
+<component id='ID_titleTxt05'>
+	<text><![CDATA[Bits]]></text>
+</component>
+
+<component id='ID_bodyTxt05'>
+	<text><![CDATA[Bits - A Physical layer PDU used when physically transmitting data over the medium]]></text>
+</component>
+
+</textcomponents>

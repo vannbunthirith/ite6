@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.1.1.2_A.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+            <element type="TEXT" compId="ID_s1_txt01" x="107" y="144" width="105.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt02" x="289" y="144" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt03" x="471" y="144" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt04" x="107" y="274" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt05" x="289" y="274" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt06" x="471" y="274" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt07" x="107" y="403" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt08" x="289" y="403" width="100.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt09" x="471" y="403" width="100.5" expand="down" align="center" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+            <element type="TEXTBOX" bodyId="ID_bodyTxt01" x="100" y="127" width="480" height="112" />
+        </slide>
+    </slide>
+</data>

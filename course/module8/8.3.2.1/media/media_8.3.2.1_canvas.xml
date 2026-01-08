@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+				<element type="IMAGE" src="media_8.3.2.1.png" width="680" height="490" x="0" y="0" />
+				<element type="TEXT" compId="ID_s1_txt07" x="13" y="171" width="80.4" expand="down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt14" x="13" y="61" width="80.4" expand="up" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt06" x="183" y="173" width="93.6" expand="down" align="right" size="11" />
+				<element type="TEXT" compId="ID_s1_txt01" x="354" y="107" width="60.3" expand="down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt02" x="276" y="136" width="60.3" expand="up" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt03" x="359" y="159" width="60.3" expand="up" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt04" x="437" y="138" width="60.3" expand="up" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt05" x="525" y="86" width="74.15" expand="up+down" align="left" size="11" />
+				<element type="TEXT" compId="ID_s1_txt12" x="40" y="316" width="111.25" expand="up+down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt08" x="138" y="426" width="155.95" expand="down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt11" x="233" y="308" width="95.45" expand="up+down" align="right" size="11" />
+				<element type="TEXT" compId="ID_s1_txt10" x="499" y="278" width="50.2" expand="up+down" align="left" size="11" />
+				<element type="TEXT" compId="ID_s1_txt13" x="550" y="285" width="104.2" expand="up+down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s1_txt09" x="461" y="426" width="112.75" expand="down" align="center" size="11" />
+		</slide>
+		<slide>
+				<element type="IMAGE" src="bg.png" width="680" height="490" x="0" y="0" />
+				<element type="IMAGE" src="media_8.3.2.1.A.png" width="680" height="490" x="0" y="0" />
+				<element type="TEXT" compId="ID_s2_txt01" x="116" y="133" width="95.45" expand="down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s2_txt02" x="470" y="133" width="97.15" expand="down" align="center" size="11" />
+				<element type="TEXT" compId="ID_s2_txt03" x="257" y="163" width="168.8" expand="up+down" align="center" class="orangeCallOut" size="11" />
+				<element type="TEXT" compId="ID_s2_txt04" x="257" y="208" width="168.8" expand="up+down" align="center" class="greenCallOut" size="11" />
+				<element type="TEXT" compId="ID_s2_txt05" x="257" y="253" width="168.8" expand="up+down" align="center" class="orangeCallOut" size="11" />
+				<element type="TEXT" compId="ID_s2_txt06" x="257" y="298" width="168.8" expand="up+down" align="center" class="greenCallOut" size="11" />
+		</slide>
+	</slide>
+</data>

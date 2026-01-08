@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_title" color="#ffffff"/>
+<element type="IMAGE" x="40" y="51" width="600.2" height="273.85" subType="STD" src="media_1.2.1.10.jpg" />
+<element type="TEXTBOX" titleId="ID_s1_titleTxt01" bodyId="ID_s1_bodyTxt01" x="45" y="338.80" width="580" height="130" />
+</slide>  
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg2.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+<element type="TEXT" subType="TABLE" compId="ID_s2_table_html" x="42" y="82" width="580" height="370" />
+</slide>
+</slide>
+</data>

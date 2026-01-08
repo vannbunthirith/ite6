@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" subType="bg" bgType="IMAGE" />
+            <element type="IMAGE" x="435" y="55" width="190" height="190" subType="STD" src="coaxialCable.jpg" />
+            <element type="IMAGE" x="55" y="55" width="190" height="190" subType="STD" src="twistedPair.jpg" />
+            <element type="IMAGE" x="245" y="253" width="190" height="190" subType="STD" src="fiberOptic.jpg" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+            <element type="TEXT" compId="ID_s1_txt01" x="60" y="250" width="180.9" expand="down" align="center" color="#ffffff" size="11" />
+            <element type="TEXT" compId="ID_s1_txt02" x="440" y="251" width="180.9" expand="down" align="center" color="#ffffff" size="11" />
+            <element type="TEXT" compId="ID_s1_txt03" x="245" y="448" width="190.9" expand="down" align="center" color="#ffffff" size="11" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.3.2.1.png" />
+            <element type="IMAGE" x="91" y="293" width="150" height="150" subType="STD" src="coaxialConnector-BNC.jpg" />
+            <element type="IMAGE" x="266" y="293" width="150" height="150" subType="STD" src="coaxialConnector-Ntype.jpg" />
+            <element type="IMAGE" x="440" y="293" width="150" height="150" subType="STD" src="coaxialConnector-Ftype.jpg" />
+            <element type="TEXT" compId="ID_s2_txt01" x="293" y="56" width="110.5" expand="left+right" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s2_txt02" x="331" y="94" width="110.5" expand="left+right" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s2_txt03" x="360" y="137" width="110.5" expand="left+right" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s2_txt04" x="396" y="215" width="120.6" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s2_txt05" x="177" y="268" width="328.45" expand="left+right" align="center" size="13" />
+            <element type="TEXT" compId="ID_s2_txt06" x="93" y="449" width="145.7" expand="down" align="center" size="11" />
+            <element type="TEXT" compId="ID_s2_txt07" x="268" y="449" width="145.7" expand="down" align="center" size="11" />
+            <element type="TEXT" compId="ID_s2_txt08" x="442" y="449" width="145.7" expand="down" align="center" size="11" />
+        </slide>
+    </slide>
+</data>

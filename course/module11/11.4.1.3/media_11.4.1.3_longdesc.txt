@@ -1,0 +1,1 @@
+The figure on this page is an image of a printer monitoring utility that shows the Device Services tab that lists the following options: Align Ink Cartridges, Clean Ink Cartridges, Print Diagnostic Information, and Clean Printer.

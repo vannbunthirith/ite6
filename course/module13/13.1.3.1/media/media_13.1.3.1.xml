@@ -1,0 +1,169 @@
+<textcomponents>
+
+
+
+<!-- slide 1 -->
+	<component id='ID_s1_title'>
+		<text><![CDATA[<b>Call Board</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Log Off]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Print]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<font color='#386B33'><b>Realtime Call Center Monitoring</b></font>]]></text>
+	</component>
+
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<u>CC Managers</u>]]></text>
+	</component>
+
+	<component id="ID_s1_txt05">
+		<text><![CDATA[<b>J Smith</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[<b>11:01:17</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Reload Now]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Queue(s):]]></text>
+	</component>
+
+	<component id="ID_s1_txt09">
+		<text><![CDATA[queue-dps, queue-test]]></text>
+	</component>
+
+	<component id="ID_s1_txt10">
+		<text><![CDATA[<p align='center'>In order to maintain session information, this page will reload automatically.</p>]]></text>
+	</component>
+
+
+	<!-- table 1 -->
+	<component id='ID_s1_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Queue</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agents</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Ready Agents</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>On Pause</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Calls Waiting</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agents Talking</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>All Selected</td>
+			<td bgcolor='#E9E7E8'>1</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>queue-dps</td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'>0</td>
+			<td bgcolor='#F2F2F2'>1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>queue-test</td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'>1</td>
+			<td bgcolor='#E9E7E8'>0</td>
+		</tr>
+	</table>]]></text>
+	</component>
+	<!-- end table 1 -->
+
+
+	<!-- table 2 -->
+	<component id='ID_s1_table02'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='6' bgcolor='#FFFFFF'><font size="12"><b>Calls Being Processed</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Queue</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Caller</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Entered</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Waiting</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Duration</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agent</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>queue-dps</td>
+			<td bgcolor='#E9E7E8'>34</td>
+			<td bgcolor='#E9E7E8'>03/12 - 11:00:46</td>
+			<td bgcolor='#E9E7E8'>0:02</td>
+			<td bgcolor='#E9E7E8'><font color='#FF0000'>0:29</font></td>
+			<td bgcolor='#E9E7E8'>Pluto(101)</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>queue test</td>
+			<td bgcolor='#F2F2F2'>22</td>
+			<td bgcolor='#F2F2F2'>03/12 - 11:01:13</td>
+			<td bgcolor='#F2F2F2'><font color='#FF0000'>0:04</font></td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+		</tr>
+	</table>]]></text>
+	</component>
+	
+	<!-- end table 2 -->
+
+
+	<!-- table 3 -->
+	<component id='ID_s1_table03'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='4' bgcolor='#FFFFFF'><font size="12"><b>Agents Currently Logged In</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agent</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Last Logon</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Extension</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>On Pause</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Pluto(101)</td>
+			<td bgcolor='#E9E7E8'>03/12 - 11:00:22</td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'>No</td>
+		</tr>
+	</table>]]></text>
+	</component>
+	
+	<!-- end table 3 -->
+	
+
+<!-- end slide 1 -->
+
+
+
+<!-- slide 2 -->
+
+	<component id='ID_s2_titleTxt01'>
+		<text><![CDATA[<b>Ways to Relax</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[<ul><li>Practice relaxed breathing: inhale-hold-exhale-repeat.</li><li>Listen to soothing sounds.</li><li>Massage your temples.</li><li>Take a break - go for a quick walk, or climb a flight of stairs.</li><li>Eat something small - a snack with protein is best.</li><li>Plan your weekend.</li><li>Avoid stimulants like coffee, fizzy drinks, and chocolate. All contain caffeine and can add to stress.</li></ul>]]></text>
+	</component>
+
+<!-- end slide 2 -->
+
+	
+
+</textcomponents>

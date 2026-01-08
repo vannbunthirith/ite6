@@ -1,0 +1,1 @@
+This task cannot be completed as it requires Packet Tracer, which is inaccessible. The following objectives are listed for your information. Objectives: Configure basic wireless settings on a computer. Configure basic security on a wireless router. Verify full connectivity.

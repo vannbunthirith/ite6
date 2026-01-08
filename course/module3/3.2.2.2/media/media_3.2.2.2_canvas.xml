@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<element type="IMAGE" x="25" y="55" width="630" height="393.85" subType="STD" src="3_2_2_2_A.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+</slide>
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<element type="IMAGE" x="25" y="55" width="630" height="393.85" subType="STD" src="3_2_2_2_B.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<element type="IMAGE" x="25" y="55" width="630" height="393.85" subType="STD" src="3_2_2_2_C.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<element type="IMAGE" x="25" y="55" width="630" height="393.85" subType="STD" src="3_2_2_2_D.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<element type="IMAGE" x="40" y="55" width="600" height="335.4" subType="STD" src="3_2_2_2_E.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s6_title" color="#ffffff" />
+<element type="TEXT" subType="TABLE" compId="ID_s6_table_html" x="50" y="70" width="580" height="370" />
+</slide>
+
+</slide>
+</data>

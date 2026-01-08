@@ -1,0 +1,50 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>SPI Firewall Protection</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Hardware and Software Firewall Comparison</b>]]></text>
+</component> 
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+		<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Hardware and Software Firewall Comparison</b></font>
+            </caption>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Hardware" bgcolor='#666263'><font color='#F2F2F2'><b>Hardware Firewall</b></font></th>
+		<th scope="col" id="Software" bgcolor='#666263'><font color='#F2F2F2'><b>Software Firewall</b></font></th>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Hardware" bgcolor='#E9E7E8' valign="top">Dedicated hardware component</td>
+		<td headers="Software" bgcolor='#E9E7E8' valign="top">Available as third-party software, cost varies</td>		
+	</tr>
+	<tr>
+		<td scope="row" headers="Hardware" bgcolor='#F2F2F2' valign="top">Initial cost for hardware and software updates can be expensive</td>
+		<td headers="Software" bgcolor='#F2F2F2' valign="top">Free version included with Windows operating system</td>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Hardware" bgcolor='#E9E7E8' valign="top">Multiple computers can be protected</td>
+		<td headers="Software" bgcolor='#E9E7E8' valign="top">Typically protects only the computer on which it is installed</td>
+		 
+	</tr>
+	<tr>
+		<td scope="row" headers="Hardware" bgcolor='#F2F2F2' valign="top">No impact on computer performance</td>
+		<td headers="Software" bgcolor='#F2F2F2' valign="top">Uses computer resources, having a potential impact on performance</td>
+		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+</textcomponents>

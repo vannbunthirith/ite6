@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+	<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.3.2.4.png" />
+	<element type="TEXT" compId="ID_txt01" x="160" y="31.9" width="58" expand="left+right" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt02" x="98.5" y="66.9" width="58" expand="up" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt03" x="161.5" y="66.9" width="58" expand="up" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt04" x="224.5" y="66.9" width="58" expand="up" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt05" x="117.5" y="273.5" width="150" expand="left+right" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt06" x="430.8" y="31.9" width="104" expand="left+right" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt07" x="393.5" y="66.9" width="58" expand="up" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt08" x="456.5" y="66.9" width="58" expand="up" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt09" x="520.5" y="66.9" width="58" expand="up" align="center" size="11" />
+	<element type="TEXT" compId="ID_txt10" x="412.5" y="273.5" width="150" expand="left+right" align="center" size="11" />
+	<element type="TEXT" subType="TABLE" compId="ID_table_html" x="40" y="316.90" width="600" height="150" />
+	</slide>
+		
+</data>

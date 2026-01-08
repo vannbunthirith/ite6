@@ -1,0 +1,76 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Android Main Home Screen</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Background Processes and Indicators]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Google Search Bar]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[System Icons and Clock]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Main Area for Apps and Widgets]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Home Screen Indicator]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Dock]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Navigation Icons]]></text>
+	</component>
+
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Navigation Icons</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Back]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Home]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Recent Apps]]></text>
+	</component>
+	
+	
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Quick Access to Settings]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Quick Access to User]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Adjust Screen Brightness]]></text>
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[Toggle Often Used Settings]]></text>
+	</component>
+	<component id="ID_s3_txt05">
+		<text><![CDATA[Respond to Notifications]]></text>
+	</component>
+
+	
+
+	<component id="ID_s4_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+</textcomponents>
+
+
+

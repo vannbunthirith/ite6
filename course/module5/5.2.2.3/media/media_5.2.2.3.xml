@@ -1,0 +1,17 @@
+﻿<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Windows PXE Installation</b>]]></text>
+    </component>	
+	
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Windows Unattended Installation</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[The image shows the first screen displayed during a PXE Windows installation boot. The installations displayed were created on a Windows-based server as PXE images and placed on a TFTP folder. PXE clients can locate and fetch files over TFTP.]]></text>
+	</component>
+</textcomponents>

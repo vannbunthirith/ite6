@@ -1,0 +1,10 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_s2_txt16 span.indentText{
+margin-left: 15px !important;
+}
+
+#ID_s2_txt16 span.indentTextMore{
+margin-left: 30px !important;
+}

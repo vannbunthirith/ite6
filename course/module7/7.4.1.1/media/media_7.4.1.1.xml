@@ -1,0 +1,81 @@
+﻿<textcomponents>
+	 <component id="ID_s1_txt01">
+        <text><![CDATA[A fingerprint is like a MAC address.]]></text> 
+    </component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[A mailing address is like an IP address.]]></text> 
+    </component>
+
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>MAC Address Format</b>]]></text> 
+    </component>
+
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Address Format</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>00-50-56-BE-D7-87</td>
+                <td bgcolor='#E9E7E8'>Two hexadecimal digits separated by hyphens</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>00:50:56:BE:D7:87</td>
+                <td bgcolor='#F2F2F2'>Two hexadecimal digits separated by colons</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>0050.56BE.D787</td>
+                <td bgcolor='#E9E7E8'>Four hexadecimal digits separated by periods</td>
+            </tr>  
+ 
+        </table>]]></text>
+    </component>
+
+    <component id="ID_table01_html">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+            <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">MAC Address Format</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="Address" bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Address Format</b></font></th>
+                <th scope="col" id="Description" bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Address" bgcolor='#E9E7E8'>00-50-56-BE-D7-87</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Two hexadecimal digits separated by hyphens</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="Address" bgcolor='#F2F2F2'>00:50:56:BE:D7:87</td>
+                <td headers="Description" bgcolor='#F2F2F2'>Two hexadecimal digits separated by colons</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="Address" bgcolor='#E9E7E8'>0050.56BE.D787</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Four hexadecimal digits separated by periods</td>
+            </tr>  
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

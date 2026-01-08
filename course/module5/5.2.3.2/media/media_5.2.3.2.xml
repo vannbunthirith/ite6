@@ -1,0 +1,136 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Identify the BIOS Boot Process Order</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each step to a description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each step to its description.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each step to its description. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Check</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Reset</b>]]></text>
+</component>
+
+<!--Drag Items-->
+
+
+
+<component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Steps</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536"><b>1</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536"><b>2</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536"><b>3</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536"><b>4</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536"><b>5</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536"><b>6</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[<font color="#393536"><b>7</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[<font color="#393536"><b>8</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[<font color="#393536"><b>9</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[<font color="#393536"><b>10</b></font>]]></text>
+</component>
+
+<!--Questions-->
+<component id='ID_s1_target_header_01'>
+	<text><![CDATA[<font color="#393536"><b>Steps</b></font>]]></text>
+</component>
+
+<component id='ID_s1_text_header_01'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[The Windows kernel takes over the boot process.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[WinLoad  uses the path specified in BOOTMGR to find the boot partition.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[WINLOGON.EXE displays the Windows Welcome screen.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[BIOS locates and reads the configuration settings that are stored in the CMOS memory.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[NTOSKRNL.EXE starts the login file called WINLOGON.EXE.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[WinLoad loads two files that make up the core of Windows: NTOSKRNL.EXE and HAL.DLL.]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[The BIOS boots the computer using the first drive that contains a valid boot sector.]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[POST.]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[The code in the boot sector is executed, and the control of the boot process is given to Windows Boot Manager.]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[WinLoad reads the Registry files, chooses a hardware profile, and loads the device drivers.]]></text> 
+</component>
+</textcomponents>

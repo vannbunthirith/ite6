@@ -1,0 +1,20 @@
+<textcomponents>
+
+<!--SLIDE 1-->
+<component id="ID_s1_title">
+<text><![CDATA[<b>Wireless Access Points</b>]]></text>
+</component>
+
+<!--SLIDE 2-->
+<component id="ID_txt01">
+	<text><![CDATA[<b>Small Office</b>]]></text>
+</component>
+<component id="ID_txt02">
+	<text><![CDATA[<b>Data Center</b>]]></text>
+</component>
+<component id="ID_txt03">
+	<text><![CDATA[Internet]]></text>
+</component>
+
+
+</textcomponents>

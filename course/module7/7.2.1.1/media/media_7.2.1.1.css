@@ -1,0 +1,18 @@
+/*   load the main media CSS file    */
+@import url('../../../common/styles/media2.css');
+
+.roundimg{   
+	border-radius: 0.5em;
+	-moz-box-shadow: 2px 6px 5px #999;
+	-webkit-box-shadow: 2px 6px 5px #999;
+	box-shadow: 2px 6px 5px #666;
+	border:3px solid #1EA1D7;
+	height:110px!important;
+}
+
+img:hover{
+	-webkit-box-shadow:0 0 15px #0060BF; 
+	-moz-box-shadow: 0 0 15px #0060BF; 
+	box-shadow:0 0 15px #0060BF; 
+}
+

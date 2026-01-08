@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.9 Dynamic Addressing</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dynamic Addressing</h1>
+        <div>
+          <p>If more than a few computers are a part of the LAN, manually configuring IP addresses for every host on the network can be time consuming and prone to errors. A DHCP server automatically assigns IP addresses, which simplifies the addressing process. Automatically configuring some of the TCP/IP parameters also reduces the possibility of assigning duplicate or invalid IP addresses.</p>
+          <p></p>
+          <p>Before a computer on the network can take advantage of the DHCP services, the computer must be able to identify the server on the local network. A computer can be configured to accept an IP address from a DHCP server by selecting the <b>Obtain an IP address automatically</b> option in the NIC configuration window, as shown in Figure 1. When a computer is set to obtain an IP address automatically, all other IP addressing configuration boxes are not available. The DHCP settings are configured the same for a wired or wireless NIC.</p>
+          <p></p>
+          <p>After boot up, a computer continually requests an IP address from a DHCP server until one is received. If your computer cannot communicate with the DHCP server to obtain an IP address, the Windows OS automatically assigns an Automatic Private IP Addressing (APIPA) address. This local-link address is in the range of 169.254.0.0 to 169.254.255.255. Local-link means your computer can only communicate with computers connected to the same network within this IP address range.</p>
+          <p></p>
+          <p>A DHCP server can automatically assign the following IP address configuration information to a host: </p>
+          <p>
+            <ul>
+              <li>IP address </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Subnet mask </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Default gateway </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Optional values, such as a DNS server address</li>
+            </ul>
+          </p>
+          <p>In Windows 7, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Start > Control Panel > Network and Sharing Center > Change adapter setting > </b>right-click<b> Local Area Connection > Properties > TCP/IPv4 </b>or <b>TCP/IPv6 > Properties > </b>select radio button <b>Obtain an IP address automatically > OK > OK</b></p>
+          <p></p>
+          <p>In Windows 8.0 and 8.1, use the following path:</p>
+          <p></p>
+          <p>
+            <b>PC Settings > Control Panel > Network and Internet > Network and Sharing Center > Change adapter setting > </b>right-click<b> Ethernet > Properties > TCP/IPv4 </b>or <b>TCP/IPv6 > Properties > </b>select radio button <b>Obtain an IP address automatically > OK > OK</b></p>
+          <p></p>
+          <p>
+            <b>DNS</b>
+          </p>
+          <p></p>
+          <p>To access a DNS server, a computer uses the IP address configured in the DNS settings of the NIC in the computer. DNS resolves or maps host names and URLs to IP addresses.</p>
+          <p></p>
+          <p>All Windows computers contain a DNS cache that stores host names that have recently been resolved. The cache is the first place that the DNS client looks for host name resolution. Because it is a location in memory, the cache retrieves resolved IP addresses more quickly than using a DNS server and does not create network traffic.</p>
+          <p></p>
+          <p>
+            <b>Configuring Alternate IP Settings</b>
+          </p>
+          <p></p>
+          <p>Setting up an alternate IP configuration in Windows simplifies moving between a network that requires using DHCP and a network that uses static IP settings. If a computer cannot communicate with the DHCP server on the network, Windows uses the alternate IP configuration assigned to the NIC. The alternate IP configuration also replaces the APIPA address that is assigned by Windows when a DHCP server cannot be contacted.</p>
+          <p></p>
+          <p>To create the alternate IP configuration, as shown in Figure 2, click the Alternate Configuration tab located in the NIC Properties window. The Alternate Configuration tab only shows when <b>Obtain an IP address automatically </b>is selected. </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Internet Protocol Version 4 (TCP/IPv4) Properties dialog box that shows both the ‘Obtain an IP address automatically’ and ‘Obtain DNS server address automatically’ radio buttons selected. Figure 2 on this page is an image of the Internet Protocol Version 4 (TCP/IPv4) Properties dialog box displaying the Alternate Configuration tab that shows the ‘Automatic private IP address’ radio button selected.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

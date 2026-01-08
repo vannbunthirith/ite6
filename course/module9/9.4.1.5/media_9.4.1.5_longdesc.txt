@@ -1,0 +1,1 @@
+Figure 1 on this page shows two images. The first image shows a micro USB connector and a mini USB connector. The second image shows a lightning connector. Figure 2 on this page illustrates how NFC enables mobile devices to establish radio communications with other devices by placing the devices close together or by touching them together.

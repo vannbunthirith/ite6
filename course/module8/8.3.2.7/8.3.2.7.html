@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.7 Proxy Settings</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Proxy Settings</h1>
+        <div>
+          <p>Proxy servers have the authority to act as another computer. A popular use for proxy servers is to act as storage or cache for web pages that are frequently accessed by devices on the internal network. For example, the proxy server in the figure is storing the web pages for www.cisco.com. When any internal host sends an HTTP GET request to www.cisco.com, the proxy server completes the following steps:</p>
+          <p></p>
+          <p>1. It intercepts the requests.</p>
+          <p>2. It checks to see if the website content has changed.</p>
+          <p>3. If not, the proxy server responds to host with the web page.</p>
+          <p></p>
+          <p>In addition, a proxy server can effectively hide the IP addresses of internal hosts because all requests going out to the Internet are sourced from the proxy server’s IP address.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a topology that shows a client and a proxy server connected to a router. The router is connected to the network. A HTTP server is also connected to the network. The client’s browser is magnified displaying a web page.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

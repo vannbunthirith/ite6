@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Backups with Déjà Dup on Ubuntu Linux</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Déjà Dup on Ubuntu Linux and Backup Location</b>]]></text>
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Scheduling a Backup with Déjà Dup on Ubuntu Linux</b>]]></text>
+</component>
+<component id="ID_s4_title">
+	<text><![CDATA[<b>Restoring a Backup with Déjà Dup on Ubuntu Linux</b>]]></text>
+</component>
+<component id="ID_s5_title">
+	<text><![CDATA[<b>Time Machine New Destination Disk</b>]]></text>
+</component>
+<component id="ID_s6_title">
+	<text><![CDATA[<b>Time Machine Settings</b>]]></text>
+</component>
+<component id="ID_s7_title">
+	<text><![CDATA[<b>Time Machine Menu Bar Status</b>]]></text>
+</component>
+<component id="ID_s8_title">
+	<text><![CDATA[<b>Entering Time Machine</b>]]></text>
+</component>
+</textcomponents>

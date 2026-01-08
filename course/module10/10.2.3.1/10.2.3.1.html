@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.3.1 Antivirus</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Antivirus</h1>
+        <div>
+          <p>All computers are vulnerable to malicious software. Smartphones and other mobile devices are computers, so they are also vulnerable. Antivirus apps are available for both Android and iOS. Depending on the permissions granted to antivirus apps when they are installed on an Android device, the app might not be able to scan files automatically or run scheduled scans. File scans must be initiated manually. iOS does not allow automatic or scheduled scans. This is a safety feature to prevent malicious programs from using unauthorized resources or contaminating other apps or the OS. Some antivirus apps also provide locator services, remote lock, or remote wipe. </p>
+          <p></p>
+          <p>Mobile device apps run in a sandbox. A sandbox is a location of the OS that keeps code isolated from other resources and other code. It is difficult for malicious programs to infect a mobile device because apps are run inside the sandbox. An Android app asks for permission to access certain resources upon installation. A malicious app has access to any resources that were allowed permission during installation. This is another reason why it is important to download apps only from trusted sources.</p>
+          <p></p>
+          <p>Due to the nature of the sandbox, malicious software does not usually damage mobile devices; it is far more likely for a mobile device to transfer a malicious program to another device, such as a laptop or desktop. For example, if a malicious program is downloaded from email, the Internet, or another device, the malicious program could be placed on a laptop the next time it is connected to the mobile device.</p>
+          <p></p>
+          <p>
+            <b>Rooting and Jailbreaking</b>
+          </p>
+          <p></p>
+          <p>Mobile operating systems are usually protected by a number of software restrictions. An unmodified copy of iOS for example, will only execute authorized code and allow very limited user access to its file system.</p>
+          <p></p>
+          <p>Rooting and Jailbreaking are two names for removing restrictions and protections added to mobile operating systems. Rooting is the term used for Android devices, and Jailbreaking is used for iOS devices.  The manufacturer restrictions are removed from these devices, allowing them to run arbitrary user-code, granting users full access to the file system and full access to kernel modules.</p>
+          <p></p>
+          <p>Rooting or jailbreaking a mobile device usually voids the manufacturer's warranty. It is not recommended that you modify a customer’s mobile device in this way.  Nevertheless, a large group of users choose to remove their own devices' restrictions. These are some of the benefits of rooting or jailbreaking a mobile device:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>The GUI can be heavily customized.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Modifications can be made to the OS to improve the speed and responsiveness of the device.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The CPU and GPU can be overclocked to increase performance of the device.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Features such as tethering that are disabled by a carrier can be enabled free of cost.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Apps can be installed from secondary or unsupported sources.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Apps that cannot be removed from within the default OS, known as bloatware, can be removed.</li>
+            </ul>
+          </p>
+          <p>Jailbreaking exploits vulnerabilities in iOS. When a usable vulnerability is found, a program is written. This program is the actual jailbreak software and it is then distributed on the Internet. Apple discourages jailbreaking, and actively works towards eliminating vulnerabilities that make jailbreaking possible on iOS. In addition to the OS updates and bug fixes, new iOS releases usually include patches to eliminate known vulnerabilities that allow jailbreaking. When iOS vulnerabilities are fixed by updates, it forces hackers to start over. </p>
+          <p></p>
+          <p>
+            <b>Note</b>: The jailbreak process is completely reversible. To remove the jailbreak and bring the device back to its factory state, connect it to iTunes and perform a Restore.</p>
+          <p></p>
+          <p>Android is based on Linux and therefore, open source by nature. Because of this, Google has chosen to support rooting, deliberately allowing it in every Android release. Users who wish to root an Android device can do so without the need to search for vulnerabilities.</p>
+          <p></p>
+          <p>Rooting or jailbreaking a device is risky and may void the manufacturer’s warranty. A rooted or jailbroken device greatly increases the risk of infection by a virus, because it might not properly create or maintain sandboxing features. A modified OS also provides user access to the root directory. This also grants malicious programs access to this sensitive area of the file system.</p>
+          <p></p>
+          <p>Figure 1 shows a few commands executed on a jailbroken iPhone. A Terminal app is used to provide a CLI interface and allow for commands to be issued.</p>
+          <p></p>
+          <p>Figure 2 shows an SSH session established from a desktop PC to a jailbroken iPhone. An openSSH server was installed on the jailbroken phone so that the phone can receive the connection and allow the remote shell. Among the commands issued on the phone, <b>uname -a</b>, displays the kernel version and proves this is indeed a session to an iPhone5. The <b>netstat</b> command shows the SSH service bound to port 22 and in ESTABLISHED state.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of a jailbroken iPhone running a terminal application to gain access to the device’s command line interface. Notice how the user mobile became root and was able to list the contents of the / directory. Later, the root user also started a command line packet sniffer (tcpdump) on the phone’s wireless card. None of these tasks are possible without jailbreaking. Figure 2 on this page is an image of an SSH connection to a jailbroken iPhone running a SSH server. Notice how the root user displays information about the kernel in use (Darwin) and shows the currently established SSH connection (TCP port 22). None of these tasks are possible without jailbreaking.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

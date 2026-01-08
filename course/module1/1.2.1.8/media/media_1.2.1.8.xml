@@ -1,0 +1,47 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Purchasing a New Hard Disk Drive</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt'>
+		<text><![CDATA[<b>New Hard Drive Factors</b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt'>
+		<text><![CDATA[<ul><li>Internal or external</li><li>HDD, SSD, or SSHD</li><li>Hot-swappable</li><li>Heat generation</li><li>Noise generation</li><li>Power requirements</li></ul>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>SSD Components</b>]]></text>
+    </component>
+	
+	<component id="ID_s2_txt01">
+        <text><![CDATA[Top Cover]]></text>
+    </component>
+	
+	<component id="ID_s2_txt02">
+        <text><![CDATA[Interface Connector]]></text>
+    </component>
+	
+	<component id="ID_s2_txt03">
+        <text><![CDATA[Cache Chip]]></text>
+    </component>
+	
+	<component id="ID_s2_txt04">
+        <text><![CDATA[Controller Chip]]></text>
+    </component>
+	
+	<component id="ID_s2_txt05">
+        <text><![CDATA[NAND Memory Chips on both sides of Logic Board]]></text>
+    </component>
+	
+	<component id="ID_s2_txt06">
+        <text><![CDATA[Logic Board]]></text>
+    </component>
+	
+	<component id="ID_s2_txt07">
+        <text><![CDATA[Bottom Cover]]></text>
+    </component>
+	
+</textcomponents>

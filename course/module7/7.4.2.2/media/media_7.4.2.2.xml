@@ -1,0 +1,35 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Tracking the Conversations</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[To: you@example.com<br>From: me@example.com<br>Subject: Vacation]]></text>
+</component>
+
+<component id="ID_txt02">
+	<text><![CDATA[Email]]></text>
+</component>
+
+<component id="ID_txt03">
+	<text><![CDATA[Instant Messaging<br/>]]></text>
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[Multiple Web Pages]]></text>
+</component>
+
+<component id="ID_txt05">
+	<text><![CDATA[IP Telephony (VoIP)]]></text>
+</component>
+
+<component id="ID_txt06">
+	<text><![CDATA[Streaming Video]]></text>
+</component>
+
+<component id="ID_txt07">
+	<text><![CDATA[The transport layer ensures that even with multiple applications running on a device, all applications receive the correct data.]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,547 @@
+﻿<textcomponents>
+    <!--slide 1-->
+    <component id='ID_s1_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Storage Devices</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='175'><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer does not recognize a storage device.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The power cable is loose.</li><li>The data cable is loose.</li><li>The jumpers are set incorrectly.</li><li>The storage device has failed.</li><li>The storage device settings in BIOS are incorrect.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Secure the power cable.</li><li>Secure the data cable.</li><li>Reset the jumpers.</li><li>Replace the storage device.</li><li>Reset the storage device settings in BIOS.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer fails to recognize an optical disc.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The disc is inserted upside down.</li><li>There is more than one disc inserted in the drive.</li><li>The disc is damaged.</li><li>The disc is the wrong format.</li><li>The optical drive is faulty.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Insert the disc correctly.</li><li>Ensure that there is only one disc inserted in the drive.</li><li>Replace the disc.</li><li>Use the correct type of disc.</li><li>Replace the optical drive.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer will not eject the optical disc.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The optical drive is jammed.</li><li>The optical drive has been locked by software.</li><li>The optical drive is faulty.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Insert a pin in the small hole next to the eject button on the drive to open the tray.</li><li>Reboot the computer.</li><li>Replace the optical drive.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer does not recognize a removable external drive.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The removable external drive is not seated properly.</li><li>The external ports are disabled in the BIOS settings.</li><li>The removable external drive is faulty.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Remove and re-insert the drive.</li><li>Enable the ports in the BIOS settings.</li><li>Replace the removable external drive.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>A media reader cannot read a memory card that works properly in the camera.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The media reader does not support the memory card type.</li><li>The media reader is not connected correctly.</li><li>The media reader is not configured properly in the BIOS settings.</li><li>The media reader is faulty.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Use a different memory card type.</li><li>Ensure the media reader is connected correctly in the computer.</li><li>Reconfigure the media reader in the BIOS settings.</li><li>Install a known good media reader.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Retrieving or saving data from the USB flash drive is slow.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The motherboard does not support USB 3.0.</li><li>The port is set to full speed in the BIOS setting.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Update the motherboard or USB flash drive to support USB 3.0.</li><li>Set the port speed in the BIOS setting to high speed.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <component id='ID_s1_table_html'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for Storage Devices</b></font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify" bgcolor='#666263' width='175'><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer does not recognize a storage device.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The power cable is loose.</li><li>The data cable is loose.</li><li>The jumpers are set incorrectly.</li><li>The storage device has failed.</li><li>The storage device settings in BIOS are incorrect.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Secure the power cable.</li><li>Secure the data cable.</li><li>Reset the jumpers.</li><li>Replace the storage device.</li><li>Reset the storage device settings in BIOS.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer fails to recognize an optical disc.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The disc is inserted upside down.</li><li>There is more than one disc inserted in the drive.</li><li>The disc is damaged.</li><li>The disc is the wrong format.</li><li>The optical drive is faulty.</li></ul></td>		
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Insert the disc correctly.</li><li>Ensure that there is only one disc inserted in the drive.</li><li>Replace the disc.</li><li>Use the correct type of disc.</li><li>Replace the optical drive.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The computer will not eject the optical disc.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The optical drive is jammed.</li><li>The optical drive has been locked by software.</li><li>The optical drive is faulty.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Insert a pin in the small hole next to the eject button on the drive to open the tray.</li><li>Reboot the computer.</li><li>Replace the optical drive.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The computer does not recognize a removable external drive.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The removable external drive is not seated properly.</li><li>The external ports are disabled in the BIOS settings.</li><li>The removable external drive is faulty.</li></ul></td>
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Remove and re-insert the drive.</li><li>Enable the ports in the BIOS settings.</li><li>Replace the removable external drive.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>A media reader cannot read a memory card that works properly in the camera.</td>
+		<td headers="Probable" bgcolor='#E9E7E8'><ul><li>The media reader does not support the memory card type.</li><li>The media reader is not connected correctly.</li><li>The media reader is not configured properly in the BIOS settings.</li><li>The media reader is faulty.</li></ul></td>
+		<td headers="Possible" bgcolor='#E9E7E8'><ul><li>Use a different memory card type.</li><li>Ensure the media reader is connected correctly in the computer.</li><li>Reconfigure the media reader in the BIOS settings.</li><li>Install a known good media reader.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Retrieving or saving data from the USB flash drive is slow.</td>
+		<td headers="Probable" bgcolor='#F2F2F2'><ul><li>The motherboard does not support USB 3.0.</li><li>The port is set to full speed in the BIOS setting.</li></ul></td>
+		<td headers="Possible" bgcolor='#F2F2F2'><ul><li>Update the motherboard or USB flash drive to support USB 3.0.</li><li>Set the port speed in the BIOS setting to high speed.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <!--end slide 1-->
+    <!--slide 2-->
+    <component id='ID_s2_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Motherboards and Internal Components</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The clock on the computer is no longer keeping the correct time or the BIOS settings are changing when the computer is rebooted.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The CMOS battery may be loose.</li><li>The CMOS battery may be failing.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Secure the battery.</li><li>Replace the battery.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>After updating the BIOS firmware, the computer will not start.</td>
+		<td bgcolor='#F2F2F2'>The BIOS firmware update did not install correctly.</td>
+		<td bgcolor='#F2F2F2'>Contact the motherboard manufacturer to obtain a new BIOS chip. (If the motherboard has two BIOS chips, the second BIOS chip can be used.)</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer displays the incorrect CPU information when the computer boots.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The CPU settings are not correct in the advanced BIOS settings.</li><li>BIOS does not properly recognize the CPU.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Set the advanced BIOS settings correctly for the CPU.</li><li>Update the BIOS.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The hard drive LED on the front of the computer does not light.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The hard drive LED cable is not connected or is loose.</li><li>The hard drive LED cable is incorrectly oriented to the front case panel connections.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Reconnect hard drive LED cable to motherboard.</li><li>Correctly orient the hard drive LED cable to the front case panel connection and reconnect.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The built-in NIC has stopped working on a computer.</td>
+		<td bgcolor='#E9E7E8'>The NIC hardware has failed.</td>
+		<td bgcolor='#E9E7E8'>Add a new NIC to an open expansion slot.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer does not display any video after installing a new PCIe video card.</td>
+		<td bgcolor='#F2F2F2'><ul><li>BIOS settings are set to use the built-in video.</li><li>The cable is still connected to the built-in video.</li><li>The new video card is faulty.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Disable the built-in video in the BIOS settings.</li><li>Connect the cable to the new video card.</li><li>The new video card needs auxiliary power.</li><li>Connect any required power connectors to the video card.</li><li>Install a known good video card.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The new sound card does not work.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The speakers are not connected to the correct jack.</li><li>The audio is muted.</li><li>The sound card is faulty.</li><li>BIOS settings are set to use the on-board sound device.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Connect the speakers to the correct jack.</li><li>Unmute the audio.</li><li>Install a known good sound card.</li><li>Disable the on-board audio device in the BIOS settings.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <component id='ID_s2_table_html'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for Motherboards and Internal Components</b></font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<th scope="col" id="Identify2" bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<th scope="col" id="Probable2" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<th scope="col" id="Possible2" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The clock on the computer is no longer keeping the correct time or the BIOS settings are changing when the computer is rebooted.</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>The CMOS battery may be loose.</li><li>The CMOS battery may be failing.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Secure the battery.</li><li>Replace the battery.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>After updating the BIOS firmware, the computer will not start.</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'>The BIOS firmware update did not install correctly.</td>
+		<td headers="Possible2" bgcolor='#F2F2F2'>Contact the motherboard manufacturer to obtain a new BIOS chip. (If the motherboard has two BIOS chips, the second BIOS chip can be used.)</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The computer displays the incorrect CPU information when the computer boots.</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>The CPU settings are not correct in the advanced BIOS settings.</li><li>BIOS does not properly recognize the CPU.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Set the advanced BIOS settings correctly for the CPU.</li><li>Update the BIOS.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>The hard drive LED on the front of the computer does not light.</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>The hard drive LED cable is not connected or is loose.</li><li>The hard drive LED cable is incorrectly oriented to the front case panel connections.</li></ul></td>
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Reconnect hard drive LED cable to motherboard.</li><li>Correctly orient the hard drive LED cable to the front case panel connection and reconnect.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The built-in NIC has stopped working on a computer.</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'>The NIC hardware has failed.</td>
+		<td headers="Possible2" bgcolor='#E9E7E8'>Add a new NIC to an open expansion slot.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#F2F2F2'>The computer does not display any video after installing a new PCIe video card.</td>
+		<td headers="Probable2" bgcolor='#F2F2F2'><ul><li>BIOS settings are set to use the built-in video.</li><li>The cable is still connected to the built-in video.</li><li>The new video card is faulty.</li></ul></td>
+		<td headers="Possible2" bgcolor='#F2F2F2'><ul><li>Disable the built-in video in the BIOS settings.</li><li>Connect the cable to the new video card.</li><li>The new video card needs auxiliary power.</li><li>Connect any required power connectors to the video card.</li><li>Install a known good video card.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify2" bgcolor='#E9E7E8'>The new sound card does not work.</td>
+		<td headers="Probable2" bgcolor='#E9E7E8'><ul><li>The speakers are not connected to the correct jack.</li><li>The audio is muted.</li><li>The sound card is faulty.</li><li>BIOS settings are set to use the on-board sound device.</li></ul></td>
+		<td headers="Possible2" bgcolor='#E9E7E8'><ul><li>Connect the speakers to the correct jack.</li><li>Unmute the audio.</li><li>Install a known good sound card.</li><li>Disable the on-board audio device in the BIOS settings.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <!--end slide 2-->
+    <!--slide 3-->
+    <component id='ID_s3_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Power Supplies</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer will not turn on.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The computer is not plugged in to the AC outlet.</li><li>The AC outlet is faulty.</li><li>The power cord is faulty.</li><li>The power supply switch is not turned on.</li><li>The power supply switch is set to the incorrect voltage.</li><li>The power button is not connected correctly to the front panel connector.</li><li>The power supply has failed.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Plug the computer into a known good AC outlet.</li><li>Use a known good power cord.</li><li>Turn on the power supply switch.</li><li>Set the power supply switch to the correct voltage setting.</li><li>Correctly orient the power button to the front case panel connector and reconnect.</li><li>Install a known good power supply.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer reboots, turns off unexpectedly; or there is smoke or the smell of burning electronics.</td>
+		<td bgcolor='#E9E7E8'>The power supply is starting to fail.</td>
+		<td bgcolor='#E9E7E8'>Replace the power supply.</td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <component id='ID_s3_table_html'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+            <caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for Power Supplies</b></font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<th scope="col" id="Identify3" bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable3" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible3" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td headers="Identify3" scope="row" bgcolor='#F2F2F2'>The computer will not turn on.</td>
+		<td headers="Probable3" bgcolor='#F2F2F2'><ul><li>The computer is not plugged in to the AC outlet.</li><li>The AC outlet is faulty.</li><li>The power cord is faulty.</li><li>The power supply switch is not turned on.</li><li>The power supply switch is set to the incorrect voltage.</li><li>The power button is not connected correctly to the front panel connector.</li><li>The power supply has failed.</li></ul></td>
+		<td headers="Possible3" bgcolor='#F2F2F2'><ul><li>Plug the computer into a known good AC outlet.</li><li>Use a known good power cord.</li><li>Turn on the power supply switch.</li><li>Set the power supply switch to the correct voltage setting.</li><li>Correctly orient the power button to the front case panel connector and reconnect.</li><li>Install a known good power supply.</li></ul></td>
+	</tr>
+	<tr>
+		<td headers="Identify3" scope="row" bgcolor='#E9E7E8'>The computer reboots, turns off unexpectedly; or there is smoke or the smell of burning electronics.</td>
+		<td headers="Probable3" bgcolor='#E9E7E8'>The power supply is starting to fail.</td>
+		<td headers="Possible3" bgcolor='#E9E7E8'>Replace the power supply.</td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <!--end slide 3-->
+    <!--slide 4-->
+    <component id='ID_s4_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for CPUs and Memory</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer will not boot or it locks up.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The CPU has overheated.</li><li>The CPU fan is failing.</li><li>The CPU has failed.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Reinstall the CPU.</li><li>Replace the CPU fan.</li><li>Add fan(s) to the case.</li><li>Replace the CPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The CPU fan is making an unusual noise.</td>
+		<td bgcolor='#E9E7E8'>The CPU fan is failing.</td>
+		<td bgcolor='#E9E7E8'>Replace the CPU fan.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The computer reboots without warning, locks up, or displays error messages.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The front-side bus is set too high.</li><li>The CPU multiplier is set too high.</li><li>The CPU voltage is set too high.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Reset to the factory default settings for the motherboard.</li><li>Lower the front-side bus settings.</li><li>Lower the multiplier settings.</li><li>Lower the CPU voltage settings.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>After upgrading from a single core CPU to a dual core CPU, the computer runs more slowly and only shows one CPU graph in the Task Manager.</td>
+		<td bgcolor='#E9E7E8'>The BIOS does not recognize the dual core CPU.</td>
+		<td bgcolor='#E9E7E8'>Update the BIOS firmware to support the dual core CPU.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>A CPU will not install onto the motherboard.</td>
+		<td bgcolor='#F2F2F2'>The CPU is the incorrect type.</td>
+		<td bgcolor='#F2F2F2'>Replace the CPU with a CPU that matches the motherboard socket type.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The computer does not recognize the RAM that was added.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The new RAM is faulty.</li><li>The incorrect type of RAM was installed.</li><li>The RAM that has been added is not the same type of RAM that is already installed.</li><li>The new RAM is loose in the memory slot.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Replace the RAM.</li><li>Install the correct type of RAM.</li><li>Secure the RAM in the memory slot.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>After upgrading Windows, the computer runs very slowly.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The computer does not have enough RAM.</li><li>The video card does not have enough memory.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Install additional RAM.</li><li>Install a video card that has more memory.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <component id='ID_s4_table_html'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for CPUs and Memory</b></font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<th scope="col" id="Identify4" bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable4" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible4" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#F2F2F2'>The computer will not boot or it locks up.</td>
+		<td headers="Probable4" bgcolor='#F2F2F2'><ul><li>The CPU has overheated.</li><li>The CPU fan is failing.</li><li>The CPU has failed.</li></ul></td>
+		<td headers="Possible4" bgcolor='#F2F2F2'><ul><li>Reinstall the CPU.</li><li>Replace the CPU fan.</li><li>Add fan(s) to the case.</li><li>Replace the CPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#E9E7E8'>The CPU fan is making an unusual noise.</td>
+		<td headers="Probable4" bgcolor='#E9E7E8'>The CPU fan is failing.</td>
+		<td headers="Possible4" bgcolor='#E9E7E8'>Replace the CPU fan.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#F2F2F2'>The computer reboots without warning, locks up, or displays error messages.</td>
+		<td headers="Probable4" bgcolor='#F2F2F2'><ul><li>The front-side bus is set too high.</li><li>The CPU multiplier is set too high.</li><li>The CPU voltage is set too high.</li></ul></td>
+		<td headers="Possible4" bgcolor='#F2F2F2'><ul><li>Reset to the factory default settings for the motherboard.</li><li>Lower the front-side bus settings.</li><li>Lower the multiplier settings.</li><li>Lower the CPU voltage settings.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#E9E7E8'>After upgrading from a single core CPU to a dual core CPU, the computer runs more slowly and only shows one CPU graph in the Task Manager.</td>
+		<td headers="Probable4" bgcolor='#E9E7E8'>The BIOS does not recognize the dual core CPU.</td>
+		<td headers="Possible4" bgcolor='#E9E7E8'>Update the BIOS firmware to support the dual core CPU.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#F2F2F2'>A CPU will not install onto the motherboard.</td>
+		<td headers="Probable4" bgcolor='#F2F2F2'>The CPU is the incorrect type.</td>
+		<td headers="Possible4" bgcolor='#F2F2F2'>Replace the CPU with a CPU that matches the motherboard socket type.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#E9E7E8'>The computer does not recognize the RAM that was added.</td>
+		<td headers="Probable4" bgcolor='#E9E7E8'><ul><li>The new RAM is faulty.</li><li>The incorrect type of RAM was installed.</li><li>The RAM that has been added is not the same type of RAM that is already installed.</li><li>The new RAM is loose in the memory slot.</li></ul></td>
+		<td headers="Possible4" bgcolor='#E9E7E8'><ul><li>Replace the RAM.</li><li>Install the correct type of RAM.</li><li>Secure the RAM in the memory slot.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify4" bgcolor='#F2F2F2'>After upgrading Windows, the computer runs very slowly.</td>
+		<td headers="Probable4" bgcolor='#F2F2F2'><ul><li>The computer does not have enough RAM.</li><li>The video card does not have enough memory.</li></ul></td>
+		<td headers="Possible4" bgcolor='#F2F2F2'><ul><li>Install additional RAM.</li><li>Install a video card that has more memory.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <!--end slide 4-->
+    <component id='ID_s5_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Displays</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Display has power but no image on the screen.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Video cable is loose or damaged.</li><li>The computer is not sending a video signal to the external display.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Reconnect or replace video cable.</li><li>Use the Fn key along with the multi-purpose key to toggle to the external display.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The display is flickering.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Images on the screen are not refreshing fast enough.</li><li>The display inverter is damaged or malfunctioning.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Adjust the screen refresh rate.</li><li>Disassemble the display unit and replace the inverter.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The image on the display looks dim.</td>
+		<td bgcolor='#F2F2F2'>The LCD backlight is not properly adjusted.</td>
+		<td bgcolor='#F2F2F2'>Check the repair manual for instructions about calibrating the LCD backlight. Adjust the LCD backlight properly.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Pixels on the screen are dead, or not generating color.</td>
+		<td bgcolor='#E9E7E8'>Power to the pixels has been cut off.</td>
+		<td bgcolor='#E9E7E8'>Contact the manufacturer.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The image on the screen appears to flash lines or patterns of different color and size (artifacts).</td>
+		<td bgcolor='#F2F2F2'><ul><li>The display is not properly connected.</li><li>The GPU is overheating.</li><li>The GPU is faulty or malfunctioning.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Disassemble the display to check the connections.</li><li>Disassemble and clean the computer, checking for dust and debris.</li><li>Replace the GPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Color patterns on a screen are incorrect.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The display is not properly connected.</li><li>The GPU is overheating.</li><li>The GPU is faulty or malfunctioning.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Disassemble the display to check the connections.</li><li>Disassemble and clean the computer, checking for dust and debris.</li><li>Replace the GPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Images on a display screen are distorted.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Display settings have been changed.</li><li>The display is not properly connected.</li><li>The GPU is overheating.</li><li>The GPU is faulty or malfunctioning.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Restore display settings to the original factory settings.</li><li>Disassemble the computer to a point where you can check display connections.</li><li>Disassemble and clean the computer, checking for dust and debris.</li><li>Replace the GPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The display has a “ghost” image.</td>
+		<td bgcolor='#E9E7E8'>The display is experiencing burn-in.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Power off the display and unplug it from the power source for a few hours.</li><li>Use the degauss feature if it is available.</li><li>Replace the display.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The images on the display have distorted geometry.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The driver has become corrupted.</li><li>The display settings are incorrect.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Update or reinstall the driver in safe mode.</li><li>Use the display’s settings to correct the geometry.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>The monitor has oversized images and icons.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The driver has become corrupted.</li><li>The display settings are incorrect.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Update or reinstall the driver in safe mode.</li><li>Use the display’s settings to correct the geometry.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The projector overheats and shuts down.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The fan has failed.</li><li>The vents are clogged.</li><li>The projector is in an enclosure.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Replace the fan.</li><li>Clean the vents.</li><li>Remove the enclosure or ensure proper ventilation.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>In a multiple monitor setup, the displays are not aligned or are incorrectly oriented.</td>
+		<td bgcolor='#E9E7E8'><ul><li>The settings for multiple monitors are not correct.</li><li>The driver has become corrupted.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Use the display control panel to identify each display and set the alignment and orientation.</li><li>Update or reinstall the driver in safe mode.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>The display is in VGA mode.</td>
+		<td bgcolor='#F2F2F2'><ul><li>The computer is in Safe Mode.</li><li>The driver has become corrupted.</li></ul></td>
+		<td bgcolor='#F2F2F2'><ul><li>Reboot the computer.</li><li>Update or reinstall the driver in safe mode.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+    <component id='ID_s5_table_html'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+            <caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Common Problems and Solutions for Displays</b></font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<th scope="col" id="Identify5" bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Probable5" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Possible5" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>Display has power but no image on the screen.</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'><ul><li>Video cable is loose or damaged.</li><li>The computer is not sending a video signal to the external display.</li></ul></td>
+		<td headers="Possible5" bgcolor='#F2F2F2'><ul><li>Reconnect or replace video cable.</li><li>Use the Fn key along with the multi-purpose key to toggle to the external display.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#E9E7E8'>The display is flickering.</td>
+		<td headers="Probable5" bgcolor='#E9E7E8'><ul><li>Images on the screen are not refreshing fast enough.</li><li>The display inverter is damaged or malfunctioning.</li></ul></td>
+		<td headers="Possible5" bgcolor='#E9E7E8'><ul><li>Adjust the screen refresh rate.</li><li>Disassemble the display unit and replace the inverter.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>The image on the display looks dim.</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'>The LCD backlight is not properly adjusted.</td>
+		<td headers="Possible5" bgcolor='#F2F2F2'>Check the repair manual for instructions about calibrating the LCD backlight. Adjust the LCD backlight properly.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#E9E7E8'>Pixels on the screen are dead, or not generating color.</td>
+		<td headers="Probable5" bgcolor='#E9E7E8'>Power to the pixels has been cut off.</td>
+		<td headers="Possible5" bgcolor='#E9E7E8'>Contact the manufacturer.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>The image on the screen appears to flash lines or patterns of different color and size (artifacts).</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'><ul><li>The display is not properly connected.</li><li>The GPU is overheating.</li><li>The GPU is faulty or malfunctioning.</li></ul></td>
+		<td headers="Possible5" bgcolor='#F2F2F2'><ul><li>Disassemble the display to check the connections.</li><li>Disassemble and clean the computer, checking for dust and debris.</li><li>Replace the GPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#E9E7E8'>Color patterns on a screen are incorrect.</td>
+		<td headers="Probable5" bgcolor='#E9E7E8'><ul><li>The display is not properly connected.</li><li>The GPU is overheating.</li><li>The GPU is faulty or malfunctioning.</li></ul></td>
+		<td headers="Possible5" bgcolor='#E9E7E8'><ul><li>Disassemble the display to check the connections.</li><li>Disassemble and clean the computer, checking for dust and debris.</li><li>Replace the GPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>Images on a display screen are distorted.</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'><ul><li>Display settings have been changed.</li><li>The display is not properly connected.</li><li>The GPU is overheating.</li><li>The GPU is faulty or malfunctioning.</li></ul></td>
+		<td headers="Possible5" bgcolor='#F2F2F2'><ul><li>Restore display settings to the original factory settings.</li><li>Disassemble the computer to a point where you can check display connections.</li><li>Disassemble and clean the computer, checking for dust and debris.</li><li>Replace the GPU.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#E9E7E8'>The display has a “ghost” image.</td>
+		<td headers="Probable5" bgcolor='#E9E7E8'>The display is experiencing burn-in.</td>
+		<td headers="Possible5" bgcolor='#E9E7E8'><ul><li>Power off the display and unplug it from the power source for a few hours.</li><li>Use the degauss feature if it is available.</li><li>Replace the display.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>The images on the display have distorted geometry.</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'><ul><li>The driver has become corrupted.</li><li>The display settings are incorrect.</li></ul></td>
+		<td headers="Possible5" bgcolor='#F2F2F2'><ul><li>Update or reinstall the driver in safe mode.</li><li>Use the display’s settings to correct the geometry.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#E9E7E8'>The monitor has oversized images and icons.</td>
+		<td headers="Probable5" bgcolor='#E9E7E8'><ul><li>The driver has become corrupted.</li><li>The display settings are incorrect.</li></ul></td>
+		<td headers="Possible5" bgcolor='#E9E7E8'><ul><li>Update or reinstall the driver in safe mode.</li><li>Use the display’s settings to correct the geometry.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>The projector overheats and shuts down.</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'><ul><li>The fan has failed.</li><li>The vents are clogged.</li><li>The projector is in an enclosure.</li></ul></td>
+		<td headers="Possible5" bgcolor='#F2F2F2'><ul><li>Replace the fan.</li><li>Clean the vents.</li><li>Remove the enclosure or ensure proper ventilation.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#E9E7E8'>In a multiple monitor setup, the displays are not aligned or are incorrectly oriented.</td>
+		<td headers="Probable5" bgcolor='#E9E7E8'><ul><li>The settings for multiple monitors are not correct.</li><li>The driver has become corrupted.</li></ul></td>
+		<td headers="Possible5" bgcolor='#E9E7E8'><ul><li>Use the display control panel to identify each display and set the alignment and orientation.</li><li>Update or reinstall the driver in safe mode.</li></ul></td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify5" bgcolor='#F2F2F2'>The display is in VGA mode.</td>
+		<td headers="Probable5" bgcolor='#F2F2F2'><ul><li>The computer is in Safe Mode.</li><li>The driver has become corrupted.</li></ul></td>
+		<td headers="Possible5" bgcolor='#F2F2F2'><ul><li>Reboot the computer.</li><li>Update or reinstall the driver in safe mode.</li></ul></td>
+	</tr>
+</table>]]>
+        </text>
+    </component>
+</textcomponents>

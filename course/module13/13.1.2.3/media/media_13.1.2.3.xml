@@ -1,0 +1,201 @@
+﻿<textcomponents>
+
+<!-- Slide 1-->
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Part 1:  Putting a Customer on Hold</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Drag the tiles marked<b> Do </b>and<b> Do Not </b>to the drop boxes to the left of the statements.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Do]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Do Not]]></text>
+	</component>
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>Check</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>Reset</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correct</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[That is correct. Click Button 2 to continue.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrect</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[That is incorrect. Please click Reset to try again.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Identifier</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Output</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[Explain why you have to put the customer on hold.]]></text> <!--Do-->
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Put the customer on hold without telling the customer what you are about to do.]]></text> <!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Ask permission from the customer to put him or her on hold.]]></text> <!--Do-->
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Talk while the customer is talking.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Begin answering a question before the customer has stopped talking.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Give the customer some idea of how long you think it will be until you can come back.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Explain that you will have to put the customer on hold.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Put the customer on hold without asking permission from the customer.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Allow the customer to finish talking.]]></text><!--Do-->
+	</component>
+	
+	
+<!-- Slide 2 -->
+
+	<component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Part 2: Transferring a Call</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[Drag the tiles marked<b> Do </b>and<b> Do Not </b>to the drop boxes to the left of the statements.]]></text>
+	</component>
+	
+<!--Drag and Drop-->
+	<component id='ID_s2_drag01'>
+		<text><![CDATA[Do]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[Do Not]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[<b>Check</b>]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[<b>Reset</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correct</b>]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[That is correct.]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrect</b>]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[That is incorrect.]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>Identifier</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>Output</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[Ask permission from the customer to transfer the call.]]></text> <!--Do-->
+	</component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[Explain that you will have transfer the call and why.]]></text> <!--Do Not-->
+	</component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[Begin answering a question before the customer has stopped talking.]]></text> <!--Do-->
+	</component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Give the new technician to whom you are transferring the call the customer's name and the trouble ticket number.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Transfer the customer's call without asking permission from the customer.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[Transfer the customer's call without telling the customer what you are about to do.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[Talk while the customer is talking.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[Tell the customer the phone number or extension of the person to whom you are transferring the call.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[Tell the customer the name of the person to whom you are transferring the call.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[Transfer the call without permission from the technician who will receive the call.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[Allow the customer to finish talking.]]></text><!--Do-->
+	</component>
+	
+	
+</textcomponents>

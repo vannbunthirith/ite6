@@ -1,0 +1,52 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Types of Permissions</b>]]></text>
+	</component>
+<component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+	    
+		<caption  class="mtable_title" colspan="3" bgcolor='#FFFFFF'>
+                <font size="16">Types of Permissions</font>
+            </caption>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Permission" bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Permission Level</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Description</b></font></th>
+		</tr>
+	
+		<tr>
+			<td scope="row" headers="Permission" bgcolor='#E9E7E8' width="150">Full Control</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Users can see the contents of a file or folder, change and delete existing files and folders, create new files and folders, and run programs in a folder.</td> 
+		</tr>
+	
+		<tr>
+			<td scope="row" headers="Permission" bgcolor='#F2F2F2'>Modify</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Users can change and delete existing files and folders, but cannot create new ones.</td> 
+		</tr>
+	
+		<tr>
+			<td scope="row" headers="Permission" bgcolor='#E9E7E8'>Read and Execute</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Users can see the contents of existing files and folders and can run programs in a folder.</td> 
+		</tr>
+	
+		<tr>
+			<td scope="row" headers="Permission" bgcolor='#F2F2F2'>Read</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Users can see the contents of a folder and open files and folders.</td> 
+		</tr>
+
+        <tr>
+			<td scope="row" headers="Permission" bgcolor='#E9E7E8'>Write</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Users can create new files and folders and make changes to existing files and folders.</td> 
+		</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

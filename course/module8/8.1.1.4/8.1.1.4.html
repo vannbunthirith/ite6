@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.4 Configuring a NIC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuring a NIC</h1>
+        <div>
+          <p>After the NIC driver is installed, the IP address settings must be configured. A computer can be assigned its IP configuration in one of two ways:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Manually</b> – The host is statically assigned a specific IP configuration.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dynamically</b> – The host requests its IP address configuration from a DHCP server.</li>
+            </ul>
+          </p>
+          <p>To manually configure IP settings in Windows 8 and 8.1, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Control Panel > Network and Internet > Network and Sharing Center > Change adapter settings > </b>right-click <b>Ethernet</b>. This opens the Ethernet Properties window.</p>
+          <p></p>
+          <p>In Windows 7 and Vista, use the following path:</p>
+          <p></p>
+          <p>
+            <b>Start > Control Panel > Network and Sharing Center > Change adapter setting ></b> right-click <b>Local Area Connection</b>. This opens the Local Area Connection Properties window shown in Figure 1. </p>
+          <p></p>
+          <p>To configure IPv4 settings click <b>Internet Protocol Version 4 (TCP/IPv4) > Properties</b>. This opens the Internet Protocol Version 4 (TCP/IPv4) Properties window shown in Figure 2. Notice how the default setting is to obtain the IP settings automatically using DHCP. To configure the setting manually click <b>Use the following IP address</b> as shown in Figure 3. Next enter the appropriate IPv4 address, subnet mask, and default gateway and click <b>OK > OK</b>.  </p>
+          <p></p>
+          <p>To configure IPv6 settings click <b>Internet Protocol Version 6 (TCP/IPv6) > Properties</b>. This opens the Internet Protocol Version 6 (TCP/IPv6) Properties window shown in Figure 4. Click <b>Use the following IPv6 address</b> as shown in Figure 5. Next enter the appropriate IPv6 address, prefix length, and default gateway and click <b>OK > OK</b>. </p>
+          <p></p>
+          <p>
+            <b>Note</b>: Most computers today come with an onboard NIC. If you are installing a new NIC, it is considered a best practice to disable the onboard NIC in BIOS settings.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image that shows the Local Area Connection Properties dialog box in Windows 7 and Windows Vista. Figure 2 on this page is an image of the Internet Protocol Version 4 (TCP/IPv4) Properties dialog box that shows the General tab. The, ‘Obtain an IP address automatically’ and ‘Obtain DNS server address automatically’ radio buttons are both selected. Figure 3 on this page is an image of the Internet Protocol Version 4 (TCP/IPv4) Properties dialog box that shows the General tab. The, ‘Use the following IP address’ and ‘Use the following DNS server addresses’ radio buttons are both selected. Figure 4 on this page is an image of the Internet Protocol Version 6 (TCP/IPv6) Properties dialog box that shows the General tab. The, ‘Obtain an IPv6 address automatically’ and ‘Obtain DNS server address automatically’ radio buttons are both selected. Figure 5 on this page is an image of the Internet Protocol Version 4 (TCP/IPv4) Properties dialog box that shows the General tab. The, ‘Use the following IPv6 address’ and ‘Use the following DNS server addresses’ radio buttons are both selected.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

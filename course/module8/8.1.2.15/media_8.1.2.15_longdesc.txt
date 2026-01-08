@@ -1,0 +1,1 @@
+This task cannot be completed as it requires Packet Tracer, which is inaccessible. The following objectives are listed for your information. Objectives: Configure a computer to join a wireless network. Test the wireless connection.

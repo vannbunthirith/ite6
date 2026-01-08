@@ -1,0 +1,1 @@
+The figure on this page shows an ISP satellite service provider sending a signal to a satellite which relays the signal to a satellite modem connected to a laptop.

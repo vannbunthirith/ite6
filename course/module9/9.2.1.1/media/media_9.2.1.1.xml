@@ -1,0 +1,52 @@
+<textcomponents>
+
+<!--slide 1-->
+<component id="ID_title">
+<text><![CDATA[<b>ACPI Power States</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+
+        <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="3"><b>ACPI Power States</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="State" bgcolor='#666263' width='100'><font color='#F2F2F2'><b>State</b></font></th>
+		<th scope="col" id="Description" bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="State"  bgcolor='#E9E7E8'>S0</td>
+        <td headers="Description" bgcolor='#E9E7E8'>The computer is on and the CPU is running.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="State"  bgcolor='#F2F2F2'>S1</td>
+        <td headers="Description" bgcolor='#F2F2F2'>The CPU and RAM are still receiving power, but unused devices are powered down.</td>		
+	</tr>
+	<tr>
+		<td scope="row" headers="State" bgcolor='#E9E7E8'>S2</td>
+		<td headers="Description" bgcolor='#E9E7E8'>The CPU is off, but the RAM is refreshed. The system is in a lower mode than S1.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="State"  bgcolor='#F2F2F2'>S3</td>
+		<td headers="Description" bgcolor='#F2F2F2'>The CPU is off, and the RAM is set to a slow refresh rate. This mode is often called “save to RAM”. This state is known as suspend mode.</td>		
+	</tr>
+	<tr>
+		<td scope="row" headers="State"  bgcolor='#E9E7E8'>S4</td>
+		<td headers="Description" bgcolor='#E9E7E8'>The CPU and RAM are off. The contents of RAM have been saved to a temporary file on the hard disk. This mode is also called “save to disk”. This state is known as hibernate mode.</td>
+	</tr>	
+    <tr>
+		<td scope="row" headers="State"  bgcolor='#F2F2F2'>S5</td>
+		<td headers="Description" bgcolor='#F2F2F2'>The computer is off.</td>		
+	</tr>
+</table>]]></text>
+</component>
+
+<!--end slide 1-->
+
+</textcomponents>

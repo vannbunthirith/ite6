@@ -1,0 +1,96 @@
+<textcomponents>
+
+<!--slide 1-->
+<component id="ID_title">
+<text><![CDATA[<b>System Configuration</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b> </b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='125'><font color='#F2F2F2'><b>Tab</b></font></td>
+		<td bgcolor='#666263' ><font color='#F2F2F2'><b>Description</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>General</td>
+		<td bgcolor='#E9E7E8'>Displays a list of startup selections:<br/><b>Normal startup </b>– Starts normally.<br/><b>Diagnostic startup </b>- Starts with basic services and drivers only.<br/><b>Selective startup </b>- Starts with basic services and drivers and user-selected startup programs.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Boot</td>
+		<td bgcolor='#F2F2F2'>Displays a list of available Windows operating systems and shows boot options.</td>		
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Services</td>
+		<td bgcolor='#E9E7E8'>Displays a list of the services that are started with the operating system. Allows you to disable services for troubleshooting purposes.</td>
+		
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Startup</td>
+		<td bgcolor='#F2F2F2'>Displays a list of all the applications that run when the computer boots up. This list includes the applications with manufacturer name, the executable file location, and the registry location.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Tools</td>
+		<td bgcolor='#E9E7E8'>Displays a list of diagnostic tools that you can launch.</td>
+		
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<component id='ID_table_html'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Tabs and options available in System Configuration</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Tab" bgcolor='#666263' width='125'><font color='#F2F2F2'><b>Tab</b></font></th>
+		<th scope="col" id="Description" bgcolor='#666263' ><font color='#F2F2F2'><b>Description</b></font></th>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Tab" bgcolor='#E9E7E8'>General</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Displays a list of startup selections:<br/><b>Normal startup </b>– Starts normally.<br/><b>Diagnostic startup </b>- Starts with basic services and drivers only.<br/><b>Selective startup </b>- Starts with basic services and drivers and user-selected startup programs.</td>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Tab" bgcolor='#F2F2F2'>Boot</td>
+		<td headers="Description" bgcolor='#F2F2F2'>Displays a list of available Windows operating systems and shows boot options.</td>		
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Tab" bgcolor='#E9E7E8'>Services</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Displays a list of the services that are started with the operating system. Allows you to disable services for troubleshooting purposes.</td>
+		
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Tab" bgcolor='#F2F2F2'>Startup</td>
+		<td headers="Description" bgcolor='#F2F2F2'>Displays a list of all the applications that run when the computer boots up. This list includes the applications with manufacturer name, the executable file location, and the registry location.</td>
+		
+	</tr>
+	<tr>
+		<td scope="row" headers="Tab" bgcolor='#E9E7E8'>Tools</td>
+		<td headers="Description" bgcolor='#E9E7E8'>Displays a list of diagnostic tools that you can launch.</td>
+		
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<!--end slide 1-->
+
+</textcomponents>

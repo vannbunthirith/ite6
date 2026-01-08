@@ -1,0 +1,10 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Adding a Network Printer in Windows 7</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Finding a Printer on the Network</b>]]></text>
+</component> 
+
+</textcomponents>

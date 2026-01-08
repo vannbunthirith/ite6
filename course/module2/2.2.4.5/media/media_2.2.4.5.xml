@@ -1,0 +1,102 @@
+﻿<textcomponents>
+
+<!-- slide 2 -->
+
+<component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' width='175'>Computer case and outside of monitor</td>
+			<td bgcolor='#E9E7E8'>Mild cleaning solution and lint-free cloth</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>LCD Screen</td>
+			<td bgcolor='#F2F2F2'>LCD cleaning solution or distilled water and lint-free cloth</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>CRT Screen</td>
+			<td bgcolor='#E9E7E8'>Distilled water and lint-free cloth</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Heat Sink</td>
+			<td bgcolor='#F2F2F2'>Compressed air</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>RAM</td>
+			<td bgcolor='#E9E7E8'>Isopropyl alcohol and lint-free swab</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Keyboard</td>
+			<td bgcolor='#F2F2F2'>Hand-held vacuum cleaner with a brush attachment</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Mouse</td>
+			<td bgcolor='#E9E7E8'>Mild cleaning solution and lint-free cloth</td>
+		</tr>
+	
+	</table>]]></text> 
+</component>
+	
+	<component id="ID_s2_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Computer items and the cleaning materials</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' width='175'>Computer case and outside of monitor</td>
+			<td bgcolor='#E9E7E8'>Mild cleaning solution and lint-free cloth</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>LCD Screen</td>
+			<td bgcolor='#F2F2F2'>LCD cleaning solution or distilled water and lint-free cloth</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>CRT Screen</td>
+			<td bgcolor='#E9E7E8'>Distilled water and lint-free cloth</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Heat Sink</td>
+			<td bgcolor='#F2F2F2'>Compressed air</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>RAM</td>
+			<td bgcolor='#E9E7E8'>Isopropyl alcohol and lint-free swab</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Keyboard</td>
+			<td bgcolor='#F2F2F2'>Hand-held vacuum cleaner with a brush attachment</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Mouse</td>
+			<td bgcolor='#E9E7E8'>Mild cleaning solution and lint-free cloth</td>
+		</tr>
+	
+	</table>]]></text> 
+</component>
+<!-- end slide 2 -->
+
+</textcomponents>

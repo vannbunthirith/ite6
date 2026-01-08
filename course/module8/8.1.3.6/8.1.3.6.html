@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.3.6 Administrative Shares</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Administrative Shares</h1>
+        <div>
+          <p>Administrative shares, also called hidden shares, are identified with a dollar sign ($) at the end of the share name. By default, Windows can enable the following hidden administrative shares:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Root partitions or volumes</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The system root folder</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The FAX$ share</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The IPC$ share</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>The PRINT$ share</li>
+            </ul>
+          </p>
+          <p>To create your own administrative share, complete the following steps in all versions of Windows:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>: Click <b>Control Panel > Administrative Tools</b> and double-click <b>Computer Management</b>, as shown in Figure 1</p>
+          <p>
+            <b>Step 2</b>: Expand <b>Shared Folders</b>, right-click <b>Shares</b>, and then click <b>New Share…</b> to open <b>Create A Shared Folder Wizard</b>. Click <b>Next</b> to get the screen shown in Figure 2.</p>
+          <p>
+            <b>Step 3</b>: Type the path to the folder you want to use for the administrative share (for example, <b>C:\AdminOnly$</b> in Figure 2). Be sure it includes a dollar sign ($) at the end of the name to identify this folder as an administrative share. Click <b>Next</b>. If the folder does not exist yet, Windows will ask if you want to create it.</p>
+          <p>
+            <b>Step 4</b>: In the next screen, you can change the share name, add an optional description, and change the offline settings. Click <b>Next</b>. </p>
+          <p>
+            <b>Step 5</b>: In the <b>Share Folder Permissions </b>window, as shown in Figure 3, select the <b>Administrators have full access; other users have no access</b>, and then click<b> Finish</b>. </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Windows Administrative Tools window with, ‘Computer Management’ selected. Figure 2 on this page shows two images. The first image shows the Windows Computer Management window with, ‘Shares’ highlighted in the folder tree. The second image shows the Create A Shared Folder Wizard with the folder path highlighted. Figure 3 on this page shows two images. The first image shows the Create A Shared Folder Wizard with the, ‘Next’ button highlighted. The second image shows the Create A Shared Folder Wizard with the, ‘Administrators have full access, other users have no access’ radio button selected and highlighted. The, ‘Finish’ button is also highlighted.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

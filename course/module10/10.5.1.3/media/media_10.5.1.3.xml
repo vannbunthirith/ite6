@@ -1,0 +1,44 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Test the Theory to Determine Cause</b>]]></text>
+	</component>
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+         <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 3. Test the Theory To Determine Cause</b></font>
+            </caption>
+
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td scope="row" bgcolor='#E9E7E8' width='200'>Common steps to determine cause of mobile device operating system problems</td>
+ 			<td bgcolor='#E9E7E8'>
+				<ul><li>Force a running app to close.</li>
+				<li>Reconfigure email account settings.</li>
+				<li>Restart the mobile device.</li>
+				<li>Restore the mobile device from a backup.</li>
+				<li>Connect an iOS device to iTunes.</li>
+				<li>Update the operating system.</li>
+				<li>Reset the mobile device to factory defaults.</li></ul>
+			</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Common steps to determine cause of Linux or OS X problems</td>
+  			<td bgcolor='#F2F2F2'>
+				<ul><li>Force a running program to close.</li>
+				<li>Reconfigure email account settings.</li>
+				<li>Restart the computer.</li>
+				<li>Perform a full OS installation to restore the computer to factory defaults.</li>
+				<li>Restore the computer from backup.</li>
+				<li>Update the computer’s operating system.</li></ul>
+			</td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

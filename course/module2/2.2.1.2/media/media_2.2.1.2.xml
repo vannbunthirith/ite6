@@ -1,0 +1,8 @@
+﻿<textcomponents>
+	<component id="ID_s1_caption">
+		<text><![CDATA[An antistatic wrist strap is used to prevent ESD damage to computer equipment.]]></text>
+	</component>
+	<component id="ID_s2_caption">
+		<text><![CDATA[An antistatic mat is used to stand on or to place hardware on to prevent static electricity from building up.]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,53 @@
+<textcomponents>
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>Fiber-Optic Connectors</b>]]></text> 
+  </component>
+  <component id="ID_s1_txt01">
+  <text><![CDATA[ST Connectors]]></text> 
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[SC Connectors]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt03">
+  <text><![CDATA[LC Connector]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt04">
+  <text><![CDATA[Duplex Multimode LC Connectors]]></text> 
+  </component>
+  
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Straight-Tip (ST) Connectors]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[One of the first connector types used. The connector locks securely with a "twist-on/twist-off" bayonet style mechanism.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Subscriber Connector (SC) Connectors]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Sometimes referred to as square connector or standard connector. It is a widely adopted LAN and WAN connector that uses a push-pull mechanism to ensure positive insertion. This connector type is used with multimode and single-mode fiber.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[Lucent Connector (LC) Simplex Connectors]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[A smaller version of the fiber-optic SC connector. It is sometimes called a little or local connector and is quickly growing in popularity due to its smaller size.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[Duplex Multimode LC Connectors]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[Similar to a LC simplex connector, but using a duplex connector.]]></text>
+	</component>
+  
+  	<component id="ID_s1_inst">
+		<text><![CDATA[Click the button on each connector type for more information.]]></text>
+	</component>
+  
+ 
+</textcomponents>

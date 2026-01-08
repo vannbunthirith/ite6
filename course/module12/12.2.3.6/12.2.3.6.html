@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.6 Windows BitLocker</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows BitLocker</h1>
+        <div>
+          <p>You can also choose to encrypt an entire hard drive using a feature called BitLocker. To use BitLocker, at least two volumes must be present on a hard disk. A system volume is left unencrypted and must be at least 100 MB. This volume holds the files required by Windows to boot. </p>
+          <p></p>
+          <p>Before using BitLocker, the Trusted Platform Module (TPM) must be enabled in BIOS. The TPM is a specialized chip installed on the motherboard. The TPM stores information specific to the host system, such as encryption keys, digital certificates, and passwords. Applications, like BitLocker, that use encryption can make use of the TPM chip. To enable TPM, follow these steps:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Start the computer, and enter the BIOS configuration.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. Look for the <b>TPM</b> option within the BIOS configuration screens. Consult the manual for your motherboard to locate the correct screen. The Lenovo ThinkPad setup utility is shown in Figure 1.</p>
+          <p></p>
+          <p>
+            <b>Step 3</b>. Choose <b>Enable</b> or <b>Activate </b>the security chip.</p>
+          <p></p>
+          <p>
+            <b>Step 4</b>. Save the changes to the BIOS configuration.</p>
+          <p></p>
+          <p>
+            <b>Step 5</b>. Reboot the computer.</p>
+          <p></p>
+          <p>To turn on BitLocker in all versions of Windows, follow these steps:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Click <b>Control Panel > BitLocker Drive Encryption</b>.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. On the <b>BitLocker Drive Encryption</b> page, click <b>Turn On BitLocker</b> on the operating system volume.</p>
+          <p></p>
+          <p>
+            <b>Step 3</b>. If TPM is not initialized, the <b>Initialize TPM Security Hardware</b> wizard appears. Follow the instructions provided by the wizard to initialize the TPM. Restart your computer. </p>
+          <p></p>
+          <p>
+            <b>Step 4</b>. The <b>Save the recovery password</b> page has the following options:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Save the password on a USB drive</b> - This option saves the password to a USB drive.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Save the password in a folder</b> - This option saves the password to a network drive or other location.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Print the password</b> - This option will print the password.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Step 5</b>. After saving the recovery password, click <b>Next</b>.</p>
+          <p></p>
+          <p>
+            <b>Step 6</b>. On the <b>Encrypt the selected disk volume</b> page, select the <b>Run BitLocker System Check</b> check box.</p>
+          <p></p>
+          <p>
+            <b>Step 7</b>. Click <b>Continue</b>. </p>
+          <p></p>
+          <p>
+            <b>Step 8</b>. Click <b>Restart Now</b>.</p>
+          <p></p>
+          <p>
+            <b>Step 9</b>. The <b>Encryption in Progress</b> status bar is displayed. After the computer reboots, you can verify BitLocker is active as shown in Figure 2. You can click <b>TPM Administration </b>to view the TPM details, as shown in Figure 3.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: BitLocker encryption can also be used with removable drives by using BitLocker To Go. BitLocker To Go does not use a TPM chip, but still provides encryption for the data and requires a password.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Lenovo ThinkPad Setup utility that shows the Security tab. Figure 2 on this page is an image of the Microsoft BitLocker Administration and Monitoring utility. Figure 3 on this page is an image of the Microsoft Trusted Platform Module (TPM) Management on Local Computer window.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

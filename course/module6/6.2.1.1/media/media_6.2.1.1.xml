@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Logical Virtual Machine Diagram</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Applications on Guest OS]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[Applications on Guest OS]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Applications on Guest OS]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Guest OS]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Guest OS]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Guest OS]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Virtualization Software<br/>(Hyper-V, Virtual PC, VirtualBox, etc)]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[Host OS]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[<b>Physical Machine</b>]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<b>Virtual Machine</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[<b>Virtual Machine</b>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[<b>Virtual Machine</b>]]></text>
+	</component>
+	
+</textcomponents>

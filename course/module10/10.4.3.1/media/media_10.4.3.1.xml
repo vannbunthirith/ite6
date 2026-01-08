@@ -1,0 +1,72 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Basic CLI</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+
+            <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Basic CLI commands</font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="Command" bgcolor='#666263' width='115'><font color='#FFFFFF'><b>Command</b></font></th>
+                <th scope="col" id="Description" bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>man</b></font></td>
+                <td headers="Description" bgcolor='#E9E7E8'>Displays the documentation for a specific command.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>ls</b></font></td>
+                <td headers="Description" bgcolor='#F2F2F2'>Displays the files inside a directory.</td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>cd</b></font></td>
+                <td headers="Description" bgcolor='#E9E7E8'>Changes the current directory.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>mkdir</b></font></td>
+                <td bgcolor='#F2F2F2'>Creates a directory under the current directory.</td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>cp</b></font></td>
+                <td headers="Description" bgcolor='#E9E7E8'>Copies files from source to destination.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>mv</b></font></td>
+                <td headers="Description" bgcolor='#F2F2F2'>Moves files to a different directory.</td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>rm</b></font></td>
+                <td headers="Description" bgcolor='#E9E7E8'>Removes files.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Command" bgcolor='#F2F2F2'><font face='_typewriter'><b>grep</b></font></td>
+                <td headers="Description" bgcolor='#F2F2F2'>Searches for specific strings of characters within a file or other commands' outputs.</td>
+            </tr>
+
+             <tr>
+                <td scope="row" headers="Command" bgcolor='#E9E7E8'><font face='_typewriter'><b>cat</b></font></td>
+                <td headers="Description" bgcolor='#E9E7E8'>Lists the contents of a file and expects the file name as the parameter.</td>
+            </tr>
+ 
+           
+        </table>]]></text>
+    </component>
+</textcomponents>

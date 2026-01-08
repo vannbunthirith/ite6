@@ -1,0 +1,76 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 1: Identify the Problem</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Open-ended Questions</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>
+			<ul><li>What problems are you having?</li>
+			<li>What operating system is installed on the computer?</li>
+			<li>What updates have you performed lately?</li>
+			<li>What programs have you installed recently?</li>
+			<li>What were you doing when the problem was discovered?</li></ul>
+		</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Closed-ended Questions</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>
+			<ul><li>Can you start the operating system?</li>
+			<li>Can you start the operating system in safe mode?</li>
+			<li>Have you changed your password recently?</li>
+			<li>Have you seen any error messages on the computer?</li>
+			<li>Has anyone else used the computer recently?</li>
+			<li>Has any hardware been added recently?</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+<component id="ID_s1_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Step 1: Identify the Problem</b></font></caption>
+
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Open-ended Questions</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>
+			<ul><li>What problems are you having?</li>
+			<li>What operating system is installed on the computer?</li>
+			<li>What updates have you performed lately?</li>
+			<li>What programs have you installed recently?</li>
+			<li>What were you doing when the problem was discovered?</li></ul>
+		</font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Closed-ended Questions</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>
+			<ul><li>Can you start the operating system?</li>
+			<li>Can you start the operating system in safe mode?</li>
+			<li>Have you changed your password recently?</li>
+			<li>Have you seen any error messages on the computer?</li>
+			<li>Has anyone else used the computer recently?</li>
+			<li>Has any hardware been added recently?</li></ul>
+		</font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

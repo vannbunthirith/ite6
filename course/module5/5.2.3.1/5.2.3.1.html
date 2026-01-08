@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.1 Windows Boot Process</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows Boot Process</h1>
+        <div>
+          <p>Understanding the boot process in Windows can help a technician troubleshoot boot problems.</p>
+          <p></p>
+          <p>
+            <b>Windows Boot Process</b>
+          </p>
+          <p></p>
+          <p>To begin the boot process, turn on the computer. This is called a cold boot. When the computer is powered on, it performs a Power On Self Test (POST). Because the video adapter has not yet been initialized, errors that occur at this point in the boot process are reported by a series of audible tones, called beep codes.</p>
+          <p></p>
+          <p>After POST, the BIOS locates and reads the configuration settings that are stored in the CMOS memory. The boot device priority, as shown in the figure, is the order in which devices are checked to locate the bootable partition. The boot device priority is set in the BIOS and can be arranged in any order. The BIOS boots the computer using the first drive that contains a valid boot sector.</p>
+          <p></p>
+          <p>Hard drives, network drives, USB drives, and even removable media can be used in the boot order, depending on the capabilities of the motherboard. Some BIOS also have a boot device priority menu that is accessed with a special key during computer startup. You can use this menu to select the device to boot.</p>
+          <p></p>
+          <p>
+            <b>Windows Boot Loader and Windows Boot Manager</b>
+          </p>
+          <p></p>
+          <p>At this point, the code in the boot sector is executed, and the control of the boot process is given to Windows Boot Manager (BOOTMGR). BOOTMGR controls several startup steps: </p>
+          <p></p>
+          <p>1. WinLoad (WINLOAD.EXE) uses the path specified in BOOTMGR to find the boot partition.</p>
+          <p>2. WinLoad loads two files that make up the core of Windows: NTOSKRNL.EXE and HAL.DLL.</p>
+          <p>3. WinLoad reads the Registry files, chooses a hardware profile, and loads the device drivers.</p>
+          <p></p>
+          <p>
+            <b>Windows Kernel</b>
+          </p>
+          <p></p>
+          <p>At this point, the Windows kernel takes over the process. The name of this file is NTOSKRNL.EXE. It starts the login file called WINLOGON.EXE and displays the Windows Welcome screen.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of the Windows BIOS Setup Utility showing the Boot tab.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

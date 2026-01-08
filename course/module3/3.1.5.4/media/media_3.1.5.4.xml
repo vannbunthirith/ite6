@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>7-pin SATA Data Cable</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Connect the SATA Data Cable to the Motherboard</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Connect the SATA Data Cable to the Hard Drive</b>]]></text>
+	</component>
+	
+</textcomponents>

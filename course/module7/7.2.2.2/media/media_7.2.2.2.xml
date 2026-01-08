@@ -1,0 +1,74 @@
+<textcomponents> 
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3"><font size="16"><b>Ethernet Standards</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Ethernet Standards</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Media</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Transfer Rates</b></font></td>	
+	</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' width="150px" valign="top"><font size='12'color='#393536'>10BASE-T</font></td>
+					<td bgcolor='#E9E7E8' width="150px"><font size='12' color='#393536' >Category 3</font></td> 
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Transfers data at a rate of 10 Mb/s.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>100BASE-TX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Category 5</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>At 100 Mb/s, transfer rates of 100BASE-TX are ten times that of 10BASE-T.</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>1000BASE-T</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Category 5e, 6</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>The 1000BASE-T architecture supports data transfer rates of 1 Gb/s.</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10GBASE-T</font></td>			
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Category 6a, 7</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>The 10GBASE-T architecture supports data transfer rates of 10 Gb/s.</font></td>
+				</tr>	 
+			</table>]]>
+		</text>
+	</component>
+
+	<component id='ID_table_html'>
+		<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Ethernet Cable Standards</b></font></caption>
+	
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Standards"  bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Ethernet Standards</b></font></th>
+		<th scope="col" id="Media" bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Media</b></font></th>
+		<th scope="col" id="Transfer" bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Transfer Rates</b></font></th>	
+	</tr>
+				<tr>
+					<td scope="row" headers="Standards" bgcolor='#E9E7E8' width="150px" valign="top"><font size='12'color='#393536'>10BASE-T</font></td>
+					<td headers="Media" bgcolor='#E9E7E8' width="150px"><font size='12' color='#393536' >Category 3</font></td> 
+					<td headers="Transfer" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Transfers data at a rate of 10 Mb/s.</font></td>
+				</tr>
+				<tr>
+					<td scope="row" headers="Standards" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>100BASE-TX</font></td>
+					<td headers="Media" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Category 5</font></td>
+					<td headers="Transfer" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>At 100 Mb/s, transfer rates of 100BASE-TX are ten times that of 10BASE-T.</font></td>
+				</tr>				
+				<tr>
+					<td scope="row" headers="Standards" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>1000BASE-T</font></td>
+					<td headers="Media" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Category 5e, 6</font></td>
+					<td headers="Transfer" bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>The 1000BASE-T architecture supports data transfer rates of 1 Gb/s.</font></td>
+				</tr>							
+				<tr>
+					<td scope="row" headers="Standards" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10GBASE-T</font></td>			
+					<td headers="Media" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Category 6a, 7</font></td>
+					<td headers="Transfer" bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>The 10GBASE-T architecture supports data transfer rates of 10 Gb/s.</font></td>
+				</tr>	 
+			</table>]]>
+		</text>
+	</component>  
+</textcomponents>

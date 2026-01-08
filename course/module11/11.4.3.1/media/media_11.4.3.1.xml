@@ -1,0 +1,117 @@
+<textcomponents>
+	<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		
+
+        <caption  class="mtable_title" colspan="2 bgcolor='#FFFFFF'>
+                <font size="16"><b>Common Problems and Solutions for Printers</b></font>
+            </caption>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Identify" bgcolor='#666263'><font color='#F2F2F2'><b>Identify the Problem</b></font></th>
+		<th scope="col" id="Causes" bgcolor='#666263'><font color='#F2F2F2'><b>Probable Causes</b></font></th>
+		<th scope="col" id="Solutions" bgcolor='#666263'><font color='#F2F2F2'><b>Possible Solutions</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>An application document does not print.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'>There is a document error in the print queue.</td>
+		<td headers="Solutions" bgcolor='#E9E7E8'>Manage the print jobs by cancelling the document from the print queue and print again.</td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Printer cannot be added or there is a print spooler error.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'>The printer service is stopped or not working properly.</td>		
+		<td headers="Solutions" bgcolor='#F2F2F2'>Start the print spooler and if necessary reboot the computer.</td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Printer jobs are sent to the print queue but are not printed.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'>The printer has been installed on the wrong port.</td>
+		<td headers="Solutions" bgcolor='#E9E7E8'>Use printer properties and settings to configure the printer port.</td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Print queue is functioning properly, but the printer does not print.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>There is a bad cable connection.</li><li>The printer is in standby.</li><li>The printer has an error such as out of paper, out of toner, or paper jam.</li></ul></td>
+		<td headers="Solutions" bgcolor='#F2F2F2'><ul><li>Check for bent pins on the printer cable and check the printer cable connections to the printer and computer.</li><li>Manually resume printer from standby, or power cycle the printer.</li><li>Check the printer status and correct any errors.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Printer is printing unknown characters or does not print a test page.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'>Wrong or outdated printer driver is installed.</td>
+		<td headers="Solutions" bgcolor='#E9E7E8'>Uninstall the current print driver and install the correct print driver.</td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Printer prints unknown characters or does not print anything.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>Printer may be plugged into an UPS.</li><li>Incorrect print driver installed.</li><li>Printer cables are loose.</li><li>No paper in printer.</li></ul></td>
+		<td headers="Solutions" bgcolor='#F2F2F2'><ul><li>Plug the printer directly into the wall outlet or surge protector.</li><li>Uninstall incorrect print driver and install correct driver.</li><li>Secure printer cables.</li><li>Add paper to the printer.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>Paper jams when printing.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'><ul><li>Printer is dirty.</li><li>The wrong paper type is being used.</li><li>Humidity causes the paper to stick together.</li></ul></td>
+		<td headers="Solutions" bgcolor='#E9E7E8'><ul><li>Clean the printer.</li><li>Replace paper with the manufacturer's recommended paper type.</li><li>Insert new paper in the paper tray.</li></ul></td>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The print jobs are faded.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>The toner cartridge is low.</li><li>The toner cartridge is defective.</li><li>The paper is incompatible with the printer.</li></ul></td>
+		<td headers="Solutions" bgcolor='#F2F2F2'><ul><li>Replace the toner cartridge.</li><li>Replace the paper.</li></ul></td>
+	</tr>
+ 
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The toner is not fusing to the paper.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'><ul><li>The toner cartridge is empty.</li><li>Toner cartridge is defective.</li><li>The paper is incompatible with the printer.</li></ul></td>
+		<td headers="Solutions" bgcolor='#E9E7E8'><ul><li>Replace the toner cartridge.</li><li>Replace the paper.</li></ul></td>
+	</tr>
+
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The paper is creased after printing.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>The paper is defective.</li><li>The paper is loaded incorrectly.</li></ul></td>
+		<td headers="Solutions" bgcolor='#F2F2F2'><ul><li>Remove the paper from printer, check for defects, and replace.</li><li>Remove, align, and replace the paper.</li></ul></td>
+	</tr>
+ 
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The paper is not being fed into the printer.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'><ul><li>The paper is wrinkled.</li><li>Printer set to print to a different paper size than currently loaded.</li></ul></td>
+		<td headers="Solutions" bgcolor='#E9E7E8'><ul><li>Remove the wrinkled paper from print tray.</li><li>Change paper size in print settings.</li></ul></td>
+	</tr>
+
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>User receives a “Document failed to print” message.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>A cable is loose or disconnected.</li><li>A printer is no longer shared.</li></ul></td>
+		<td headers="Solutions" bgcolor='#F2F2F2'><ul><li>Check and reconnect the Parallel, USB, or power cable.</li><li>Configure the printer for sharing.</li></ul></td>
+	</tr>
+ 
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>User receives an “Access Denied” message when trying to install a printer.</td>
+		<td headers="Causes" bgcolor='#E9E7E8'>User does not have administrative or power user privileges.</td>
+		<td headers="Solutions" bgcolor='#E9E7E8'>Log out and log in as an administrator or power user.</td>
+	</tr>
+
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>Printer is printing incorrect colors.</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>Print cartridge is empty.</li><li>Print cartridge is defective.</li><li>Incorrect cartridge installed.</li><li>Print heads need to be cleaned and calibrated.</li></ul></td>
+		<td headers="Solutions"  bgcolor='#F2F2F2'><ul><li>Replace the printer cartridge.</li><li>Clean and calibrate the printer using the supplied software.</li></ul></td>
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="Identify" bgcolor='#E9E7E8'>The printer is printing blank pages</td>
+		<td headers="Causes" bgcolor='#E9E7E8'><ul><li>The printer is out of ink or toner</li><li>The print head is clogged</li><li>The corona wire has failed</li><li>The high voltage power supply has failed</li></ul></td>
+		<td headers="Solutions" bgcolor='#E9E7E8'><ul><li>Replace the ink or toner cartridge</li><li>Replace the ink cartridge</li><li>Replace the corona wire</li><li>Replace the high voltage power supply</li></ul></td>
+	</tr>
+
+    <tr>
+		<td scope="row" headers="Identify" bgcolor='#F2F2F2'>The printer display has no image</td>
+		<td headers="Causes" bgcolor='#F2F2F2'><ul><li>The printer is not turned on</li><li>The contrast of the screen is set too low</li><li>The display is broken</li></ul></td>
+		<td headers="Solutions" bgcolor='#F2F2F2'><ul><li>Turn on the printer</li><li>Turn up the screen contrast</li><li>Replace the display</li></ul></td>
+	</tr>
+	
+	
+</table>]]></text>
+</component>
+</textcomponents>

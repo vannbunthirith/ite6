@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.2.4 Dedicated Printer Servers</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dedicated Printer Servers</h1>
+        <div>
+          <p>For larger networking environments with multiple LANs and many users, a dedicated print server is needed to manage printing services, as shown in the figure. A dedicated print server is more powerful than a hardware print server.  It handles client print jobs in the most efficient manner and can manage more than one printer at a time. A dedicated print server must have the following resources to meet the requests of print clients:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Powerful processor</b> - Because the dedicated print server uses its processor to manage and route printing information, it must be fast enough to handle all incoming requests. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adequate hard disk space</b> - A dedicated print server captures print jobs from clients, places them in a print queue, and sends them to the printer in a timely manner. This process requires the computer to have enough storage space to hold these jobs until completed. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adequate memory</b> - The processor and RAM handle sending print jobs to a printer. If memory is not large enough to handle an entire print job, the hard drive must send the job, which is much slower. </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a topology that shows five printers connected to a switch. A print server is also connected to the switch. The switch is connected to a router which is connected to a corporate network.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

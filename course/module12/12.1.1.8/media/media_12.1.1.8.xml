@@ -1,0 +1,86 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Social Engineering Attack Example</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01">
+<text><![CDATA[<font color="#FFFFFF">Hi this is Amy from the help desk. We need to upgrade the software on your computer after work hours. What is your user ID and password? You can change the password tomorrow when you log in.</font>]]></text>
+</component>
+
+<component id="ID_s1_bubble02">
+<text><![CDATA[<font color="#FFFFFF">Ok, my user ID and password are...</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[Social Engineer]]></text>
+</component>
+    
+<component id="ID_s1_txt02">
+  <text><![CDATA[Unsuspecting Employee at XYZ Corporation]]></text> 
+</component>
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Social Engineering Techniques</b>]]></text>
+	</component>
+	
+	    <component id="ID_s2_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			
+
+            <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Social Engineering Techniques</font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="Techniques" bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Techniques</b></font></th>
+                <th scope="col" id="Description" bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#E9E7E8'>Pretexting</td>
+                <td headers="Description" bgcolor='#E9E7E8'>An attacker pretends to need personal or financial data in order to confirm the identity of the recipient.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#F2F2F2'>Phishing</td>
+                <td headers="Description" bgcolor='#F2F2F2'>An attacker sends a fraudulent email disguised as being from a legitimate, trusted source. The intention of this message is to trick the recipient into installing malware on their device, or to share personal or financial information.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#E9E7E8'>Spear phishing</td>
+                <td headers="Description" bgcolor='#E9E7E8'>An attacker creates a targeted phishing attack tailored for a specific individual or organization.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#F2F2F2'>Spam</td>
+                <td headers="Description" bgcolor='#F2F2F2'>Attacker uses spam email to trick a user to click an infected link or download an infected file.</td>
+            </tr>
+			
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#E9E7E8'>Tailgating</td>
+                <td headers="Description" bgcolor='#E9E7E8'>An attacker quickly follows an authorized person into a secure location. The hacker then has access to a secure area.</td>
+            </tr>
+			
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#F2F2F2'>Something for Something (Quid pro quo)</td>
+                <td headers="Description" bgcolor='#F2F2F2'>This is when a hacker requests personal information from a party in exchange for something like a free gift.</td>
+            </tr>
+			
+            <tr>
+                <td scope="row" headers="Techniques" bgcolor='#E9E7E8'>Baiting</td>
+                <td headers="Description" bgcolor='#E9E7E8'>An attacker leaves a malware-infected physical device, such as a USB flash drive in a public location such as a corporate washroom. The finder finds the device and loads it onto their computer, unintentionally installing the malware.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+
+</textcomponents>
+
+

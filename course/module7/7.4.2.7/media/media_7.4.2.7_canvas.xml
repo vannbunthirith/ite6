@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide width="780">
+<element type="IMAGE" src="bg.jpg" x="0" y="0" width="1000" height="490"/>
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+<element type="TEXTBOX"  x="20" y="55" width="219" height="250"  titleId="ID_instr_title"  bodyId="ID_instr_body"/>
+		
+<element type="ACTIVITY" subType="MCTABLE"  x="352" y="55" width="561" height="429" >
+<subelement type="CHECK" x="230" y="395" width="160" height="21" compId="ID_s1_CHECK"/>
+<subelement type="RESET" x="405" y="395" width="160" height="22" compId="ID_s1_RESET"/>
+<subelement type="FEEDBACK" x="60" y="100" width="291" height="204" correctTitleId="ID_titleCorrect" correctBodyId="ID_correctText" wrongTitleId="ID_titleIncorrect" wrongBodyId="ID_IncorrectText"/>
+</element>
+</slide>
+</data>

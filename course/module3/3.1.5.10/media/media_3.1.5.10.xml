@@ -1,0 +1,29 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Monitor Cable Attachment</b>]]></text>
+</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Keyboard Cable Attachment</b>]]></text>
+</component>
+
+<!-- Slide 3 -->
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Mouse Cable Attachment</b>]]></text>
+</component>
+
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>USB Cable Attachment</b>]]></text>
+</component>
+
+<component id='ID_s5_title'>
+	<text><![CDATA[<b>Power Cable Attachment</b>]]></text>
+</component>
+
+
+
+
+</textcomponents>

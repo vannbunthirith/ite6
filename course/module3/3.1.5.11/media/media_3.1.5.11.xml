@@ -1,0 +1,64 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Identify the External Connectors</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match the connector type to its picture.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched each external connector to its picture.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched each external connector to its picture. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+<!--Drag Items-->
+
+<component id='ID_drag_header_01'>
+	<text><![CDATA[<b>Connector Type</b>]]></text>
+</component>
+
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Keyboard]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Monitor]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Mouse]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[USB]]></text>
+</component>
+
+
+</textcomponents>

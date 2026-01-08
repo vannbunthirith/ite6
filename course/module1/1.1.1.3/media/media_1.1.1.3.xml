@@ -1,0 +1,102 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Four Basic Units of Electricity</b>]]></text>
+	</component>
+	
+	
+	 <component id="ID_table"><text>
+	 	<![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="3">Four Basic Units of Electricity</font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="100"><font color='#FFFFFF' ><b>Electrical Unit</b></font></td>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>Measured in …</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Voltage (V)</td>
+			<td bgcolor='#E9E7E8'>Volts (V)</td>
+			<td bgcolor='#E9E7E8'><ul><li>This is a measure of work required to move a charge from one location to another.</li><li>A computer power supply usually produces several different voltages.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Current (I)</td>
+			<td bgcolor='#F2F2F2'>Amperes, or Amps (A)</td>
+			<td bgcolor='#F2F2F2'><ul><li>This is a measure of the amount of electrons moving through a circuit per second.</li><li>Computer power supplies deliver different amperages for each output voltage.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Resistance (R)</td>
+			<td bgcolor='#E9E7E8'>Ohms (O)</td>
+			<td bgcolor='#E9E7E8'><ul><li>This refers to the opposition to the flow of current in a circuit.</li><li>Lower resistance allows more current to flow through a circuit.</li><li>A good fuse has low resistance or almost 0 ohms.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Power (P)</td>
+			<td bgcolor='#F2F2F2'>Watts (W)</td>
+			<td bgcolor='#F2F2F2'><ul><li>This is a measure of the work required to move electrons through a circuit (voltage), multiplied by the number of electrons going through that circuit per second (current).</li><li>Computer power supplies are rated in watts.</li></ul></td>
+		</tr>
+	</table>]]></text> 
+</component>
+	
+	<component id="ID_table_html"><text>
+	 	<![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16">Four Basic Units of Electricity</font>
+		</caption>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" id="Electrical" bgcolor='#666263'  valign="top"  width="100"><font color='#FFFFFF' ><b>Electrical Unit</b></font></th>
+			<th scope="col" id="Measured" bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>Measured in …</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+		
+		<tr>
+			<td scope="row" headers="Electrical" bgcolor='#E9E7E8'>Voltage (V)</td>
+			<td headers="Measured" bgcolor='#E9E7E8'>Volts (V)</td>
+			<td bheaders="Description" gcolor='#E9E7E8'><ul><li>This is a measure of work required to move a charge from one location to another.</li><li>A computer power supply usually produces several different voltages.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Electrical" bgcolor='#F2F2F2'>Current (I)</td>
+			<td headers="Measured" bgcolor='#F2F2F2'>Amperes, or Amps (A)</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>This is a measure of the amount of electrons moving through a circuit per second.</li><li>Computer power supplies deliver different amperages for each output voltage.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Electrical" bgcolor='#E9E7E8'>Resistance (R)</td>
+			<td headers="Measured" bgcolor='#E9E7E8'>Ohms (O)</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>This refers to the opposition to the flow of current in a circuit.</li><li>Lower resistance allows more current to flow through a circuit.</li><li>A good fuse has low resistance or almost 0 ohms.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Electrical" bgcolor='#F2F2F2'>Power (P)</td>
+			<td headers="Measured" bgcolor='#F2F2F2'>Watts (W)</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>This is a measure of the work required to move electrons through a circuit (voltage), multiplied by the number of electrons going through that circuit per second (current).</li><li>Computer power supplies are rated in watts.</li></ul></td>
+		</tr>
+	</table>]]></text> 
+</component>
+
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Dual Voltage Power Supply</b>]]></text>
+	</component>
+	
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Power Supply Capacitors</b>]]></text> 
+  </component>
+  
+<component id="ID_s3_txt01">
+<text><![CDATA[<b>Capacitors</b>]]></text>
+</component>
+
+	
+	
+</textcomponents>

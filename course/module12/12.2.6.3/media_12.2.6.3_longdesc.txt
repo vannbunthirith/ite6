@@ -1,0 +1,1 @@
+The figure on this page is an interactive activity that checks the learner’s understanding of physical security devices. Biometric device, uses physical characteristics of the user as an aid to positive identification. Smart card, uses an embedded integrated circuit chip to store data safely. Key Fob, uses a small radio system to communicate with the computer.

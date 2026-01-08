@@ -1,0 +1,23 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[Preventive Maintenance]]></text>
+	</component>
+	
+	<component id="ID_s1_trans01">
+		<text><![CDATA[Delete]]></text>
+	</component>
+	
+	<component id="ID_s1_trans02">
+		<text><![CDATA[Maintenance]]></text>
+	</component>
+	
+	<component id="ID_s1_trans03">
+		<text><![CDATA[Shift]]></text>
+	</component>
+	
+	<component id="ID_s1_trans04">
+		<text><![CDATA[Ctrl]]></text>
+	</component>
+	
+	
+</textcomponents>

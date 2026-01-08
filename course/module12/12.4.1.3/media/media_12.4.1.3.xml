@@ -1,0 +1,41 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Test the Theory to Determine Cause</b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+           
+
+             
+      <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 3. Test the Theory to Determine Cause</b></font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+     
+            <tr>
+                <td scope="row" bgcolor='#E9E7E8' width='150'>Common steps to determine cause</td>
+                <td bgcolor='#E9E7E8'>
+                       <ul>
+                       <li>Disconnect from the network.</li>
+                       <li>Update antivirus and spyware signatures.</li>
+                       <li>Scan computer with protection software.</li>
+                       <li>Check computer for the latest OS patches and updates.</li>
+                       <li>Reboot the computer or network device.</li>
+                       <li>Login as an administrative user to change a user's password.</li>
+                       <li>Secure equipment rooms.</li>
+                       <li>Secure work environment.</li>
+                       <li>Enforce security policy.</li>
+                     </ul>
+                </td> 
+            </tr>
+        </table>]]></text>
+    </component>
+    
+
+</textcomponents>

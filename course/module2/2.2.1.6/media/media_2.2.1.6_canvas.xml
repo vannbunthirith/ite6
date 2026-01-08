@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490" />
+        <slide>
+            <element type="IMAGE" x="229" y="50" width="221.5" height="324.95" subType="STD" src="2.2.1.6-1.jpg" />
+            <element type="TEXTBOX" bodyId="ID_s1_caption" x="40" y="401" width="600" height="" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="140" y="50" width="400.65" height="324.95" subType="STD" src="2.2.1.6-2.jpg" />
+            <element type="TEXTBOX" bodyId="ID_s2_caption" x="40" y="401" width="600" height="60" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="238" y="50" width="203.45" height="324.95" subType="STD" src="2.2.1.6-3.jpg" />
+            <element type="TEXTBOX" bodyId="ID_s3_caption" x="40" y="401" width="600" height="60" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="55" y="31" width="570" height="435.65" subType="STD" src="2.2.1.6-4.jpg" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="97" y="50" width="485.65" height="324.95" subType="STD" src="2.2.1.6-5.jpg" />
+            <element type="TEXTBOX" bodyId="ID_s5_caption" x="40" y="401" width="600" height="60" />
+        </slide>
+    </slide>
+</data>

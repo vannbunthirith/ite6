@@ -1,0 +1,1 @@
+The figure on this page is a topology of the Carrier Sense Multiple Access with Collision Detection (CSMA/CD) access control method. The topology shows three desktop computers connected to a central Ethernet hub. Two of the connections are transmitting frames. The three desktop computers have callouts that say, “I will send data when the wire is clear.”

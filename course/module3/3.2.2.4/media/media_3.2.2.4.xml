@@ -1,0 +1,156 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Fan Speed Profiles</b>]]></text>
+	</component>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Fan Profile</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Standard</td>
+			<td bgcolor='#E9E7E8'><ul><li>The fan automatically adjusts depending on the temperature of the CPU, case, power supply, or other hardware.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Turbo</td>
+			<td bgcolor='#F2F2F2'><ul><li>Maximum fan speed at all times.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Silent</td>
+			<td bgcolor='#E9E7E8'><ul><li>Minimizes the fan speed to decrease fan noise.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Manual</td>
+			<td bgcolor='#F2F2F2'><ul><li>The user can assign fan speed control settings.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_s1_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Fan Speed Profiles</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Fan" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Fan Profile</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="Fan" bgcolor='#E9E7E8'>Standard</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>The fan automatically adjusts depending on the temperature of the CPU, case, power supply, or other hardware.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Fan" bgcolor='#F2F2F2'>Turbo</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>Maximum fan speed at all times.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Fan" bgcolor='#E9E7E8'>Silent</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>Minimizes the fan speed to decrease fan noise.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Fan" bgcolor='#F2F2F2'>Manual</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>The user can assign fan speed control settings.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Voltages</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Clock and Bus Speeds</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Built-in Diagnostics</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Diagnostic Test</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Start Test</td>
+			<td bgcolor='#E9E7E8'><ul><li>Checks the main components to make sure that they are functioning properly.</li><li>Use this test when the computer does not boot correctly.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Hard Drive Test</td>
+			<td bgcolor='#F2F2F2'><ul><li>Checks the hard drive for damaged areas.</li><li>If a damaged area is found, it tries to retrieve the data and move it to a good area and mark the damaged area as bad so that the area is not used any more.</li><li>Use this test if you suspect that the hard drive is not functioning properly, the computer does not boot, or the hard drive makes unusual noises.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Memory Test</td>
+			<td bgcolor='#E9E7E8'><ul><li>Checks the memory modules to make sure that they are working properly.</li><li>Use this test if the computer exhibits erratic behavior or fails to boot.</li><li>Replace the memory immediately if this test reports errors.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Battery Test</td>
+			<td bgcolor='#F2F2F2'><ul><li>Checks that the battery is functioning properly.</li><li>Use this test if your battery is not functioning properly, does not hold a charge, or reports an incorrect charge level.</li><li>Replace the battery if the battery fails this test.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_s4_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Built-in Diagnostics</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Diagnostic" bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Diagnostic Test</b></font></th>
+			<th scope="col" id="Description2" bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="Diagnostic" scope="row" bgcolor='#E9E7E8'>Start Test</td>
+			<td headers="Description2" bgcolor='#E9E7E8'><ul><li>Checks the main components to make sure that they are functioning properly.</li><li>Use this test when the computer does not boot correctly.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Diagnostic" scope="row" bgcolor='#F2F2F2'>Hard Drive Test</td>
+			<td headers="Description2" bgcolor='#F2F2F2'><ul><li>Checks the hard drive for damaged areas.</li><li>If a damaged area is found, it tries to retrieve the data and move it to a good area and mark the damaged area as bad so that the area is not used any more.</li><li>Use this test if you suspect that the hard drive is not functioning properly, the computer does not boot, or the hard drive makes unusual noises.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Diagnostic" scope="row" bgcolor='#E9E7E8'>Memory Test</td>
+			<td headers="Description2" bgcolor='#E9E7E8'><ul><li>Checks the memory modules to make sure that they are working properly.</li><li>Use this test if the computer exhibits erratic behavior or fails to boot.</li><li>Replace the memory immediately if this test reports errors.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Diagnostic" scope="row" bgcolor='#F2F2F2'>Battery Test</td>
+			<td headers="Description2" bgcolor='#F2F2F2'><ul><li>Checks that the battery is functioning properly.</li><li>Use this test if your battery is not functioning properly, does not hold a charge, or reports an incorrect charge level.</li><li>Replace the battery if the battery fails this test.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

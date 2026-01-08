@@ -1,0 +1,134 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Front Panel Connectors</b>]]></text>
+</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>System Panel Connector</b>]]></text>
+</component>
+
+<!-- Slide 3 -->
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Pin 1 Arrow Indicator</b>]]></text>
+</component>
+
+<!-- Slide 4 -->
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>System Panel Connector Pin 1 Indicator</b>]]></text>
+</component>
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[Pin 1]]></text>
+</component>
+
+<!-- Slide 5 -->
+<component id='ID_s5_title'>
+	<text><![CDATA[<b>USB Motherboard Connectors</b>]]></text>
+</component>
+
+<!-- Slide 6 -->
+<component id='ID_s6_title'>
+	<text><![CDATA[<b>Internal USB Connector</b>]]></text>
+</component>
+
+<!-- Slide 7 -->
+<component id='ID_s7_title'>
+	<text><![CDATA[<b>Front Panel Cable Connection Specifics</b>]]></text>
+</component>
+
+<component id="ID_s7_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Front Panel</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Connection Specifics</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Power Button</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>Align pin 1 of the two-pin front panel power button cable with the power button pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Reset Button</b></td>
+			<td bgcolor='#F2F2F2'><ul><li>Align pin 1 of the two-pin front panel reset button cable with the reset button pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Power LED</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>Align pin 1 of the front panel power LED cable with the power LED pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Drive Activity LED</b></td>
+			<td bgcolor='#F2F2F2'><ul><li>Align pin 1 of the front panel drive activity cable with the drive activity pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>System Speaker</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>Align pin 1 of the front panel system speaker cable with the system speaker pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Audio Cables</b></td>
+			<td bgcolor='#F2F2F2'><ul><li>Due to the specialized function and variety of the hardware, consult the motherboard, case, and audio panel documentation for specific instructions.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB</b></td>
+			<td bgcolor='#E9E7E8'><ul><li>Align pin 1 of the USB cable with the USB pins on the motherboard.</li></ul></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_s7_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Front Panel Cable Connection Specifics</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Front" bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Front Panel</b></font></th>
+			<th scope="col" id="Connection" bgcolor='#666263' ><font color='#FFFFFF' ><b>Connection Specifics</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#E9E7E8'><b>Power Button</b></td>
+			<td headers="Connection" bgcolor='#E9E7E8'><ul><li>Align pin 1 of the two-pin front panel power button cable with the power button pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#F2F2F2'><b>Reset Button</b></td>
+			<td headers="Connection" bgcolor='#F2F2F2'><ul><li>Align pin 1 of the two-pin front panel reset button cable with the reset button pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#E9E7E8'><b>Power LED</b></td>
+			<td headers="Connection" bgcolor='#E9E7E8'><ul><li>Align pin 1 of the front panel power LED cable with the power LED pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#F2F2F2'><b>Drive Activity LED</b></td>
+			<td headers="Connection" bgcolor='#F2F2F2'><ul><li>Align pin 1 of the front panel drive activity cable with the drive activity pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#E9E7E8'><b>System Speaker</b></td>
+			<td headers="Connection" bgcolor='#E9E7E8'><ul><li>Align pin 1 of the front panel system speaker cable with the system speaker pins on the motherboard.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#F2F2F2'><b>Audio Cables</b></td>
+			<td headers="Connection" bgcolor='#F2F2F2'><ul><li>Due to the specialized function and variety of the hardware, consult the motherboard, case, and audio panel documentation for specific instructions.</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Front" scope="row" bgcolor='#E9E7E8'><b>USB</b></td>
+			<td headers="Connection" bgcolor='#E9E7E8'><ul><li>Align pin 1 of the USB cable with the USB pins on the motherboard.</li></ul></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+
+</textcomponents>

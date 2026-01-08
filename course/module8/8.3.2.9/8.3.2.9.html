@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.9 Intrusion Detection and Prevention Services</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Intrusion Detection and Prevention Services</h1>
+        <div>
+          <p>Intrusion Detection Systems (IDSs) passively monitor traffic on the network. Stand-alone IDS systems have largely disappeared in favor of Intrusion Prevention Systems (IPSs). But the detection feature of an IDS is still part of any IPS implementation. Figure 1 shows that an IDS-enabled device copies the traffic stream and analyzes the copied traffic rather than the actual forwarded packets. Working offline, it compares the captured traffic stream with known malicious signatures, similar to software that checks for viruses. </p>
+          <p></p>
+          <p>An IPS builds upon IDS technology. However, an IPS device is implemented in inline mode. This means that all ingress (inbound) and egress (outbound) traffic must flow through it for processing. As shown in Figure 2, an IPS does not allow packets to enter the trusted side of the network without first being analyzed. It can detect and immediately address a network problem.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is a topology that shows a person sitting at a desktop computer connected the cloud. A desktop computer labelled as, ‘Management Console’ is connected to an IDS – enabled Sensor. The IDS – enabled Sensor is connected to Switch1. A laptop labelled as, ‘Target’ is connected to a Router1. Router1 is also connected to the Switch1. Switch1 is connected to Router2. Router2 is connected to the cloud. The figure shows that the IDS – enabled Sensor analyses the traffic before forwarding it to the Management Console. Whereas, the laptop receives the traffic directly. Figure 2 on this page is a topology that shows a person sitting at a desktop computer connected the cloud. A desktop computer labelled as, ‘Management Console’ is connected to Router1. A laptop labelled as, ‘Target’ is also connected to a Router1. Router1 is connected to an IPS – enabled Sensor. A bit Bucket is also connected to the IPS – enabled Sensor. The IPS – enabled Sensor is connected to Router2. Router2 is connected to the cloud. The figure shows that the IPS – enabled Sensor analyses the traffic before forwarding it to the Management Console and the laptop.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

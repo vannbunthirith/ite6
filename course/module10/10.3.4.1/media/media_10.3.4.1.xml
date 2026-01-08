@@ -1,0 +1,18 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Syncing Data on Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Specifying Type of Data to Backup on Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Specifying Types of Data to Backup on iOS</b>]]></text>
+	</component>
+
+	  <component id="ID_s4_title">
+        <text><![CDATA[<b>Syncing Data on iOS - iTunes</b>]]></text>
+	</component>
+
+</textcomponents>

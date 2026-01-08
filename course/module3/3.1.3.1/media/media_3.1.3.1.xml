@@ -1,0 +1,84 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Types of Drive Bays</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Insert HDD into the Bay</b>]]></text>
+	</component>	
+	
+	<component id="ID_txt01">
+	<text><![CDATA[Screw hole in case]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[Screw hole on HDD]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Secure the HDD</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Drive Bay Width</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>5.25 in.<br/>(13.34 cm.)</td>
+			<td bgcolor='#E9E7E8'><ul><li>Commonly used for optical drives.</li><li>Most full-size tower cases will have two or more bays.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>3.5 in.<br/>(8.9 cm.)</td>
+			<td bgcolor='#F2F2F2'><ul><li>Commonly used for 3.5 inch HDDs.</li><li>Provide additional USB ports or smart card readers.</li><li>Most full-size tower cases will have two or more internal bays.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>2.5 in.<br/>(6.35 cm.)</td>
+			<td bgcolor='#E9E7E8'><ul><li>Intended for smaller 2.5 inch HDDs and SSDs.</li><li>Smallest width bay.</li><li>Becoming increasing popular in newer cases.</li></ul></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+	<component id="ID_s3_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Types of Drive Bays</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Drive" bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Drive Bay Width</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+
+		<tr>
+			<td scope="row" headers="Drive" bgcolor='#E9E7E8'>5.25 in.<br/>(13.34 cm.)</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>Commonly used for optical drives.</li><li>Most full-size tower cases will have two or more bays.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Drive" bgcolor='#F2F2F2'>3.5 in.<br/>(8.9 cm.)</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>Commonly used for 3.5 inch HDDs.</li><li>Provide additional USB ports or smart card readers.</li><li>Most full-size tower cases will have two or more internal bays.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Drive" bgcolor='#E9E7E8'>2.5 in.<br/>(6.35 cm.)</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>Intended for smaller 2.5 inch HDDs and SSDs.</li><li>Smallest width bay.</li><li>Becoming increasing popular in newer cases.</li></ul></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+</textcomponents>

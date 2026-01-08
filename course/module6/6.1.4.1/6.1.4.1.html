@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.4.1 Disk Defragmenter and Disk Error-Checking Tool</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Disk Defragmenter and Disk Error-Checking Tool</h1>
+        <div>
+          <p>To maintain and optimize an operating system, you can use various tools within Windows. Some of these tools include hard drive defragmentation, which consolidates files for faster access, and disk error checking, which scans the hard drive for file structure and disk surface errors.</p>
+          <p></p>
+          <p>
+            <b>Disk Defragmenter (or Disk Optimization)</b>
+          </p>
+          <p></p>
+          <p>As files increase in size, some data is written to the next available cluster on the disk. In time, data becomes fragmented and spread over nonadjacent clusters on the hard drive. As a result, it takes longer to locate and retrieve each section of the data. A disk defragmenter gathers the noncontiguous data into one place, making the OS run faster.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: It is not recommended to perform disk defragmentation on SSDs. SSDs are optimized by the controller and firmware they use. It should not be harmful to defragment Hybrid SSDs (SSHD) because they use hard disks to store data, not solid-state ram.</p>
+          <p></p>
+          <p>To access the Disk Defragmenter in Windows 8, as shown in Figure 1, use the following path:</p>
+          <p></p>
+          <p>Right-click the drive to check<b> > Properties > Tools > </b>click <b>Optimize</b></p>
+          <p></p>
+          <p>To access the Disk Defragmenter in Windows 7, shown in Figure 2 and Vista, use the following path:</p>
+          <p></p>
+          <p>Right-click the drive to check<b> > Properties > Tools > </b>click <b>Defragment Now</b></p>
+          <p></p>
+          <p>
+            <b>Disk Error-Checking Tool</b>
+          </p>
+          <p></p>
+          <p>The Disk Error-Checking tool checks the integrity of files and folders by scanning the hard disk surface for physical errors. If errors are detected, the tool attempts to repair them. You can access CHKDSK through the Disk Defragmenter or by searching for CHKDSK. Alternatively, you can check a drive for errors using the following steps:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Right-click the drive to check and select <b>Properties</b>.</p>
+          <p>
+            <b>Step 2</b>. Click the <b>Tools</b> tab.</p>
+          <p>
+            <b>Step 3</b>. Under Error-checking, in Windows 8, shown in Figure 3, click <b>Check</b>. In Windows 7 or Vista, click <b>Check Now</b>, shown in Figure 4.</p>
+          <p>
+            <b>Step 4</b>. Under the Check disk options, in Windows 8, select <b>Scan Drive</b> to attempt to recover bad sectors. In Windows 7 and Vista, select <b>Scan for and attempt recovery of bad sectors</b> and click <b>Start</b>.</p>
+          <p></p>
+          <p>The tool fixes file system errors and checks the disk for bad sectors. It also attempts to recover data from bad sectors.</p>
+          <p>
+            <b>Note</b>: Use the Disk Error-Checking tool whenever a sudden loss of power causes the system to shut down.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Optimise Drives utility in Windows 8.Figure 2 on this page is an image of the Disk Defragmenter utility in Windows 7.Figure 3 on this page is an image of the Local Disk C Properties dialog box in Windows 8 showing the Tools tab with the Error-checking Check button highlighted.Figure 4 on this page is an image of the Local Disk C Properties dialog box in Windows 7 and Windows Vista showing the Tools tab with the Error-checking Check button highlighted.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

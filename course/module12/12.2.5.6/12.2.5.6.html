@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.6 Firewalls</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Firewalls</h1>
+        <div>
+          <p>A hardware firewall is a physical filtering component that inspects data packets from the network before they reach computers and other devices on a network. A hardware firewall is a freestanding unit that does not use the resources of the computers it is protecting, so there is no impact on processing performance. The firewall can be configured to block multiple individual ports, a range of ports, or even traffic specific to an application. Most wireless routers also include an integrated hardware firewall.</p>
+          <p></p>
+          <p>A hardware firewall passes two different types of traffic into your network:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Responses to traffic that originates from inside your network</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Traffic destined for a port that you have intentionally left open</li>
+            </ul>
+          </p>
+          <p>There are several types of hardware firewall configurations:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Packet filter</b> - Packets cannot pass through the firewall, unless they match the established rule set configured in the firewall. Traffic can be filtered based on different attributes, such as source IP address, source port or destination IP address or port. Traffic can also be filtered based on destination services or protocols such as WWW or FTP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Stateful packet inspection (SPI)</b> - This is a firewall that keeps track of the state of network connections traveling through the firewall. Packets that are not part of a known connection are dropped. The SPI firewall is enabled in Figure 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Application layer</b> - All packets traveling to or from an application are intercepted. All unwanted outside traffic is prevented from reaching protected devices.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Proxy</b> - This is a firewall installed on a proxy server that inspects all traffic and allows or denies packets based on configured rules. A proxy server is a server that is a relay between a client and a destination server on the Internet.</li>
+            </ul>
+          </p>
+          <p>Hardware and software firewalls protect data and equipment on a network from unauthorized access. A firewall should be used in addition to security software. Figure 2 compares hardware and software firewalls.</p>
+          <p></p>
+          <p>
+            <b>Demilitarized Zone</b>
+          </p>
+          <p></p>
+          <p>A DMZ is a subnetwork that provides services to an untrusted network. An email, web, or FTP server is often placed into the DMZ so that the traffic using the server does not come inside the local network. This protects the internal network from attacks by this traffic, but does not protect the servers in the DMZ in any way. It is common for a firewall or proxy to manage traffic to and from the DMZ.</p>
+          <p></p>
+          <p>On a wireless router, you can create a DMZ for one device by forwarding all traffic ports from the Internet to a specific IP address or MAC address. A server, game machine, or web camera can be in the DMZ so that the device can be accessed by anyone. The device in the DMZ however is exposed to attacks from hackers on the Internet.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Wireless-N router utility that shows the Administration tab that shows the Firewall screen. Figure 2 on this page is a table that lists the following comparison between hardware and software firewalls. Hardware Firewall: Dedicated hardware component, initial cost for hardware and software updates can be expensive, multiple computers can be protected, and no impact on computer performance. Software Firewall: Available as third-party software, cost varies, free version included with Windows operating system, typically protects only the computer on which it is installed, uses computer resources, having a potential impact on performance.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

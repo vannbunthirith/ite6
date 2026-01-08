@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490" />
+            <element type="IMAGE" src="media_7.4.1.2_A.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_s1_txt01" x="50" y="79" width="582.8" expand="down" align="center" size="14" />
+            <element type="TEXT" compId="ID_s1_txt02" x="50" y="116" width="582.8" expand="down" align="center" />
+            <element type="TEXT" id="ID_static_1" text="192.168.200.8" x="288.4" y="135.15" align="center" width="102" color="#0D658B" size="15" bold="1" />
+            <element type="TEXT" compId="ID_s1_txt03" x="50" y="259" width="582.8" expand="down" align="center" size="14" />
+            <element type="TEXT" compId="ID_s1_txt04" x="50" y="288" width="582.8" expand="down" align="center" />
+            <element type="TEXT" id="ID_static_2" text="2001:0DB8:CAFE:0200:0000:0000:0000:0008" x="178.1" y="306.6" align="center" width="323.4" color="#0D658B" size="15" bold="1" />
+            <element type="TEXT" compId="ID_s1_txt05" x="50" y="335" width="582.8" expand="down" align="center" />
+            <element type="TEXT" id="ID_static_3" text="2001:DB8:CAFE:200::8" x="258.95" y="352.65" align="center" width="161.7" color="#0D658B" size="15" bold="1" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg1.png" x="0" y="0" width="680" height="490" />
+            <element type="IMAGE" src="media_7.4.1.2_B.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_s2_txt03" x="19" y="47" width="306.25" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s2_txt01" x="96" y="116" width="215.05" expand="down" align="left" />
+            <element type="TEXT" compId="ID_s2_txt04" x="357" y="47" width="302.7" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s2_txt02" x="386" y="116" width="201" expand="down" align="right" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#ffffff" />
+            <element type="ROUTER" textId="ID_router_txt1" x="69.55" y="65.95" width="580" height="390.9" />
+            <text id="ID_router_txt1">
+                <![CDATA[<pre>C:\> ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : ITEuser
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Network Connection
+   <span style="color:#F68026;"><b>Physical Address. . . . . . . . . : 00-50-56-BE-D7-87</b></span>
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   <span style="color:#F68026;"><b>IPv6 Address. . . . . . . . . . . : 2001:db8:cafe:200::8(Preferred)</b></span>
+   Link-local IPv6 Address . . . . . : fe80::8cbf:a682:d2e0:98a%11(Preferred)
+   <span style="color:#F68026;"><b>IPv4 Address. . . . . . . . . . . : 192.168.200.8(Preferred)</b></span>
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 2001:db8:cafe:200::1          
+                                       192.168.200.1
+<span id="ID_s3_txt01" style="color:#FFFFFF"></span>
+
+C:\></pre>]]></text>
+        </slide>
+    </slide>
+</data>

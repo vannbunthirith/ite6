@@ -1,0 +1,28 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_router_txt2{
+	line-height:12px;
+}
+#orange-block
+{
+	background:#f68026;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	  
+	  #ID_router_txt2{
+		  letter-spacing: 0.39px !important;
+	  }
+
+}
+
+.grayCallOutlocal{
+border:2px solid #666263;
+padding:4px 0 3px 3px;
+background:#a7a5a6;
+}

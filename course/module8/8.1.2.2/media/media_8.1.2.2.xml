@@ -1,0 +1,22 @@
+﻿<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>MAC Address Format</b>]]></text> 
+    </component>
+
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>Router Connection to the Internet Topology</b>]]></text> 
+    </component>
+
+    <component id="ID_s2_txt01">
+        <text><![CDATA[Wireless Router]]></text> 
+    </component>
+
+    <component id="ID_s2_txt02">
+        <text><![CDATA[Broadband Modem]]></text> 
+    </component>
+
+    <component id="ID_s2_txt03">
+        <text><![CDATA[Internet]]></text> 
+    </component>
+
+</textcomponents>

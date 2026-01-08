@@ -1,0 +1,8 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_table01 a{
+	color:#0000ff !important;
+	text-decoration:none !important;
+	}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+		<slide>
+			<element type="IMAGE" x="40" y="85" width="600.05" height="347.65" subType="STD" src="media_10.4.1.5_1.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="40" y="85" width="600.05" height="347.65" subType="STD" src="media_10.4.1.5_2.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="40" y="85" width="600.05" height="347.65" subType="STD" src="media_10.4.1.5_3.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="167.05" y="105" width="345.95" height="303" subType="STD" src="media_10.4.1.5_4.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="40" y="135" width="600" height="236.4" subType="STD" src="media_10.4.1.5_5.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="84.6" y="85" width="510.85" height="326" subType="STD" src="media_10.4.1.5_6.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s6_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="145" y="175" width="390" height="138.45" subType="STD" src="media_10.4.1.5_7.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s7_title" color="#FFFFFF" />
+		</slide>
+		<slide>
+			<element type="IMAGE" x="50" y="55" width="580" height="401.5" subType="STD" src="media_10.4.1.5_8.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s8_title" color="#FFFFFF" />
+		</slide>
+	</slide>
+</data>

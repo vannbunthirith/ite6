@@ -1,0 +1,64 @@
+﻿<textcomponents>
+
+    <component id="ID_s1_title">
+		<text><![CDATA[<b>Hypervisor Type 1 and Type 2</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[OS]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+	<text><![CDATA[OS]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[OS]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Hypervisor]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Hardware]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[<b>Server</b>]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[<b>Type 1 Native</b>]]></text>
+	</component>
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>Type 2 Hosted</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[OS]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+	<text><![CDATA[OS]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[OS]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Hypervisor]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Operating System]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Hardware]]></text>
+	</component>
+	<component id="ID_s2_txt07">
+		<text><![CDATA[<b>Host</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Enabling Hyper-V in Windows 8</b>]]></text>
+	</component>
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Hyper-V in Windows 8</b>]]></text>
+	</component>
+	
+
+	
+	
+</textcomponents>

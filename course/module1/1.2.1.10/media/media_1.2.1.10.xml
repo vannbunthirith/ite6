@@ -1,0 +1,203 @@
+﻿<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Purchasing a New Optical Drive</b>]]></text>
+    </component>	
+	
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Purchasing a New Optical Drive</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[<b>New Optical Drive Factors</b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[<ul><li>Connector type</li><li>Reading capability</li><li>Writing capability</li><li>Optical media type</li></ul>]]></text>
+	</component>
+	
+	    
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="8" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='8' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Optical Device</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Read CD</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Write CD</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Read DVD</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Write DVD</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Read<br/>Blu-ray</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Write<br/>Blu-ray</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Rewrite<br/>Blu-ray</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>CD-ROM</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>CD-RW</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DVD-ROM</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DVD-RW</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>BD-ROM</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>BD-R</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>BD-RE</td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+		</tr>
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_table_html"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+        <caption class="mtable_title" colspan="8" bgcolor='#FFFFFF'><font size="3">Optical drive capabilities</font></caption>
+
+        <tr class="mtable_top">
+			<td colspan='8' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Optical" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Optical Device</b></font></th>
+			<th scope="col" id="Read" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Read CD</b></font></th>
+			<th scope="col" id="Write" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Write CD</b></font></th>
+			<th scope="col" id="ReadDVD" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Read DVD</b></font></th>
+			<th scope="col" id="WriteDVD" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Write DVD</b></font></th>
+			<th scope="col" id="Readray" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Read<br/>Blu-ray</b></font></th>
+			<th scope="col" id="Writeray" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Write<br/>Blu-ray</b></font></th>
+			<th scope="col" id="Rewrite" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Rewrite<br/>Blu-ray</b></font></th>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>CD-ROM</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>CD-RW</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>DVD-ROM</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>DVD-RW</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>BD-ROM</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>BD-R</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='inCorrect' src="wrong.png" width="16" height="16"/></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Optical" bgcolor='#E9E7E8'>BD-RE</td>
+			<td headers="Read" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Write" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="ReadDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="WriteDVD" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Readray" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Writeray" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+			<td headers="Rewrite" bgcolor='#E9E7E8'><img alt='correct' src="tick.png" width="16" height="16"/></td>
+		</tr>
+	</table>]]></text> 
+</component>
+</textcomponents>

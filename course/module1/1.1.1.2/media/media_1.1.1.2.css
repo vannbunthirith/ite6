@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s3_table tr td li{
+	width: 291px !important;
+	
+}
+
+@media only screen and (device-width: 768px) {
+	#ID_s3_table tr td li{
+	width: 299px !important;
+	letter-spacing: -1.0px !important;
+}
+} 
+

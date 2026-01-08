@@ -1,0 +1,128 @@
+<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+    <text><![CDATA[<b>Windows Hyper-V Requirements in Windows 8</b>]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">Host OS</td>
+			<td bgcolor='#E9E7E8'>Windows 8 Pro or Enterprise 64 bit Operating System</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Processor</td>
+			<td bgcolor='#E9E7E8'>64 bit processor with Second Level Address Translation</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>BIOS</td>
+			<td bgcolor='#F2F2F2'>BIOS-level Hardware Virtualization support</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Memory</td>
+			<td bgcolor='#E9E7E8'>At least 4GB system RAM</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Hard Disk Space</td>
+			<td bgcolor='#F2F2F2'>At least 15GB per Virtual OS</td>
+		</tr>
+	</table>]]></text> 
+</component>
+
+<component id="ID_s1_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Windows Hyper-V Requirements in Windows 8</font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#E9E7E8' width="200">Host OS</td>
+			<td bgcolor='#E9E7E8'>Windows 8 Pro or Enterprise 64 bit Operating System</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#E9E7E8'>Processor</td>
+			<td bgcolor='#E9E7E8'>64 bit processor with Second Level Address Translation</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>BIOS</td>
+			<td bgcolor='#F2F2F2'>BIOS-level Hardware Virtualization support</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#E9E7E8'>Memory</td>
+			<td bgcolor='#E9E7E8'>At least 4GB system RAM</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Hard Disk Space</td>
+			<td bgcolor='#F2F2F2'>At least 15GB per Virtual OS</td>
+		</tr>
+	</table>]]></text> 
+</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+    <text><![CDATA[<b>Windows Virtual PC Requirements in Windows 7</b>]]></text>
+</component>
+    
+    <component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">Processor</td>
+            <td bgcolor='#E9E7E8'>1 GHz 32-bit or 64-bit Processor</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Memory</td>
+			<td bgcolor='#F2F2F2'>2GB</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Hard Disk Space</td>
+			<td bgcolor='#E9E7E8'>15 GB per Virtual OS</td>
+		</tr>
+
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_table_html">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Windows Virtual PC Requirements in Windows 7</font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td scope="row" bgcolor='#E9E7E8' width="200">Processor</td>
+            <td bgcolor='#E9E7E8'>1 GHz 32-bit or 64-bit Processor</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#F2F2F2'>Memory</td>
+			<td bgcolor='#F2F2F2'>2GB</td>
+		</tr>
+		<tr>
+			<td scope="row" bgcolor='#E9E7E8'>Hard Disk Space</td>
+			<td bgcolor='#E9E7E8'>15 GB per Virtual OS</td>
+		</tr>
+
+	</table>]]></text> 
+</component>
+
+</textcomponents>

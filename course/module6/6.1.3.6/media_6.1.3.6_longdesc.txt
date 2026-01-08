@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of the Windows Component Services programming tool. Image 2 on this page is an image of the Windows Data Sources (ODBC) programming tool.

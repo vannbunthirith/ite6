@@ -1,0 +1,47 @@
+<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			
+
+			<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+               <font size="16"><b>Step 2: Establish a Theory of Probable Cause</b></font>
+            </caption>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+		  
+			<tr>
+				<td scope="row" bgcolor='#E9E7E8' width="200">Common causes of laptop problems</td>
+				
+				<td bgcolor='#E9E7E8'><ul>
+				
+					<li>Battery does not have a charge</li>
+					<li>Battery will not charge</li>
+					<li>Loose cable connections</li>
+					<li>Keyboard does not work</li>
+					<li>Num Lock key is on</li>
+					<li>Loose RAM module</li>
+				</ul>
+				</td> 
+			</tr>
+			
+			<tr>
+				<td scope="row" bgcolor='#E9E7E8' width="200">Common causes of mobile device problems</td>
+				
+				<td bgcolor='#E9E7E8'><ul>
+				
+					<li>The Power button is broken</li>
+					<li>The battery can no longer hold a charge</li>
+					<li>There is excessive dirt in the speaker, microphone, or charging port</li>
+					<li>The mobile device has been dropped</li>
+					<li>The mobile device has been submerged</li>
+				</ul>
+				</td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

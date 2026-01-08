@@ -1,0 +1,1 @@
+The figure on this page is a topology that represents a Wide Area Network (WAN). The topology shows two LANs, one in Tokyo and one in Moscow. The two LANs are connected over the internet to form a Wide Area Network (WAN).

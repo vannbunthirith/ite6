@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+		<slide>
+			<element type="TEXT" subType="TABLE" compId="ID_s1_table" x="45" y="85" width="580" height="370" size="11" />
+		</slide>
+		<slide>
+			<element type="TEXT" subType="TABLE" compId="ID_s2_table" x="45" y="85" width="580" height="370" size="11" />
+		</slide>
+	</slide>
+</data>

@@ -1,0 +1,5 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Xcode</b>]]></text>
+	</component>
+</textcomponents>

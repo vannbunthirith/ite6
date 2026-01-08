@@ -1,0 +1,208 @@
+﻿<textcomponents>
+
+<!-- Slide 1-->
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Part 1:  Identify the Laser Printing Process</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each step  name to its description.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Transferring]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Exposing]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Cleaning]]></text>
+	</component>
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Developing]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Fusing]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Processing]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Charging]]></text>
+	</component>
+
+	
+	<component id='ID_drag_header_01'>
+		<text><![CDATA[<b>Steps</b>]]></text>
+	</component> 
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each step to its description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each step to its description. Please click Reset to try again.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Step Name</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[To write the image, the photosensitive drum is exposed with the laser beam. As the drum turns, an invisible latent image is created on the drum.]]></text> <!--Do-->
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[The toner is applied to the latent image on the drum.]]></text> <!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[The printer converts data from common languages, such as PS or PCL, to a bitmap image stored in the printer’s memory.]]></text> <!--Do-->
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[The toner is permanently fused to the paper. As the paper moves through the rollers, the loose toner is melted and fused with the fibers in the paper. The paper is then moved to the output tray as a printed page.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[The toner attached to the latent image is transferred to the paper.]]></text><!--Do Not-->
+	</component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[When an image has been deposited on the paper and the drum has separated from the paper, the remaining toner must be removed from the drum by a blade or a wire.]]></text><!--Do-->
+	</component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[The previous latent image on the drum is removed and the drum is conditioned for the new latent image by the corona wire.]]></text><!--Do-->
+	</component>
+
+	
+	
+<!-- Slide 2 -->
+
+	<component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Part 2: Order the Laser Printing Process</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[Drag each number to its  appropriate order in the laser printing process.]]></text>
+	</component>
+	
+<!--Drag and Drop-->
+	<component id='ID_s2_drag_header_01'>
+		<text><![CDATA[<b>Steps</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_drag01'>
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[2]]></text>
+	</component>
+	<component id='ID_s2_drag03'>
+		<text><![CDATA[3]]></text>
+	</component>
+	<component id='ID_s2_drag04'>
+		<text><![CDATA[4]]></text>
+	</component>
+	<component id='ID_s2_drag05'>
+		<text><![CDATA[5]]></text>
+	</component>
+	<component id='ID_s2_drag06'>
+		<text><![CDATA[6]]></text>
+	</component>
+	<component id='ID_s2_drag07'>
+		<text><![CDATA[7]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[You have successfully ordered each step in the laser printing process.]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully ordered each step in the laser printing process. Please click Reset to try again.]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header_01'>
+		<text><![CDATA[<b>Step Name</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header_01'>
+		<text><![CDATA[<b>Step Number</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[Charging]]></text>
+	</component>
+	<component id='ID_s2_txt02'>
+	<text><![CDATA[Exposing]]></text>
+	</component>
+	<component id='ID_s2_txt03'>
+	<text><![CDATA[Cleaning]]></text>
+	</component>
+	<component id='ID_s2_txt04'>
+	<text><![CDATA[Processing]]></text>
+	</component>
+	<component id='ID_s2_txt05'>
+	<text><![CDATA[Transferring]]></text>
+	</component>
+	<component id='ID_s2_txt06'>
+	<text><![CDATA[Fusing]]></text>
+	</component>
+	<component id='ID_s2_txt07'>
+	<text><![CDATA[Developing]]></text>
+	</component>
+
+	
+</textcomponents>

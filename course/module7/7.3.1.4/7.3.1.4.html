@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.4 Hardware Firewalls</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Hardware Firewalls</h1>
+        <div>
+          <p>An integrated router also serves as a hardware firewall. Hardware firewalls protect data and equipment on a network from unauthorized access. A hardware firewall resides between two or more networks, as shown in the figure. It does not use the resources of the computers it is protecting, so there is no impact on processing performance. </p>
+          <p></p>
+          <p>Firewalls use various techniques for determining what is permitted or denied access to a network segment, such as an Access Control List (ACL). This list is a file that the router uses which contains rules about data traffic between networks. Considerations when selecting a hardware firewall include:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Space </b>- Free standing and uses dedicated hardware</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Cost </b>- Initial cost of hardware and software updates can be costly</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Number of computers</b> - Multiple computers can be protected</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Performance requirements</b> - Little impact on computer performance</li>
+            </ul>
+          </p>
+          <p>
+            <b>Note</b>: On a secure network, if computer performance is not an issue, enable the internal operating system firewall for additional security. Some applications might not operate properly unless the firewall is configured correctly for them.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a topology that shows how the following hardware firewall works. An internal network consisting of hosts H1 and H2 and a web server are connected to a central Ethernet switch, which connects all wired hosts. The switch is connected to an internal firewall. An external network, consisting of host H3 connects to the internal router, which routes packets for all hosts. The internal router is connected to the internal firewall, which protects hosts H1 and H2.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

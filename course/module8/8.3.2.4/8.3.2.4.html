@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.4 File Services</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>File Services</h1>
+        <div>
+          <p>The File Transfer Protocol (FTP) was standardized in 1971 to allow for data transfers between a client and a server. An FTP client is an application that runs on a computer that is used to push and pull data from a server running FTP as a service.</p>
+          <p></p>
+          <p>As the figure illustrates, to successfully transfer data, FTP requires two connections between the client and the server, one for commands and replies, the other for the actual file transfer.</p>
+          <p></p>
+          <p>FTP has many security weaknesses. Therefore, a more secure file transfer services should be used, such as one of the following:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>File Transfer Protocol Secure (FTPS)</b> - An FTP client can request the file transfer session be encrypted using TLS. The file server can accept or deny the request.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>SSH  File Transfer Protocol (SFTP)</b> - As an extension to Secure Shell (SSH) protocol, SFTP can be used to establish a secure file transfer session.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Secure Copy (SCP)</b> - SCP also uses SSH to secure file transfers.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is a topology that shows a client and a server connected to a network. The client opens the first connection to the server for control traffic. The client opens the second connection for data traffic. Data flows through the network between the devices.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

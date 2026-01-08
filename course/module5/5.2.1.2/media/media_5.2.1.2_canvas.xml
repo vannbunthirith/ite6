@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+	<element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490"  />
+	<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF"/>
+	<element type="TEXT" subType="TABLE" compId="ID_table_html" x="50" y="110" width="580" height="303" />
+	</slide>
+
+</data>

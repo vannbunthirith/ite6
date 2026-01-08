@@ -1,0 +1,142 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+  <text><![CDATA[<b>Click the highlighted area for important content. Click the highlighted area again to close. </b>]]></text> 
+</component>  
+
+
+<!-- slide 1 -->
+<component id="ID_s01_title">
+<text><![CDATA[<b>Open Laptop</b>]]></text>
+</component>
+
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[Keyboard]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[The keyboard is a compact input device and has multi-functional keys.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[Input Devices]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[The input devices are the touchpad, which consists of right and left click buttons, and a pointer controller. The touchpad and pointer controller can be used instead of a mouse for the laptop.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[Fingerprint Reader]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[The fingerprint reader is an input device used for security authentication.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt04'>
+	<text><![CDATA[Volume Controls]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt04">
+<text><![CDATA[The volume controls are buttons that control audio output.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt05'>
+	<text><![CDATA[Power Button]]></text>
+
+</component>
+<component id="ID_s01_bodyTxt05">
+<text><![CDATA[The power button is a control that turns the laptop on and off.]]></text>
+</component>
+
+<!-- end slide 1 -->
+
+
+
+<!-- slide 2 -->
+
+<component id="ID_s02_title">
+<text><![CDATA[<b>Laptop Icons</b>]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Wireless LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[The wireless LED indicates the activity of the wireless network connection.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[Bluetooth Status LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[The Bluetooth status LED indicates when the Bluetooth wireless transceiver is enabled.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[Num Lock LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[The num lock LED indicates the on/off status of the 10-key number pad.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt04'>
+	<text><![CDATA[Caps Lock LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt04">
+<text><![CDATA[The caps lock LED indicates the on/off status of the caps lock.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt05'>
+	<text><![CDATA[Hard Drive Activity LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt05">
+<text><![CDATA[The hard drive activity LED indicates the activity of the hard drive.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt06'>
+	<text><![CDATA[Power On LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt06">
+<text><![CDATA[The power on LED indicates the on/off status of the laptop.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt07'>
+	<text><![CDATA[Battery Status LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt07">
+<text><![CDATA[The battery status LED indicates the status of the laptop battery.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt08'>
+	<text><![CDATA[Hibernate or Standby LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt08">
+<text><![CDATA[The hibernate or standby LED indicates whether the computer is in standby mode or if it is entering or leaving hibernate mode.]]></text>
+</component>
+
+<!-- end slide 2 -->
+
+  
+</textcomponents>

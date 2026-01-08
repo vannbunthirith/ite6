@@ -1,0 +1,1 @@
+The figure on this page is a table that lists step 2 in troubleshooting network problems, establish a theory of probable cause. Common causes of network problems: Loose cable connections, improperly installed NIC, ISP is down, low wireless signal strength, invalid IP address, DNS Server issue, DCHP Server issue, network equipment issue (switch, router, etc.)

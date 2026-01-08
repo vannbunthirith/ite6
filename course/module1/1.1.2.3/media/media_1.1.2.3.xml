@@ -1,0 +1,90 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+	<component id="ID_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Multicore Processors</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="160"><font color='#FFFFFF' ><b>Number of Cores</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Single Core CPU</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >One core inside a single CPU that handles all the processing. A motherboard may have sockets for more than one single processor, providing the ability to build a powerful, multiprocessor computer.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Dual Core CPU</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Two cores inside a single CPU in which both cores can process information at the same time.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Triple Core CPU</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Three cores inside a single CPU. This is a quad-core processor with one of the cores disabled.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Quad Core CPU</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Four cores inside a single CPU.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Hexa-Core CPU</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Six cores inside a single CPU.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Octa-Core CPU</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Eight cores inside a single CPU.</font></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	<component id="ID_table_html">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+	  	<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Multicore Processors</b></font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Cores" bgcolor='#666263'  valign="top"  width="160"><font color='#FFFFFF' ><b>Number of Cores</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="CoresCores" scope="row" bgcolor='#E9E7E8' valign="top"><font color='#393536' >Single Core CPU</font></td>
+			<td headers="Description" bgcolor='#E9E7E8' valign="top"><font color='#393536' >One core inside a single CPU that handles all the processing. A motherboard may have sockets for more than one single processor, providing the ability to build a powerful, multiprocessor computer.</font></td>
+		</tr>
+		<tr>
+			<td headers="Cores" scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536' >Dual Core CPU</font></td>
+			<td headers="Description" bgcolor='#F2F2F2' valign="top"><font color='#393536' >Two cores inside a single CPU in which both cores can process information at the same time.</font></td>
+		</tr>
+		<tr>
+			<td headers="Cores" scope="row" bgcolor='#E9E7E8' valign="top"><font color='#393536' >Triple Core CPU</font></td>
+			<td headers="Description" bgcolor='#E9E7E8' valign="top"><font color='#393536' >Three cores inside a single CPU. This is a quad-core processor with one of the cores disabled.</font></td>
+		</tr>
+		<tr>
+			<td headers="Cores" scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536' >Quad Core CPU</font></td>
+			<td headers="Description" bgcolor='#F2F2F2' valign="top"><font color='#393536' >Four cores inside a single CPU.</font></td>
+		</tr>
+		<tr>
+			<td headers="Cores" scope="row" bgcolor='#E9E7E8' valign="top"><font color='#393536' >Hexa-Core CPU</font></td>
+			<td headers="Description" bgcolor='#E9E7E8' valign="top"><font color='#393536' >Six cores inside a single CPU.</font></td>
+		</tr>
+		<tr>
+			<td headers="Cores" scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536' >Octa-Core CPU</font></td>
+			<td headers="Description" bgcolor='#F2F2F2' valign="top"><font color='#393536' >Eight cores inside a single CPU.</font></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+
+</textcomponents>

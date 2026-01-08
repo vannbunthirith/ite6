@@ -1,0 +1,1 @@
+Figure 1 on this page is an image of Microsoft’s System Preparation (Sysprep) utility in Windows 8.x.Figure 2 on this page is an image of Microsoft’s System Preparation (Sysprep) utility in Windows 7 and Windows Vista.

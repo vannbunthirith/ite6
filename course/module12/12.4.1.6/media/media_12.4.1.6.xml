@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+      
+    
+           <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 6: Document Findings, Actions, and Outcomes</b></font>
+            </caption>
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td scope="row" width="200" bgcolor='#F2F2F2'>Document your findings, actions, and outcomes</td>
+			<td bgcolor='#F2F2F2'><ul>
+				<li>Discuss the solution implemented with the customer.</li>
+				<li>Have the customer verify problem has been solved.</li>
+				<li>Provide the customer with all paperwork.</li>
+				<li>Document the steps taken to solve the problem in the work order and technician's journal.</li>
+				<li>Document any components used in the repair.</li><li>Document the time spent to solve the problem.</li></ul>
+			</td> 
+		</tr>	
+	</table>]]></text>
+	</component>
+	
+</textcomponents>

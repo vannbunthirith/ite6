@@ -1,0 +1,138 @@
+<textcomponents>
+  <component id="ID_title">
+    <text><![CDATA[<b>Comparing 802.11 Standards</b>]]></text>
+  </component>
+  <component id="ID_table">
+    <text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="5" bgcolor='#F2F2F2'><font size="16"></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'  valign="top" width='95'><font color='#F2F2F2' size="11"><b>IEEE Standard</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Maximum Speed</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Maximum Indoor Range</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Frequency</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Backwards Compatible</b></font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">802.11a</td>
+		<td bgcolor='#E9E7E8' valign="top">54 Mb/s</td>
+		<td bgcolor='#E9E7E8' valign="top">115 ft (35 m)</td>
+		<td bgcolor='#E9E7E8' valign="top">5 GHz</td>
+		<td bgcolor='#E9E7E8' valign="top">&#8212;</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">802.11b</td>
+		<td bgcolor='#F2F2F2' valign="top">11 Mb/s</td>
+		<td bgcolor='#F2F2F2' valign="top">115 ft (35 m)</td>
+		<td bgcolor='#F2F2F2' valign="top">2.4 GHz</td>
+		<td bgcolor='#F2F2F2' valign="top">&#8212;</td>
+		
+		
+	</tr>
+
+	   <tr>
+		<td bgcolor='#E9E7E8' valign="top">802.11g</td>
+		<td bgcolor='#E9E7E8' valign="top">54 Mb/s</td>
+		<td bgcolor='#E9E7E8' valign="top">125 ft (38 m)</td>
+		<td bgcolor='#E9E7E8' valign="top">2.4 GHz</td>
+		<td bgcolor='#E9E7E8' valign="top">802.11b</td>
+		
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">802.11n</td>
+		<td bgcolor='#F2F2F2' valign="top">600 Mb/s</td>
+		<td bgcolor='#F2F2F2' valign="top">230 ft (70 m)</td>
+		<td bgcolor='#F2F2F2' valign="top">2.4 GHz and 5 GHz</td>
+		<td bgcolor='#F2F2F2' valign="top">802.11a/b/g</td>
+		
+		
+	</tr>
+
+	   <tr>
+		<td bgcolor='#E9E7E8' valign="top">802.11ac</td>
+		<td bgcolor='#E9E7E8' valign="top">1.3 Gb/s (1300 Mb/s)</td>
+		<td bgcolor='#E9E7E8' valign="top">115 ft (35 m)</td>
+		<td bgcolor='#E9E7E8' valign="top">5 GHz</td>
+		<td bgcolor='#E9E7E8' valign="top">802.11a/n</td>
+		
+	</tr>
+	
+	</table>]]></text>
+  </component>
+
+  <component id="ID_table_html">
+    <text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="5" bgcolor='#FFFFFF'><font size="16">Comparing 802.11 Standards</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="IEEE" bgcolor='#666263'  valign="top" width='95'><font color='#F2F2F2' size="11"><b>IEEE Standard</b></font></th>
+		<th scope="col" id="Maximum" bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Maximum Speed</b></font></th>
+		<th scope="col" id="Indoor" bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Maximum Indoor Range</b></font></th>
+		<th scope="col" id="Frequency" bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Frequency</b></font></th>
+		<th scope="col" id="Backwards" bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Backwards Compatible</b></font></th>
+	</tr>
+
+	<tr>
+		<td scope="row" headers="IEEE" bgcolor='#E9E7E8' valign="top">802.11a</td>
+		<td headers="Maximum" bgcolor='#E9E7E8' valign="top">54 Mb/s</td>
+		<td headers="Indoor" bgcolor='#E9E7E8' valign="top">115 ft (35 m)</td>
+		<td headers="Frequency" bgcolor='#E9E7E8' valign="top">5 GHz</td>
+		<td headers="Backwards" bgcolor='#E9E7E8' valign="top">&#8212;</td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td scope="row" headers="IEEE" bgcolor='#F2F2F2' valign="top">802.11b</td>
+		<td headers="Maximum" bgcolor='#F2F2F2' valign="top">11 Mb/s</td>
+		<td headers="Indoor" bgcolor='#F2F2F2' valign="top">115 ft (35 m)</td>
+		<td headers="Frequency" bgcolor='#F2F2F2' valign="top">2.4 GHz</td>
+		<td headers="Backwards" bgcolor='#F2F2F2' valign="top">&#8212;</td>
+		
+		
+	</tr>
+
+	   <tr>
+		<td scope="row" headers="IEEE" bgcolor='#E9E7E8' valign="top">802.11g</td>
+		<td headers="Maximum" bgcolor='#E9E7E8' valign="top">54 Mb/s</td>
+		<td headers="Indoor" bgcolor='#E9E7E8' valign="top">125 ft (38 m)</td>
+		<td headers="Frequency" bgcolor='#E9E7E8' valign="top">2.4 GHz</td>
+		<td headers="Backwards" bgcolor='#E9E7E8' valign="top">802.11b</td>
+		
+	</tr>
+	
+	<tr>
+		<td scope="row" headers="IEEE" bgcolor='#F2F2F2' valign="top">802.11n</td>
+		<td headers="Maximum" bgcolor='#F2F2F2' valign="top">600 Mb/s</td>
+		<td headers="Indoor" bgcolor='#F2F2F2' valign="top">230 ft (70 m)</td>
+		<td headers="Frequency" bgcolor='#F2F2F2' valign="top">2.4 GHz and 5 GHz</td>
+		<td headers="Backwards" bgcolor='#F2F2F2' valign="top">802.11a/b/g</td>
+		
+		
+	</tr>
+
+	   <tr>
+		<td scope="row" headers="IEEE" bgcolor='#E9E7E8' valign="top">802.11ac</td>
+		<td headers="Maximum" bgcolor='#E9E7E8' valign="top">1.3 Gb/s (1300 Mb/s)</td>
+		<td headers="Indoor" bgcolor='#E9E7E8' valign="top">115 ft (35 m)</td>
+		<td headers="Frequency" bgcolor='#E9E7E8' valign="top">5 GHz</td>
+		<td headers="Backwards" bgcolor='#E9E7E8' valign="top">802.11a/n</td>
+		
+	</tr>
+	
+	</table>]]></text>
+  </component>
+</textcomponents>

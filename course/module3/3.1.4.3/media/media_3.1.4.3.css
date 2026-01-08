@@ -1,0 +1,14 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+.textClass{
+	background-color: #E0D5E6;
+	border-radius: 5px;
+	padding: 6px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	height:100px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+        <slide>
+            <element type="TEXT" x="25" y="7" width="630" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+            <element type="IMAGE" x="70" y="45" width="230" height="180" subType="STD" src="media_9.4.1.7_A.jpg" />
+            <element type="TEXT" x="68.2" y="230.85" align="center" width="230" compId="ID_s1_txt01" color="#FFFFFF" />
+            <element type="IMAGE" x="379.95" y="45" width="230" height="400" subType="STD" src="media_9.4.1.7_B.jpg" />
+            <element type="IMAGE" x="70.05" y="265" width="230" height="180" subType="STD" src="media_9.4.1.7_C.jpg" />
+            <element type="TEXT" x="70" y="450.85" align="center" width="230" compId="ID_s1_txt02" color="#FFFFFF" />
+             <element type="TEXT" x="380" y="450.85" align="center" width="230" compId="ID_s1_txt03" color="#FFFFFF" />
+        </slide>
+        <slide>
+            <element type="TEXT" x="25" y="7" width="630" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+            <element type="IMAGE" x="70" y="45" width="230" height="180" subType="STD" src="media_9.4.1.7_D.jpg" />
+            <element type="TEXT" x="68.2" y="230.85" align="center" width="230" compId="ID_s2_txt01" color="#FFFFFF" />
+            <element type="IMAGE" x="70.05" y="265" width="230" height="180" subType="STD" src="media_9.4.1.7_E.jpg" />
+            <element type="TEXT" x="70" y="450.85" align="center" width="230" compId="ID_s2_txt02" color="#FFFFFF" />
+            <element type="IMAGE" x="379.95" y="45" width="230" height="400" subType="STD" src="media_9.4.1.7_F.jpg" />
+            <element type="TEXT" x="380" y="450.85" align="center" width="230" compId="ID_s2_txt03" color="#FFFFFF" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="70" y="45" width="230" height="180" subType="STD" src="media_9.4.1.7_G.jpg" />
+            <element type="TEXT" x="68.2" y="230.85" align="center" width="230" compId="ID_s3_txt01" color="#FFFFFF" />
+            <element type="IMAGE" x="70.05" y="265" width="230" height="180" subType="STD" src="media_9.4.1.7_H.jpg" />
+            <element type="TEXT" x="70" y="450.85" align="center" width="230" compId="ID_s3_txt02" color="#FFFFFF" />
+            <element type="IMAGE" x="379.95" y="45" width="230" height="400" subType="STD" src="media_9.4.1.7_I.jpg" />
+            <element type="TEXT" x="380" y="450.15" align="center" width="230" compId="ID_s3_txt03" color="#FFFFFF" />
+        </slide>
+    </slide>
+</data>

@@ -1,0 +1,119 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Types of Trojan Horses</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Varieties of Malware</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+        <text><![CDATA[Viruses Can …]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+        <text><![CDATA[<ul><li>Alter, corrupt, delete files or even erase an entire hard drive on a computer.</li><li>Prevent the computer from booting, cause applications to not load or operate correctly.</li><li>Use the users email account to spread the virus to other computers.</li><li>Lay dormant until summoned by the attacker.</li><li>Record keystrokes to capture sensitive information, such as passwords and credit card numbers and send that data to the attacker.</li></ul>]]></text>
+	</component>
+ 
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+       
+
+		<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Types of Trojan Horses</font>
+            </caption>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Trojan" bgcolor='#666263' width="200" valign="top"><font color='#FFFFFF' ><b>Type of Trojan Horse</b></font></th>
+			<th scope="col" id="Description" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></th>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Trojan"  bgcolor='#E9E7E8'>Remote-access</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Trojan enables unauthorized remote access.</td>
+			
+		</tr>
+		<tr>
+			<td  scope="row" headers="Trojan" bgcolor='#F2F2F2'>Data-sending</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Trojan provides the attacker with sensitive data, such as passwords.</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Trojan"  bgcolor='#E9E7E8'>Destructive</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Trojan corrupts or deletes files.</td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Trojan"  bgcolor='#F2F2F2'>Proxy</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Trojan will use the victim's computer as the source device to launch attacks and perform other illegal activities.</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Trojan"  bgcolor='#E9E7E8'>FTP</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Trojan enables unauthorized file transfer services on end devices.</td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Trojan"  bgcolor='#F2F2F2'>Security software disabler</td>
+			<td headers="Description" bgcolor='#F2F2F2'>Trojan stops antivirus programs or firewalls from functioning.</td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Trojan"  bgcolor='#E9E7E8'>Denial of Service (DoS)</td>
+			<td headers="Description" bgcolor='#E9E7E8'>Trojan slows or halts network activity.</td>
+			
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s3_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        
+		<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16">Varieties of Malware</font>
+            </caption>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<th scope="col" id="Security" bgcolor='#666263' width="150" valign="top"><font color='#FFFFFF' ><b>Security Modes</b></font></td>
+			<th scope="col" id="Description2" bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#E9E7E8'>Worms</td>
+			<td headers="Description2" bgcolor='#E9E7E8'><ul><li>A worm is a self-replicating program that is harmful to networks with the intent to slow or disrupt network operations.</li><li>Worms typically spread automatically by exploiting known vulnerabilities in legitimate software.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#F2F2F2'>Adware</td>
+			<td headers="Description2" bgcolor='#F2F2F2'><ul><li>Usually distributed by downloading online software.</li><li>It displays advertising on your computer most often as in a pop-up window.</li><li>Adware pop-up windows are sometimes difficult to control and open new windows faster than users can close them.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#E9E7E8'>Spyware</td>
+			<td headers="Description2" bgcolor='#E9E7E8'><ul><li>Similar to adware but used to gather information about a user and send the information to another entity, without the user’s consent.</li><li>Spyware can be low threat, gathering browsing data, or it can be high threat where personal or financial information is gathered.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#F2F2F2'>Ransomware</td>
+			<td headers="Description2" bgcolor='#F2F2F2'><ul><li>Similar to adware but denies access to the infected computer system.</li><li>The ransomware then demands a paid ransom for the restriction to be removed.</li></ul></td>
+		</tr>
+		<tr>
+			<td scope="row" headers="Security" bgcolor='#E9E7E8'>Rootkits</td>
+			<td headers="Description2" bgcolor='#E9E7E8'><ul><li>Program used by hackers to gain  Administrator-account level access to a computer.</li><li>Very difficult to detect because it can control security programs to conceal itself.</li><li>Special rootkit removal software can be used  but sometimes a re-installation of the operating system is necessary to ensure that the rootkit is completely removed.</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

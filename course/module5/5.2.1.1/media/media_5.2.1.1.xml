@@ -1,0 +1,191 @@
+﻿<textcomponents>
+
+
+<!-- slide 1 -->
+	<component id="ID_s1_title">
+		<text><![CDATA[Structure of a Hard Drive]]></text>
+	</component>
+
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Actuator Shaft]]></text>
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Spindle]]></text>
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Actuator Arm]]></text>
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Platters / Disks]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[Actuator Shaft]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[The actuator shaft holds the actuator arm and acts as a rotation point.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt02'>
+		<text><![CDATA[Spindle]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt02'>
+		<text><![CDATA[The spindle holds the platters and spins them.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt03'>
+		<text><![CDATA[Actuator Arm]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt03'>
+		<text><![CDATA[The actuator arm holds the read/write head and moves it between tracks on the platter.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt04'>
+		<text><![CDATA[Platters]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt04'>
+		<text><![CDATA[Platters are disks coated with magnetic media.]]></text>
+	</component>
+
+
+
+<!-- end slide 1 -->
+
+
+
+<!-- slide 2 -->
+	<component id="ID_s2_title">
+		<text><![CDATA[Structure of a Hard Drive Platter]]></text>
+	</component>
+
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[Track]]></text>
+	</component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[Cluster]]></text>
+	</component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[Sector]]></text>
+	</component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Cylinder]]></text>
+	</component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Intersector Gap]]></text>
+	</component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[Error Correcting Code (ECC)]]></text>
+	</component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[Synchronization Information]]></text>
+	</component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[Intertrack Gap]]></text>
+	</component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[Header]]></text>
+	</component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[Data]]></text>
+	</component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[Trailer]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt01'>
+		<text><![CDATA[Track]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[A track is one complete circle on one side of platter where data is written and read. A track is broken into multiple sectors.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt02'>
+		<text><![CDATA[Cluster]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt02'>
+		<text><![CDATA[A cluster is a group of sectors allocated for data storage. The file system allocates clusters for storage because most files are larger than one sector.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt03'>
+		<text><![CDATA[Sector]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt03'>
+		<text><![CDATA[A sector is a portion of a track that contains synchronization information, data, and error correcting code (ECC).]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt04'>
+		<text><![CDATA[Cylinder]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt04'>
+		<text><![CDATA[A cylinder is where tracks are in alignment above and below each other on many platters.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt05'>
+		<text><![CDATA[Intersector Gap]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt05'>
+		<text><![CDATA[This is the gap which defines the boundaries between sectors.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt06'>
+		<text><![CDATA[Error Correcting Code (ECC)]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt06'>
+		<text><![CDATA[This code helps to verify that the data in the sector was written correctly.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt07'>
+		<text><![CDATA[Synchronization Information]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt07'>
+		<text><![CDATA[This is data used by the drive and the controller to help with data storage.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt08'>
+		<text><![CDATA[Intertrack Gap]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt08'>
+		<text><![CDATA[This is the gap which defines the boundaries between tracks.]]></text>
+	</component>
+
+<!-- end slide 2 -->
+
+
+</textcomponents>

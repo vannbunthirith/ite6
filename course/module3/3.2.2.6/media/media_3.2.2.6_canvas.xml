@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s1.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s2.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s3.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s4.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s4_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s5.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s5_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s6.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s6_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s7.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s7_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s8.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s8_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s9.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s9_title" color="#ffffff" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="60" y="44" width="560" height="420" subType="STD" src="media_3.2.2.6_s10.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s10_title" color="#ffffff" />
+</slide>
+
+</slide>
+</data>

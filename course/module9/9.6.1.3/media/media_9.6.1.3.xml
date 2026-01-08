@@ -1,0 +1,49 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			
+
+			<caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+               <font size="16"><b>Step 3: Test the Theory to Determine Cause</b></font>
+            </caption>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+	
+			<tr>
+				<td scope="row" bgcolor='#E9E7E8' width="200">Common steps to determine cause for laptop problems</td>
+				
+				<td bgcolor='#E9E7E8'><ul>
+				
+					<li>Use AC adapter with laptop</li>
+					<li>Replace battery</li>
+					<li>Reboot the laptop</li>
+					<li>Check BIOS settings</li>
+					<li>Disconnect and reconnect the cables</li>
+					<li>Disconnect peripherals</li><li>Toggle Num Lock key</li>
+					<li>Remove and reinstall RAM</li><li>Caps lock key is on</li>
+					<li>Check for non-bootable media in a boot device</li>
+				</ul>
+				</td> 
+			</tr>
+			
+			<tr>
+				<td scope="row" bgcolor='#E9E7E8' width="200">Common steps to determine cause for mobile device problems</td>
+				
+				<td bgcolor='#E9E7E8'><ul>
+				
+					<li>Restart the mobile device.</li>
+					<li>Plug the mobile device into an AC outlet</li>
+					<li>Replace the mobile device battery</li>
+					<li>Remove any removable battery and reinstall it</li>
+					<li>Clean the speaker, microphone, charging port, or other connection ports</li>
+				</ul>
+				</td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

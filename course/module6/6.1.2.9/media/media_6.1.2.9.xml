@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Windows Firewall on Windows 8.x</b>]]></text>
+	</component>  	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Windows Firewall on Windows 7</b>]]></text>
+	</component>  	
+ 	
+</textcomponents>

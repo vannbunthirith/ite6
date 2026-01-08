@@ -1,0 +1,1 @@
+The figure on this page is an image of the Windows Device Manager utility. The figure also shows an image of the Broadcom NetXtreme Gigabit Ethernet Properties dialog box with the, ‘Driver Details’ button selected.

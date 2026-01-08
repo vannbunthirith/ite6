@@ -1,0 +1,34 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    
+
+     
+         <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="16"><b>Step 1: Identify the Problem</b></font>
+            </caption>
+
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td scope="row" bgcolor='#E9E7E8' width="210" valign="top"><font  color='#393536'>Open-ended Questions</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul><li>When did the problem start?</li><li>What problems are you experiencing?</li><li>What websites have you visited recently?</li><li>What security software is installed on your computer?</li><li>Who else has used your computer recently?</li></ul></font></td>
+	</tr>
+	<tr>
+		<td scope="row" bgcolor='#F2F2F2' valign="top"><font color='#393536'>Closed-ended Questions</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><ul><li>Is your security software up to date?</li><li>Have you scanned your computer recently for viruses?</li><li>Did you open any attachments from a suspicious email?</li><li>Have you changed your password recently?</li><li>Have you shared your password?</li></ul></font></td>
+	</tr>
+	
+
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

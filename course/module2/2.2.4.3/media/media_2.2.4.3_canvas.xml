@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="IMAGE" x="171.05" y="87.45" width="337.95" height="337.95" subType="STD" src="2.2.4.3-2.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="2.2.4.3-2_1.png" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="IMAGE" x="171.05" y="87.45" width="337.95" height="337.95" subType="STD" src="2.2.4.3-3.jpg" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+            <element type="IMAGE" x="103.8" y="87.45" width="472.4" height="337.95" subType="STD" src="2.2.4.3-4.jpg" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg1.jpg" />
+            <element type="TEXT" x="105" y="407" width="470" align="left" expand="down" compId="ID_s5_inst" />
+        </slide>
+    </slide>
+</data>

@@ -1,0 +1,277 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Computer Power Supply</b>]]></text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Computer Power Supply Connectors</b>]]></text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[20-pin or 24-pin slotted connector]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[SATA keyed connector]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[Molex keyed connector]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[Berg keyed connector]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[4-pin to 8-pin auxiliary power connector]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt06">
+        <text>
+            <![CDATA[6/8-pin PCIe power connector]]>
+        </text>
+    </component>
+    <component id="ID_s3_title">
+        <text>
+            <![CDATA[<b>Common Power Supply Connectors</b>]]></text>
+    </component>
+    <component id="ID_s3_table">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Connector</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>A 20-pin or 24-pin slotted connector</td>
+			<td bgcolor='#E9E7E8'><ul><li>Connects to the motherboard</li><li>The 24-pin connector has two rows of 12 pins each</li><li>The 20-pin connector has two rows of 10 pins each</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>SATA keyed connector</td>
+			<td bgcolor='#F2F2F2'><ul><li>Connects disk drives</li><li>Connector is wider and thinner than a Molex connector</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Molex keyed connector</td>
+			<td bgcolor='#E9E7E8'><ul><li>Connects hard drives, optical drives, or other devices</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Berg keyed connector</td>
+			<td bgcolor='#F2F2F2'><ul><li>Connect to legacy floppy drives</li><li>Smaller than a Molex connector</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>4-pin to 8-pin auxilliary power connector</td>
+			<td bgcolor='#E9E7E8'><ul><li>Connector has two rows of two to four pins and supplies power to different areas of the motherboard</li><li>The auxiliary power connector is the same shape as the main power connector but smaller</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>6/8-pin PCIe power connector</td>
+			<td bgcolor='#F2F2F2'><ul><li>Connector has two rows of three to four pins and supplies power to internal components</li></ul></td>
+		</tr>
+		
+		</table>]]>
+        </text>
+    </component>
+    <component id="ID_s3_table_html">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="3">Common Power Supply Connections</font></caption>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th id="Connector" scope="col" bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Connector</b></font></th>
+			<th id="Description" scope="col" bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></th>
+		</tr>
+
+		<tr>
+			<td headers="Connector" scope="row" bgcolor='#E9E7E8'>A 20-pin or 24-pin slotted connector</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>Connects to the motherboard</li><li>The 24-pin connector has two rows of 12 pins each</li><li>The 20-pin connector has two rows of 10 pins each</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Connector" scope="row" scope="row" bgcolor='#F2F2F2'>SATA keyed connector</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>Connects disk drives</li><li>Connector is wider and thinner than a Molex connector</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Connector" scope="row" bgcolor='#E9E7E8'>Molex keyed connector</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>Connects hard drives, optical drives, or other devices</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Connector" scope="row" bgcolor='#F2F2F2'>Berg keyed connector</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>Connect to legacy floppy drives</li><li>Smaller than a Molex connector</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Connector" scope="row" bgcolor='#E9E7E8'>4-pin to 8-pin auxilliary power connector</td>
+			<td headers="Description" bgcolor='#E9E7E8'><ul><li>Connector has two rows of two to four pins and supplies power to different areas of the motherboard</li><li>The auxiliary power connector is the same shape as the main power connector but smaller</li></ul></td>
+		</tr>
+		<tr>
+			<td headers="Connector" scope="row" bgcolor='#F2F2F2'>6/8-pin PCIe power connector</td>
+			<td headers="Description" bgcolor='#F2F2F2'><ul><li>Connector has two rows of three to four pins and supplies power to internal components</li></ul></td>
+		</tr>
+		
+		</table>]]>
+        </text>
+    </component>
+    <component id="ID_s4_title">
+        <text>
+            <![CDATA[<b>Power Supply Voltages</b>]]></text>
+    </component>
+    <component id="ID_s4_table">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="6" bgcolor='#FFFFFF'><br/><br/></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='6' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="55" rowspan='2' id="voltage"><font color='#FFFFFF' ><b>Voltage</b></font></td>
+			<td bgcolor='#666263' width="55" rowspan='2' id="Wire"><font color='#FFFFFF' ><b>Wire Color</b></font></td>
+			<td bgcolor='#666263' rowspan='2' id="use"><font color='#FFFFFF' ><b>Use</b></font></td>
+			<td bgcolor='#666263' class="border_left" colspan='3' ><font color='#FFFFFF'  ><b>Power Supply Form</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  width="30" class="border_left"><font color='#FFFFFF' ><b>AT</b></font></td>
+			<td bgcolor='#666263'  width="35" class="border_left"><font color='#FFFFFF' ><b>ATX</b></font></td>
+			<td bgcolor='#666263'  width="55" class="border_left" id="ATXv12"><font color='#FFFFFF' ><b>ATX12V</b></font></td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+12V</td>
+			<td bgcolor='#E9E7E8'>Yellow</td>
+			<td bgcolor='#E9E7E8'>Disk drive motors, fans, cooling devices, and the system bus slots</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>-12V</td>
+			<td bgcolor='#F2F2F2'>Blue</td>
+			<td bgcolor='#F2F2F2'>Some type of serial port circuits and early programmable read-only memory (PROM)</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+3.3V</td>
+			<td bgcolor='#E9E7E8'>Orange</td>
+			<td bgcolor='#E9E7E8'>Most newer CPUs, some type of system memory, and AGP video cards</td>
+			<td bgcolor='#E9E7E8'></td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>+5V</td>
+			<td bgcolor='#F2F2F2'>Red</td>
+			<td bgcolor='#F2F2F2'>Motherboard, Baby AT and earlier CPUs, and many motherboard components</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>-5V</td>
+			<td bgcolor='#E9E7E8'>White</td>
+			<td bgcolor='#E9E7E8'>ISA bus cards and early PROMS</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>0V</td>
+			<td bgcolor='#F2F2F2'>Black</td>
+			<td bgcolor='#F2F2F2'>Ground - Used to complete circuits with the other voltages.</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		
+		</table>]]>
+        </text>
+    </component>
+
+    <component id="ID_s4_table_html">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="3">Power Supply Voltages</font></caption>
+          
+		<tr class="mtable_top">
+			<td colspan='6' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<th scope="col" id="Voltage" bgcolor='#666263' width="55" rowspan='2' id="voltage"><font color='#FFFFFF' ><b>Voltage</b></font></th>
+			<th scope="col" id="Wire" bgcolor='#666263' width="55" rowspan='2' id="Wire"><font color='#FFFFFF' ><b>Wire Color</b></font></th>
+			<th scope="col" id="Use" bgcolor='#666263' rowspan='2' id="use"><font color='#FFFFFF' ><b>Use</b></font></th>
+			<th scope="col" id="Power" bgcolor='#666263' class="border_left" colspan='3'><font color='#FFFFFF'><b>Power Supply Form</b></font></th>
+		</tr>
+		<tr>
+			<th scope="col" id="AT" headers="Power" bgcolor='#666263'  width="30" class="border_left"><font color='#FFFFFF' ><b>AT</b></font></th>
+			<th scope="col" id="ATX" headers="Power" bgcolor='#666263'  width="35" class="border_left"><font color='#FFFFFF' ><b>ATX</b></font></th>
+			<th scope="col" id="ATXv12" headers="Power" bgcolor='#666263'  width="55" class="border_left" ><font color='#FFFFFF' ><b>ATX12V</b></font></th>
+		</tr>
+		<tr>
+			<td headers="Voltage" scope="row" height="30" bgcolor='#E9E7E8'>+12V</td>
+			<td headers="Wire" bgcolor='#E9E7E8'>Yellow</td>
+			<td headers="Use" bgcolor='#E9E7E8'>Disk drive motors, fans, cooling devices, and the system bus slots</td>
+			<td headers="AT Power" bgcolor='#E9E7E8'>•</td>
+			<td headers="ATX Power" bgcolor='#E9E7E8'>•</td>
+			<td headers="ATXv12 Power" bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td headers="Voltage" scope="row" height="30" bgcolor='#F2F2F2'>-12V</td>
+			<td headers="Wire" bgcolor='#F2F2F2'>Blue</td>
+			<td headers="Use" bgcolor='#F2F2F2'>Some type of serial port circuits and early programmable read-only memory (PROM)</td>
+			<td headers="AT Power" bgcolor='#F2F2F2'>•</td>
+			<td headers="ATX Power" bgcolor='#F2F2F2'>•</td>
+			<td headers="ATXv12 Power" bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td headers="Voltage" scope="row" height="30" bgcolor='#E9E7E8'>+3.3V</td>
+			<td headers="Wire" bgcolor='#E9E7E8'>Orange</td>
+			<td headers="Use" bgcolor='#E9E7E8'>Most newer CPUs, some type of system memory, and AGP video cards</td>
+			<td headers="AT Power" bgcolor='#E9E7E8'></td>
+			<td headers="ATX Power" bgcolor='#E9E7E8'>•</td>
+			<td headers="ATXv12 Power" bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td headers="Voltage" scope="row" height="30" bgcolor='#F2F2F2'>+5V</td>
+			<td headers="Wire" bgcolor='#F2F2F2'>Red</td>
+			<td headers="Use" bgcolor='#F2F2F2'>Motherboard, Baby AT and earlier CPUs, and many motherboard components</td>
+			<td headers="AT Power" bgcolor='#F2F2F2'>•</td>
+			<td headers="ATX Power" bgcolor='#F2F2F2'>•</td>
+			<td headers="ATXv12 Power" bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td headers="Voltage" scope="row" height="30" bgcolor='#E9E7E8'>-5V</td>
+			<td headers="Wire" bgcolor='#E9E7E8'>White</td>
+			<td headers="Use" bgcolor='#E9E7E8'>ISA bus cards and early PROMS</td>
+			<td headers="AT Power" bgcolor='#E9E7E8'>•</td>
+			<td headers="ATX Power" bgcolor='#E9E7E8'>•</td>
+			<td headers="ATXv12 Power" bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td headers="Voltage" scope="row" height="30" bgcolor='#F2F2F2'>0V</td>
+			<td headers="Wire" bgcolor='#F2F2F2'>Black</td>
+			<td headers="Use" bgcolor='#F2F2F2'>Ground - Used to complete circuits with the other voltages.</td>
+			<td headers="AT Power" bgcolor='#F2F2F2'>•</td>
+			<td headers="ATX Power" bgcolor='#F2F2F2'>•</td>
+			<td headers="ATXv12 Power" bgcolor='#F2F2F2'>•</td>
+		</tr>
+		
+		</table>]]>
+        </text>
+    </component>
+</textcomponents>

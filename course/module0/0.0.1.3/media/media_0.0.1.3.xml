@@ -1,0 +1,25 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Drag and Drop Interactive Activity</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Checkbox Interactive Activity</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>(from cisco brand X S90304 ) Labs</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Packet Tracer</b>]]></text>
+	</component>
+    
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Aspire</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_title">
+        <text><![CDATA[<b>Assessments</b>]]></text>
+	</component>
+</textcomponents>

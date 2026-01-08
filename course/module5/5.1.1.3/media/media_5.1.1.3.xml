@@ -1,0 +1,63 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Architecture</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><b>32-bit  (x86-32)</b></td>
+                <td bgcolor='#E9E7E8'><ul><li>Processes multiple instructions using a 32-bit address space</li><li>Supports 32-bit operating system</li><li>Supports maximum of 4 GB of RAM memory</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><b>64-bit (x86-64)</b></td>
+                <td bgcolor='#F2F2F2'><ul><li>Adds additional registers specifically for instructions that use a 64-bit address space</li><li>Is backward compatible with the 32-bit processor</li><li>Supports 32-bit and 64-bit operating systems</li></ul></td>
+            </tr>
+ 
+        </table>]]></text>
+    </component>
+
+     <component id="ID_table_html">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+            <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Differences between the 32-bit and 64-bit architectures</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="Architecture" bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Architecture</b></font></th>
+                <th scope="col" id="Description" bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Architecture" bgcolor='#E9E7E8'><b>32-bit  (x86-32)</b></td>
+                <td headers="Description" bgcolor='#E9E7E8'><ul><li>Processes multiple instructions using a 32-bit address space</li><li>Supports 32-bit operating system</li><li>Supports maximum of 4 GB of RAM memory</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Architecture" bgcolor='#F2F2F2'><b>64-bit (x86-64)</b></td>
+                <td headers="Description" bgcolor='#F2F2F2'><ul><li>Adds additional registers specifically for instructions that use a 64-bit address space</li><li>Is backward compatible with the 32-bit processor</li><li>Supports 32-bit and 64-bit operating systems</li></ul></td>
+            </tr>
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

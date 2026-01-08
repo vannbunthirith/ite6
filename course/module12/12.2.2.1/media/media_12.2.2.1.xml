@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Web Browser Security Features</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[ActiveX Filtering]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Pop-up Blocker]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[SmartScreen Filter]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[InPrivate Browsing]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Browser Security</b>]]></text>
+	</component>
+
+</textcomponents>

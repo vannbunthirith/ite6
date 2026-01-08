@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+<slide>
+<element type="IMAGE" x="60" y="55" width="559.85" height="385.6" subType="STD" src="media_6.3.1.6-1.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="80" y="55" width="531" height="379" subType="STD" src="media_6.3.1.6-2.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+</slide>
+</slide>
+</data>

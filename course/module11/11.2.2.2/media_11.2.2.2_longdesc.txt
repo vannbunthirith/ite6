@@ -1,0 +1,1 @@
+The figure on this page is an image that shows the context menu that is displayed when the printer is selected in Devices and Printers. The, ‘Set as default printer’ option is activated in the context menu.

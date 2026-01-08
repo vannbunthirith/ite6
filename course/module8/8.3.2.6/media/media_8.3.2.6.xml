@@ -1,0 +1,51 @@
+﻿<textcomponents>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[Sender]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[Recipient]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[Internet]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+	<text><![CDATA[Mail Server]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+	<text><![CDATA[Mail Server]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+	<text><![CDATA[SMTP]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+	<text><![CDATA[IMAP or POP3]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+	<text><![CDATA[SMTP]]></text>
+	</component>
+	
+	<component id="ID_txt09">
+	<text><![CDATA[<b>ISP A</b>]]></text>
+	</component>
+	
+	<component id="ID_txt10">
+	<text><![CDATA[<b>ISP B</b>]]></text>
+	</component>
+	
+	<component id="ID_txt11">
+	<text><![CDATA[<font color="#ffffff">Send to recipient@cisco.com</font>]]></text>
+	</component>
+
+	<component id="ID_txt12">
+	<text><![CDATA[SMTP]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.2.1 Scheduled Tasks</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Scheduled Tasks</h1>
+        <div>
+          <p>Computer systems need periodic preventive maintenance to ensure best performance. Maintenance tasks should be scheduled and performed frequently to prevent problems or to detect problems early. To avoid missing maintenance tasks due to human error, computer systems can be programmed to perform tasks automatically. Two tasks that should be scheduled and performed automatically are Backups and Disk checks.</p>
+          <p></p>
+          <p>Scheduling backups are important to ensure that important data is not lost due to a hardware failure. The more frequent the backups, the smaller the risk of data loss.</p>
+          <p></p>
+          <p>Magnetic-based media’s ability to hold the electro-magnetic charges for storing data wears out with time. By periodically checking the disk for bad sectors, an administrator can become aware of the potential for a failure, allowing for planning and data migration.</p>
+          <p></p>
+          <p>Backups and disk checks are usually time-consuming tasks. An additional benefit of scheduled maintenance tasks is that it allows the computer to perform these tasks when no users are using the system. The CLI utility, cron, can schedule these tasks during off –peak hours.</p>
+          <p></p>
+          <p>
+            <b>How to schedule a task – The Cron Service</b>
+          </p>
+          <p></p>
+          <p>In Linux and OS X, the <b>cron</b> service is responsible for scheduled tasks. As a service, <b>cron </b>runs in the background and executes tasks at specific dates and times. <b>cron </b>uses a schedule table called a cron table that can be edited with the <b>crontab </b>command.</p>
+          <p></p>
+          <p>The cron table is a plaintext file that has 6 columns, formatted as shown in Figure 1.  A task is usually represented by a command, a program or a script. To schedule a task, the user adds a row to the cron table. The new row specifies the minute, hour, day of the month, and the day of the week the task should be executed by the <b>cron</b> service. When the specified date and time arrives, the task is executed. </p>
+          <p></p>
+          <p>Figure 2 has an explanation of the cron table fields. The center column shows the data type acceptable for the fields. </p>
+          <p></p>
+          <p>The cron table shown in Figure 3 has two entries. The first entry tells the <b>cron</b> service to execute <b>myFirstTask</b> script, located at <b>/myDirectory/</b>, on the first and fifteenth day of each month and also on Mondays, always at midnight (0h0m). The second entry shows that the <b>cron </b>service will execute <b>mySecondTask</b> script, also located at <b>/myDirectory/</b>, every Thursday at 2h37m in the morning.</p>
+          <p></p>
+          <p>To create or edit the cron table, use the <b>crontab –e </b>command from a terminal.</p>
+          <p></p>
+          <p>To list the current cron table, use the <b>crontab –l</b> command.</p>
+          <p></p>
+          <p>To remove the current cron table, use <b>crontab –r</b> command.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the following column headings of the Cron table: Minute, Hours, Days, Months, Weekdays, Commands. Figure 2 on this page is a table that lists the following descriptions for the Cron table fields. Field: minute, Data Type: 0 – 59, Description: The minute the command executes. Field: hours, Data Type: 0 – 23, Description: The hour the command executes. Field: days, Data Type: 1 – 31, Description: Day of the month the command executes. Field: months, Data Type: 1 12, Description The month the command executes. Field: weekdays, Data Type: 0 – 6, Description: The day of the week the command executes, 0 = Sunday, 1 = Monday, and so forth. Field: command, Data Type: varies, Description: The command or set of commands, this must be compatible with the shell and use. Figure 3 on this page is an image of the following example of a Cron table. First entry: minute = 0; hours = 0; days = 1, 15; months = *; weekdays = 1; command = /myDirectory/myFirstTask. Second entry: minute = 2; hours = 37; days = *; months = *; weekdays = 4; command = /myDirectory/mySecondTask.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

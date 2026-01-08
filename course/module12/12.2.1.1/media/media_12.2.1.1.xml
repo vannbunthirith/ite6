@@ -1,0 +1,136 @@
+﻿<textcomponents>
+
+
+<!-- slide 1 -->
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Creating a Network Security Policy</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01"> 
+	<text><![CDATA[<font color="#FFFFFF">The next item on the security policy that we need to discuss is the rules for network access.</font>]]></text> 
+</component>
+
+<component id="ID_s1_bubble02"> 
+	<text><![CDATA[<font color="#FFFFFF">We must keep in mind that we have remote workers. They will have different access rules than our onsite employees.</font>]]></text> 
+</component>
+	
+<!-- end slide 1 -->
+
+
+
+
+<!-- slide 2 -->
+
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Security Policy Questions</b>]]></text>
+</component>
+
+<component id='ID_s2_txtTitle01'>
+	<text><![CDATA[Security Policy Identifies …]]></text>
+</component>
+
+<component id='ID_s2_txtBody01'>
+	<text><![CDATA[<ul><li>Which assets require protection?</li><li>What are the possible threats?</li><li>What to do in the event of a security breach?</li><li>What training will be in place to educate the end users?</li></ul>]]></text>
+</component>
+
+<!-- end slide 2 -->
+
+
+
+
+<!-- slide 3 -->
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Security Policy</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Security Policy</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<font size="+2"><b>Security Policy</b></font>]]></text>
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[1. <textformat blockindent='-18'>Identification and Authentication Policies</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt04">
+		<text><![CDATA[2. <textformat blockindent='-18'>Password Policies</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt05">
+		<text><![CDATA[3. <textformat blockindent='-18'>Acceptable Use Policies</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt06">
+		<text><![CDATA[4. <textformat blockindent='-18'>Remote Access Policies</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt07">
+		<text><![CDATA[5. <textformat blockindent='-18'>Network Maintenance Policies</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt08">
+		<text><![CDATA[6. <textformat blockindent='-18'>Incident Handling Policies</textformat>]]></text>
+	</component>
+
+
+	<!-- slide 3 textboxes -->
+	<component id="ID_s3_txtTitle01">
+		<text><![CDATA[Identification and Authentication Policies]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody01">
+		<text><![CDATA[Specifies authorized persons that can have access to network resources and outlines verification procedures.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle02">
+		<text><![CDATA[Password Policies]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody02">
+		<text><![CDATA[Ensures passwords meet minimum requirements and are changed regularly.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle03">
+		<text><![CDATA[Acceptable Use Policies]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody03">
+		<text><![CDATA[Identifies network resources and usages that are acceptable to the organization. It may also identify ramifications if this policy is violated.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle04">
+		<text><![CDATA[Remote Access Policies]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody04">
+		<text><![CDATA[Identifies how remote users can access a network and what is accessible via remote connectivity.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle05">
+		<text><![CDATA[Network Maintenance Policies]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody05">
+		<text><![CDATA[Specifies network device operating systems and end user application update procedures.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle06">
+		<text><![CDATA[Incident Handling Policies]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody06">
+		<text><![CDATA[Describes how security incidents are handled.]]></text>
+	</component>
+	<!-- end slide 3 textboxes -->
+
+
+	
+<!-- end slide 3 -->
+
+
+</textcomponents>

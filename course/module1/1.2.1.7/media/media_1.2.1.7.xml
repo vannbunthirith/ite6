@@ -1,0 +1,99 @@
+﻿<textcomponents> 
+
+<!-- Slide 1 -->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Purchasing a New Adapter Card</b>]]></text>
+</component>
+
+<component id="ID_s1_titleTxt01">
+		<text><![CDATA[<b>New Adapter Card Questions</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[<ul><li>Is there an open expansion slot?</li><li>Is the adapter card compatible with the open slot?</li><li>What are the customer’s current and future needs?</li><li>What are the possible configuration options?</li></ul>]]></text>
+	</component>
+
+<!-- Slide 2 -->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Purchasing a New Graphics Card</b>]]></text>
+</component>
+
+<component id="ID_s2_titleTxt01">
+		<text><![CDATA[<b>New Graphics Card Factors</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[<ul><li>Slot type</li><li>Port type</li><li>Amount and speed of video RAM (VRAM)</li><li>Graphics processor unit (GPU)</li><li>Maximum resolution</li></ul>]]></text>
+	</component>
+	
+	
+<!-- Slide 3 -->
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Purchasing a New Sound Card</b>]]></text>
+</component>
+
+<component id="ID_s3_titleTxt01">
+		<text><![CDATA[<b>New Sound Card Factors</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_bodyTxt01">
+		<text><![CDATA[<ul><li>Slot type</li><li>Digital signal processor (DSP)</li><li>Sample rate</li><li>Port and connection types</li><li>Hardware decoder</li><li>Signal-to-noise ratio</li></ul>]]></text>
+	</component>
+
+
+<!-- Slide 4 -->
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>Purchasing a New Storage Card</b>]]></text>
+</component>
+
+<component id="ID_s4_titleTxt01">
+		<text><![CDATA[<b>New Storage Card Factors</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_bodyTxt01">
+		<text><![CDATA[<ul><li>Slot type</li><li>Connector quantity</li><li>Internal or external connectors</li><li>Card size</li><li>Controller card RAM</li><li>Controller card processor</li><li>RAID type</li></ul>]]></text>
+	</component>
+	
+	<!-- Slide 5 -->
+<component id='ID_s5_title'>
+	<text><![CDATA[<b>Purchasing a New Input/Output Card</b>]]></text>
+</component>
+
+<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>New I/O Card Factors</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[<ul><li>Slot type</li><li>I/O port type</li><li>I/O port quantity</li><li>Additional power requirements</li></ul>]]></text>
+	</component>
+	
+<!-- Slide 6 -->
+<component id='ID_s6_title'>
+	<text><![CDATA[<b>Purchasing a New NIC</b>]]></text>
+</component>
+
+<component id="ID_s6_titleTxt01">
+		<text><![CDATA[<b>New NIC Factors</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_bodyTxt01">
+		<text><![CDATA[<ul><li>Slot type</li><li>Speed</li><li>Connector type</li><li>Wired or wireless connection</li><li>Standards compatibility</li></ul>]]></text>
+	</component>
+
+
+<!-- Slide 7 -->
+<component id='ID_s7_title'>
+	<text><![CDATA[<b>Purchasing a New Capture Card</b>]]></text>
+</component>
+
+<component id="ID_s7_titleTxt01">
+		<text><![CDATA[<b>New Capture Card Factors</b>]]></text>
+	</component>
+	
+	<component id="ID_s7_bodyTxt01">
+		<text><![CDATA[<ul><li>Slot type</li><li>Resolution and frame rate</li><li>I/O port</li><li>Format standards</li></ul>]]></text>
+	</component>
+
+
+
+</textcomponents>

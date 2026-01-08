@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Bonjour Printer Wizard</b>]]></text>
+	</component>
+</textcomponents>

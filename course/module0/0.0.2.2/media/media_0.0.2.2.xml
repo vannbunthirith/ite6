@@ -1,0 +1,84 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s1_trans01'>
+		<text><![CDATA[Becoming a CompTIA Certified IT Professional is Easy]]></text>
+	</component>
+
+	<component id='ID_s1_trans02'>
+		<text><![CDATA[It's also the best way to reach greater professional opportunities and rewards.]]></text>
+	</component>
+
+	<component id='ID_s1_trans03'>
+		<text><![CDATA[Why Get CompTIA Certified?]]></text>
+	</component>
+
+	<component id='ID_s1_trans04'>
+		<text><![CDATA[Growing Demand]]></text>
+	</component>
+
+	<component id='ID_s1_trans05'>
+		<text><![CDATA[Labor estimates predict some technology fields will experience growth of over 20% by the year 2020.* CompTIA certification qualifies the skills required to join this workforce.]]></text>
+	</component>
+
+	<component id='ID_s1_trans06'>
+		<text><![CDATA[Higher Salaries]]></text>
+	</component>
+
+	<component id='ID_s1_trans07'>
+		<text><![CDATA[IT professionals with certifications on their resume command better jobs, earn higher salaries and have more doors open to new multi-industry opportunities. ]]></text>
+	</component>
+
+	<component id='ID_s1_trans08'>
+		<text><![CDATA[Verified Strengths]]></text>
+	</component>
+
+	<component id='ID_s1_trans09'>
+		<text><![CDATA[91% of hiring managers indicate CompTIA certifications are valuable in validating IT expertise, making certification the best way to demonstrate your competency and knowledge to employers.**]]></text>
+	</component>
+
+	<component id='ID_s1_trans10'>
+		<text><![CDATA[Universal Skills]]></text>
+	</component>
+
+	<component id='ID_s1_trans11'>
+		<text><![CDATA[CompTIA certifications are vendor neutral - which means that ceritfied professionals can proficiently work with an extensive variety of hardware and software found in most organizations.]]></text>
+	</component>
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s2_trans01'>
+		<text><![CDATA[Learn]]></text>
+	</component>
+
+	<component id='ID_s2_trans02'>
+		<text><![CDATA[Learn more about what the exam covers by reviewing the following:<ul><li>Exam objectives for key study points.<li>Sample questions for a general overview of what to expect on the exam and examples of question format.</li><li>Visit online forums, like LinkedIn, to see what other IT professionals say about CompTIA exams.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans03'>
+		<text><![CDATA[Certify]]></text>
+	</component>
+
+	<component id='ID_s2_trans04'>
+		<text><![CDATA[Purchase a voucher at a Pearson VUE testing center or at CompTIAstore.com. <ul><li>Register for your exam at a Pearson VUE testing center.</li><li>Visit pearsonvue.com/CompTIA to find the closest testing center to you.</li><li>Schedule the exam online. You will be required to enter your voucher number or provide payment information at registration.</li><li>Take your certification exam.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans05'>
+		<text><![CDATA[Work]]></text>
+	</component>
+
+	<component id='ID_s2_trans06'>
+		<text><![CDATA[Congratulations on your CompTIA certification! <ul><li>Make sure to add your certification to your resume.</li><li>Check out the CompTIA Certification Roadmap to plan your next career move.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans07'>
+		<text><![CDATA[Learn more: Certification.CompTIA.org/aplus]]></text>
+	</component>
+
+</textcomponents>

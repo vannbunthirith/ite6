@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBUTTON">
+        <element type="IMAGE" src="bg.jpg" x="0" y="0" width="680" height="490" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" color="#ffffff" />
+        <slide buttonType="BLUE" buttonX="114" buttonY="71" buttonWidth="180" buttonHeight="21" compId="ID_btn01" selected="true">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title01" bodyId="ID_txt01" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide buttonType="BLUE" buttonX="114" buttonY="114" buttonWidth="180" buttonHeight="21" compId="ID_btn02" selected="false">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title02" bodyId="ID_txt02" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide buttonType="BLUE" buttonX="114" buttonY="157" buttonWidth="180" buttonHeight="21" compId="ID_btn03" selected="false">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title04" bodyId="ID_txt04" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide buttonType="BLUE" buttonX="114" buttonY="200" buttonWidth="180" buttonHeight="21" compId="ID_btn04" selected="false">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title05" bodyId="ID_txt05" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide buttonType="BLUE" buttonX="114" buttonY="243" buttonWidth="180" buttonHeight="21" compId="ID_btn05" selected="false">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title06" bodyId="ID_txt06" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide buttonType="BLUE" buttonX="114" buttonY="286" buttonWidth="180" buttonHeight="21" compId="ID_btn06" selected="false">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title07" bodyId="ID_txt07" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide buttonType="BLUE" buttonX="114" buttonY="329.2" buttonWidth="180" buttonHeight="21" compId="ID_btn07" selected="false">
+            <element type="TEXTBOX" subType="ROLLOVER" titleId="ID_title03" bodyId="ID_txt03" size="11" width="262" height="270" x="300" y="71" animated="2" visible="1" />
+        </slide>
+        <slide>
+            <element type="TEXTBOX" />
+        </slide>
+    </slide>
+</data>

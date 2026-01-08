@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.2 BIOS Configurations</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>BIOS Configurations</h1>
+        <div>
+          <p>Another function of the BIOS setup program is to customize specific aspects of the computer hardware to fit individual needs. The features that can be customized are determined by the BIOS manufacturer and version. Before making changes to the BIOS, it is important to have a clear understanding of how the changes can affect the computer. Incorrect settings can have an adverse effect.</p>
+          <p></p>
+          <p>Main BIOS configuration settings to configure include:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Time and Date</b> - The main page of the BIOS has a System Time field and a System Date field to set the system clock, as shown in Figure 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Disable Devices</b> - You can configure advanced BIOS settings to disable devices that are not needed or not used by the computer, as shown in Figure 2. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Boot Order </b>- Shortly after completing POST, the computer attempts to load the operating system. The BIOS checks the first device in the boot order list for a bootable partition. The boot order list, or boot sequence, is an ordered list of devices from which the computer is allowed to boot. If the device has no bootable partition, the computer checks the next device in the list. When a device with a bootable partition is found, the BIOS checks for an installed operating system. This list is typically located in the BIOS under the Boot tab, as shown in Figure 3. You can designate hard drives, optical drives, network boot, USB, and flash media in the boot order. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Clock Speed</b> - Some BIOS setup programs allow you to change the CPU clock speed, as shown in Figure 4. Reducing the CPU clock speed makes the computer run slower and cooler and is referred to as underclocking. This might result in less noise from fans and can be useful if a quieter computer is desired, such as in a home theater or bedroom. CPU overclocking is increasing the CPU clock speed to make the computer run faster but also hotter, possibly causing the computer to be louder due to increased fan speeds. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Virtualization</b> - Virtualization technology allows a computer to run multiple operating systems in separate files or partitions. To accomplish this, a computer virtualization program emulates the characteristics of an entire computer, including the hardware, BIOS, operating system, and programs. Enable the virtualization setting in the BIOS for a computer that will be using virtualization technology, as shown in Figure 5.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>The table in Figure 6 provides BIOS setting suggestions.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image of the Main tab of the BIOS Setup Utility showing System Time and System Date fields. Figure 2 on this page is an image of the Onboard Device Settings utility. Figure 3 on this page is an image of the Boot tab of the BIOS Setup Utility showing boot device priority. Figure 4 on this page an image of the JUST w00t! tab of the BIOS Setup Utility showing the AMD Overclocking Configuration fields. Figure 5 on this page is an image of the security tab of the ThinkPad Setup utility. Figure 6 on this page is a table listing the following BIOS setting suggestions. BIOS Setting: Time and Date, Setting Specifics: Always set these fields to the correct time and date because they are referenced by the operating system and other programs, incorrect date and time may cause unexpected problems. BIOS Setting: Disabling Devices, Setting Specifics: Disable the motherboard built-in features if installing a dedicated video card, sound card, or network card, if a device is not working, check the advanced BIOS settings to see if the device is disabled by default or has been accidently disabled. BIOS Setting: Boot Order, Setting Specifics: Create the boot order based on user needs, disable or remove unused devices from the boot order list. BIOS Setting: Clock Speed, Setting Specifics: Overclocking a CPU voids the warranty of the CPU, can result in a shorter CPU life span, or cause damage to the CPU, always install a cooling system capable of dissipating the extra heat created by overclocking to avoid CPU damage. BIOS Setting: Virtualisation, Setting Specifics: Disable this setting if virtualisation does not perform correctly or will not be used.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

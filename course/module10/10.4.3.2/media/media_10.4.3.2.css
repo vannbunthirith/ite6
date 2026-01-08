@@ -1,0 +1,19 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.yellowCallOut{
+border:none;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:9px 0 9px 3px;
+background:#FFE14F;
+-webkit-box-shadow: 4px 8px 3px -6px #808080;
+-moz-box-shadow: 4px 8px 3px -6px #808080;
+box-shadow: 4px 8px 3px -6px #808080;
+}
+.align{
+	width:31.5px!important;
+}

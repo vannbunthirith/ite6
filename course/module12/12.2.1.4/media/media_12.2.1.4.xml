@@ -1,0 +1,55 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Guidelines for Strong Passwords</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Configuring the Password Requirements</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Configuring the Account Lockout Policy</b>]]></text>
+	</component>
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			
+
+            <caption  class="mtable_title" colspan="2" bgcolor='#FFFFFF'>
+                <font size="12">Guidelines for Strong Passwords</font>
+            </caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="Password" bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Password Characteristic</b></font></th>
+                <th scope="col" id="Guideline" bgcolor='#666263'><font color='#FFFFFF'><b>Guideline</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="Password" bgcolor='#E9E7E8'>Minimum Length</td>
+                <td headers="Guideline" bgcolor='#E9E7E8'>Use at least eight characters.</td>
+            </tr>
+ 
+            <tr>
+                <td scope="row" headers="Password" bgcolor='#F2F2F2'>Complexity</td>
+                <td headers="Guideline" bgcolor='#F2F2F2'>Include letters, numbers, symbols, and punctuation. Use a variety of keys on the keyboard, not just common letters and characters.</td>
+            </tr>
+			
+			<tr>
+                <td scope="row" headers="Password" bgcolor='#F2F2F2'>Variety</td>
+                <td headers="Guideline" bgcolor='#F2F2F2'>Use a different password for each site or computer that you use.</td>
+            </tr>
+			
+			<tr>
+                <td scope="row" headers="Password" bgcolor='#E9E7E8'>Expiration</td>
+				<td headers="Guideline" bgcolor='#E9E7E8'>Passwords should be made to expire within an acceptable time period. The shorter the time period, the more secure the computer will be. Also, set a reminder to change the passwords you have for email, banking, and credit card websites on the average of every three to four months.</td>
+            </tr>
+ 
+
+        </table>]]></text>
+    </component>
+</textcomponents>

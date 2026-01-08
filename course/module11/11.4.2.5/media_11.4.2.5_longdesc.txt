@@ -1,0 +1,1 @@
+The figure on this page is a table that lists step 5 in troubleshooting printer problems, verify full system functionality and if applicable implement preventive measures. Verify full functionality: Reboot the computer, reboot the printer, print a test page from the printer control panel, print a document from an application, reprint the customer's problem document.

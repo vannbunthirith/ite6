@@ -1,0 +1,503 @@
+﻿<textcomponents>
+<!--Slide 1-->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Activity – Identify the Front Panel Connectors</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Choose the correct front panel connector for each description.]]></text>
+	</component>
+
+	
+	<!--feedback-->
+	<component id='ID_s1_titleCorrect'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+	
+	<component id='ID_s1_correctText'>
+		<text><![CDATA[You have successfully identified the front panel connectors.]]></text>
+	</component>
+	
+	<component id='ID_s1_titleIncorrect'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+	
+	<component id='ID_s1_incorrectText'>
+		<text><![CDATA[You have not successfully identified the front panel connectors.  Please click Reset to try again.]]></text>
+	</component>
+
+	<!--questions-->
+
+	<component id="ID_s1_q01">
+		<text><![CDATA[1. <textformat blockindent='14'>Used to audibly indicate the computer’s status. If there is a hardware problem, a series of diagnostic beeps is issued to indicate the type of problem.</textformat>]]></text>
+	</component>
+
+	<component id="ID_s1_q02">
+		<text><![CDATA[2. <textformat blockindent='14'>Often consist of nine or ten pins arranged in two rows, but can also have four or five pins or individual groups of four or five pins.</textformat>]]></text>
+	</component>
+	
+	<component id="ID_s1_q03">
+		<text><![CDATA[3. <textformat blockindent='14'>Turns the computer on or off.</textformat>]]></text>
+	</component>
+
+	<component id="ID_s1_q04">
+		<text><![CDATA[4. <textformat blockindent='14'>Remains lit or blinks when the system is reading or writing data.</textformat>]]></text>
+	</component>
+
+	<component id="ID_s1_q05">
+		<text><![CDATA[5. <textformat blockindent='14'>Remains lit when the computer is on, and often blinks when the computer is in sleep mode.</textformat>]]></text>
+	</component>
+
+	<component id="ID_s1_q06">
+		<text><![CDATA[6. <textformat blockindent='14'>Restarts the computer without turning it off.</textformat>]]></text>
+	</component>
+
+	<component id="ID_s1_q07">
+		<text><![CDATA[7. <textformat blockindent='14'>Connects ports for jacks on the outside to connect microphones or external equipment, such as signal processors, mixing boards, and instruments.</textformat>]]></text>
+	</component>
+	
+	
+<!--check reset-->
+	
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<!-- The prompt for the drop down box. -->	
+	<component id='ID_prompt_all'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+
+	
+	<component id='ID_list01'>
+		<text><![CDATA[Audio]]></text>
+	</component>
+
+	<component id='ID_list02'>
+		<text><![CDATA[Drive Activity LEDs]]></text>
+	</component>
+
+	<component id='ID_list03'>
+		<text><![CDATA[Power Button]]></text>
+	</component>
+
+	<component id='ID_list04'>
+		<text><![CDATA[Power LED]]></text>
+	</component>
+
+	<component id='ID_list05'>
+		<text><![CDATA[Reset Button]]></text>
+	</component>
+
+	<component id='ID_list06'>
+		<text><![CDATA[System Speaker]]></text>
+	</component>
+
+	<component id='ID_list07'>
+		<text><![CDATA[USB]]></text>
+	</component>
+
+	
+
+	<!-- correct answers -->
+	<!-- 
+		This is the index of the drop down list for the correct answer to the question.
+		IMPORTANT: The first position in the index is 0.
+	-->
+	<component id='ID_CB01_a'>
+		<text><![CDATA[5]]></text>
+	</component>
+
+	<component id='ID_CB02_a'>
+		<text><![CDATA[6]]></text>
+	</component>
+
+	<component id='ID_CB03_a'>
+		<text><![CDATA[2]]></text>
+	</component>
+
+	<component id='ID_CB04_a'>
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id='ID_CB05_a'>
+		<text><![CDATA[3]]></text>
+	</component>
+
+	<component id='ID_CB06_a'>
+		<text><![CDATA[4]]></text>
+	</component>
+
+	<component id='ID_CB07_a'>
+		<text><![CDATA[0]]></text>
+	</component>
+
+	
+
+<!--End Slide 1-->
+
+
+
+
+
+<!-- For html-->
+
+<!--Slide 3-->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Activity – Identify the Network Device Security Features</b>]]></text>
+	</component>
+
+	<component id="ID_s3_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="ID_s3_instr_body">
+		<text><![CDATA[Choose the correct network device security feature for each definition.]]></text>
+	</component>
+
+	
+	<!--feedback-->
+	<component id='ID_s3_titleCorrect'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+	
+	<component id='ID_s3_correctText'>
+		<text><![CDATA[You have successfully identified the Network Device Security Features.]]></text>
+	</component>
+	
+	<component id='ID_s3_titleIncorrect'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+	
+	<component id='ID_s3_incorrectText'>
+		<text><![CDATA[You have not successfully identified the Network Device Security Features.  Please click Reset to try again.]]></text>
+	</component>
+	
+	<component id='ID_s3_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s3_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+	
+<!--ComboBox 1-->
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[1. <textformat blockindent='14'>Used to audibly indicate the computer’s status. If there is a hardware problem, a series of diagnostic beeps is issued to indicate the type of problem.</textformat>]]></text>
+	</component>
+	
+	<component id='ID_s3_CBprompt01'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+	<component id='ID_s3_CB01_01'>
+		<text><![CDATA[Audio]]></text>
+	</component>
+
+	<component id='ID_s3_CB01_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+	
+	<component id='ID_s3_CB01_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+	<component id='ID_s3_CB01_04'>
+		<text><![CDATA[Power LED]]></text> 
+	</component>
+
+
+	<component id='ID_s3_CB01_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_s3_CB01_06'>
+		<text><![CDATA[System Speaker]]></text> <!--answer-->
+	</component>
+
+
+	<component id='ID_s3_CB01_07'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+
+
+
+
+<!--End ComboBox 1-->
+
+
+<!--ComboBox 2-->
+	<component id="ID_s3_txt02">
+		<text><![CDATA[2. <textformat blockindent='14'>Often consist of nine or ten pins arranged in two rows, but can also have four or five pins or individual groups of four or five pins.</textformat>]]></text>
+	</component>
+	
+	<component id='ID_s3_CBprompt02'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+	
+
+	<component id='ID_s3_CB02_01'>
+		<text><![CDATA[Audio]]></text> 
+	</component>
+	
+	<component id='ID_s3_CB02_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+
+	<component id='ID_s3_CB02_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+
+	<component id='ID_s3_CB02_04'>
+		<text><![CDATA[Power LED]]></text>  <!--answer-->
+	</component>
+
+
+	<component id='ID_s3_CB02_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_s3_CB02_06'>
+		<text><![CDATA[System Speaker]]></text> 
+	</component>
+
+
+	<component id='ID_s3_CB02_07'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+
+
+<!--End ComboBox 2-->
+
+
+<!--ComboBox 3-->
+	<component id="ID_s3_txt03">
+		<text><![CDATA[3. <textformat blockindent='14'>Turns the computer on or off.</textformat>]]></text>
+	</component>
+
+	<component id='ID_CBprompt03'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+	<component id='ID_CB03_01'>
+		<text><![CDATA[Audio]]></text>
+	</component>
+
+	<component id='ID_CB03_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+	
+	<component id='ID_CB03_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+	<component id='ID_CB03_04'>
+		<text><![CDATA[Power LED]]></text> 
+	</component>
+
+
+	<component id='ID_CB03_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_CB03_06'>
+		<text><![CDATA[System Speaker]]></text> 
+	</component>
+
+
+	<component id='ID_CB03_07'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+
+
+<!--End ComboBox 3-->
+
+
+<!--ComboBox 4-->
+	<component id="ID_s3_txt04">
+		<text><![CDATA[4. <textformat blockindent='14'>Remains lit or blinks when the system is reading or writing data.</textformat>]]></text>
+	</component>
+
+	<component id='ID_CBprompt04'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+	<component id='ID_CB04_01'>
+		<text><![CDATA[Audio]]></text>
+	</component>
+
+	<component id='ID_CB04_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+	
+	<component id='ID_CB04_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+	<component id='ID_CB04_04'>
+		<text><![CDATA[Power LED]]></text> 
+	</component>
+
+
+	<component id='ID_CB04_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_CB04_06'>
+		<text><![CDATA[System Speaker]]></text> 
+	</component>
+
+
+	<component id='ID_CB04_07'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+	
+
+<!--End ComboBox 4-->
+
+<!--ComboBox 5-->
+	<component id="ID_s3_txt05">
+		<text><![CDATA[5. <textformat blockindent='14'>Remains lit when the computer is on, and often blinks when the computer is in sleep mode.</textformat>]]></text>
+	</component>
+
+	<component id='ID_CBprompt05'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+
+	<component id='ID_CB05_01'>
+		<text><![CDATA[Audio]]></text>
+	</component>
+
+	<component id='ID_CB05_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+	
+	<component id='ID_CB05_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+	<component id='ID_CB05_04'>
+		<text><![CDATA[Power LED]]></text> 
+	</component>
+
+
+	<component id='ID_CB05_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_CB05_06'>
+		<text><![CDATA[System Speaker]]></text> 
+	</component>
+
+
+	<component id='ID_CB05_07'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+<!--End ComboBox 5-->
+
+
+<!--ComboBox 6-->
+	<component id="ID_s3_txt06">
+		<text><![CDATA[6. <textformat blockindent='14'>Restarts the computer without turning it off.</textformat>]]></text>
+	</component>
+
+	<component id='ID_CBprompt06'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+	<component id='ID_CB06_01'>
+		<text><![CDATA[Audio]]></text>
+	</component>
+
+	<component id='ID_CB06_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+	
+	<component id='ID_CB06_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+	<component id='ID_CB06_04'>
+		<text><![CDATA[Power LED]]></text> 
+	</component>
+
+
+	<component id='ID_CB06_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_CB06_06'>
+		<text><![CDATA[System Speaker]]></text> 
+	</component>
+
+
+	<component id='ID_CB0607'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+
+<!--End ComboBox 6-->
+
+
+<!--ComboBox 7-->
+	<component id="ID_s3_txt07">
+		<text><![CDATA[7. <textformat blockindent='14'>Connects ports for jacks on the outside to connect microphones or external equipment, such as signal processors, mixing boards, and instruments.</textformat>]]></text>
+	</component>
+
+	<component id='ID_CBprompt07'>
+		<text><![CDATA[Select your answer ...]]></text>
+	</component>
+	
+	<component id='ID_CB07_01'>
+		<text><![CDATA[Audio]]></text> <!--answer-->
+	</component>
+
+	<component id='ID_CB07_02'>
+		<text><![CDATA[Drive Activity LEDs]]></text> 
+	</component>
+	
+	<component id='ID_CB07_03'>
+		<text><![CDATA[Power Button]]></text> 
+	</component>
+
+	<component id='ID_CB07_04'>
+		<text><![CDATA[Power LED]]></text> 
+	</component>
+
+
+	<component id='ID_CB07_05'>
+		<text><![CDATA[Reset Button]]></text> 
+	</component>
+
+
+	<component id='ID_CB07_06'>
+		<text><![CDATA[System Speaker]]></text> 
+	</component>
+
+
+	<component id='ID_CB07_07'>
+		<text><![CDATA[USB]]></text> 
+	</component>
+
+<!--End ComboBox 7-->
+
+<!--End Slide 3-->
+
+</textcomponents>

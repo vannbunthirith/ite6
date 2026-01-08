@@ -1,0 +1,94 @@
+<textcomponents>
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+    <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color="#FFFFFF"><b>Cable Type</b></font></td>
+		<td bgcolor='#666263'><font color="#FFFFFF"><b>Standard</b></font></td>
+		<td bgcolor='#666263'><font color="#FFFFFF"><b>Application</b></font></td>
+	</tr>
+	<tr>
+		<td width='125' bgcolor='#E9E7E8' valign="top">Ethernet Straight-through</td>
+		<td width='125' bgcolor='#E9E7E8' valign="top">Both ends T568A or both ends T568B</td>
+		<td bgcolor='#E9E7E8' valign="top">Connects a network host to a network device such as a switch or hub.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">Ethernet Crossover</td>
+		<td bgcolor='#F2F2F2' valign="top">One end T568A,<br/> other end T568B</td>
+		<td bgcolor='#F2F2F2' valign="top"><ul><span class="alignment"><li>Connects two network hosts</li><li>Connects two network <span class="align">intermediary devices (switch </span><span class="align">to switch, or router to router)</span></li></span></ul></td>
+	</tr>
+</table>]]></text>
+</component>
+
+<component id='ID_table_html'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+	<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16">Comparing Crossover and Straight-through Cables</font></caption>
+
+    <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<th scope="col" id="Cable" bgcolor='#666263'><font color="#FFFFFF"><b>Cable Type</b></font></th>
+		<th scope="col" id="Standard" bgcolor='#666263'><font color="#FFFFFF"><b>Standard</b></font></th>
+		<th scope="col" id="Application" bgcolor='#666263'><font color="#FFFFFF"><b>Application</b></font></th>
+	</tr>
+	<tr>
+		<td scope="row" headers="Cable" width='125' bgcolor='#E9E7E8' valign="top">Ethernet Straight-through</td>
+		<td headers="Standard" width='125' bgcolor='#E9E7E8' valign="top">Both ends T568A or both ends T568B</td>
+		<td headers="Application" bgcolor='#E9E7E8' valign="top">Connects a network host to a network device such as a switch or hub.</td>
+	</tr>
+	<tr>
+		<td scope="row" headers="Cable" bgcolor='#F2F2F2' valign="top">Ethernet Crossover</td>
+		<td headers="Standard" bgcolor='#F2F2F2' valign="top">One end T568A,<br/> other end T568B</td>
+		<td headers="Application" bgcolor='#F2F2F2' valign="top"><ul><span class="alignment"><li>Connects two network hosts</li><li>Connects two network <span class="align">intermediary devices (switch </span><span class="align">to switch, or router to router)</span></li></span></ul></td>
+	</tr>
+</table>]]></text>
+</component>
+<!--first cable-->
+<component id="ID_txt01">
+<text><![CDATA[Pair 2]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Pair 3]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Pair 1]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Pair 4]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>T568A</b>]]></text>
+</component>
+
+<!--second cable-->
+<component id="ID_txt06">
+<text><![CDATA[Pair 3]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Pair 2]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Pair 1]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Pair 4]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<b>T568B<b>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.2 IP Addresses</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>IP Addresses</h1>
+        <div>
+          <p>Today, it is common for a computer to have two versions of IP addresses. In the early 1990s there was a concern about running out of IPv4 network addresses. The Internet Engineering Task Force (IETF) began to look for a replacement. This led to the development of what is now known as IP version 6 (IPv6). Currently IPv6 is operating alongside and is beginning to replace IPv4. An IPv4 address is 32 bits long and is represented in dotted decimal. An IPv6 address is 128 bits long and is represented in hexadecimal. Figure 1 shows examples of IPv4 and IPv6 addresses.</p>
+          <p></p>
+          <p>IP addressing is assigned by network administrators based on the location within the network. When a device moves from one network to another, its IP address will most likely change. Figure 2 shows a topology with two LANs. This topology demonstrates that MAC addresses do not change when a device is moved. But IP addresses do change. Laptop was moved to LAN 2. Notice that Laptop’s MAC address did not change, but its IP addresses did change.</p>
+          <p></p>
+          <p>Figure 3 shows output for the command <b>ipconfig /all </b>on the laptop. The output shows the MAC address and two IP addresses. </p>
+          <p></p>
+          <p>
+            <b>Note</b>: Windows OS calls the NIC an Ethernet adapter and the MAC address a physical address. </p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page shows the following examples of IPv4 and IPv6 addresses. IPv4 Address Format: 32 bits in dotted decimal notation, 192.168.200.8. IPv6 Address Format 128 bits in hexadecimal format, 2001:0DB8:CAFE:0200:0000:0000:0000:0008, IPv6 Address Format 128 bits in compressed format, 2001:DB8:CAFE:200::8. Figure 2 on this page is a topology that demonstrates that MAC addresses do not change when a device is moved but IP addresses do change. The topology shows two LANs, LAN1 and LAN2. Both LANs consist of two desktop computers and a wireless access point connected to a switch. The LANs are connected by a router. A laptop was originally on LAN1 with the following addresses: MAC, 00-50-56-BE-D7-87; IPv4, 192.168.200.8; IPv6, 2001:db8:cafe:200::8. After the laptop is moved to LAN2 it has the following address: MAC, 00-50-56-BE-D7-87; IPv4, 192.168.300.8; IPv6, 2001:db8:cafe:300::8. Figure 3 on this page is an image of the Command Line Interface (CLI) output for the ipconfig /all command on the laptop. Included in the output are the MAC address and the two IP addresses.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Wide Area Network</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[<b>LAN</b>]]></text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[<b>LAN</b>]]></text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Internet]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[<b>Tokyo</b>]]></text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[<b>Moscow</b>]]></text>
+    </component>
+</textcomponents>

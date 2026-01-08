@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.1.7 De-Encapsulation Example</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>De-Encapsulation Example</h1>
+        <div>
+          <p>This process is reversed at the receiving host, and is known as de-encapsulation. De-encapsulation is the process used by a receiving device to remove one or more of the protocol headers. The data is de-encapsulated as it moves up through the layers towards the end-user application.</p>
+          <p></p>
+          <p>Click Play in the figure to see the de-encapsulation process.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an animation that shows the following de-encapsulation process as the web client receives the web page from the web server. Step 1: When the Ethernet Frame is received by the web client the Frame Header and Frame Trailer are read by the Data Link Layer. Step 2: The Data Link layer sends the IP Packet to the Network Layer. Step 3: The Network Header is read by the Network Layer. Step 4: The network layer sends the TCP Segment to the Transport Layer. Step 5: The Transport Header is read by the Transport Layer. Step 6: The data is available to the end-user application.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

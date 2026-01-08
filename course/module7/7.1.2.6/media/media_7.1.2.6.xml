@@ -1,0 +1,31 @@
+<textcomponents>
+
+	<component id='ID_title'>
+		<text><![CDATA[<b>Peer-to-Peer Example</b>]]></text>
+	</component>
+
+    <component id="ID_bubble_txt01">
+		<text><![CDATA[<p class="ID_bubble_txt01"><font color="#FFFFFF">I have files on my hard drive that are being shared for Peer2. I also have a page that I need to print through Peer2.</font></p>]]></text>
+	</component>
+	
+	<component id="ID_bubble_txt02">
+	  <text><![CDATA[<p class="ID_bubble_txt02"><font color="#FFFFFF">I need to access a file from the hard drive on Peer1. I also need to print a file that I received from Peer1, with a print request.</font></p>]]></text> 
+	</component>
+	
+	<component id="ID_txt01">
+	  <text><![CDATA[Peer1<br/><br/><b>Print client<br/>File server</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+	  <text><![CDATA[Peer2<br/><br/><b>Print server<br/>File client</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Printer]]></text>
+	</component>
+		
+	<component id="ID_txt04">
+		<text><![CDATA[Directly <br/>connected printer]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.2 Hubs, Bridges, and Switches</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Hubs, Bridges, and Switches</h1>
+        <div>
+          <p>The equipment used to connect devices within in a LAN has evolved from hubs to bridges to switches.</p>
+          <p></p>
+          <p>
+            <b>Hubs</b>
+          </p>
+          <p></p>
+          <p>Hubs, shown in Figure 1, receive data on one port and then send it out to all other ports. A hub extends the reach of a network because it regenerates the electrical signal. Hubs can also connect to another networking device, such as a switch or router, which connects to other sections of the network.</p>
+          <p></p>
+          <p>Hubs are used less often today because of the effectiveness and low cost of switches. Hubs do not segment network traffic. When one device sends traffic, the hub floods that traffic to all other devices connected to hub. The devices are sharing the bandwidth.</p>
+          <p></p>
+          <p>
+            <b>Bridges</b>
+          </p>
+          <p></p>
+          <p>Bridges were introduced to divide LANs into segments. Bridges keep a record of all the devices on each segment.  A bridge can then filter network traffic between LAN segments. This helps reduce the amount of traffic between devices. For example, in Figure 2, if PC-A needs to send a job to the printer, the traffic will not be forward to Segment 2.  However, the server will also receive this print job traffic.</p>
+          <p></p>
+          <p>
+            <b>Switches</b>
+          </p>
+          <p></p>
+          <p>Bridges and hubs are now considered legacy devices because of the benefits and low cost of switches. As shown in Figure 3, a switch microsegments a LAN. Microsegmenting means that switches filter and segment network traffic by sending data only to the device to which it is sent.  This provides higher dedicated bandwidth to each device on the network. If there is only one device attached to each port on a switch it operates in Full-Duplex mode. This is not the case with a hub. When PC-A sends a job to the printer, only the printer receives the traffic.</p>
+          <p></p>
+          <p>Switches maintain a switching table. The switching table contains a list of all MAC addresses on the network, and a list of which switch port can be used to reach a device with a given MAC address. The switching table records MAC addresses by inspecting the source MAC address of every incoming frame, as well as the port on which the frame arrives. The switch then creates a switching table that maps MAC addresses to outgoing ports. When traffic arrives that is destined for a particular MAC address, the switch uses the switching table to determine which port to use to reach the MAC address. The traffic is forwarded from the port to the destination. By sending traffic out of only one port to the destination, other ports are not affected.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is a topology that shows four desktop computers, a server, and a printer connected to a central hub. Figure 2 on this page is a topology that shows the following two LAN segments separated by a bridge. Segment 1 has a desktop computer, a server, and a printer connected to a central hub, which is connected to the bridge. Segment 2 has two desktop computers connected to a central hub, which is connected to the bridge. Figure 3 on this page is a topology that shows four desktop computers, a server, and a printer connected to a central switch.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

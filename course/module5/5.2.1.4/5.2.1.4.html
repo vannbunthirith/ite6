@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.4 File Systems</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>File Systems</h1>
+        <div>
+          <p>A new installation of an OS proceeds as if the disk were brand new. No information that is currently on the target partition is preserved. The first phase of the installation process partitions and formats the hard drive. This process prepares the disk to accept the new file system. The file system provides the directory structure that organizes the user’s operating system, application, configuration, and data files. There are many different kinds of file systems and each one has different structure and logic. Different file systems also differ in properties of speed, flexibility, security, size and more. Here are five common file systems:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>File Allocation Table, 32 bit (FAT32)</b> - Supports partition sizes up to 2 TB or 2,048 GB. The FAT32 file system is used by Windows XP and earlier OS versions.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>New Technology File System (NTFS)</b> - Supports partition sizes up to 16 exabytes, in theory. NTFS incorporates file system security features and extended attributes. Windows 8.1, Windows 7 and Windows Vista automatically create a partition using the entire hard drive. If a user does not create custom partitions using the <b>New</b> option, as shown in the figure, the system formats the partition and begins installing Windows. If users create a partition, they will be able to determine the size of the partition.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>exFAT (FAT 64)</b> - Created to address some of the limitations of FAT, FAT32, and NTFS when formatting USB flash drives, such as file size and directory size. One of the primary advantages of exFAT is that it can support files larger than 4GB.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Compact Disc File System (CDFS)</b> - Created specifically for optical disk media.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NFS (Network File System)</b> - NFS is a network-based file system, that allows file access over the network. From the user’s standpoint, there is no difference between accessing a file stored locally or on another computer on the network. NFS is an open standard which allows anyone to implement it.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Quick Format versus Full Format</b>
+          </p>
+          <p></p>
+          <p>The quick format removes files from the partition, but does not scan the disk for bad sectors. Scanning a disk for bad sectors can prevent data loss in the future. For this reason, do not use the quick format for disks that have been previously formatted. Although it is possible to quick format a partition or a disk after the OS is installed, the quick format option is not available when installing Windows 8.1, Windows 7 or Windows Vista.</p>
+          <p></p>
+          <p>The full format removes files from the partition while scanning the disk for bad sectors. It is required for all new hard drives. The full format option takes more time to complete.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure on this page is an image of the Windows Setup utility listing two partitions. The two partitions were created by selecting “Drive 0 Unallocated Space” and clicking “New”. The installer also allows the user to specify the size of the new partition.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

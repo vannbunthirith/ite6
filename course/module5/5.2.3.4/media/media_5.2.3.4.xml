@@ -1,0 +1,97 @@
+﻿<textcomponents>
+	 <component id="ID_title">
+        <text><![CDATA[<b>Registry Keys</b>]]></text> 
+    </component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>HKEY</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>HKEY_CLASSES_ROOT</td>
+                <td bgcolor='#E9E7E8'>Information about which file extensions map to a particular application</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>HKEY_CURRENT_USER</td>
+                <td bgcolor='#F2F2F2'>Information, such as desktop settings and history, related to the current user of a PC</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>HKEY_USERS</td>
+                <td bgcolor='#E9E7E8'>Information about all users who have logged onto a system</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>HKEY_LOCAL_MACHINE</td>
+                <td bgcolor='#F2F2F2'>Information relating to the hardware and software</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>HKEY_CURRENT_CONFIG</td>
+                <td bgcolor='#E9E7E8'>Information relating to all active devices on a system</td>
+            </tr>
+ 
+        
+ 
+        </table>]]></text>
+    </component>
+
+    <component id="ID_table01_html">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+            <caption class="mtable_title" colspan="2" bgcolor='#FFFFFF'><font size="16">Registry Keys</font></caption>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <th scope="col" id="HKEY" bgcolor='#666263' width='150'><font color='#FFFFFF'><b>HKEY</b></font></th>
+                <th scope="col" id="Description" bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></th>
+            </tr>
+
+            <tr>
+                <td scope="row" headers="HKEY" bgcolor='#E9E7E8'>HKEY_CLASSES_ROOT</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Information about which file extensions map to a particular application</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="HKEY" bgcolor='#F2F2F2'>HKEY_CURRENT_USER</td>
+                <td headers="Description" bgcolor='#F2F2F2'>Information, such as desktop settings and history, related to the current user of a PC</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="HKEY" bgcolor='#E9E7E8'>HKEY_USERS</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Information about all users who have logged onto a system</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="HKEY" bgcolor='#F2F2F2'>HKEY_LOCAL_MACHINE</td>
+                <td headers="Description" bgcolor='#F2F2F2'>Information relating to the hardware and software</td>
+            </tr>
+            
+            <tr>
+                <td scope="row" headers="HKEY" bgcolor='#E9E7E8'>HKEY_CURRENT_CONFIG</td>
+                <td headers="Description" bgcolor='#E9E7E8'>Information relating to all active devices on a system</td>
+            </tr>
+ 
+        
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,106 @@
+﻿<textcomponents>
+  <component id="ID_s1_title">
+    <text><![CDATA[<b></b>]]></text>
+  </component>
+  
+   <component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Twisted-Pair Cable Features</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b></b></font></td>
+			<td bgcolor='#666263'  valign="top" width="150"><font color='#FFFFFF' ><b>Speed</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Features</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Cat 3 UTP</td>
+			<td bgcolor='#E9E7E8'>10 Mb/s at 16 MHz</td>
+			<td bgcolor='#E9E7E8'><ul><li>Suitable for Ethernet LAN.</li><li>Most often used for phone lines.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Cat 5 UTP</td>
+			<td bgcolor='#F2F2F2'>100 Mb/s at 100 MHz</td>
+			<td bgcolor='#F2F2F2'>Manufactured with higher standard than Cat 3 to allow for higher data transfer rates.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cat 5e UTP</td>
+			<td bgcolor='#E9E7E8'>1000 Mb/s at 100 MHz</td>
+			<td bgcolor='#E9E7E8'><ul><li>Manufactured with higher standard than Cat 5 to allow for higher data transfer rates.</li><li>More twists per foot than Cat 5 to better prevent EMI and RFI from outside sources.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Cat 6 UTP</td>
+			<td bgcolor='#F2F2F2'>1000 Mb/s at 250 MHz</td>
+			<td rowspan='10' bgcolor='#F2F2F2'><ul><li>Manufactured with higher standard than Cat 5e.</li><li>More twists per foot than Cat 5e to better prevent EMI and RFI from outside sources.</li><li>Cat 6a has better insulation and performance than Cat 6.</li><li>May have a plastic divider to separate pairs of wires inside the cable to better prevent EMI and RFI.</li><li>Good choice for customers using applications that require large amounts of bandwidth, such as videoconferencing or gaming.</li><li>ScTP (Screened Twisted-Pair) is very expensive and not as flexible as UTP.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cat 6a UTP</td>
+			<td bgcolor='#E9E7E8'>1000 Mb/s at 500 MHz</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' rowspan="8">Cat 7 ScTP</td>
+			<td bgcolor='#F2F2F2' rowspan="8">10 Gb/s at 600 MHz</td>
+		</tr>
+	</table>]]></text>
+</component>
+
+ <component id='ID_table_html'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+	<caption class="mtable_title" colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Twisted-Pair Cable Features</b></font></caption>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<th scope="col" bgcolor='#666263' valign="top" width="100"><font color='#FFFFFF' ><b></b></font></th>
+			<th scope="col" id="Speed" bgcolor='#666263'  valign="top" width="150"><font color='#FFFFFF' ><b>Speed</b></font></th>
+			<th scope="col" id="Features" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Features</b></font></th>
+		</tr>
+		
+		<tr>
+			<th scope="row" id="Cat3" bgcolor='#E9E7E8'>Cat 3 UTP</th>
+			<td headers="Cat3 Speed" bgcolor='#E9E7E8'>10 Mb/s at 16 MHz</td>
+			<td headers="Cat3 Features" bgcolor='#E9E7E8'><ul><li>Suitable for Ethernet LAN.</li><li>Most often used for phone lines.</li></ul></td>
+		</tr>
+		<tr>
+			<th scope="row" id="Cat5" bgcolor='#F2F2F2'>Cat 5 UTP</th>
+			<td headers="Cat5 Speed" bgcolor='#F2F2F2'>100 Mb/s at 100 MHz</td>
+			<td headers="Cat5 Features" bgcolor='#F2F2F2'>Manufactured with higher standard than Cat 3 to allow for higher data transfer rates.</td>
+		</tr>
+		<tr>
+			<th scope="row" id="Cat5e" bgcolor='#E9E7E8'>Cat 5e UTP</th>
+			<td headers="Cat5e Speed"  bgcolor='#E9E7E8'>1000 Mb/s at 100 MHz</td>
+			<td headers="Cat5e Features" bgcolor='#E9E7E8'><ul><li>Manufactured with higher standard than Cat 5 to allow for higher data transfer rates.</li><li>More twists per foot than Cat 5 to better prevent EMI and RFI from outside sources.</li></ul></td>
+		</tr>
+		<tr>
+			<th scope="row" id="Cat6" bgcolor='#F2F2F2'>Cat 6 UTP</th>
+			<td headers="Cat6 Speed" bgcolor='#F2F2F2'>1000 Mb/s at 250 MHz</td>
+			<td headers="Cat6 Features" rowspan='10' bgcolor='#F2F2F2'><ul><li>Manufactured with higher standard than Cat 5e.</li><li>More twists per foot than Cat 5e to better prevent EMI and RFI from outside sources.</li><li>Cat 6a has better insulation and performance than Cat 6.</li><li>May have a plastic divider to separate pairs of wires inside the cable to better prevent EMI and RFI.</li><li>Good choice for customers using applications that require large amounts of bandwidth, such as videoconferencing or gaming.</li><li>ScTP (Screened Twisted-Pair) is very expensive and not as flexible as UTP.</li></ul></td>
+		</tr>
+		<tr>
+			<th scope="row" id="Cat6a" bgcolor='#E9E7E8'>Cat 6a UTP</th>
+			<td headers="Cat6a Speed" bgcolor='#E9E7E8'>1000 Mb/s at 500 MHz</td>
+		</tr>
+		
+		<tr>
+			<th scope="row" id="Cat7" bgcolor='#F2F2F2' rowspan="8">Cat 7 ScTP</th>
+			<td headers="Cat7 Speed" bgcolor='#F2F2F2' rowspan="8">10 Gb/s at 600 MHz</td>
+		</tr>
+	</table>]]></text>
+</component>
+  
+    <component id="ID_s2_title">
+    <text><![CDATA[<b>RJ-11 and RJ-45 Connectors</b>]]></text>
+  </component>
+  
+  
+</textcomponents>

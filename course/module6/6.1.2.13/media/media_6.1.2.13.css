@@ -1,0 +1,8 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.alignment{
+	margin-top: 6px !important;
+	margin-left: 12px !important;
+	}

@@ -1,0 +1,108 @@
+<textcomponents>
+
+<!-- Slide 1-->
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity - Identify OS Installation Terminology</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Match each term to a definition.]]></text>
+</component>
+
+
+<!--Drag and Drop-->
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[RIS]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Refresh your PC]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Advanced Startup Options]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Image]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[PXE]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Recovery Partition]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Sysprep]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>Check</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>Reset</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correct</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[You have successfully matched each term to its definition.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrect</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[You have not successfully matched each term to its definition. Please click <b>Reset</b> to try again.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header_01'>
+		<text><![CDATA[<b>Definition</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header_01'>
+		<text><![CDATA[<b>Terms</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[A set of tools that allow users to troubleshoot, recover, or restore an operating system when it cannot boot]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[A special environment used to boot the computer, connect to the network, and communicate with the server to begin OS installation]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[This contains an image that can be used to restore the computer to its original configuration]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[A program used to prepare the OS with different hardware configurations to install and configure the same OS on multiple computers]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Restores the computer's system software back to its factory state without deleting user files or removing modern apps]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[A file that contains all the data from a partition]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[A software package used to communicate with a client and provide the necessary instructions for the client to download OS setup files and begin installation]]></text>
+	</component>
+</textcomponents>

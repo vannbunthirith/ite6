@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+			<element type="IMAGE" x="89" y="47" width="202.95" height="121.75" subType="STD" src="media_7.3.2.10_A.jpg" />
+			<element type="IMAGE" x="388" y="47" width="202.95" height="121.75" subType="STD" src="media_7.3.2.10_B.jpg" />
+			<element type="IMAGE" x="89" y="215" width="202.95" height="121.75" subType="STD" src="media_7.3.2.10_C.jpg" />
+			<element type="IMAGE" x="388" y="214" width="202.95" height="121.75" subType="STD" src="media_7.3.2.10_D.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+			<element type="TEXT" compId="ID_s1_txt01" x="89" y="176" width="203.95" expand="down" align="center" color="#ffffff" />
+			<element type="TEXT" compId="ID_s1_txt02" x="388" y="176" width="203.95" expand="down" align="center" color="#ffffff" />
+			<element type="TEXT" compId="ID_s1_txt03" x="89" y="346" width="203.95" expand="down" align="center" color="#ffffff" />
+			<element type="TEXT" compId="ID_s1_txt04" x="388" y="346" width="202" expand="down" align="center" color="#ffffff" />
+			
+		</slide>
+
+</data>

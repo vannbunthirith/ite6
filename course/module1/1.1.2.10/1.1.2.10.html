@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>1.1.2.10 Storage Device Interfaces and RAID</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_1.1.2.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Storage Device Interfaces and RAID</h1>
+        <div>
+          <p>Internal HDDs, SSDs, and optical drives often connect to the motherboard using Serial AT Attachment (SATA) connections. SATA drives connect to the motherboard using a SATA 7-pin data connector. </p>
+          <p></p>
+          <p>At one end of the cable, the connector is keyed for the drive and the opposite end is keyed for the drive controller.  Figure 1 shows a SATA cable. </p>
+          <p></p>
+          <p>There are 3 main versions of SATA: SATA 1, SATA 2, and SATA 3. The cables and connectors are the same, but the data transfer speeds are different. SATA 1 allows for a maximum data transfer rate of 1.5 Gb/s while SATA 2 can reach up to 3 Gb/s. SATA 3 is the fastest with speeds up to 6 Gb/s.</p>
+          <p></p>
+          <p>
+            <b>Note</b>: Legacy internal drive connection methods include Integrated Drive Electronics (IDE), Enhanced Integrated Drive Electronics (EIDE), and Parallel ATA.</p>
+          <p></p>
+          <p>Storage devices can also connect externally to the computer. Figure 2 shows a portable hard disk drive connected to a laptop using a USB cable. USB has become the most common way to connect external devices. External SATA (eSATA) is another way to connect external storage devices. eSATA cables and connectors have a different shape than SATA cables and connectors.</p>
+          <p></p>
+          <p>USB 3.0 and USB 3.1 are blue in color and have become popular for connecting external storage devices because of fast transmission rates. USB drives are also hot-swappable, which means that there is no need to reboot a computer when adding or removing a drive. A single USB port in a computer can theoretically support up to 127 separate devices with the use of USB hubs. A USB hub connects multiple USB devices. Finally, many devices can be powered through the USB port, eliminating the need for an external power source.</p>
+          <p></p>
+          <p>There are several types of USB connectors. Figure 3 displays the most common end, USB Type A. It also displays three other common USB connectors. Figure 4 displays the USB-C (or USB Type C) which is the newest USB connector.</p>
+          <p></p>
+          <p>Methods of connecting external storage devices are described in the table in Figure 5. Figure 6 displays a bandwidth comparison between these methods.</p>
+          <p></p>
+          <p>Storage devices can also be grouped and managed to create large storage spaces with redundancy. To do so, computers can implement a redundant array of independent disks (RAID) technology. RAID provides a way to store data across multiple hard disks for redundancy and/or performance improvement. To the operating system, a RAID array appears as one disk. </p>
+          <p></p>
+          <p>The following terms describe how RAID stores data on the various disks:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Parity </b>- Detects data errors.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Striping</b> - Writes data across multiple drives.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mirroring</b> - Stores duplicate data on a second drive.</li>
+            </ul>
+          </p>
+          <p>There are several levels of RAID available. Figure 7 compares these different RAID levels.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is an image showing both ends of a SATA cable. Figure 2 on this page is an image showing a portable hard disk drive connected to a laptop using a USB cable. Figure 3 on this page is an image showing the following four USB connectors. A USB Type A, a USB type B, a USB Micro B, a USB Mini B. Figure 4 on this page is a diagram of a USB Type C connector listing the following benefits. Entirely New Design: Made for emerging product designs. Supports Scalable Power Charging. Future Scalability: Designed to establish future USB needs. Usability Enhancements: Reversible plug orientation and cable direction. New Smaller Size. Figure 5 on this page is a table listing the following different external connection types. Connection Type: Firewire 400 (IEEE 1394a), Description: Supports hot-swappable drives, port supports up to 63 devices using hubs, provides power, Maximum Bandwidth: 400 Mb/s, Maximum Cable Length: 4.5 metres (15ft.). Connection Type: Firewire 800 (IEEE 1394b), Description: Backwards compatible with Firewire 400, can also connect using Ethernet cable, Maximum Bandwidth: 800 Mb/s, Maximum Cable Length: 4.5 metres (15ft.), 100 metres (328 ft.). Connection Type: eSATA, Description: Connects external SATA drives, external drives require a power cable, not compatible with SATA, Maximum Bandwidth: 3 Gb/s, Maximum Cable Length: 2 metres (6.6 ft.). Connection Type: USB 2.0, Description: Supports hot-swappable drives, port supports up to 127 devices using hubs, provides power, Maximum Bandwidth: 480 Mb/s, Maximum Cable Length: 5 metres (16.4 ft.). Connection Type: USB 3.0, Description: Backward compatible with USB 2.0, Maximum Bandwidth: 5 Gb/s, Maximum Cable Length: 3 metres (9.8 ft.). Connection Type: USB 3.1, Description: Backward compatible with USB 3.0, Maximum Bandwidth: 10 Gb/s, Maximum Cable Length: 3 metres (9.8 ft.). Connection Type: Thunderbolt, Description: Supports up to 6 daisy-chained devices, provides power, Thunderbolt 3 uses a USB-C connector, Maximum Bandwidth: 10 Gb/s, 20 Gb/s (Thunderbolt 2), 40 Gb/s (Thunderbolt 3), Maximum Cable Length: 3 metres (9.8 ft.). Figure 6 on this page shows a graph comparing the connection maximum bandwidths of the external connection types from figure 5 listed in order from least to greatest. Figure 7 on this page is a table comparing the following different RAID levels. RAID Level: 0, Minimum Number of Drives: 2, Description: Data striping without redundancy, Advantages: Highest Performance, Disadvantages: No Data protection, failure of one drive results in all loss of all data. RAID Level: 1, Minimum Number of Drives: 2, Description: Disk mirroring, Advantages: High performance, high data protection because all data is duplicated, Disadvantages: High cost of implementation because additional drive of equal or larger capacity is required. RAID Level: 2, Minimum Number of Drives: 2, Description: Error-Correcting Coding, Advantages: This level is no longer used, Disadvantages: Same performance can be achieved at a lower cost using RAID 3. RAID Level: 3, Minimum Number of Drives: 3, Description: Byte-Level data striping with dedicated parity, Advantages: For large, sequential data requests, Disadvantages: Does not support multiple, simultaneous read and write requests. RAID Level: 4, Minimum Number of Drives: 3, Description: Block-level data striping with dedicated parity, Advantages: Supports multiple read requests, if a disk fails the dedicated parity disk is used to create a replacement disk, Disadvantages: Write requests are bottlenecked due to the dedicated parity drive. RAID Level: 5, minimum Number of Drives: 3, Description: Combination of data striping and parity, Advantages: Supports multiple simultaneous reads and writes, data is written across all drives with parity, data can be rebuilt from information found on the other drives, Disadvantages: Write performance is slower than RAID 0 and 1. RAID level: 6, Minimum Number of Drives: 4, Description: Independent Data Disks with Double Parity, Advantages: Block-level striping with parity data distributed across all disks, can handle two simultaneous drive failures, Disadvantages: Lower performance than RAID 5, not supported on all disk controllers. RAID Level: RAID 0+1, Minimum Number of Drives: 4, Description: Combination of data striping and mirroring, Advantages: High performance, highest data protection, Disadvantages: High cost overhead because duplication of data requires twice the storage capacity. RAID Level: 10, Minimum Number of Drives: 4 (must be even number), Description: Mirrored set in a striped set, Advantages: Provides fault tolerance and improved performance, Disadvantages: High cost overhead because duplication of data requires twice the storage capacity.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

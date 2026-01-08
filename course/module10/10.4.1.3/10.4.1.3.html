@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en" role="main">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.3 Overview of Linux and OS X CLI</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Overview of Linux and OS X CLI</h1>
+        <div>
+          <p>In both Linux and OS X, the user can communicate with the operating system by using the command line interface (CLI). To add flexibility, commands (or tools) that support parameters, options and switches, are usually preceded by the dash ("-") character. The options and switches supported by a command are also entered by the user along with the command.</p>
+          <p></p>
+          <p>A program called a shell interprets the commands from the keyboard and passes them to the operating system. When a user logs in the system, the login program checks the username and password; if the credentials are correct, the login program starts the shell. From this point on, an authorized user can begin interacting with the OS through text-based commands.</p>
+          <p></p>
+          <p>As shown in Figure 1, users interact with the kernel through a shell. In other words, the shell acts as an interface layer between the user and kernel. The kernel is responsible for allocating CPU time and memory to processes. It also manages the file system and communications in response to system calls.</p>
+          <p></p>
+          <p>Most operating systems include a graphical interface. Although a command line interface is still present, the OS often boots into the GUI by default, hiding the command line interface from the user. One way to access the command line interface in a GUI-based operating system is through a terminal emulator application. These applications provide user access to the command line interface and are often named as some variation of the word terminal. On Linux, popular terminal emulators are Terminator, eterm, xterm, konsole, gnome-terminal. OS X includes a terminal emulator called Terminal but a number of third party emulators are available.</p>
+          <p></p>
+          <p>Figure 2 shows gnome-terminal, a popular Linux terminal emulator.</p>
+          <p></p>
+          <p>Figure 3 shows Terminal, a popular OS X terminal emulator.</p>
+          <p></p>
+          <p>
+            <b>Note:</b> The same commands were issued in both terminals to illustrate how similar the command line interfaces are in Unix-like systems.</p>
+          <p>
+            <b>Note: </b>To experience a Linux command line interface in your web browser, return to class and visit the NDG Linux CompTIA A+ supplemental module.</p>
+          <p></p>
+          <p>
+            <b>Linux and OS X File Systems </b>
+          </p>
+          <p></p>
+          <p>Linux and OS X have unique file systems.</p>
+          <p></p>
+          <p>The commonly used file systems in Linux are ext3 and ext4 (third and fourth extended file system). They are journaled file systems that keep journals, or logs, of all the changes about to be made to the file system. These journals minimize the risk of file system corruption in the event of a sudden power loss because the journals can be used to apply the changes after power is restored. Both filesystems can support large file sizes up to 32 TiB (tebibytes) for ext4.</p>
+          <p></p>
+          <p>HFS+ (Hierarchical File System Plus) is the principle file system used by OS X. Like ext3 and ext4, HFS+ also supports journaled volumes. HFS+ volumes can support large file sizes up to almost 8 EiB (exbibyte) in OS X 10.4 and later.</p>
+        </div>
+      </div>
+      <button id="text-handle" title="Resize" role="button"></button>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 on this page is a diagram that represents the Unix shell. The figure shows three concentric circles. The smallest, inner circle is labelled as, ‘Kernel’. The next larger circle is labelled, ‘Shell’. The largest, outer circle is labelled, ‘Application Programs’. Figure 2 on this page is an image of the Linux Terminal Emulator – Gnome-Terminal. Figure 3 on this page is an image of the OS X Terminal Emulator - Terminal.</div>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

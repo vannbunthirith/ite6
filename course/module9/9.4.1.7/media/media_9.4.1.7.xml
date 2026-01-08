@@ -1,0 +1,69 @@
+﻿<textcomponents>
+
+
+<!-- slide 1 -->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[Power Sources]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[External Battery]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Docking Station]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Portable Chargers]]></text>
+	</component>
+
+<!-- end slide 1 -->
+
+
+
+<!-- slide 2 -->
+
+	<component id="ID_s2_title">
+		<text><![CDATA[Audio Accessories]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Ear Buds]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Headsets]]></text>
+	</component>
+
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Speakers]]></text>
+	</component>
+
+
+<!-- end slide 2 -->
+
+
+<!-- slide 3 -->
+
+	<component id="ID_s3_title">
+		<text><![CDATA[]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Game Pad]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[SD cards]]></text>
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Credit Card Reader]]></text>
+	</component>
+
+<!-- end slide 3 -->
+
+
+</textcomponents>

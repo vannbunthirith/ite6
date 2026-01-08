@@ -1,0 +1,1 @@
+Figure 1 on this page is an interactive activity that checks the learner’s understanding of the correct alignment of wires on a TIA/EIA-568A cable pinout as described on the previous page. Figure 2 on this page is an interactive activity that checks the learner’s understanding of the correct alignment of wires on a TIA/EIA-568B cable pinout as described on the previous page.
